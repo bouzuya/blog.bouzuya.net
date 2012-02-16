@@ -8,13 +8,11 @@
     </head>
     <body>
         <header>
-            <h1>
-                <a href="/">bouzuya.github.com</a>
-            </h1>
+            {% include header.html %}
         </header>
         {{ content }}
         <footer>
-            Powered by <a href="http://jekyllrb.com">Jekyll</a>.
+            {% include footer.html %}
         </footer>
     </body>
 </html>

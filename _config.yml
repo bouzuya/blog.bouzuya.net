@@ -1,4 +1,12 @@
 
+url: http://bouzuya.github.com
 destination: ./_site
+include: ./_includes
 pygments: true
+
+hatena_star_enabled: true
+hatena_star_token: '3ed05a98cc29017566c85335450f2d2d485c5caa'
+hatena_bookmark_enabled: true
+google_analytics_enabled: true
+disqus_enabled: true
 

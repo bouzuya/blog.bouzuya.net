@@ -16,4 +16,15 @@ layout: default
     <section>
         {{ content }}
     </section>
+    <footer>
+        {% if site.disqus_enabled %}
+        {% include disqus.html %}
+        {% endif %}
+    </footer>
+
 </article>
+
+{% if site.hatena_star_enabled %}
+{% include hatena_star.html %}
+{% endif %}
+
