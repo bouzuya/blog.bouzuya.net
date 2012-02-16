@@ -4,7 +4,7 @@ layout: default
 <article>
     <header>
         <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-        <time pubdate="pubdate" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_xmlschema }}</time>
+        <time pubdate="pubdate" datetime="{{ page.pubdate | date_to_xmlschema }}">{{ page.pubdate | date_to_xmlschema }}</time>
         <div class="tags">
             <ul>
                 {% for tag in page.tags %}
