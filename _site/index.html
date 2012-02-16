@@ -1,15 +1,25 @@
----
-layout: default
-title: bouzuya@github
----
-<section>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="/styles/pygments.css" type="text/css" />
+        <link rel="stylesheet" href="/styles/common.css" type="text/css" />
+        <title>bouzuya@github</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="/">bouzuya.github.com</a>
+            </h1>
+        </header>
+        <section>
     <h1>Blog</h1>
     <section>
         <h1>Recent Posts</h1>
         <ul>
-            {% for post in site.posts limit:5 %}
-            <li>{{ post.date | date:'%Y-%m-%d' }}&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
+            
+            <li>2012-02-16&nbsp;<a href="/2012/02/16/jekyll.html">Jekyllを試す</a></li>
+            
         </ul>
     </section>
 </section>
@@ -53,3 +63,9 @@ title: bouzuya@github
     </dl>
 </section>
 
+
+        <footer>
+            Powered by <a href="http://jekyllrb.com">Jekyll</a>.
+        </footer>
+    </body>
+</html>
