@@ -16,12 +16,13 @@ body {
 }
 
 #page-header h1 {
-    display: inline;
+    width: 1000px;
+    margin: 0 auto;
     font-weight: bold;
 }
 
 #page-body {
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
     padding-top: 3em;
     padding: 3em 1em 3em 1em;
