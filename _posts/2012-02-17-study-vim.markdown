@@ -1,0 +1,31 @@
+---
+layout: post
+pubdate: "2012-02-17T22:57:46+09:00"
+title: Vim Scriptの勉強
+tags: vim
+---
+今日はVim Scriptの勉強をした。本当はPostfixの本を読むつもりだったのだけど、友人がVim Scriptのデバッグに苦しんでいるようだったので、それを手伝うことにした。結果としてVim Scriptの勉強になった。
+
+友人はぼくよりVimが大好きだ。ぼくの知らないVimの機能をたくさん知っている。そんな友人の書くVim Scriptは面白い。関数も変数もみんなDictionaryに放り込んでいるし、`execute printf("function! ...`なんてぼくには黒魔術としか思えない。
+
+友人はVim Scriptに慣れている。Vim界隈では当たり前の書き方なのかもしれないけど、それでも友人の慣れた感じのする書き方を見ると、それに親しんでいる楽しんでいる様子が伝わってくるし、友人の好きが伝わってくる。ぼくにとっても決まり文句を見ることは勉強になる。
+
+すこしずつでも動作を覚えていきたいと思う。下のコードはぼくの勉強の覚え書き。dictをつけた関数でselfを使うとき、その関数を他のDictionaryに設定したらselfは他のDictionaryになるのか元のDictionaryになるのかという検証のコードである。
+
+{% highlight vim %}
+let d1 = {}
+let d1.name = 'apple'
+function d1.func() dict
+  return self.name
+endfunction
+" => apple
+echo d1.func()
+
+let d2 = {}
+let d2.name = 'orange'
+let d2.func = d1.func
+" => orange
+echo d2.func()
+{% endhighlight %}
+
+23 min.
