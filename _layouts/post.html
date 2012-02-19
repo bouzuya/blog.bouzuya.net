@@ -17,6 +17,14 @@ layout: default
         {{ content }}
     </section>
     <footer>
+        {% if site.hatena_bookmark_enabled %}
+        {% include hatena_bookmark.html %}
+        {% endif %}
+
+        {% if site.twitter_enabled %}
+        {% include twitter.html %}
+        {% endif %}
+
         {% if site.disqus_enabled %}
         {% include disqus.html %}
         {% endif %}
@@ -26,4 +34,5 @@ layout: default
 {% if site.hatena_star_enabled %}
 {% include hatena_star.html %}
 {% endif %}
+
 
