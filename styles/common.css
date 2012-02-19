@@ -51,6 +51,7 @@ body {
 
 #page-body dl {
     margin: 1em 0;
+    padding-left: 2em;
 }
 
 #page-body dd {
