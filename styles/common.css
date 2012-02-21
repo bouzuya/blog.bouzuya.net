@@ -54,6 +54,12 @@ body {
     padding-left: 2em;
 }
 
+#page-body ol {
+    list-style-type: decimal;
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
 #page-body dd {
     margin-left: 3em;
 }
@@ -62,9 +68,15 @@ body {
     width: 40em;
 }
 
-#page-body article h1 {
+#page-body article header h1 {
     margin-top: 1em;
     font-size: 120%;
+    font-weight: bold;
+}
+
+#page-body article > h1 {
+    margin-top: 1em;
+    font-size: 100%;
     font-weight: bold;
 }
 
@@ -131,11 +143,12 @@ article h1 a:hover {
 
 
 section h1,
-article h1 { /* h2 */
+article header h1 { /* h2 */
     border-bottom: thin solid #333333;
 }
 
-section section h1 { /* h3 */
+section section h1,
+article > h1 { /* h3 */
     padding-left: 1em;
     border-bottom: thin dashed #333333;
 }
