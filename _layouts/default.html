@@ -7,6 +7,11 @@
         <link rel="stylesheet" type="text/css" href="/styles/pygments.css" />
         <link rel="stylesheet" type="text/css" href="/styles/common.css" />
         <title>{{ page.title }}</title>
+
+{% if site.hatena_star_enabled %}
+{% include hatena_star.html %}
+{% endif %}
+
     </head>
     <body>
         <header id="page-header">
