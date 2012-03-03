@@ -80,6 +80,13 @@ body {
     font-weight: bold;
 }
 
+#page-body article blockquote {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    padding-left: 0.5em;
+    border-left: 3px solid #cccccc;
+}
+
 #page-body article p {
     margin: 1em 0;
     line-height: 1.4;
