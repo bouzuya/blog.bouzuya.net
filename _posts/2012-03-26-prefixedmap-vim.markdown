@@ -17,13 +17,13 @@ Vimではkey mappingという機能がある。この機能は入力キーの動
 
 3つのkey mappingを定義している。
 
-+ ノーマルモードで「<Space>」を入力しても何もしないkey mapping
-+ ノーマルモードで「<Space>w」を入力することで'wrap'を切り替えるkey mapping
-+ ノーマルモードで「<Space>h」を入力することで:nohlsearchを実行するkey mapping
++ ノーマルモードで「&lt;Space&gt;」を入力しても何もしないkey mapping
++ ノーマルモードで「&lt;Space&gt;w」を入力することで'wrap'を切り替えるkey mapping
++ ノーマルモードで「&lt;Space&gt;h」を入力することで:nohlsearchを実行するkey mapping
 
-ノーマルモードの「<Space>」は「l」と同じ動作なので無くなっても困らない動作である。そこで<Space>キーをつぶしてprefixキーとして使い、<Space>に続くwキーとhキーに別の機能を割り当てている。
+ノーマルモードの「&lt;Space&gt;」は「l」と同じ動作なので無くなっても困らない動作である。そこで&lt;Space&gt;キーをつぶしてprefixキーとして使い、&lt;Space&gt;に続くwキーとhキーに別の機能を割り当てている。
 
-上記の例は改善できる。実際に動かしてみると分かるが、<Space>は入力しても入力されているのかどうかが確認しづらい。そこで次のような設定をすることで改善できる。
+上記の例は改善できる。実際に動かしてみると分かるが、&lt;Space&gt;は入力しても入力されているのかどうかが確認しづらい。そこで次のような設定をすることで改善できる。
 
     " 2. <Space>を可視化する
     nnoremap [Space]   <Nop>
@@ -31,11 +31,11 @@ Vimではkey mappingという機能がある。この機能は入力キーの動
     nnoremap [Space]h  :nohlsearch<C-m>
     nmap     <Space>   [Space]
 
-この技法は「[Vim: <Space>で始まるkey mappingの可視化](http://whileimautomaton.net/2007/03/03205900)」で紹介されている。いち早くこの高みに到達している。さすがkana神である。
+この技法は「[Vim: &lt;Space&gt;で始まるkey mappingの可視化](http://whileimautomaton.net/2007/03/03205900)」で紹介されている。いち早くこの高みに到達している。さすがkana神である。
 
-また、この技法には<Space>を可視化する以外の利点もある。「[Vim Hacks #59](http://vim-users.jp/2009/08/hack-59/)」で紹介されているとおり、「prefixキーを抽象化し明示できること」、「prefixキーの変更が容易になること」がこの方法の利点である。
+また、この技法には&lt;Space&gt;を可視化する以外の利点もある。「[Vim Hacks #59](http://vim-users.jp/2009/08/hack-59/)」で紹介されているとおり、「prefixキーを抽象化し明示できること」、「prefixキーの変更が容易になること」がこの方法の利点である。
 
-<Space>だけに限らず、幅広くこの技法は適用できる。
+&lt;Space&gt;だけに限らず、幅広くこの技法は適用できる。
 
 実は上記の例をさらに改善できる。上記の例では「[Space]」というグローバルなkey mappingを設定しているためにkey mappingの定義によっては待ち時間が発生するという問題がある。そこで次のような設定をすることで改善できる。
 
