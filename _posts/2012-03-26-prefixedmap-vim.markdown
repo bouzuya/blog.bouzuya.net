@@ -62,7 +62,7 @@ Vimではkey mappingという機能がある。この機能は入力キーの動
 
 「[prefixedmap](https://github.com/emanon001/prefixedmap.vim)」プラグインである。emanon001に書かれたプラグインであり、「[Vim でのプレフィックスキーを用いたキーマッピングの定義方法を改善する](http://emanon001.github.com/blog/2012/03/25/improve-key-mapping-using-prefix-key-in-vim/)」で紹介されている。詳細な説明はそちらを参照してほしい。
 
-上記の例では、prefixキーに対して定義しているkey mappingが少ないため、余計に複雑になってしまう。しかし、この方法はprefixキーをコマンドごとにくり返し書く必要がないし、prefixキーの開始終了が明示され、より美しいだろう。(公開されたばかりのプラグインであり、「<Nop>」が醜いので、改善要望を出すつもりだ。)
+上記の例では、prefixキーに対して定義しているkey mappingが少ないため、余計に複雑になってしまう。しかし、この方法はprefixキーをコマンドごとにくり返し書く必要がないし、prefixキーの開始終了が明示され、より美しいだろう。(公開されたばかりのプラグインであり、「&lt;Nop&gt;」が醜いので、改善要望を出すつもりだ。)
 
 現時点でぼくが知るprefixキーを使ったkey mappingについて書いた。参考にしてほしい。
 
