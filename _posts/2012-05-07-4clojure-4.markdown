@@ -1,0 +1,17 @@
+---
+layout: post
+pubdate: "2012-05-07T21:50:42+09:00"
+title: 4Clojureで遊ぶ〜その4〜
+tags: clojure
+---
+今日も[4Clojure](http://www.4clojure.com/)で遊ぶ。Clojureが楽しくなってきた。[ヤバイ。Clojureヤバイ。まじでヤバイよ。マジヤバイ。Clojureヤバイ。](https://www.google.co.jp/search?q=%E5%AE%87%E5%AE%99%E3%83%A4%E3%83%90%E3%82%A4)コピペ改変とかやってる暇はないので、あとは誰かに任せる。
+
+進捗は100/146。Easy完了。これで5月の目標のひとつを達成できたので、手帳のTODOがひとつ消えた。うれしいなあ。この調子ですべての目標を達成して、手帳をきれいにしたい。
+
+手帳を見てみるとPython scriptをふたつ作ると書いてある。正直なところPythonよりClojureのほうが刺激的で面白い。簡単にOutOfMemoryやStackOverflowや遅延シーケンスを現実化してREPLが死ぬ。このような言語が面白くないわけがない。
+
+5月の目標のうちClojureに関するものをこれひとつにしてしまったことは5月の反省点に挙げていい。
+
+もうずっとBlogにコードを書いていないので、そろそろ書いていかないとね。毎日が明日から。
+
+40 min.
