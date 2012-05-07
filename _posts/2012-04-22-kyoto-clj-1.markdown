@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2012-04-22T20:55:27+09:00"
-title: 『kyoto.clj#1 -Clojure勉強会-』に参加してきた。
+title: 『kyoto.clj#1 -Clojure勉強会-』に参加してきた
 tags: clojure
 ---
 『[kyoto.clj#1 -Clojure勉強会-](http://atnd.org/events/27149)』に参加してきた。その感想などを書く。
