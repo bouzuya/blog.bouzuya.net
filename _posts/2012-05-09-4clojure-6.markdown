@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2012-05-09T22:59:07+09:00"
-title: 
+title: 4Clojureから学ぶ〜その6〜
 tags: misc
 ---
 今日は4ClojureのEasyを見直した。残り数個あるけれど、明日からはまた先へ進めていくつもりだ。
