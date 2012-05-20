@@ -80,6 +80,13 @@ body {
     font-weight: bold;
 }
 
+#page-body article h2 {
+    margin-top: 1em;
+    font-size: 100%;
+    font-weight: bold;
+    border-bottom: thin solid #333333;
+}
+
 #page-body article blockquote {
     margin-left: 2.5em;
     margin-right: 2.5em;
@@ -103,7 +110,14 @@ body {
     background-color: #f0f0f0;
     padding: 1em 0.5em 1em 0.5em;
     border-radius: 0.5em;
-}                
+}
+
+#page-body article p > code {
+    border: thin solid #999999;
+    background-color: #f0f0f0;
+    padding: 0 0.5em 0 0.5em;
+    border-radius: 0.5em;
+}
 
 #page-body article .tags {
     display: none;
