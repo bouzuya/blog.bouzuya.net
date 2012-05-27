@@ -1,10 +1,10 @@
 ---
 layout: post
 pubdate: "2012-04-24T21:10:43+09:00"
-title: 4Clojureで遊ぶ(1日目)
+title: 4Clojureを楽しむ(1)〜Elementaryを終えて〜
 tags: clojure
 ---
-[4Clojure](http://wwww.4clojure.com/)で遊んでいる。遊びながらClojureを勉強している。
+[4Clojure](https://wwww.4clojure.com/)で遊んでいる。楽しみながらClojureを勉強している。
 
 今日は「Elementary」の問題をかたづけた。基礎のはずなのだけど、『[プログラミングClojure](http://amazon.jp/o/ASIN/4274067890/bouzuya-22)』を一通りは読んだはずなのだけど、覚えのない関数やマクロが出てくる。流し読みじゃダメなのだろう。
 

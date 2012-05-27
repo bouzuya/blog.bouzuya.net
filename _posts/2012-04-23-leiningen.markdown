@@ -1,12 +1,12 @@
 ---
 layout: post
 pubdate: "2012-04-23T22:52:10+09:00"
-title: とりあえずleiningen〜5分ではじめるClojure REPL〜
+title: とりあえずLeiningen〜5分ではじめるClojure REPL〜
 tags: clojure
 ---
-間違いながら前進すべし。Clojureの勉強について書いていく。とりあえず、昨日の勉強会で聞いたleiningenでClojureのREPL起動まで5分でやってみた。やり方はベストじゃないかもしれないけれど、ひとまず動いたのでぼくの勝ちだ。
+間違いながら前進すべし。Clojureの勉強について書いていく。とりあえず、昨日の勉強会で聞いたLeiningenでClojureのREPL起動まで5分でやってみた。やり方はベストじゃないかもしれないけれど、ひとまず動いたのでぼくの勝ちだ。
 
-まずはGitHubからleiningenをダウンロードする。ちなみに今回の手順で一番難しい箇所はGitHubのユーザー名technomancyを覚えておくことである。
+まずはGitHubからLeiningenをダウンロードする。ちなみに今回の手順で一番難しい箇所はGitHubのユーザー名technomancyを覚えておくことである。
 
     $ cd
     $ git clone git://github.com/technomancy/leiningen
@@ -44,6 +44,6 @@ tags: clojure
 
 あとClojureってもともと単一のjarファイルだし、インストールなんて言うほどのことも元々ないはず。ソースからインストールしてもJavaやAnが要るくらいのはず……。
 
-leiningenをちゃんと使うのはまたそのうち。
+Leiningenをちゃんと使うのはまたそのうち。
 
 15 min.

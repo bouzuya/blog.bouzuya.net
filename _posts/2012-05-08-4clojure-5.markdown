@@ -1,10 +1,10 @@
 ---
 layout: post
 pubdate: "2012-05-08T22:26:36+09:00"
-title: 4Clojureから学ぶ〜#()〜
+title: 4Clojureを楽しむ(5)〜#()マクロ〜
 tags: clojure
 ---
-4Clojureで遊びながら学ぶ。今日は4Clojureから気づいたことを書く。今日は`#()`リーダーマクロについて書く。
+[4Clojure](https://wwww.4clojure.com/)で遊びながら学ぶ。今日は4Clojureから気づいたことを書く。今日は`#()`リーダーマクロについて書く。
 
 ## fn, #() はなくても良い
 
