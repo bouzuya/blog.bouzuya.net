@@ -1,0 +1,18 @@
+<nav>
+    <ul>
+        <li>
+            {% if page.next.url %}
+            <a href="{{ page.next.url }}" title="newer entry">&#x21e6;</a>
+            {% else %}
+            &nbsp;
+            {% endif %}
+        </li>
+        <li>
+            {% if page.previous.url %}
+            <a href="{{ page.previous.url }}" title="older entry">&#x21e8;</a>
+            {% else %}
+            &nbsp;
+            {% endif %}
+        </li>
+    </ul>
+</nav>

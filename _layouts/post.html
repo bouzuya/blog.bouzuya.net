@@ -2,7 +2,7 @@
 layout: default
 ---
 <article>
-    <header>
+    <header class="post-header">
         <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
         <time pubdate="pubdate" datetime="{{ page.pubdate }}">{{ page.pubdate }}</time>
         <div class="tags">
@@ -12,9 +12,17 @@ layout: default
                 {% endfor %}
             </ul>
         </div>
+
+        {% include post-nav.html %}
+
     </header>
-    {{ content }}
-    <footer>
+    <div class="post-content">
+        {{ content }}
+    </div>
+    <footer class="post-footer">
+
+        {% include post-nav.html %}
+
         {% if site.hatena_bookmark_enabled %}
         {% include hatena_bookmark.html %}
         {% endif %}
