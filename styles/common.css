@@ -1,32 +1,70 @@
 body {
     color: #333333;
     background-color: #eeeeee;
+    overflow: scroll;
 }
 
 #page-header {
-    padding: 1em 1em 0 1em;
+    margin: 0;
+    padding: 0;
     border-bottom: thick double #333333;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 1.5em;
+    height: 2em;
     background-color: #ffffff;
     z-index: 99;
 }
 
-#page-header h1 {
-    width: 1000px;
+#page-header .header-content {
     margin: 0 auto;
+    padding: 0.5em 1em;
+    width: 800px;
+}
+
+#page-header h1 {
+    margin: 0;
+    padding: 0;
+    width: 250px;
     font-weight: bold;
+    float: left;
+}
+
+#page-header nav {
+    margin: 0;
+    padding: 0;
+    width: 550px;
+    float: right;
+}
+
+#page-header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#page-header nav ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    float: left;
+    text-align: center;
+}
+
+#page-header nav ul a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 #page-body {
     width: 800px;
     margin: 0 auto;
-    padding-top: 3em;
     padding: 3em 1em 3em 1em;
     background-color: #ffffff;
+    clear: both;
 }
 
 #page-body section h1 {
