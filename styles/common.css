@@ -1,7 +1,16 @@
+html {
+    color: #333333;
+    background-color: #eeeeee;
+}
+
 body {
     color: #333333;
     background-color: #eeeeee;
     overflow: scroll;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
 }
 
 #page-header {
@@ -12,35 +21,50 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 40px;
+    height: 3em;
     background-color: #ffffff;
     z-index: 99;
 }
 
 #page-header .header-content {
     margin: 0 auto;
-    padding: 0.5em 1em;
+    padding: 0;
     width: 800px;
+    height: 100%;
 }
 
-#page-header h1 {
+#page-header .header-content h1 {
+    position: relative;
     margin: 0;
     padding: 0;
     width: 250px;
-    font-weight: bold;
+    height: 100%;
     float: left;
+}
+
+#page-header .header-content h1 span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin: -0.5em 0 0 0;
+    padding: 0;
+    width: 100%;
+    font-size: 120%;
+    font-weight: bold;
 }
 
 #page-header nav {
     margin: 0;
     padding: 0;
     width: 550px;
+    height: 100%;
     float: right;
 }
 
 #page-header nav ul {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 #page-header nav ul li {
@@ -48,15 +72,29 @@ body {
     margin: 0;
     padding: 0;
     width: 100px;
+    height: 100%;
     float: left;
     text-align: center;
 }
 
 #page-header nav ul a {
+    position: relative;
     display: block;
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100%;
+}
+
+#page-header nav ul a span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin: -0.5em 0 0 0;
+    padding: 0;
+    width: 100%;
+    text-decoration: underline;
+    font-family: "Open Sans", sans-serif;
 }
 
 #page-body {
