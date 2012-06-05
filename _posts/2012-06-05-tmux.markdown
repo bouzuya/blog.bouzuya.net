@@ -1,0 +1,35 @@
+---
+layout: post
+pubdate: "2012-06-05T22:55:12+09:00"
+title: tmuxを使う(1)
+tags: tmux
+---
+すこし前から『[tmux](http://tmux.sourceforge.net/)』を使っている。tmuxはターミナルマルチプレクサのひとつである。『[GNU screen](http://www.gnu.org/software/screen/)』と同系統のソフトウェアである。どちらも分からない方のために説明すると、ひとつのターミナルで複数のターミナルを操作するソフトウェアである。
+
+使いこんでいないので大したことは書けないが、なかなか便利である。例えば、インストールなど時間のかかる処理の途中には画面を分割し、もうひとつターミナルを立ち上げてそちらで作業できる。
+
+詳しい使い方は検索してもらうとして、ぼくの使い方を書く。基本的には画面を2分割して使っている。ぼくの普段の使い方だとそんなに横幅を必要としていないからだ。あとはウィンドウ分割とペイン分割とがあるけれど、ぼくはほとんどをペイン分割にしている。分かりやすいからで、それ以上の理由はない。別ウィンドウで実行していても忘れてしまうし、切り替えを面倒だと感じてしまう。あとデタッチをたまに使う。
+
+その他にはキーバインドをすこし変更している。prefixキーは`C-b`を潰されると困るので`C-q`にした。ペイン分割を`"`や`%`から`-`と`|`にした。あとはhjklをペイン移動やペインのリサイズにあてている。どこかのサイトで見て真似したものだけれど使いやすい。Vimもそうしようかと迷っているくらいだ。現在の.tmux.confはこんな感じ。
+
+    set-option -g prefix C-q
+    set-option -g mode-keys vi
+    unbind-key C-b
+    unbind-key %
+    unbind-key '"'
+    bind-key    - split-window -v
+    bind-key    | split-window -h
+    bind-key -r h select-pane -L
+    bind-key -r j select-pane -D
+    bind-key -r k select-pane -U
+    bind-key -r l select-pane -R
+    bind-key -r H resize-pane -L
+    bind-key -r J resize-pane -D
+    bind-key -r K resize-pane -U
+    bind-key -r L resize-pane -R
+    bind-key -t vi-copy 'v' begin-seletion
+    bind-key -t vi-copy 'y' copy-seletion
+
+もうすこし使いこみたいと思っている。
+
+40 min.
