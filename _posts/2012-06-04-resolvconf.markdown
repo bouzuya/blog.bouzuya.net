@@ -34,3 +34,5 @@ tags: ubuntu
 英語が読めないのでよく分からないけど、すぐに反映もできそうなんだけどなあ。めんどうなので現状に妥協する。
 
 22 min.
+
+<ins datetime="2012-06-11T22:58:04+09:00">[DHCPサーバーを立てる](http://bouzuya.github.com/2012/06/11/dhcp-server.html)方がずっと良いです。</ins>
