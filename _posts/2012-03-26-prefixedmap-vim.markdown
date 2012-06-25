@@ -45,7 +45,7 @@ Vimではkey mappingという機能がある。この機能は入力キーの動
     nnoremap          <SID>[Space]h  :nohlsearch<C-m>
     nnoremap <script> <Space>        <SID>[Space]
 
-この技法は「[Vim Hacks #144](http://vim-users.jp/2010/05/hack-144/)」で紹介されている。<SID>を設定することでscript-localなkey mappingの定義が可能である。こうすれば他のkey mappingとの衝突を心配する必要はない。
+この技法は「[Vim Hacks #144](http://vim-users.jp/2010/05/hack-144/)」で紹介されている。<SID>を設定することでscript-localなkey mappingの定義ができる。こうすれば他のkey mappingとの衝突を心配する必要はない。
 
 また最後のkey mappingで「script」オプションを使用している。これはkey mappingの右辺({rhs})で<SID>が使用されている場合に、その部分のみをremapする(noremapとは異なり再帰的にkey mappingを検索する)ようになる。
 
