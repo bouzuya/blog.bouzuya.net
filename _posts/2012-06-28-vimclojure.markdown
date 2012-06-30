@@ -4,20 +4,20 @@ pubdate: "2012-06-28T23:53:37+09:00"
 title: VimClojureでLeiningenの遅さを避ける
 tags: clojure, vim
 ---
-Leiningenの起動が遅いという問題をVimClojure(NailGunを内包)で解決できた。Leiningenの起動を速くできたわけではないけれど、LeiningenでしていたことVimClojureだと速くできるので問題を解決できた次第である。
+Leiningenの起動が遅いという問題をVimClojure(Nailgunを内包)で解決できた。Leiningenの起動を速くできたわけではないけれど、LeiningenでしていたことVimClojureだと速くできるので問題を解決できた次第である。
 
 VimClojureはVimのプラグインである。一般的なVimプラグインとは異なり、クライアントとサーバーとを持つ。サーバーがなくてもClojureのファイルタイププラグインとして動作する。
 
-しかし、ポイントはVimClojureのサーバーである。NailGunを含んだサーバーであり、REPLの起動などにおいて高速に動作する。もともとぼくはNailgunを検討していた。NailGunはJavaを常駐させることで起動をなくし高速化をはかる。しかし、ClojureやLeiningenやVimなどツール間での連携対応が面倒そうだったので断念した経緯がある。
+しかし、ポイントはVimClojureのサーバーである。Nailgunを含んだサーバーであり、REPLの起動などにおいて高速に動作する。もともとぼくはNailgunを検討していた。NailgunはJavaを常駐させることで起動をなくし高速化をはかる。しかし、ClojureやLeiningenやVimなどツール間での連携対応が面倒そうだったので断念した経緯がある。
 
 それをうまく解決できるような形でツール類があったので、今日はそれらの導入手順を示す。(時間の都合でコマンドの羅列になっている)
 
     # git
     sudo apt-get install git
-    
+
     # java
     sudo apt-get install openjdk-7-jre-headless
-    
+
     # VimClojure(Vim Script)のインストール
     # 割愛する。こんな感じでどうぞ。
     # 
@@ -63,8 +63,16 @@ VimClojureはVimのプラグインである。一般的なVimプラグインと�
     vim project.clj
     # あとは\sr(*1)でREPL立ち上げたり、
     # \rtでテスト走らせたりする。
+    # *1: LocalLeaderの設定によって変わる。
 
 もうすこし使いこんでから追加で報告する。
+
+VimClojureサーバーはGradleでビルドするがなかなかうまくいかなかった。面倒なのでおすすめしない。
+
+- [bitbucket VimClojure](https://bitbucket.org/kotarak/vimclojure/)
+- [GitHub vim-scripts/VimClojure](https://github.com/vim-scripts/VimClojure)
+- [GitHub technomancy/Leiningen](https://github.com/technomancy/leiningen)
+- [GitHub sattvik/lein-tarsier](https://github.com/sattvik/lein-tarsier)
 
 20 min.
 
