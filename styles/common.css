@@ -1,42 +1,68 @@
 html {
     color: #333333;
-    background-color: #eeeeee;
+    background-color: #4e6a41;
+    height: 100%;
 }
 
 body {
     overflow: scroll;
+    height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans", sans-serif;
 }
 
+a {
+    color: #35766c;
+    background-color: inherit;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #35766c;
+    text-decoration: none;
+}
+
+h1 a {
+    color: #333333;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #333333;
+    background-color: #ffffff;
+}
+
 #page-header {
     margin: 0;
     padding: 0;
-    border-bottom: thick double #333333;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 3em;
     color: #333333;
-    background-color: #ffffff;
+    background-color: #4e6a41;
     z-index: 99;
 }
 
 #page-header .header-content {
     margin: 0 auto;
-    padding: 0;
+    padding: 0 1em;
     width: 800px;
     height: 100%;
+    background-color: #afca9e;
+    border-bottom: 0.5em solid #87ab75;
 }
 
 #page-header .header-content h1 {
     position: relative;
     margin: 0;
     padding: 0;
-    width: 250px;
+    width: 360px;
     height: 100%;
     float: left;
 }
@@ -47,15 +73,18 @@ h1, h2, h3, h4, h5, h6 {
     top: 50%;
     margin: -0.5em 0 0 0;
     padding: 0;
-    width: 100%;
     font-size: 120%;
     font-weight: bold;
+}
+
+#page-header .header-content h1 span:hover {
+    color: #35766c;
 }
 
 #page-header .header-content nav {
     margin: 0;
     padding: 0;
-    width: 550px;
+    width: 440px;
     height: 100%;
     float: right;
 }
@@ -83,6 +112,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     width: 100%;
     height: 100%;
+    color: #666666;
 }
 
 #page-header .header-content nav ul a span {
@@ -92,8 +122,17 @@ h1, h2, h3, h4, h5, h6 {
     margin: -0.5em 0 0 0;
     padding: 0;
     width: 100%;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: "Open Sans", sans-serif;
+}
+
+#page-header:hover .header-content nav ul a span {
+    color: #35766c;
+    text-decoration: underline;
+}
+
+#page-header:hover .header-content nav ul a:hover span {
+    color: #ffffff;
 }
 
 #page-body {
@@ -103,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333333;
     background-color: #ffffff;
     clear: both;
+    min-height: 100%;
 }
 
 #page-body section h1 {
@@ -121,13 +161,22 @@ h1, h2, h3, h4, h5, h6 {
 
 #page-body ul {
     margin: 1em 0;
-    list-style-type: disc;
+    list-style-type: none;
     padding-left: 3em;
+}
+
+#page-body ul li {
+    color: #999999;
+    line-height: 2;
 }
 
 #page-body dl {
     margin: 1em 0;
     padding-left: 2em;
+}
+
+#page-body dl dd {
+    margin-bottom: 1em;
 }
 
 #page-body ol {
@@ -144,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-#page-body article header {
+#page-body article .post-header {
     position: relative;
     height: 50px;
 }
@@ -154,34 +203,51 @@ h1, h2, h3, h4, h5, h6 {
     width: 40em;
 }
 
-#page-body article footer {
+#page-body article .post-footer {
     position: relative;
     border-top: thin solid #333333;
 }
 
-#page-body article header h1 {
+
+#page-body article .post-header h1 a {
+    color: #666666;
+    text-decoration: none;
+}
+
+#page-body article .post-header:hover h1 a {
+    color: #35766c;
+    text-decoration: underline;
+}
+
+#page-body article .post-header:hover h1 a:hover {
+    color: #ffffff;
+    background-color: #35766c;
+    text-decoration: none;
+}
+
+#page-body article .post-header h1 {
     margin-top: 1em;
     font-size: 120%;
     font-weight: bold;
 }
 
-#page-body article header nav,
-#page-body article footer nav {
+#page-body article .post-header nav,
+#page-body article .post-footer nav {
     position: absolute;
     top: 0;
     right: 0;
     width: 100px;
 }
 
-#page-body article header nav ul,
-#page-body article footer nav ul {
+#page-body article .post-header nav ul,
+#page-body article .post-footer nav ul {
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-#page-body article header nav ul li,
-#page-body article footer nav ul li {
+#page-body article .post-header nav ul li,
+#page-body article .post-footer nav ul li {
     display: block;
     float: left;
     margin: 0;
@@ -191,12 +257,23 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-#page-body article header nav:after,
-#page-body article footer nav:after {
+#page-body article .post-header nav:after,
+#page-body article .post-footer nav:after {
     visibility: hidden;
     content: " ";
     display: block;
     clear: both;
+}
+
+#page-body section h1 { /* h2 */
+    margin-bottom: 2em;
+}
+
+#page-body section section h1,
+#page-body article > h1 { /* h3 */
+    color: #333333;
+    padding-left: 1em;
+    margin-bottom: 2em;
 }
 
 #page-body article > h1 {
@@ -255,54 +332,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #page-footer {
-    padding: 1em 1em 0 1em;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.5em;
     color: #333333;
-    background-color: #eeeeee;
+    background-color: #4e6a41;
+    z-index: 99;
+}
+
+#page-footer .footer-content {
+    margin: 0 auto;
+    padding: 0 1em 0.5em 1em;
+    width: 800px;
+    color: #333333;
+    background-color: #afca9e;
+    border-top: 0.5em solid #87ab75;
+    font-size: 100%;
+}
+
+#page-footer .footer-content span {
     font-size: 75%;
 }
 
-a {
-    color: #3366ff;
-    background-color: inherit;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: #333333;
-    background-color: #ffcc33;
-}
-
-h1 a {
-    color: #333333;
-    background-color: #ffffff;
+#page-footer a {
+    color: #666666;
     text-decoration: none;
 }
 
-h1 a:hover {
-    color: #333333;
-    background-color: #ffffff;
-}
-
-article h1 a {
-    color: #3366ff;
-    background-color: #ffffff;
+#page-footer:hover a {
+    color: #35766c;
     text-decoration: underline;
 }
 
-article h1 a:hover {
-    color: #333333;
-    background-color: #ffcc33;
+#page-footer:hover a:hover {
+    color: #ffffff;
+    background-color: #35766c;
+    text-decoration: none;
 }
-
-
-section h1,
-article header h1 { /* h2 */
-    border-bottom: thin solid #333333;
-}
-
-section section h1,
-article > h1 { /* h3 */
-    padding-left: 1em;
-    border-bottom: thin dashed #333333;
-}
-

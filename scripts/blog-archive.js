@@ -23,11 +23,11 @@ jQuery(document).ready(function($){
     $(".month").each(function() {
         var month = $(this);
         month.text(month.text() + "(" + $(this).parent().find("li").size() + ")");
-        month.css({textDecoration: "underline", color: "#3366ff"});
+        month.css({textDecoration: "underline", color: "#35766c"});
         month.hover(function() {
-            month.css({backgroundColor: "#ffcc33", cursor: "pointer"});
+            month.css({color: "#ffffff", backgroundColor: "#35766c", textDecoration: "none", cursor: "pointer"});
         }, function() {
-            month.css({backgroundColor: "transparent", cursor: "default"});
+            month.css({color: "#35766c", backgroundColor: "transparent", textDecoration: "underline", cursor: "default"});
         });
     });
 });
