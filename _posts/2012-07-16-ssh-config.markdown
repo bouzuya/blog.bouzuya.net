@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2012-07-16T21:49:56+09:00"
-title: ssh\_configを活かす
+title: ssh_configを活かす
 tags: misc
 ---
 ぼくは普段からsshを使う。VirtualBox上で動いている我が家のUbuntuのほとんどはsshを使ってログインしているからだ。
@@ -10,14 +10,11 @@ tags: misc
 
 `man 5 ssh_config`を見るのが良いが、`~/.ssh/config`に設定を記述しておくことができる。例えば次のような設定を記述できる。
 
-<script src="https://gist.github.com/3120203.js?file=config"></script>
-<noscript>
-Host 560
+<div><script src="https://gist.github.com/3120203.js?file=config"></script><noscript><pre><code>Host 560
   HostName very.long.host.name
   User user560
   Port 560
-  IdentityFile ~/.ssh/id\_rsa.560
-</noscript>
+  IdentityFile ~/.ssh/id_rsa.560</code></pre></noscript></div>
 
 この設定であれば`ssh 560`で記述した設定に従って接続できる。長いホスト名などの際にもこの方法が使える。変更が不要なパラメーターについては省略できる。
 
