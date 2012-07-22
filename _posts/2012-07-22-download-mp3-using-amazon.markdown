@@ -16,6 +16,6 @@ tags: misc
 
 ひとまず今回は無事ダウンロードできた。次は[Skullgirls (Original Soundtrack)](http://amazon.jp/o/ASIN/B007XE5Q2S/bouzuya-22)をダウンロードする予定である。うまくいくといいなあ。
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/gI04Nrz364M" frameborder="0"></iframe>
+<script>document.write('<iframe width="560" height="315" src="http://www.youtube.com/embed/gI04Nrz364M" frameborder="0"></iframe>');</script>
 
 60 min.
