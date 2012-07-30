@@ -60,7 +60,7 @@ End Sub
 Call Main()</code></pre></noscript></div>
 
 
-    C:\Users\user\>cscript //Nologo //Job:RotateBackup rotate-backup.wsf /srcfile:target.zip /dstdir:C:\Users\user\backup
+    C:\Users\user\Dropbox>cscript //Nologo //Job:RotateBackup rotate-backup.wsf /srcfile:target.zip /dstdir:C:\Users\user\backup
     Hello, WSH!
     
     srcfile:target.zip
