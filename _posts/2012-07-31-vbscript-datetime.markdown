@@ -105,6 +105,26 @@ End Function
 
 WScript.Quit(Main())</code></pre></noscript></div>
 
+出力結果はこんな感じ。
+
+    C:\Users\user\Dropbox\wsh>cscript //Nologo //Job:RotateBackup rotate-backup.wsf /srcfile:target.zip /dstdir:C:\Users\user\backup
+    Echo VBScript Date/Time Function result
+    Date()         :2012/07/31
+    Year(today)    :2012
+    Month(today)   :7
+    Day(today)     :31
+    Weekday(today) :3
+    Tuesday tue tue
+    Now()       :2012/07/31 21:32:04
+    Hour(now)   :21
+    Minute(now) :32
+    Second(now) :4
+    strDate: 2012-07-31
+    Hello, WSH!
+    
+    srcfile:target.zip
+    dstdir :C:\Users\user\backup
+
 今回は、上記の日付処理のほか、関数に切り出すなどのリファクタリングや、命名規則をガイドラインに準拠させてある。
 
 ガイドラインはぼくが見るかぎりあまり好きになれないものだ。ハンガリアン記法などは書いていてうんざりする。[とは言え、それが標準とMSDNにある](http://msdn.microsoft.com/ja-jp/library/cc392255)ので従っておく。郷に入ってはなんとやらだ。それに、型のサポートが弱く、大文字小文字を区別しないVBScriptではそれなりに有効性があるかもしれない。似ているからと言ってVisual Basic 7.0以降(.NET FrameworkのVisual Basic)では選択してほしくない規則なのは間違いない。(余談だけど、[実際.NET向けのガイドラインではハンガリアン記法を禁止するように書いてある](http://msdn.microsoft.com/ja-jp/library/ms229045)。)
