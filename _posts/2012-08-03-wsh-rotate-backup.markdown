@@ -1,6 +1,6 @@
 ---
 layout: post
-pubdate: "2012-08-04T01:33:35+09:00"
+pubdate: "2012-08-03T23:59:59+09:00"
 title: WSH(7)〜rotate-backup〜
 tags: wsh
 ---
