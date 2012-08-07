@@ -1,0 +1,13 @@
+---
+layout: post
+pubdate: "2012-08-08T07:24:35+09:00"
+title: WMI root\cimv2 ?
+tags: wsh, wmi
+---
+今日もWMI。昨日のスクリプトだが、動かなかったのはサーバー名に誤りがあったらしい。現在のコンピューターは.で指定するようだ。
+
+`GetObject("winmgmts:\\.\root\cimv2")`とすることで問題なく動作した。実は[昨日見ていた記事の次の記事](http://msdn.microsoft.com/ja-jp/library/ms974592)に細かい説明があった。
+
+すこしずつ前進する。
+
+4 min.
