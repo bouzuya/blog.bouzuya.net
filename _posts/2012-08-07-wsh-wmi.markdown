@@ -1,0 +1,15 @@
+---
+layout: post
+pubdate: "2012-08-07T22:02:18+09:00"
+title: WSHからWMIを使おうとするも断念
+tags: wsh, wmi
+---
+WSHからWMIを使おうとするもうまくいかず断念した。
+
+[WMIスクリプト入門](http://msdn.microsoft.com/ja-jp/library/ms974579.aspx)に書かれている内容を試してみたが動かず。はじめ`GetObject`を`WScript.GetObject`としていたせいで`(null): 0x800C000D`が延々出ていた。それを直してからも「Microsoft VBScript 実行時エラー: リモート サーバ マシンが存在しないか、利用できません。: 'GetObject'」。諦めて、別のサイトを参考にすることに。
+
+[WMI Fun!!のWMI StepのVBScript編](http://www.wmifun.net/step/vbs_01.html)に書かれているサンプルだとうまく動いた。
+
+知識量が足りなくて、なにがよくてなにがいけないのかがわからない。もうしばらく調べていく必要がありそうだ。今日はひとまず断念。
+
+7 min.
