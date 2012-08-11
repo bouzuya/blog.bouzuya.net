@@ -1,0 +1,21 @@
+---
+layout: post
+pubdate: "2012-08-11T09:38:31+09:00"
+title: Windows環境で分単位のタスクをスケジュールするには
+tags: misc
+---
+『[Macのスクリーンショットで1日の作業を記録して動画で振り返り](http://d.hatena.ne.jp/nishiohirokazu/20120731/1343745529)』にあこがれて、Windows環境で同じことをしようと思ったら色々とハマった。
+
+まずWindowsのPrintScreenはクリップボードにコピーするのみで保存してくれない。VBScriptでなんとかならないかと思い、検索してみたが、Internet ExplorerやExcelをCreateObjectしたりであんまり好きになれない状態だった。[WinShot](http://www.woodybells.com/)がインストールされているので、それのコマンドラインオプションを`winshot.exe -J -D -X`のような形で指定して実行することにした。jpegファイルでDesktop全体を保存し終了する。
+
+これをタスクスケジューラーに登録すれば完成だと思ったら、分単位での実行がうまくできない。登録できるのかもしれないけど、ぼくには画面から登録する方法が分からなかったので、コマンドで登録することにした。
+
+分単位のタスクをスケジュールするには、`schtasks`コマンドを使えば良い。
+
+5分おきにprint.vbsを呼ぶ例は次のようになる。
+
+`schtasks /Create /SC MINUTE /MO 5 /TN TASKNAME /TR C:\Users\user\Dropbox\echo.vbs /ET 23:55 /SD 2012/01/01 /ED 2020/12/31`
+
+詳細は`schtasks /?`を参照。
+
+22 min.
