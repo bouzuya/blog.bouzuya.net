@@ -1,0 +1,70 @@
+---
+layout: post
+pubdate: "2012-08-12T11:14:49+09:00"
+title: Windows環境で分単位のタスクをスケジュールするにはその2
+tags: misc
+---
+
+[昨日はschtasksで登録した](http://bouzuya.github.com/2012/08/11/schtasks.html)のだけれど、それを元にタスクスケジューラで確認することで、毎分実行するタスクを登録する方法が分かったのでメモしておく。
+
+要はトリガータブをいかに設定するかだ。次のように設定すると良い。
+
+    タスクの開始:スケジュールに従う
+    頻度:毎日
+    間隔:1日
+    開始:開始時間
+    繰り返し間隔:1分間
+    継続時間:無期限
+    停止するまでの時間:1日間
+
+「毎日1回、決まった時間に開始し、そこからは1分おきに繰り返す。翌日も開始されるので、最長1日で停止させる。」という設定にしているつもり。
+
+
+[元記事](http://d.hatena.ne.jp/nishiohirokazu/20120731/1343745529)と同様に10秒間隔で撮影するためのスクリプトも書いてみた。[wsh-capture-screenとしてGitHubにコード全体を公開した](https://github.com/bouzuya/wsh-capture-screen)。以下にはコアな部分だけを抜き出している。
+
+処理としては、起動時に既に起動していたらロックファイルがなくなるまで待機し、ロックファイルがなければ作成し、処理に入る。WinShotを用いて約10秒間隔で画面をキャプチャし、処理開始から約24時間経過するまでキャプチャを続ける。キャプチャ終了後ffmpegを用いてキャプチャした画像ファイルを動画ファイルに変換し、画像ファイルを削除する。最後にロックファイルを削除して完了。
+
+このスクリプトを一日一回実行するタスクに設定すれば、動画ができる、はず。(まだ実行していないため)
+
+<div><script src="https://gist.github.com/3329732.js?file=capture-screen.vbs"></script><noscript><pre><code>Option Explicit
+
+Const INTERVAL_SEC = 10
+Const WINSHOT_PATH = &quot;C:\Users\user\Documents\ws153a\winshot.exe&quot;
+Const WINSHOT_OPTS = &quot;-J -D -X&quot;
+Const FFMPEG_PATH = &quot;C:\Users\user\Documents\ffmpeg\bin\ffmpeg.exe&quot;
+Const CAPTURE_DIR = &quot;C:\Users\user\Pictures\winshot\&quot;
+
+Dim objShell, objFso
+Set objShell = WScript.CreateObject(&quot;WScript.Shell&quot;)
+Set objFso = WScript.CreateObject(&quot;Scripting.FileSystemObject&quot;)
+
+' check *.LCK
+While objFso.FileExists(CAPTURE_DIR &amp; &quot;capture-screen.lck&quot;)
+    WScript.Sleep(INTERVAL_SEC * 1000)
+Wend
+Call objFso.CreateTextFile(CAPTURE_DIR &amp; &quot;capture-screen.lck&quot;)
+
+' save as *.JPG
+Dim dtmStart, dtmNow
+dtmStart = Now()
+dtmNow = Now()
+While DateDiff(&quot;s&quot;, dtmStart, dtmNow) &lt; 24 * 60 * 60
+    Call objShell.Run(&quot;&quot;&quot;&quot; &amp; WINSHOT_PATH &amp; &quot;&quot;&quot; &quot; &amp; WINSHOT_OPTS, 0, True)
+    WScript.Sleep(INTERVAL_SEC * 1000)
+    dtmNow = Now()
+Wend
+
+' convert to *.AVI
+Dim strMoviePath
+strMoviePath = CAPTURE_DIR &amp; ToISO8601Date(dtmStart) &amp; &quot;.avi&quot;
+WScript.Echo(&quot;&quot;&quot;&quot; &amp; FFMPEG_PATH &amp; &quot;&quot;&quot; -i &quot;&quot;&quot; &amp; CAPTURE_DIR &amp; &quot;WS%06d.JPG&quot;&quot; &quot;&quot;&quot; &amp; strMoviePath &amp; &quot;&quot;&quot;&quot;)
+Call objShell.Run(&quot;&quot;&quot;&quot; &amp; FFMPEG_PATH &amp; &quot;&quot;&quot; -i &quot;&quot;&quot; &amp; CAPTURE_DIR &amp; &quot;WS%06d.JPG&quot;&quot; &quot;&quot;&quot; &amp; strMoviePath &amp; &quot;&quot;&quot;&quot;, 0, True)
+
+' delete *.JPG
+Call objFso.DeleteFile(CAPTURE_DIR &amp; &quot;WS*.JPG&quot;)
+
+' delete *.LCK
+Call objFso.DeleteFile(CAPTURE_DIR &amp; &quot;capture-screen.lck&quot;)</code></pre></noscript></div>
+
+135 min.
+
