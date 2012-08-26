@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-08-25T22:31:46+09:00"
 title: LESSを試す
 tags: less, css
+pagetype: posts
 ---
 メタCSS言語の[LESS](http://lesscss.org/)を試している。昨日も書いたが、実際には使ったことがなかったので、試してみることにしたのだ。
 
