@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article>
+<article class="post">
     <header class="post-header">
         <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
         <time pubdate="pubdate" datetime="{{ page.pubdate }}">{{ page.pubdate }}</time>
@@ -12,28 +12,18 @@ layout: default
                 {% endfor %}
             </ul>
         </div>
-
-        {% include post-nav.html %}
-
     </header>
     <div class="post-content">
         {{ content }}
     </div>
     <footer class="post-footer">
-
-        {% include post-nav.html %}
-
-        {% if site.hatena_bookmark_enabled %}
-        {% include hatena_bookmark.html %}
-        {% endif %}
-
-        {% if site.twitter_enabled %}
-        {% include twitter.html %}
-        {% endif %}
-
+        <span id="bouzuya-twitter-button"></span>&nbsp;<span id="bouzuya-hatebu-button"></span>
         {% if site.disqus_enabled %}
         {% include disqus.html %}
         {% endif %}
+
+        {% include post-nav.html %}
+
     </footer>
 </article>
 

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-06-29T23:53:28+09:00"
 title: 東京に行く
 tags: misc
+pagetype: posts
 ---
 わけあって東京に行った。
 

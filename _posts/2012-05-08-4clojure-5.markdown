@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-05-08T22:26:36+09:00"
 title: 4Clojureを楽しむ(5)〜#()マクロ〜
 tags: clojure
+pagetype: posts
 ---
 [4Clojure](https://wwww.4clojure.com/)で遊びながら学ぶ。今日は4Clojureから気づいたことを書く。今日は`#()`リーダーマクロについて書く。
 

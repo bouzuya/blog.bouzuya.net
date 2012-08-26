@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-03-19T22:01:16+09:00"
 title: 『みんなのPython』を読んでいる
 tags: python, book
+pagetype: posts
 ---
 『[みんなのPython](http://amazon.jp/o/ASIN/4797353953/bouzuya-22)』を読んでいる。先日紹介した『[Pythonスタートブック](http://amazon.jp/o/ASIN/4774142298/bouzuya-22)』よりはページ数があり、読み応えがある。
 

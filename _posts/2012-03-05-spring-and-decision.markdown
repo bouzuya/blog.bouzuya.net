@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-03-05T21:05:49+09:00"
 title: 春と決断
 tags: diary
+pagetype: posts
 ---
 寒さがやわらいでいる。
 

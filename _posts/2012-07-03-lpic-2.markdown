@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-03T23:33:47+09:00"
 title: LPIC-2に向けて勉強中
 tags: lpic
+pagetype: posts
 ---
 LPIC-2に向けて勉強している。とりあえず知識さえ入れておけば合格する試験のはずなので、つまらない部分は特に知識だけをつめこんでいる。
 

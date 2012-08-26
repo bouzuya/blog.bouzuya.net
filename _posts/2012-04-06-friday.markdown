@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-04-06T21:36:03+09:00"
 title: 紅の豚
 tags: misc
+pagetype: posts
 ---
 ぼくはいま398円の唐揚げ弁当を食べながら紅の豚を見ている。幸せすぎて涙が出る。
 

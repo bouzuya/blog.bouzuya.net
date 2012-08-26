@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-08-08T07:24:35+09:00"
 title: WMI root\cimv2 ?
 tags: wsh, wmi
+pagetype: posts
 ---
 今日もWMI。昨日のスクリプトだが、動かなかったのはサーバー名に誤りがあったらしい。現在のコンピューターは.で指定するようだ。
 

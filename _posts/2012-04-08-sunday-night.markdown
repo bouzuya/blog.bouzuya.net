@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-04-08T21:12:21+09:00"
 title: じごくのそうべえ
 tags: misc
+pagetype: posts
 ---
 金曜日の夜が天国なら日曜日の夜は地獄である。
 

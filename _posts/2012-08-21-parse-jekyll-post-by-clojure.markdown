@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-08-21T23:27:42+09:00"
 title: ClojureでJekyllのpostを解釈する
 tags: jekyll, clojure
+pagetype: posts
 ---
 今日も昨日に続き、[Jekyll](https://github.com/mojombo/jekyll)から[misaki](https://github.com/liquidz/misaki)への移行をはかる。
 

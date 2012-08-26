@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-03-04T12:10:57+09:00"
 title: 『バクマン。』とブレーンストーミング
 tags: anime
+pagetype: posts
 ---
 アニメ『バクマン。』を見ている。
 

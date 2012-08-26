@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-04-14T22:42:14+09:00"
 title: 『人生なんて無意味だ』を読んだ
 tags: book
+pagetype: posts
 ---
 『[人生なんて無意味だ](http://amazon.jp/o/ASIN/4344020979/bouzuya-22)』を読んだ。ネタバレを恐れずに書く。
 

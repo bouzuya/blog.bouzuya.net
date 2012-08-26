@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-04-21T21:30:52+09:00"
 title: 『Head Firstデザインパターン』を読んでいる
 tags: book
+pagetype: posts
 ---
 『Head Firstデザインパターン』を読んでいる。
 

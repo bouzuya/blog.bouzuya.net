@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-09T23:46:41+09:00"
 title: LPIC-2 9章
 tags: lpic
+pagetype: posts
 ---
 LPIC-2の勉強をしている。今日はあずき本の9章。Webサーバーおよびプロキシサーバー。ApacheとSquidの設定ファイルが題材だった。
 

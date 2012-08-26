@@ -6,7 +6,7 @@ include: ./_includes
 pygments: true
 markdown: kramdown
 
-hatena_star_enabled: true
+hatena_star_enabled: false
 hatena_star_token: '3ed05a98cc29017566c85335450f2d2d485c5caa'
 hatena_bookmark_enabled: true
 twitter_enabled: true

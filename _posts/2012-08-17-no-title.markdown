@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-08-17T22:23:39+09:00"
 title: WSC Windows Script Component
 tags: wsh
+pagetype: posts
 ---
 [WSC(Windows Script Component)](http://msdn.microsoft.com/ja-jp/library/cc392140)を知る。再利用を進めるうえで良さそうだ。
 

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-06-16T23:52:59+09:00"
 title: デジャヴ
 tags: misc
+pagetype: posts
 ---
 毎日同じ内容の日記を書いている気がしてきた。時間が足りない。圧倒的に。
 

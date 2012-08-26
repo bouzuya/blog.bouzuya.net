@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-30T21:34:47+09:00"
 title: WSH(3)〜WScriptのプロパティ〜
 tags: wsh
+pagetype: posts
 ---
 WSH(Windows Script Host)の第3回。今日は引数の扱いについて記録しておく。
 

@@ -1,13 +1,13 @@
 <div class="header-content">
     <h1>
-        <a href="/"><span>bouzuya.github.com</span></a>
+        <a href="/" {%if page.pagetype == null %} class="current" {% endif %} ><span>bouzuya.github.com</span></a>
     </h1>
     <nav>
         <ul>
-            <li><a href="/"><span>Blog</span></a></li>
-            <li><a href="/repositories.html"><span>Repos</span></a></li>
-            <li><a href="/links.html"><span>Link</span></a></li>
-            <li><a href="/misc.html"><span>Misc</span></a></li>
+            <li><a href="/blog-archive.html" {% if page.pagetype == 'posts' %} class="current" {% endif %}><span>Posts</span></a></li>
+            <li><a href="/repositories.html" {% if page.pagetype == 'repos' %} class="current" {% endif %}><span>Repos</span></a></li>
+            <li><a href="/links.html" {% if page.pagetype == 'links' %} class="current" {% endif %}><span>Links</span></a></li>
+            <li><a href="/misc.html" {% if page.pagetype == 'misc' %} class="current" {% endif %}><span>...</span></a></li>
         </ul>
     </nav>
 </div>

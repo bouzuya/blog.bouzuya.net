@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-08-18T23:59:59+09:00"
 title: Touch the Jenkins!Lv1/Lv2に参加した
 tags: misc
+pagetype: posts
 ---
 [Touch the Jenkins!Lv1/Lv2](http://connpass.com/event/791/)に参加した。ハンズオン形式でJenkinsの最初の一歩を助ける勉強会だった。
 

@@ -2,26 +2,25 @@
 layout: default
 title: Blog "15 min/d"
 ---
-<section>
-    <h1>Blog &quot;15 min/d&quot;</h1>
-    <section>
-        <h1>Recent Posts</h1>
-        <ul>
-            {% for post in site.posts limit:5 %}
-            <li>{{ post.pubdate }}&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-        </ul>
-        <p style="text-align: right; margin-right: 2em"><a href="blog-archive.html">more...</a></p>
-    </section>
-    <section>
-        <h1>Blog info</h1>
-        <dl>
-            <dt>Title</dt>
-            <dd>15 min/d</dd>
-            <dt>Twitter Hashtag</dt>
-            <dd><a href="https://twitter.com/#!/search?q=%2315mind">#15mind</a></dd>
-            <dt>Hatena Bookmark</dt>
-            <dd><a href="http://b.hatena.ne.jp/entry/bouzuya.github.com/">bouzuya.github.com</a></dd>
-        </dl>
-    </section>
-</section>
+{% for page in site.posts limit:1 %}
+<article class="post">
+    <header class="post-header">
+        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        <time pubdate="pubdate" datetime="{{ page.pubdate }}">{{ page.pubdate }}</time>
+        <div class="tags">
+            <ul>
+                {% for tag in page.tags %}
+                <li>{{ tag }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </header>
+    <div class="post-content">
+        {{ page.content }}
+    </div>
+    <footer class="post-footer">
+        {% include post-nav.html %}
+    </footer>
+</article>
+{% endfor %}
+

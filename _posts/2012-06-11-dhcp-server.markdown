@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-06-11T22:22:01+09:00"
 title: DHCPサーバーを立てた
 tags: misc
+pagetype: posts
 ---
 自宅のLANにDHCPサーバーを立てた。
 

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-03-13T22:59:56+09:00"
 title: 早く寝たのに
 tags: diary
+pagetype: posts
 ---
 眠気がどうしようもないので1時間は早く寝たのに寝坊した。そんなこともある。
 

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-03-07T20:03:32+09:00"
 title: 風邪をひいた
 tags: diary
+pagetype: posts
 ---
 どうやら風邪をひいたみたいだ。
 

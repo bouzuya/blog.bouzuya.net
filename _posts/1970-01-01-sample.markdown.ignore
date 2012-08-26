@@ -1,0 +1,116 @@
+---
+layout: post
+pubdate: "2012-08-31T21:33:33+09:00"
+title: デザイン確認用ページ
+tags: clojure, java
+pagetype: posts
+---
+
+# h1
+
+## h2
+
+### h3
+
+#### h4
+
+##### h5
+
+###### h6
+
+paragraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテスト
+
+連続するパラグラフ。
+
+連続するパラグラフ。
+
+paragraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテスト
+
+paragraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテストparagraphテスト
+
+> blockquote
+> blockquote
+> blockquote
+> 
+> blockquote
+> blockquote
+
+    pre,code
+    pre,code
+    pre,code
+    pre,code
+    pre,code
+    pre,code
+
+- list1
+- list2
+- list3
+- list4
+
+1. list1
+2. list2
+3. list3
+4. list4
+
+`code`や*strong*などのインライン要素も忘れず確認。
+
+
+[昨日はJekyllのpostを解釈し、Clojureのmapに変換した](http://bouzuya.github.com/2012/08/21/parse-jekyll-post-by-clojure.html)。今日はこのmapを使って、今度は独自のHTMLを生成する。
+
+テンプレートとなるHTMLを用意しておき、そこにmapから必要なデータを取得し埋めてやる。この動作にはClojure製テンプレートエンジンである[enlive](https://github.com/cgrand/enlive)を使う。enliveは[以前にも紹介したライブラリ](http://bouzuya.github.com/2012/06/18/try-enlive.html)である。
+
+流れを整理すると、次のようになる。
+
+    Jekyllのpost(既存の日記データ)
+    |
+    | (option(YAML),content(Markdown)を解釈. Markdown->HTML by MarkdownJ)
+    |
+    V
+    Clojureのmap
+    |
+    | (テンプレートに埋め込み by enlive)
+    |
+    V
+    HTML
+
+最終的にはこの動きを[misaki](https://github.com/liquidz/misaki)のcompilerとして組み込めればと考えている。
+
+<div><script src="https://gist.github.com/3425273.js?file=core.clj"></script><noscript><pre><code>(ns clj-ex-mkd.core
+  (:require [clojure.java.io :as io]
+            [net.cgrand.enlive-html :as eh])
+  (:import (com.petebevin.markdown MarkdownProcessor)))
+
+(defn markdown-to-html
+  [markdown]
+  (-&gt;
+    (MarkdownProcessor.)
+    (.markdown markdown)))
+
+(defn load-jekyll-post-file
+  [post-file]
+  (let [text (slurp post-file)
+        [_ yaml content] (re-find #&quot;(?m)(?s)^---\s*(.*?)^---\s*^(.*)&quot; text)]
+    (reduce (fn [m [_ k v]] (assoc m (keyword k) v))
+            {:content (markdown-to-html content)}
+            (re-seq #&quot;(\w+):\s*(.*)\n&quot; yaml))))
+
+(def LAYOUT_FILE &quot;./template/layouts/post.html&quot;)
+(def JEKYLL_POST_FILE &quot;./template/posts/2012-02-16-jekyll.markdown&quot;)
+
+(eh/deftemplate post-html (io/file LAYOUT_FILE)
+  [post]
+  [:title] (eh/content (:title post))
+  [:article :header :h1] (eh/content (:title post))
+  [:article :div.post-body] (eh/html-content (:content post)))
+
+(defn -main
+  [&amp; args]
+  (let [data (load-jekyll-post-file JEKYLL_POST_FILE)
+        compiler #(apply str (post-html %))]
+    (print (compiler data))))</code></pre></noscript></div>
+
+- [bouzuya/clj-ex-mkd](https://github.com/bouzuya/clj-ex-mkd)
+- [cgrand/enlive](https://github.com/cgrand/enlive)
+- [liquidz/misaki](https://github.com/liquidz/misaki)
+
+20 min.

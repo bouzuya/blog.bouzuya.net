@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-16T21:49:56+09:00"
 title: ssh_configを活かす
 tags: misc
+pagetype: posts
 ---
 ぼくは普段からsshを使う。VirtualBox上で動いている我が家のUbuntuのほとんどはsshを使ってログインしているからだ。
 

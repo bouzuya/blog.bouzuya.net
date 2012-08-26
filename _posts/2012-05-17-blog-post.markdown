@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-05-17T22:46:28+09:00"
 title: 折り返し
 tags: misc
+pagetype: posts
 ---
 気づけば5月も折り返しである。
 

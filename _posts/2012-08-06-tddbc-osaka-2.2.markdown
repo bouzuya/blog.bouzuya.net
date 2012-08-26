@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-08-06T20:24:45+09:00"
 title: TDDBC大阪2.2パッチに参加した
 tags: clojure
+pagetype: posts
 ---
 昨日は[TDDBC大阪2.2パッチ](http://atnd.org/events/30831)に参加した。
 
