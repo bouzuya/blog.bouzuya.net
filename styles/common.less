@@ -117,6 +117,7 @@ a {
         text-align: center;
         a {
             .mixin-section-alpha;
+            .mixin-border-radius(@unit, 0, 0, @unit);
             display: block;
             width: 100%;
             text-align: right;
@@ -136,6 +137,10 @@ a {
             margin-top: @unit;
             margin-bottom: @unit * 3;
             line-height: 4;
+        }
+        ul {
+            margin: 0 0 0 auto;
+            width: 70%;
         }
         li {
             margin-bottom: @unit;
@@ -213,6 +218,7 @@ a {
                 }
                 code {
                     .mixin-border-radius(@unit/2, @unit/2, @unit/2, @unit/2);
+                    padding: 0 @unit;
                     background-color: #f8f8ff; // #AFCA9E;
                 }
                 pre {
