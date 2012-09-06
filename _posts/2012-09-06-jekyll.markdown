@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2012-09-06T23:47:29+09:00"
+title: enliveもmisakiも使えていない
+tags: enlive, misaki, clojure
+pagetype: posts
+---
+改めて自分の欲しいものを書いていくとどうももやもやした形になる。なぜそうなるのか考えると、構成技術として選択したenliveもmisakiもそんなに使いこんでいない。素のmisakiを使ってひとつサイトを作ってみようかな。hiccupの食わず嫌いをやめてさ。
+
+4 min.
