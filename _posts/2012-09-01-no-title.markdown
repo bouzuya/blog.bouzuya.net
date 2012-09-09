@@ -1,6 +1,6 @@
 ---
 layout: post
-pubdate: "2012-09-02T11:46:55+09:00"
+pubdate: "2012-09-01T23:59:59+09:00"
 title: 寝てねー
 tags: misc
 pagetype: posts

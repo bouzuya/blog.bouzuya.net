@@ -133,10 +133,16 @@ a {
             }
         }
         h1 {
+            font-size: 125%;
             font-weight: bold;
             margin-top: @unit;
             margin-bottom: @unit * 3;
-            line-height: 4;
+            line-height: 3.2;
+            a {
+                span {
+                    padding: 0 @unit/2;
+                }
+            }
         }
         ul {
             margin: 0 0 0 auto;
@@ -165,6 +171,7 @@ a {
             .post-header {
                 // padding-top: @unit;
                 .mixin-page-header;
+                .mixin-font-sans-serif;
                 margin: @unit @unit (@unit * 3) 0;
                 time { // TODO s/time/post-date/
                     margin-left: @unit * 2;
@@ -274,7 +281,6 @@ a {
             dd {
                 margin-left: @unit;
             }
-
         }
     }
 

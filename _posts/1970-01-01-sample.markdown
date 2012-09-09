@@ -1,6 +1,6 @@
 ---
 layout: post
-pubdate: "2012-08-31T21:33:33+09:00"
+pubdate: "1970-01-01T12:00:00+09:00"
 title: デザイン確認用ページ
 tags: clojure, java
 pagetype: posts
