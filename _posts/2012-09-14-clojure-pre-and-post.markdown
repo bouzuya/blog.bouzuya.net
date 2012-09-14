@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2012-09-14T23:38:39+09:00"
-title: Clojureでコードを書いている
+title: Clojureで事前条件/事後条件の表明(:pre/:post)
 tags: clojure
 pagetype: posts
 ---
