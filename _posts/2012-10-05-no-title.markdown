@@ -1,6 +1,6 @@
 ---
 layout: post
-pubdate: "2012-10-06T00:38:37+09:00"
+pubdate: "2012-10-05T23:59:59+09:00"
 title: 言葉の価値
 tags: misc
 pagetype: posts
