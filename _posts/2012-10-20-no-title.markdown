@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2012-10-20T23:49:31+09:00"
+title: 失敗
+tags: misc
+pagetype: posts
+---
+疲れてしまったよ
+
+5 min.
