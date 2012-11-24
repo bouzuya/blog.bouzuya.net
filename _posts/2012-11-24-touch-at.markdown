@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2012-11-24T18:02:38+09:00"
+title: TouchAtコマンドを作った
+tags: csharp
+pagetype: posts
+---
+[bouzuya/TouchAt](https://github.com/bouzuya/TouchAt)を公開した。
+
+TouchAtはWindows環境で最終更新日時を変更するためのコマンドである。
+
+作成の背景。最終更新日時をリリース時などに統一したかった。日時が統一されていると格好が良いし、あとからファイルが変更されていたときに気付きやすい。最終更新日時は、Linuxであればtouchコマンドで変更可能だが、Windowsには類似のコマンドが見当たらなかった。そこで諦めて作成した。
+
+使い方。`TouchAt.exe 20120101 test.txt`のように年月日と対象のファイルを指定する。ファイルは複数指定ができ、ディレクトリも指定できる。時刻は常に00:00:00となる。
+
+実装。使用した言語はC#で、統合開発環境はMonoDevelopで、xbuildを使ってビルドし、Windows 7環境で動作を検証した。特に問題なく動いている。
+
+17 min.
