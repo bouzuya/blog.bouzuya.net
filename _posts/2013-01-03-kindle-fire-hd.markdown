@@ -35,7 +35,7 @@ pagetype: posts
 
 root 権限を奪ってしまえば、好き勝手にアプリケーションをインストールできる。そうすれば、Google Play ストアだってらくらくだ。
 
-検索してみたところ、やはり対応している人が居た。『[Kindle Fire HDでGoogle Playストアを使う方法。 - Android(アンドロイド)おすすめアプリ・カスタム情報|AndroidLover.Net][android-kindle-fire-hd]』にしたがってぼくも対応した。
+検索してみたところ、やはり対応している人が居た。『[Kindle Fire HDでGoogle Playストアを使う方法][android-kindle-fire-hd]』にしたがってぼくも対応した。
 
 これで保障対象外になってしまったけど、どうせ Amazon のサポートなんてしれているので不要だ。
 
