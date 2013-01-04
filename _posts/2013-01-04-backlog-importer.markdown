@@ -13,7 +13,7 @@ Backlog Importer は [Backlog][backlog] に課題を CSV ファイルから一�
 
 Backlog Importer は [Clojure][clojure] で書いており、[Backlog API for Clojure][backlog-api-for-clojure] を使っている。実際のところ Backlog API for Clojure のサンプルアプリケーションとして書いた。
 
-使いかたは [usage][usage] を見てほしい。簡単に説明すると CSV ファイルを所定のレイアウトで作成し JAR ファイルを実行するだけだ。
+使いかたは [usage][backlog-importer-usage] を見てほしい。簡単に説明すると CSV ファイルを所定のレイアウトで作成し JAR ファイルを実行するだけだ。
 
 45 min.
 
