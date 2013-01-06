@@ -28,6 +28,8 @@ GitHub -> Hatena::Graph がちょうど良いサンプルになると思う。
 
 せっかくなので [Hatena::Graph API for Clojure][hatena-graph-api-for-clojure] 使ってみてほしい。
 
+60 min.
+
 [clojure]: http://clojure.org/
 [hatena-graph-api-for-clojure]: https://clojars.org/org.clojars.bouzuya/hatena.graph
 [hatena]: http://www.hatena.ne.jp/
