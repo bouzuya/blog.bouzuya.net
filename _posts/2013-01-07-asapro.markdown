@@ -1,0 +1,19 @@
+---
+layout: post
+pubdate: "2013-01-07T23:10:48+09:00"
+title: 朝プロ
+tags: misc
+pagetype: posts
+---
+
+今日は『朝プロ』した。朝からプログラミングした。30 分ほど早く起きてプログラミングをするのだ。今年はこれをなるべくやっていきたい。今日はじめたので 365 日は無理にしても 100 日くらいはやりたいな。
+
+さて、今日の朝プロは、[はてなグラフの .vimrc ][hatena-graph-vimrc] を [clj-hatena-graph][] を使うように変えた。前は Python で Mechanize でやっていたのを Clojure で clj-http でやるようになった、というわけ。
+
+はためには何も変わらないし、動いているものをわざわざ置き換えるなんて、自己満足としか言いようがない。でも、楽しいんだから良いよね。
+
+8 min.
+
+[hatena-graph-vimrc]: http://graph.hatena.ne.jp/bouzuya/.vimrc/
+[clj-hatena-graph]: https://github.com/bouzuya/clj-hatena-graph
+
