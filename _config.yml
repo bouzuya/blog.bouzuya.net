@@ -2,7 +2,7 @@
 url: http://bouzuya.github.com
 author: bouzuya
 destination: ./_site
-include: ./_includes
+# include: ./_includes
 permalink: pretty
 pygments: true
 markdown: kramdown
