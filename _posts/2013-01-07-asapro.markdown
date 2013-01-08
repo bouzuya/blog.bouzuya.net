@@ -8,7 +8,7 @@ pagetype: posts
 
 今日は『朝プロ』した。朝からプログラミングした。30 分ほど早く起きてプログラミングをするのだ。今年はこれをなるべくやっていきたい。今日はじめたので 365 日は無理にしても 100 日くらいはやりたいな。
 
-さて、今日の朝プロは、[はてなグラフの .vimrc ][hatena-graph-vimrc] を [clj-hatena-graph][] を使うように変えた。前は Python で Mechanize でやっていたのを Clojure で clj-http でやるようになった、というわけ。
+さて、今日の朝プロは、[はてなグラフの .vimrc ][hatena-graph-vimrc] を [clj-hatena-graph][clj-hatena-graph] を使うように変えた。前は Python で Mechanize でやっていたのを Clojure で clj-http でやるようになった、というわけ。
 
 はためには何も変わらないし、動いているものをわざわざ置き換えるなんて、自己満足としか言いようがない。でも、楽しいんだから良いよね。
 
