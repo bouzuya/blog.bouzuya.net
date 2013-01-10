@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2013-01-10T23:48:58+09:00"
+title: ひさびさに 4clojure
+tags: clojure
+pagetype: posts
+---
+ひさしぶりに [4Clojure][4clojure] の問題を解く。[Medium の問題が追加されていた][problem-171]ので解いてみたが、そこそこ苦戦した。
+
+解答を見て、`(loop [r [] ...] ... (recur (conj r x) ...))` になっている場合は `reduce` を使うべきなどという基本的なことを忘れていた。それにしても、他のユーザーの解答は鮮やかだ。
+
+精進せねば。
+
+7 min.
+
+[problem-171]: http://www.4clojure.com/problem/171
+[4clojure]: http://www.4clojure.com/
+
