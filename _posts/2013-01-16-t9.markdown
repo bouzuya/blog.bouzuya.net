@@ -16,7 +16,7 @@ t9 のゴールは Twitter クライアントにはしないつもり。この�
 10 min.
 
 [kuromoji]: http://www.atilika.org/
-[twitte4j]: http://twitter4j.org/
+[twitter4j]: http://twitter4j.org/
 [tweets-counter]: https://github.com/bouzuya/clj-tweets-counter
 [t9]: https://github.com/bouzuya/t9
 
