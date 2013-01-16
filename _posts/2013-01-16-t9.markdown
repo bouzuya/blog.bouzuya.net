@@ -1,0 +1,22 @@
+---
+layout: post
+pubdate: "2013-01-16T23:59:59+09:00"
+title: 読みをツイート
+tags: clojure
+pagetype: posts
+---
+昨日は [Kuromoji][kuromoji] で読みを扱ったので、それをそのまま活かして、読みをツイートするアプリケーションを書いた。
+
+ツイートに使ったのは [Tweets Counter][tweets-counter] で使った [Twitter4J][twitter4j] 。相変わらずのお手軽さ、よくできている。`(.updateStatus twitter s)` でツイートできるから困る。
+
+名前は t9 とし、[bouzuya/t9][t9] で公開した。
+
+t9 のゴールは Twitter クライアントにはしないつもり。この間の DB 読み書きの練習を活かして、機能を追加するつもりだ。
+
+10 min.
+
+[kuromoji]: http://www.atilika.org/
+[twitte4j]: http://twitter4j.org/
+[tweets-counter]: https://github.com/bouzuya/clj-tweets-counter
+[t9]: https://github.com/bouzuya/t9
+
