@@ -1,0 +1,28 @@
+---
+layout: post
+pubdate: "2013-01-20T16:26:14+09:00"
+title: Java の起動を高速化する drip を使う
+tags: drip, java, clojure
+pagetype: posts
+---
+[Clojure][clojure] のような JVM 言語を使っていると気になるのが、JVM の起動の遅さ。これは他の JVM 言語でもよく問題になるようで、解決策が既にいくつかある。
+
+[Nailgun][nailgun] / [GroovyServ][groovyserv] / Jark などがある。Nailgun は [VimClojure][vimclojure] からよく使っているし、[過去に](/2012/06/25/fix/)、[何度か](/2012/06/28/vimclojure/)、記事を書いている。今日は新たに [drip][drip] を試してみた。
+
+drip のインストールは容易だ。[Leiningen][leiningen] のインストールとよく似ている。GitHub のプロジェクトページから `curl` でスクリプトをダウンロードし、実行権限を与える。それだけだ。詳しくは [Installation](https://github.com/flatland/drip#installation) を見ると良い。たったの 2 コマンドなので見るまでもないが。
+
+使いかたは `drip -cp clojure.jar clojure.main` のように `java` コマンドぽく使うだけだ。既に `drip` で再利用できる JVM が立ち上がっていれば、それを利用するし、そうでなければ JVM を立ち上げる。
+
+ぼくの使った感じだと早くなるときとならないときの差が分かりづらいと感じた。確かに早くなるときはなるのだけれど、体感できない場合もあったり……。
+
+ちなみに Clojure から使う場合は [Wiki にある Clojure 向けの説明](https://github.com/flatland/drip/wiki/Clojure) も目を通しておくことをおすすめする。Leiningen で使われる Java コマンドの切り換え設定が書かれている。
+
+30 min.
+
+[drip]: https://github.com/flatland/drip
+[clojure]: http://clojure.org/
+[github]: https://github.com/
+[nailgun]: http://www.martiansoftware.com/nailgun/
+[groovyserv]: http://kobo.github.com/groovyserv/
+[vimclojure]: https://bitbucket.org/kotarak/vimclojure/
+
