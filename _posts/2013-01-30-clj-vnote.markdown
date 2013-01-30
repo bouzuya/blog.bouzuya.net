@@ -1,0 +1,21 @@
+---
+layout: post
+pubdate: "2013-01-30T23:59:59+09:00"
+title: Clojure で VNOTE を読む
+tags: clojure
+pagetype: posts
+---
+Galaxy S II の標準のメモツールは VNOTE という謎の形式でファイルを共有する。
+
+この形式を parse したくなったので、 Clojure を使ってやっつけで実装した。
+
+[bouzuya/clj-vnote][clj-vnote]
+
+正規表現で抜いて、意味も何も解釈せず、改行コードを強引に置き換えて、標準出力へ。
+
+とりあえず動くので良しとする。必要になったら改良する。
+
+4 min.
+
+[clj-vnote]: https://github.com/bouzuya/clj-vnote
+
