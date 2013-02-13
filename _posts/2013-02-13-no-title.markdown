@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2013-02-13T23:54:49+09:00"
+title: 飲む
+tags: misc
+pagetype: posts
+---
+飲んだ結果がこれだよ。
+
+0 min.
