@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2013-02-22T23:59:59+09:00"
-title: カンボジアから
+title: カンボジアから、そのいち
 tags: misc
 pagetype: posts
 ---
