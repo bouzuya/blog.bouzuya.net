@@ -1,0 +1,20 @@
+---
+layout: post
+pubdate: "2013-03-05T23:52:59+09:00"
+title: Java から JSON を扱う
+tags: java
+pagetype: posts
+---
+Java から JSON を扱いたくなった。まあ理由はさておき、JSON を扱いたくなったので、いくつかの JSON を扱う Java ライブラリを Clojure から使うことにした。Clojure にも JSON を扱うライブラリはあるのだけれど、そこはまあ事情があるのだ。
+
+Java には JSON を扱うための標準ライブラリはない。 JSR 353 がそれなのだが、まだぼくのローカルにインストールされている JDK には実装されていないようだ。名前空間は `javax.json` らしい。
+
+標準であるにこしたことはないが、ないならないで仕方ないので、ライブラリを探す。
+
+やまほどライブラリはあるが Jackson / JSONIC あたりが候補。Clojure + Compojure + clj-json で簡単なサーバーを作って、そこに Clojure の Java Interop を使って Java ライブラリを検証する。
+
+Clojure はこういうときにいいね。Groovy なんかだともっと楽なのかもしれないけど。
+
+もうちょっとやりたいのだけれど、くすりで調子が悪いので寝る。
+
+5 min.
