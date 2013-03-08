@@ -1,0 +1,12 @@
+---
+layout: post
+pubdate: "2013-03-08T23:59:59+09:00"
+title: SVNKit を使う
+tags: misc
+pagetype: posts
+---
+諸事情により、Java から Subversion を操作したくなった。そこで pure Java な Subversion 操作ライブラリである SVNKit を使うことにした。
+
+試してみたところ、呼び出しやすいかはともかくとして、やりたいことはできそうだ。簡単なバッチファイルなのだけれど、Subversion リポジトリからのファイルエクスポートが必要なのだ。ソースコードは明日公開する。
+
+2 min.
