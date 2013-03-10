@@ -1,0 +1,23 @@
+---
+layout: post
+pubdate: "2013-03-10T23:59:59+09:00"
+title: Amazon から価格を検索する oikura 
+tags: clojure
+pagetype: posts
+---
+Amazon から商品の価格を得られる [oikura][bouzuya/oikura] を書いた。
+
+[Amazon Product Advertising API][amazon-product-advertising-api] を呼び出すことで情報を得ている。はじめ、スクレイピングしようかと思ったのだけれど、利用規約的にまずそうだったので、この方法に決めた。
+
+言語は Clojure 。 API の解説ページに Java のサンプルが載っていたし、もともと Clojure で書きたかったので、ちょうど良かった。ライブラリは以前も使っている clj-http や clojure.data.zip などで、特に新しいものは使っていない。処理は [bouzuya/clj-google-reader][bouzuya/clj-google-reader] で書いたものと似ている。
+
+Amazon Product Advertising API で迷うとすれば RFC3986 ? の URL エンコーディングと、 RFC2104 の HMAC-SHA256 を使っている箇所くらい。どちらもサンプルコード通りにしておいた。 URL エンコーディングについてはサンプルコードを見る限り RFC3986 じゃないような気もするが、とりあえず動くので良し ( 70点 ) とする。日本語やら英語やらで書かれるよりソースコードを貼ってくれる方が楽で良い。
+
+次はこの価格をグラフ化する。
+
+15 min.
+
+[amazon-product-advertising-api]: https://affiliate.amazon.co.jp/gp/advertising/api/detail/main.html
+[bouzuya/oikura]: https://github.com/bouzuya/oikura
+[bouzuya/clj-google-reader]: https://github.com/bouzuya/clj-google-reader
+
