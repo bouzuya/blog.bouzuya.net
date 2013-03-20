@@ -16,4 +16,4 @@ pagetype: posts
 5 min.
 
 [bouzuya/oikura]: https://github.com/bouzuya/oikura
-[oikura-0.4.0-image]: http://gyazo.com/f6cbb9cc4054ebf6eebb1e49744f7052
+[oikura-0.4.0-image]: http://gyazo.com/f6cbb9cc4054ebf6eebb1e49744f7052.png
