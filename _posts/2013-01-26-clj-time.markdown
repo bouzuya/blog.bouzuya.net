@@ -1,6 +1,6 @@
 ---
 layout: post
-pubdate: "2013-01-27T04:05:21+09:00"
+pubdate: "2013-01-26T23:59:59+09:00"
 title: clj-time でハマる
 tags: clojure
 pagetype: posts

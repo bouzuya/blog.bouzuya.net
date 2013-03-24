@@ -1,6 +1,6 @@
 ---
 layout: post
-pubdate: "2013-01-20T00:50:44+09:00"
+pubdate: "2013-01-19T23:59:59+09:00"
 title: Clojure から H2 を使う準備
 tags: clojure
 pagetype: posts
