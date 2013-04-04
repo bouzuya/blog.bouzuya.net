@@ -1,6 +1,6 @@
 ---
 layout: post
-pubdate: "2013-04-05T01:43:07+09:00"
+pubdate: "2013-04-04T23:59:59+09:00"
 title: Apache Ivy を自動でインストール
 tags: java
 pagetype: posts
