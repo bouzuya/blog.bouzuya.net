@@ -1,0 +1,126 @@
+#page {
+  width: 100%;
+  height: 100%;
+}
+
+#page #page-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 48px;
+  margin: 0;
+  z-index: 99;
+}
+
+#page #page-header h1 {
+  margin: 0;
+  line-height: 48px;
+}
+
+#page #page-header h1 a,
+#page #page-header h1 a.current {
+  border-radius: 0;
+  color: #ffffff;
+  background-color: #4E6A41;
+  text-align: left;
+}
+
+#page #page-header h1 a:hover {
+  color: #ffffff;
+  background-color: #4e6a41;
+}
+
+#page #page-header nav {
+  margin: 0;
+}
+
+#page #page-header nav ul {
+  background-color: #0f0;
+  position: fixed;
+  top: 8px;
+  left: 320px;
+  width: 384px;
+  height: 40px;
+}
+
+#page #page-header nav li {
+  display: block;
+  width: 96px;
+  float: left;
+  height: 100%;
+  padding-right: 8px;
+  margin: 0;
+}
+
+#page #page-header nav li a {
+  border-radius: 8px 8px 0 0;
+  height: 100%;
+  text-align: center;
+}
+
+#page #page-header nav li a span {
+  padding: 0;
+}
+
+#page #page-body {
+  margin: 48px 0 0 0;
+  width: 100%;
+}
+
+#page #page-body .post .post-header,
+#page #page-body .post .post-header h1 {
+  margin: 0;
+  line-height: 2;
+}
+
+#page #page-body .post .post-header h1 a {
+  width: auto;
+}
+
+#page #page-body .post .post-footer nav {
+  position: fixed;
+  top: auto;
+  right: auto;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  padding: 0;
+}
+
+#page #page-body .post .post-footer nav li {
+  display: inline;
+}
+
+#page #page-body .post .post-footer nav a[title="older entry"] {
+  color: transparent;
+  background-image: url(/images/arrow-left.png);
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 48px;
+}
+
+#page #page-body .post .post-footer nav a[title="older entry"]:hover {
+  background-color: #ff6633;
+}
+
+#page #page-body .post .post-footer nav a[title="newer entry"] {
+  color: transparent;
+  background-image: url(/images/arrow-right.png);
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: 48px;
+}
+
+#page #page-body .post .post-footer nav a[title="newer entry"]:hover {
+  background-color: #ff6633;
+}
+
+#page #page-footer {
+  display: none;
+}
+
