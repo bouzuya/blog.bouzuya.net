@@ -5,7 +5,7 @@ title: はてなブックマークでユーザーごとのブックマーク数�
 tags: misc
 pagetype: posts
 ---
-[はてなブックマークでユーザーごとのブックマーク数を得るためにスクレイピングした。][https://gist.github.com/bouzuya/5509002]
+[はてなブックマークでユーザーごとのブックマーク数を得るためにスクレイピングした。](https://gist.github.com/bouzuya/5509002)
 
 その過程で Jsoup を使ったのだけれど、これがなかなか良い jQuery のように CSS セレクタをクエリとして Elements を抜き出せる。おまけに `Jsoup.connect(url).get()` で url の HTML 取得までしてくれるからサクサク。これは良いね。あるものを使わないといけないね。うん。
 
