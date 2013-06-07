@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2013-06-07T23:59:59+09:00"
+title: よわり
+tags: misc
+pagetype: posts
+---
+よわっています。インフルエンザとか流行ってたらかかるね、たぶん。
+
+1 min.
