@@ -20,3 +20,5 @@ bouzuya.net は、ぼく bouzuya のつくったサービスやコンテンツ�
 bouzuya.net が、ぼくの外への活動の、次の一歩になると良いな。
 
 14 min.
+
+[bouzuya-net]: http://bouzuya.net
