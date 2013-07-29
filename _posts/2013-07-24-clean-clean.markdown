@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2013-07-24T23:02:54+09:00"
-title:掃除掃除
+title: 掃除掃除
 tags: misc
 pagetype: posts
 ---
