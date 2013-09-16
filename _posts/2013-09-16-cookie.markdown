@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2013-09-16T22:22:48+09:00"
+title: Cookie Clicker
+tags: misc
+pagetype: posts
+---
+朝から台風が通過してひどい雨と風とが家を襲ったわけだけれど、ぼくは[Cookie Clicker][cookie-clicker]をプレイしていた。
+
+Cookie Clickerはクッキーを焼くゲームだ。ただひたすらに焼く。クリックして、設備に投資して、クッキーを焼く。食べることもなく、ただひたすらに焼く。拡大再生産とでも言うのか、目的はより多くのクッキーを焼くこと。クッキーを焼くためにクッキーを焼くというゲーム。
+
+何がやりたいのかさっぱり分からない。
+
+Ruby on Railsの書籍を読むのはすこしずつしか進んでいない。2週間でも終わらないペースだ。AWSへの引っ越しも半端だし、仕事の調べものも半端な状態だ。停滞しているだけだ。クッキーを焼いている場合じゃないのは確かだ。
+
+9 min.
+
+[cookie-clicker]: http://orteil.dashnet.org/cookieclicker/
