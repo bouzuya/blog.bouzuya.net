@@ -1,0 +1,26 @@
+---
+layout: post
+pubdate: "2013-09-25T23:59:59+09:00"
+title: 給与は翌月25日払い
+tags: misc
+pagetype: posts
+---
+給与は翌月25日払い。ぼくはそれを知らなかった。
+
+今日、給与明細の配布があった。……が、ぼくだけなかった。そもそも給料日だということを忘れていたのだけれど、配布される明細を見てにわかに喜んだ。「やった初任給だ」などと喜んだ。……が、ぼくに給与明細はなかった。
+
+給与は翌月25日払いだった。てっきり当月25日払いだと勘違いしていた。周囲から「○○くんはまだだよ」と言われて、普通に凹んだ。帰って労働条件を確認したけれど、確かに翌月25日で。何も問題はないのだけれど、あの喜びとそれを否定されたこの悲しみを何にぶつけて良いか分からなくて……。
+
+とりあえず、[bouzuya/mysalary][bouzuya/mysalary] というアプリケーションを作成した。
+
+ゴミみたいなもので、jQuery を使ってクリックしたら [salary] と書かれた div box がすこしずつ逃げる。それだけ。そんなところはどうでも良くて。そんな HTML 1 ファイルで実現できることを、node + express + jade で書き、mocha + supertest + should を使ってテストを書いていることこそ重要。
+
+色々勉強になる。`npm init` で `package.json` ができることとか、`npm install <pakage> --save` で `package.json` の `dependencies` に保存されることとか、`package.json` の `scripts` に `test` をうまく書いておけば `npm test` で `mocha` を動かせることとか、`jade` は HTML で書くよりずっと簡潔なこととか、`express` のディレクトリ構成とか、`express` から `jade` を使う方法とか、`express` から静的ファイルを参照させる方法とか、`mocha` はテストの外枠?に過ぎないこととか、`supertest` は `superagent` の上に構築されたテスト用ライブラリで HTTP リクエストなどのテストがしやすくなることとか、`should` や `assert` なんてテスト用ライブラリがあることとか……。
+
+別に生活には困りません。すこしはたくわえているので。
+
+悲しみ駆動開発。
+
+19 min.
+
+[bouzuya/mysalary]: https://github.com/bouzuya/mysalary.git
