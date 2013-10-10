@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2013-10-10T23:59:59+09:00"
+title: 眠いか
+tags: misc
+pagetype: posts
+---
+眠いかと聞かれれば眠いと答える。
+
+1 min.
