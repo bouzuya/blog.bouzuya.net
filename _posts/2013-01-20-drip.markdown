@@ -20,6 +20,7 @@ drip のインストールは容易だ。[Leiningen][leiningen] のインスト�
 30 min.
 
 [drip]: https://github.com/flatland/drip
+[leiningen]: http://github.com/technomancy/leiningen/
 [clojure]: http://clojure.org/
 [github]: https://github.com/
 [nailgun]: http://www.martiansoftware.com/nailgun/
