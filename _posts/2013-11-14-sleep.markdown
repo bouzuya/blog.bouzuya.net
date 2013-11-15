@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2013-11-14T23:59:59+09:00"
+title: 寝る
+tags: misc
+pagetype: posts
+---
+寝る。風呂に入りそびれる。疲れているのかな。
+
+1 min.
