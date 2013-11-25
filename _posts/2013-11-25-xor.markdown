@@ -20,4 +20,5 @@ XORを作る。
 最終的にnand(not+and)だけでできることが分かった。記憶は正しかったけれど、これ以外の方法もあったような気がする。まあ飽きてしまったので、[bouzuya/xor][bouzuya/xor]として公開して、やめることにする。
 
 9 min.
+
 [bouzuya/xor]: https://github.com/bouzuya/xor
