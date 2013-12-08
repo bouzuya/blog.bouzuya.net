@@ -1,0 +1,47 @@
+---
+layout: post
+pubdate: "2013-12-08T20:48:00+09:00"
+title: Backlog API wrapper for Node.jsを0.2.0にした
+tags: javascript
+pagetype: posts
+---
+Backlog API wrapper for Node.js([bouzuya/node-backlog-api][])を0.2.0にした。0.1.1から0.2.0にバージョンアップした。
+
+インストールは`npm install backlog-api`で良い。
+
+主な変更は、次のとおり。
+
+- 引数の指定方法を変更
+- 引数のバリデーションを追加
+- backlog.findIssueのサポートを追加
+
+引数の指定方法を変更した。0.1.1とは互換性がなくなっているので注意が必要である。引数なしの場合は以前と同様だけれど、引数ありの場合に異なる。第一引数は常に`object`を指定する。
+
+例えば、getProjectの第一引数はリクエストXML上はstructでないため、`backlog.getProject(projectId, function(err, project) { ... });`と指定する以前の形で良いのだけれど、変更後は`backlog.getProject({ projectId: projectId }, function(err, project) { ... });`となる。これだけ見ると長くなって改悪ぽいけど、一貫性のためにこうした方が良い。よりリファレンスに近い形で指定できる。リクエストXMLを意識するのではなく、メソッド名とパラメータ名と値で十分になる。
+
+引数のバリデーションを追加した。必須のパラメーターについてはバリデーションが追加されているため、指定していない場合にBacklogからではなくライブラリからエラーを返す。型チェックはないけれど、そこまで厳密でなくても良いかなと。
+
+最後にbacklog.findIssueのサポートを追加した。サポートの追加は単純作業なので、そんなに大変ではない。一気に増やすと、内部構造を変えたときに二度手間なので、様子を見ながら増やしている。findIssueが欲しかったのは、順番的なものと、[hubot][github/hubot]からの呼び出しに使いたかったから。
+
+外見の変化は以上。
+
+中身としては、メソッドを個別に作成するのではなく、宣言的にメソッドを書いておいて、それらを最後に`Backlog.prototype`に追加するような仕組みを追加した。宣言的に書いておく分もファイルごとに分離した。あとは作業かなあ。
+
+次はテストコードをもうすこし良いものにしておきたい。実際にサービスを呼び出しているため、1ケース1秒くらいかかるし、今後追加する更新系のAPIを呼び出すとややこしくなるからだ。
+
+ちなみに、今回の変更を使って[bouzuya/hubot-backlog][]を書いた。プロジェクトと未完の課題とを取得できるようにしている。hubot-scriptsに慣れる意味合いもあるので、恐々書いている。hubot側のデプロイを容易にしたりもしないとなあ。
+
+まとめると、課題は次のとおり。
+
+- 残りのAPIの実装
+- テストコードにモックを使う(更新系APIの対策)
+- hubot-scriptsのデプロイを容易にする
+
+さてさて、どうなんでしょうね。
+
+45 min.
+
+[bouzuya/node-backlog-api]: https://github.com/bouzuya/node-backlog-api
+[bouzuya/hubot-backlog]: https://github.com/bouzuya/hubot-backlog
+[github/hubot]: https://github.com/github/hubot
+
