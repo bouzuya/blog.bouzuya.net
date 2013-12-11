@@ -1,0 +1,27 @@
+---
+layout: post
+pubdate: "2013-12-11T22:59:00+09:00"
+title: Backlog API for Node.js 0.3.0をリリースした
+tags: javascript
+pagetype: posts
+---
+Backlog API for Node.js 0.3.0([bouzuya/node-backlog-api][])をリリースした。
+
+Backlog API for Node.jsは、Node.jsから[Backlog API][backlog-api]へのアクセスを簡単にするライブラリ。そのバージョン0.3.0をリリースした。インストールなどは[bouzuya/node-backlog-api][]を参照。
+
+今回の変更は次のとおり。
+- `backlog.getProjectSummary`のサポート
+- `backlog()`の引数を省略可能にした
+
+`backlog.getProjectSummary`はサポートするメソッドの追加。別段変わったところはなし。
+
+`backlog()`の引数は以前はすべて必須だったのだけれど、0.3.0からは省略時に環境変数`BACKLOG_SPACE_ID`/`BACKLOG_USERNAME`/`BACKLOG_PASSWORD`を参照するようになった。活用すれば、コードをよりシンプルに書ける。
+
+その他テストコードのリファクタリングなどの変更はあるが、インタフェースには影響はない。
+
+hubot-backlogはおやすみしている。テストコードのリファクタリングでAPIの呼び出しもなくなったし、一気に残りのメソッドを実装したいところ。
+
+15 min.
+
+[bouzuya/node-backlog-api]: https://github.com/bouzuya/node-backlog-api
+[backlog-api]: http://backlog.jp/api/
