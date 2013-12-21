@@ -1,0 +1,12 @@
+---
+layout: post
+pubdate: "2013-12-21T22:12:35+09:00"
+title: Node.jsをさわさわ
+tags: javascript
+pagetype: posts
+---
+Node.jsをさわさわしている。一日で仕上げようと思ったけど、無理だった。自分の能力の低さと集中力のなさが悲しい。
+
+Vimで`:ab fn function`するとはかどる気がする。
+
+1 min.
