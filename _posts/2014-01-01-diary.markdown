@@ -1,0 +1,33 @@
+---
+layout: post
+pubdate: "2014-01-01T23:59:59+09:00"
+title: hubot-urlをつくった
+tags: javascript, node.js, hubot
+minutes: 20
+pagetype: posts
+---
+[hubot-url][bouzuya/hubot-url]をつくった。
+
+目的は、[HipChat][hipchat]にてURLを貼り付けたときに当該Webページのタイトルを表示してくれない問題を解決するため。
+
+解決策として、[Hubot][github/hubot]を使うことにした。[hubot-hipchat][hipchat/hubot-hipchat]アダプターでHipChatとHubotとを連携させたうえで、Hubotスクリプトとして「発言からURLにマッチするものがあれば、自動でfetchし、そのタイトルとog:imageとを通知するもの」をつくった。
+
+それが[hubot-url][bouzuya/hubot-url]である。
+
+今回のスクリプトをつくる過程でいくつかHubotスクリプトのテストについて学んだ。
+
+Hubotスクリプトのテストコードを書く場合にHubotを動かしたいことがある。その場合の注意点。
+
+HubotはCoffeeScriptで書かれているため、事前に`require('coffee-script')`しておく必要がある。`npm install --save-dev hubot`すればテスト用にHubotへの依存関係を設定できる。しかし、`require('hubot');`するだけではエラーになってしまう。HubotはCoffeeScriptで書かれているため、事前に`require('coffee-script');`しておき、`require`が`.coffee`を解釈できるようにする必要がある。
+
+Hubotは何らかのアダプターを要求する。そこでモックオブジェクトを設定すると良い。具体的には[hubot-mock-adapter][blalor/hubot-mock-adapter]を使うと良い。使いかたはリンク先を参照。`npm install --save-dev hubot-mock-adapter`しておき、それを使って、テストコードを書く。正直なところ、機能が弱すぎて、アダプターの知識がないと使えないし、面倒くさい。もっと用途を限定して、楽に使えるものをつくるのも良いかもしれない。
+
+2014年はJavaScriptの年になると思っていて、その一歩がHubotやHubotスクリプトにするつもりだ。
+
+20 min.
+
+[bouzuya/hubot-url]: https://github.com/bouzuya/hubot-url
+[github/hubot]: https://github.com/github/hubot
+[hipchat/hubot-hipchat]: https://github.com/hipchat/hubot-hipchat
+[blalor/hubot-mock-adapter]: https://github.com/blalor/hubot-mock-adapter
+[hipchat]: https://www.hipchat.com/
