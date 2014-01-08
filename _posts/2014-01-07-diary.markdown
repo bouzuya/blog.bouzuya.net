@@ -6,7 +6,7 @@ tags: javascript, phonegap
 minutes: 30
 pagetype: posts
 ---
-PhoneGap/PhoneGap Buildをためした。
+[PhoneGap][phonegap]/[PhoneGap Build][phonegap-build]をためした。
 
 PhoneGapはWeb標準技術HTML/CSS/JavaScriptを使ってモバイルアプリケーションをつくるためのフレームワーク。Apache Cordovaとして公開されているOSSをAdobeが提供しているもの。いわゆるハイブリッドアプリをつくるためのソフトウェア。
 
@@ -29,4 +29,5 @@ PhoneGap Buildなのだけれど、[bouzuya/phonegap-example][]にダミーの�
 次は中身をやっていかないとなあ。jQuery Mobileかなあ。Yeomanなどの続きものと合わせて使えればかなり良さげ。今週の目標からやや離れてしまっているけど、フロントエンド力的な意味では前に、いや、斜め上に行ってるんじゃないかな。……それってどうなんだ。
 
 [bouzuya/phonegap-example]: https://github.com/bouzuya/phonegap-example
-
+[phonegap]: http://phonegap.com/
+[phonegap-build]: https://build.phonegap.com/
