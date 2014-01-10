@@ -1,0 +1,36 @@
+---
+layout: post
+pubdate: "2014-01-10T23:59:59+09:00"
+title: grunt-contrib-cleanをためした
+tags: javascript, grunt
+minutes: 25
+pagetype: posts
+---
+[grunt-contrib-clean][gruntjs/grunt-contrib-clean]をためした。
+
+正確に言うと、この間から使っていたので「ためした」だといまさらだけれど、あまり分からないまま使っていたので、改めて中身を読んでみた。改めてためした、と。
+
+改めて説明するとgrunt-contrib-cleanは[Grunt][grunt]のタスクのひとつ。ファイルを消去するcleanタスクを定義する。
+
+GruntはJavaScriptのタスク自動化ツールの中でも特に重要だと思っていて、基本的なタスクは押さえておきたいし、必要に応じて書けるようにもなりたいと思っている。そこで、[Yeoman][yeoman]のジェネレーターの出したものから順に読むつもり。
+
+で、今回はgrunt-contrib-clean。cleanタスクは`grunt clean:target`のような形で使える。targetはGruntfile.jsのgrunt.initConfigで指定する。使いかたの詳細はGitHubのREADME.mdを見ると良い。
+
+    clean: {
+      dist: {
+        files: [{
+          dot: true,
+          src: ['.tmp', '<%= yeoman.dist %>/*']
+        }]
+      },
+      server: '.tmp'
+    }
+
+README.mdには書かれていないが、上記のようなGruntの[files][]指定ができる。filesSrcを使っているので、上記のsrcが使われる。
+
+Gruntfile.jsにもずいぶん慣れてきた。言っても各種タスクとオプションくらいしかないし、実質JavaScriptのコードが並んでいるだけなので、大したことはない。この調子でがんばりたい。
+
+[gruntjs/grunt-contrib-clean]: https://github.com/gruntjs/grunt-contrib-clean
+[grunt]: http://gruntjs.com/
+[yeoman]: http://yeoman.io/
+[files]: http://gruntjs.com/configuring-tasks#files
