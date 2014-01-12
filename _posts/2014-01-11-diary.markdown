@@ -1,12 +1,12 @@
 ---
 layout: post
 pubdate: "2014-01-11T23:59:59+09:00"
-title: load-grunt-configなどをためす
+title: load-grunt-configなどをためした
 tags: javascript, grunt
 minutes: 15
 pagetype: posts
 ---
-[load-grunt-config][npmjs-load-grunt-config]などをためす。
+[load-grunt-config][npmjs-load-grunt-config]などをためした。
 
 昨日に引き続き、Gruntの各種プラグインをためす。今日は次のものを試した。
 
@@ -32,5 +32,5 @@ Gruntプラグインのひながたはgrunt-initというscaffoldingツールで
 
 明日はBackbone.jsを実際に使ってみよう。うん。
 
-[npmjs-load-grunt-tasks]: https://npmjs.org/package/load-grunt-config
+[npmjs-load-grunt-config]: https://npmjs.org/package/load-grunt-config
 
