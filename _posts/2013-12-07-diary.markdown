@@ -27,5 +27,6 @@ hubot-backlogと並行してつくっていくのでよろしく。
 [bouzuya/clj-backlog]: https://github.com/bouzuya/clj-backlog
 [github/hubot]: https://github.com/github/hubot
 [backlog]: http://backlog.jp/
+[backlog-api]: http://www.backlog.jp/api/
 [npm/backlog-api]: https://npmjs.org/package/backlog-api
 
