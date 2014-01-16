@@ -1,0 +1,19 @@
+---
+layout: post
+pubdate: "2014-01-16T23:35:40+09:00"
+title: Herokuをためした
+tags: javascript, nodejs
+minutes: 17
+pagetype: posts
+---
+Herokuをためした。
+
+実はHeroku、はじめてではなくてClojureをやっていたころに一度ためしていて、二度目になる。前回は課金するつもりがなかったけれど、課金も考えているし、業務で使えるところまでもっていきたい。
+
+言語や環境は変わっている。前回はClojureで、今回はNode.js。最近のお気に入りのJavaScript。このところはBackbone.jsやAngularJSなどをためしている。サーバーサイドもクライアントサイドもJavaScriptで、手軽に環境を用意できる、ポータブルなアプリケーションを配りたいと考えている。
+
+今日はherokuコマンドが使えるようにインストールして、heroku create/heroku ps/heroku ps:scale web=2/heroku logs/heroku addons:add scheduler/heroku addons:add mongolab/heroku config:set NAME=bouzuyaした。細かい説明は割愛。アプリケーションをデプロイするのはgit pushで済むし、スケールやログや設定も簡単。addonを追加していい感じ。改めてさわったわけだけど、ホント手軽。Procfileにプロセスの情報を書いておいて、あとは普通にgit操作するくらい。お金と相談しながら色々ためそう。
+
+MEANスタック(MongoDB/Express/AngularJS/Node.js)で構築したアプリケーションをHerokuにデプロイするのを目指す。今日の時点でMongo/Express/Node.jsでアプリケーション書いてHerokuデプロイまではOK。あとはAngularJSを含めないとね。できればAPIとアプリとを完全に切り離した形にしたいと思っている。
+
+さてさて、今週も明日、明後日で終わり。今週はどうだろうね。
