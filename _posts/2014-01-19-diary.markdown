@@ -1,0 +1,27 @@
+---
+layout: post
+pubdate: "2014-01-19T23:59:59+09:00"
+title: 今週のふりかえり
+tags: 'looking back'
+minutes: 17
+pagetype: posts
+---
+今週のふりかえり。1/13-1/18までの一週間をふりかえる。
+
+つくったものはカレー。料理は良い。できて困るものではない。心が豊かになる気がする。
+
+ためしたものはBackbone.js/AngularJS/KnockoutとHeroku。各種JavaScriptフレームワークとPaaS。フレームワークについてはBackbone.js/Knockoutも有効性を意識しつつも、人気やら完成度やらに負けてAngularJSを今後は使っていくつもり。Herokuは軽くさわっただけだけれど、なかなか良いのでアプリケーション配置環境として積極的に使っていくつもり。
+
+- K:
+  - 料理。週2回くらいは夕飯をつくるのが良いかもしれない。
+  - MEANスタック(MongoDB/Express/AngularJS/Node.js)の利用。
+  - Herokuの利用。
+  - Yeoman(yo/grunt/bower)の利用。
+- P:
+  - 先週のTであるBacklogを使ったBackbone.jsアプリケーションが進んでいない。
+  - プルリクエストなど、外部プロジェクトへの貢献がない。
+  - 新しい情報を集めすぎていて、整理に手がまわっていない。
+- T:
+  - (Backbone.jsの代わりに)AngularJSを掘り下げて使う。
+  - 現状の知識で動くものをつくることで、整理を行う。
+
