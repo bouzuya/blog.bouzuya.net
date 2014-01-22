@@ -1,0 +1,37 @@
+---
+layout: post
+pubdate: "2014-01-22T22:34:12+09:00"
+title: Ionicをためした
+tags: javascript, ionic
+minutes: 21
+pagetype: posts
+---
+[Ionic][ionicframework]をためした。
+
+Ionicはハイブリッドアプリ向けのフレームワーク。[AngularJS][angularjs]/[Cordova][cordova]([PhoneGap][phonegap])の利用を想定している。対象としているのがiOS6,7/Android4.1+で最近の端末だけ。
+
+個人的にAngularJSを使ったハイブリッドアプリをつくりたいので、Ionicを選択しようと思う。類似のフレームワークには[jQuery Mobile][jquery-mobile]などがある。jQuery Mobileは各種JavaScriptフレームワークと相性があまり良くない。ルーティングが邪魔をしたり、イベントの処理が直接的だったり、組み合わせるにも工夫が要る。
+
+そこでIonicというわけ。
+
+ためした、とか書きつつも、 まだほとんどためしていない。まずはCordova(PhoneGap)を含めた環境を構築している。
+
+Cordova(PhoneGap)のビルド環境を整えるのが大変なので、[PhoneGap Build][phonegap-build]を使う。PhoneGap BuildはCordova(PhoneGap)のファイル一式をとるわけではなくて、Web関連のファイルのルートを対象にとる。Cordova(PhoneGap)プロジェクトで言うと`/www`ディレクトリ配下を保持しているzipまたはGitHubリポジトリが必要である。AngularJS + Ionicだと当然[Grunt][grunt]が必要になるので、wwwをルートとするリポジトリではない。そもそも、[grunt-phonegap][]を使うと`phonegap`プロジェクトディレクトリはビルド済みファイルであって、バージョン管理の必要さえない。
+
+そこでgit submoduleを使う。`/phonegap/www`をサブモジュールとして別リポジトリで用意する。そこをPhoneGap Buildの対象にする。ビルド済みファイルなので本来それを管理するのは冗長なのだけれど、仕方ないかな。
+
+サンプルは[bouzuya/ionic-example-root][]と[bouzuya/ionic-example][]。-rootがついているのがメインのリポジトリで、何もついていない方がPhonegap Build向けのリポジトリ。最初、そういう構成が必要だと思っていなくてこうなった。とりあえず、ビルドの確認のためだけにつくったリポジトリなので、本格的に試すならまた別でやる。
+
+さて、がんばろう。
+
+[ionicframework]: http://ionicframework.com/
+[angularjs]: http://angularjs.org/
+[cordova]: http://cordova.apache.org/
+[phonegap]: http://phonegap.com/
+[jquery-mobile]: http://jquerymobile.com/
+[phonegap-build]: https://build.phonegap.com/
+[grunt]: http://gruntjs.com/
+[grunt-phonegap]: https://npmjs.org/package/grunt-phonegap
+[bouzuya/ionic-example-root]: https://github.com/bouzuya/ionic-example-root
+[bouzuya/ionic-example]: https://github.com/bouzuya/ionic-example
+
