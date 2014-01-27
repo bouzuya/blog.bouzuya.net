@@ -1,0 +1,9 @@
+---
+layout: post
+pubdate: "2014-01-27T23:59:59+09:00"
+title: 無題
+tags: misc
+minutes: 1
+pagetype: posts
+---
+疲れていたのか、風呂で寝て、こたつで寝てしまった。何もしていない。
