@@ -1,0 +1,9 @@
+---
+layout: post
+pubdate: "2014-01-29T23:59:59+09:00"
+title: 無題
+tags: misc
+minutes: 1
+pagetype: posts
+---
+寝てしまった。こたつで。何をしてたかも覚えていない。気づいたら朝で、こたつで。のどが痛い。
