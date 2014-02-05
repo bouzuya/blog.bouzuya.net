@@ -1,0 +1,24 @@
+---
+layout: post
+pubdate: "2014-02-05T13:42:58+09:00"
+title: cars-counter-githubをつくった
+tags: javascript
+minutes: 7
+pagetype: posts
+---
+[bouzuya/cars-counter-github][]をつくった。
+
+cars-counter-githubは[bouzuya/cars][]のカウンタープラグインのひとつ。GitHubのfollowing/followers/public repos/public gistsをカウントする。
+
+実装としては、特に難しい要素はなし。[ajaxorg/node-github][]を使ってGitHub APIを呼び出しているだけ。
+
+変わった点としては通信をするような遅いテストをmochaで無視して実行するように設定している。
+
+`mocha --inverse --grep '\[slow\]'` とかを実行すると `it('[slow] hoge', func...` とか書いてあるテスト以外のテストを実行する。grepをinverseで反転させているわけ。
+
+mochaでスローテスト回避ですね。分かります。[参考はGitHubの作者コメント](https://github.com/visionmedia/mocha/issues/402#issuecomment-5637576)。
+
+[bouzuya/cars-counter-github]: https://github.com/bouzuya/cars-counter-github
+[bouzuya/cars]: https://github.com/bouzuya/cars
+[ajaxorg/node-github]: https://github.com/ajaxorg/node-github
+
