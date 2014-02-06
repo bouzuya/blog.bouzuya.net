@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2014-02-03T13:45:48+09:00"
-title: bouzuya/uploader-hatena-graphをつくった
+title: uploader-hatena-graphをつくった
 tags: javascript
 minutes: 
 pagetype: posts

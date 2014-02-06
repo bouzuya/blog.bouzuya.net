@@ -1,0 +1,20 @@
+---
+layout: post
+pubdate: "2014-02-06T23:36:24+09:00"
+title: cars-counter-twitterをつくった
+tags: javascript
+minutes: 
+pagetype: posts
+---
+[bouzuya/cars-counter-twitter][]をつくった。
+
+cars-counter-twitterは[bouzuya/cars][]のカウンタープラグインのひとつ。Twitterのtweets/following/followers/favoritesをカウントする。
+
+実装としては、特に難しい要素はなし。[desmondmorris/node-twitter][]を使ってTwitter APIを呼び出しているだけ。
+
+あとちょっとではてなグラフへポストしていた内容を復旧できるね。
+
+[bouzuya/cars-counter-twitter]: https://github.com/bouzuya/cars-counter-twitter
+[bouzuya/cars]: https://github.com/bouzuya/cars
+[desmondmorris/node-twitter]: https://github.com/desmondmorris/node-twitter
+

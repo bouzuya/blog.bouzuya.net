@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2014-02-04T14:09:47+09:00"
-title: bouzuya/carsをつくった
+title: carsをつくった
 tags: javascript
 minutes: 12
 pagetype: posts
