@@ -1,0 +1,16 @@
+---
+layout: post
+pubdate: "2014-02-07T23:59:59+09:00"
+title: node-hatena-graph-cliをつくった
+tags: javascript
+minutes: 2
+pagetype: posts
+---
+[bouzuya/node-hatena-graph-cli][]をつくった。Hatena::Graph APIを使用するためのクライアント。まだ GET DATAしか実装していないけど。
+
+コマンドライン引数の解釈に[visionmedia/commander][]を使っていて、これがなかなか使い心地が良い。そもそも、これを試すために書いてるようなもの。これ書いたら、[bouzuya/node-backlog-api][]にもCLIつけようかな。むしろ、こっちより使いそう。
+
+[bouzuya/node-hatena-graph-cli]: https://github.com/bouzuya/node-hatena-graph-cli
+[bouzuya/node-backlog-api]: https://github.com/bouzuya/node-backlog-api
+[visionmedia/commander]: https://github.com/visionmedia/commander
+
