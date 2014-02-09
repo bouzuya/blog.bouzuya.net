@@ -3,7 +3,7 @@ layout: post
 pubdate: "2014-02-03T13:45:48+09:00"
 title: uploader-hatena-graphをつくった
 tags: javascript
-minutes: 
+minutes: 15
 pagetype: posts
 ---
 [bouzuya/uploader-hatena-graph][]をつくった。これははてなグラフにカウントをアップロードするスクリプト。以前はClojure等で書いていたものをJavaScript(Node.js)で書き直した。これを使って、いま停止させているスクリプトを改めて動かす予定。
