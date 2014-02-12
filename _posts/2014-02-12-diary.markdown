@@ -1,0 +1,55 @@
+---
+layout: post
+pubdate: "2014-02-12T23:59:59+09:00"
+title: Node.jsのWeb API wrapperについてかんがえた
+tags: javascript
+minutes: 25
+pagetype: posts
+---
+Node.jsのAPI wrapperについてかんがえた。
+
+ぼくは過去[Hatena::Graph API][bouzuya/node-hatena-graph-api]や[Backlog API][bouzuya/node-backlog-api]のWeb API wrapperをつくっている。まとめついでに、こういうwrapperのインタフェースについてかんがえてみたい。
+
+Node.js(JavaScript)では関数の呼び出しは非同期の実行になることがままある。そこで使われるのがcallbackを渡す方法。処理が終わったタイミングでcallbackが呼び出される。慣習的にはcallbackの第一引数にはErrorが渡される。例で書くと次のような感じ
+
+    var fn = function(params, callback) {
+      setTimeout(function() {
+        try {
+          var result = doSomething(params);
+          callback(null, result);
+        } catch(e) {
+          callback(e);
+        }
+      }, 1000);
+    };
+    
+    fn({ id: 'bouzuya' }, function(err, result) {
+      if (err) {
+        console.error(err);
+      } else {
+        console.log(result);
+      }
+    });
+
+ぼくの書いたWeb API wrapperでも類似のインタフェースを採用している。これまでは`function(params, callback)`で第一引数にobjectでパラメーター、第二引数にfunctionでcallbackをとるのが汎用的なつくりだと考えてきた。
+
+いま新たに考えているのが、戻り値をもっと使うインタフェースである。具体的に言えば、promiseパターンを採用したい。[CommonJS Promise][commonjs-promise]の実装であるQを使おうかと思っている。
+
+callbackが指定されない場合に戻り値としてpromiseを返す。これを使えば上記の呼び出しを次のように書ける。
+
+    fn({ id: 'bouzuya' })
+    .then(function(result) {
+      console.log(result);
+    })
+    .fail(function(err) {
+      console.error(err);
+    });
+
+こちらの利点は、関数fnがcallbackをとらずに済むし、callbackの第一引数にerrをとるよりも、分かりやすいと感じる。呼び出し側のテストもしやすい。こういった書きかたはjQueryのdeferredなどでも採用されているので、一般的な気がする。
+
+結論としては、今後ぼくがつくる場合には`function(params[, callback])`というインタフェースにして、callback省略時にはpromiseを返すようにしたい。またこっそりwrapperを変更しようと思う。
+
+[commonjs-promise]: http://wiki.commonjs.org/wiki/Promises/
+[bouzuya/node-backlog-api]: https://github.com/bouzuya/node-backlog-api
+[bouzuya/node-hatena-graph-api]: https://github.com/bouzuya/node-hatena-graph-api
+
