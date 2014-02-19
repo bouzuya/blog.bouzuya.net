@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2014-02-19T23:56:34+09:00"
+title: Backlog API wrapper for Node.js 1.0.1 をつくった
+tags: javascript
+minutes: 8
+pagetype: posts
+---
+[Backlog API wrapper for Node.js 1.0.1][bouzuya/node-backlog-api@1.0.1]をつくった。
+
+
+すべてのメソッドを実装した。カスタム属性もざっとは試した。ひととおりのメソッドを実装したのでバージョンを1.xにしている。つまり、一応の正式版ということで。使ってみて、要望なんかがあればPull Requestしてくれるとうれしいな。
+
+さあ、試してみよう。
+
+    $ npm install backlog-api
+
+[bouzuya/node-backlog-api@1.0.1]: https://github.com/bouzuya/node-backlog-api/tree/1.0.1
