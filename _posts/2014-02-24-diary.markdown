@@ -3,7 +3,7 @@ layout: post
 pubdate: "2014-02-24T23:59:59+09:00"
 title: hubot-sakagemcをつくった
 tags: hubot
-minutes: 
+minutes: 10
 pagetype: posts
 ---
 [hubot-sakagemc][bouzuya/hubot-sakagemc]をつくった。hubot scriptで何か役に立つものをと思ってつくった。
@@ -14,7 +14,7 @@ Twitterに[@sakagemc][]というユーザーが居て、写真をよくアップ
 
 実際に使っている場面はこんな感じ。(hubot名がdybotなので注意)
 
-![@dybot sakagemc](http://gyazo.com/6ffc8ef4fd95dfff16859e27c8440a32)
+![@dybot sakagemc](http://gyazo.com/6ffc8ef4fd95dfff16859e27c8440a32.png)
 
 なかなか良いでしょ。写真が良い。ピカピカしている。
 
