@@ -1,0 +1,13 @@
+---
+layout: post
+pubdate: "2014-02-28T23:59:59+09:00"
+title: 無題
+tags: misc
+minutes: 1
+pagetype: posts
+---
+おなかがいたい。まだなおっていない。
+
+hubotをまたさわっている。[bouzuya/hubot-sakagemc][]のバグを直した。
+
+[bouzuya/hubot-sakagemc]: https://github.com/bouzuya/hubot-sakagemc
