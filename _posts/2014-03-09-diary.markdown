@@ -14,7 +14,6 @@ pagetype: posts
 - [2014-03-05 hubot-sakagemcのbomb機能をつくった](http://blog.bouzuya.net/2014/03/05/diary/)
 - [2014-03-04 無題](http://blog.bouzuya.net/2014/03/04/diary/)
 - [2014-03-03 『JavaScript: The Good Parts』をよんだ](http://blog.bouzuya.net/2014/03/03/diary/)
-- [2014-03-02 今週のふりかえり(9)](http://blog.bouzuya.net/2014/03/02/diary/)
 
 あまりつくっていないようだ。
 
