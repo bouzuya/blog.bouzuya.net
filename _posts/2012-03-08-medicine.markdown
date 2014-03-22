@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-03-08T22:08:10+09:00"
 title: くすりをのむ
-tags: diary
+tags: [diary]
 pagetype: posts
 ---
 くすりはすごい。ふらふらだったはずなのにいつのまにやら体が軽い。くすりが効いているうちに日記を書いて寝てしまうつもりだ。

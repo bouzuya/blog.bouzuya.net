@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-03-06T20:57:07+09:00"
 title: まぶたのけいれん
-tags: diary
+tags: [diary]
 pagetype: posts
 ---
 まぶたがけいれんしている。

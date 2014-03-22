@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-02-21T21:42:44+09:00"
 title: ぼくの考えたメモ管理のためのVimプラグイン「vimemo」
-tags: vim
+tags: [vim]
 pagetype: posts
 ---
 

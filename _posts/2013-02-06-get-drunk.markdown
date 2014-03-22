@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-02-06T23:59:59+09:00"
 title: 飲む
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 飲んだ。ふらふらになりながらも、帰宅後に環境構築。今日の目標は OpenJDK 32 bit を動作させること。 Ubuntu Desktop 64 bit では OpenJDK Server VM しかないので、Ubuntu Server 32 bit を試してみる。 Client ではなく Server にしたのは、どうせ Terminal しか使わないのなら、という判断。エコでしょ。

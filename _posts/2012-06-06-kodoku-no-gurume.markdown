@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-06-06T22:00:39+09:00"
 title: 漫画『孤独のグルメ』を読む
-tags: book
+tags: [book]
 pagetype: posts
 ---
 漫画『[孤独のグルメ](http://amazon.jp/o/ASIN/459402856X/bouzuya-22)』を読む。

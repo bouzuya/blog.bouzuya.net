@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-05T23:59:59+09:00"
 title: hubot-sakagemcのbomb機能をつくった
-tags: hubot, javascript
+tags: [hubot, javascript]
 minutes: 4
 pagetype: posts
 ---

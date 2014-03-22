@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-12T23:59:59+09:00"
 title: Node.jsのWeb API wrapperについてかんがえた
-tags: javascript
+tags: [javascript]
 minutes: 25
 pagetype: posts
 ---

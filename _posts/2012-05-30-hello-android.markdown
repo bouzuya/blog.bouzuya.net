@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-05-30T21:49:14+09:00"
 title: Hello, Android!
-tags: android
+tags: [android]
 pagetype: posts
 ---
 今日は「Hello, Andoird!」した。Androidのための開発環境を構築した。来週の土曜日の『[Androidハッカソン@大阪](http://atnd.org/events/28658)』に向けた準備である。環境構築のための手順は他のWebページを見てもらうとして、構成をメモしておく。

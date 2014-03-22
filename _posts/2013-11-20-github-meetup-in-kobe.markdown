@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-20T23:46:03+09:00"
 title: GitHub Meetup in Kobe に参加した
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 GitHub Meetup in Kobe に参加した。

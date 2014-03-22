@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-30T23:59:59+09:00"
 title: HUBOTとSkypeとを連携させる
-tags: javascript 
+tags: [javascript ]
 ---
 [HUBOT][github/hubot]とSkypeとを連携させる。連携以前にHUBOTを導入してさえないのだけれど。
 

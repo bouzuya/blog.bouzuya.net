@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-08T23:59:59+09:00"
 title: 映画『アイズ・ワイド・シャット』をみた
-tags: cinema
+tags: [cinema]
 minutes: 10
 pagetype: posts
 ---

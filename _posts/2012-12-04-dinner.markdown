@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-12-04T23:59:59+09:00"
 title: 夜食
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 このところ連日でおそくなっており、夕食が夜食になる傾向にある。へんな時間にたべることを続けていたら豚になってしまいそうだ。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-18T23:59:59+09:00"
 title: node-backlog-api@0.11.0をつくった
-tags: javascript
+tags: [javascript]
 minutes: 7
 pagetype: posts
 ---

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-09-14T23:38:39+09:00"
 title: Clojureで事前条件/事後条件の表明(:pre/:post)
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 Clojureでenliveを使った静的サイトジェネレーターを作っている。misakiには組み込めればと思っているが、無理なら諦める。今日はfileまわりのユーティリティにテストコードをつけて、別ファイルに切り出すなどリファクタリングした。もうしばらく出せないので、今日もTipsでお茶をにごす。

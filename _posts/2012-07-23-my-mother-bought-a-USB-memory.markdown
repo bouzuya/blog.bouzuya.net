@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-07-23T23:33:36+09:00"
 title: 母がUSBメモリーを買った
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 帰るなり母にUSBメモリーの買いかたを聞かれる。価格.comあたりで検索して人気があって安そうなやつをAmazonで買えばいいと教える。

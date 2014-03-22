@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-05T13:42:58+09:00"
 title: cars-counter-githubをつくった
-tags: javascript
+tags: [javascript]
 minutes: 7
 pagetype: posts
 ---

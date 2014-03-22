@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-04-03T23:17:13+09:00"
 title: 『プログラミングClojure』を読み進めている
-tags: programming,clojure
+tags: [programming,clojure]
 pagetype: posts
 ---
 今日は同僚と夕食。いわゆる春の嵐で電車のダイヤは大幅に乱れていたので、ちょうど良かったのかもしれない。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-05-20T14:12:04+09:00"
 title: Leiningenについて調べた
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 Leiningenについて調べたので記録しておく。

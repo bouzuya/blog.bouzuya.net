@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-05-12T22:50:27+09:00"
 title: ドットインストールでRails学習
-tags: ruby
+tags: [ruby]
 pagetype: posts
 ---
 昨日書いたかどうかは忘れてしまったけれど、[ドットインストール][dotinstall] で Rails の基礎を勉強することにした。

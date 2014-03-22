@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-01-08T23:49:02+09:00"
 title: Clojure から RDBMS 操作
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 `clojure.java.jdbc` を使って RDBMS を扱う。

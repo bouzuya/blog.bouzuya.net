@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-16T23:20:16+09:00"
 title: 今週のふりかえり(7)
-tags: 'looking back'
+tags: ['looking back']
 minutes: 40
 pagetype: posts
 ---

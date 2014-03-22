@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-05-27T17:10:34+09:00"
 title: 4Clojureを楽しむ(10)〜Mediumを終えて〜
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 [4Clojure](https://www.4clojure.com/)のMediumを終えた。Elementary、Easyを経て、Mediumまで来た。今月の目標はEasyを終えることだったのだけれど、それに加えてMediumを終えることができた。全150問のうち130問を解いている。これはいま登録されている利用者6661人のうち94位である。上位100に入ることができた。

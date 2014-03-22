@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-09-29T22:34:09+09:00"
 title: 梨を狩りに鳥取へ行く
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 梨を狩りに鳥取へ行く。日帰りバスツアーは安くてきつい。

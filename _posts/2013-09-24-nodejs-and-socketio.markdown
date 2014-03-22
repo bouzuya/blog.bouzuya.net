@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-09-24T23:56:54+09:00"
 title: Node.jsとたわむれる
-tags: javascript
+tags: [javascript]
 pagetype: posts
 ---
 Node.jsとたわむれる。ExpressやSocket.IOをさわっている。今日もちょっとクセのあるチャットを書いた。Node.jsで何回目のチャットだろう。Socket.IOのサンプルは大体がチャットだから。

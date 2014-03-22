@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-12-23T23:51:29+09:00"
 title: ASP.NET MVC でアプリケーションを書く
-tags: asp.net
+tags: [asp.net]
 pagetype: posts
 ---
 わけあって ASP.NET MVC アプリケーションを書く練習をしている。ひさしぶりに触ったけれど、やはりそこそこ良いね。Web Form なんかよりは好み。

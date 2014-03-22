@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-08-04T21:58:50+09:00"
 title: 「WSHで遊ぼう!」を公開した
-tags: wsh
+tags: [wsh]
 pagetype: posts
 ---
 [slideshare](http://www.slideshare.net/)で「[WSHで遊ぼう!](http://www.slideshare.net/bouzuya/wsh-13868949)」を公開した。slideshareを使うのは初めてである。今日アカウントを作ったところである。作りたてほやほやのアカウントで、やっつけで作ったスライドを公開した。

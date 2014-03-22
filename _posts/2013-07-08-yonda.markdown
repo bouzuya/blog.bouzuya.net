@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-07-08T23:47:58+09:00"
 title: 『レガシーコード改善ガイド』と『Amazon Web Services プログラミング』を読んだ
-tags: book
+tags: [book]
 pagetype: posts
 ---
 『レガシーコード改善ガイド』と『Amazon Web Services プログラミング』を読んだ。たまたま同じタイミングで読み終えた。

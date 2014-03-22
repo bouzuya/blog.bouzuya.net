@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-05-10T23:54:22+09:00"
 title: 旅行の準備
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 旅行の準備をしないといけない。もうずっと前から言っている気がするが……。

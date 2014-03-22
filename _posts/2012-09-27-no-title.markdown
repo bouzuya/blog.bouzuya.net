@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-09-27T23:59:59+09:00"
 title: 無題
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 ひさびさに日付を戻す。飲み会。

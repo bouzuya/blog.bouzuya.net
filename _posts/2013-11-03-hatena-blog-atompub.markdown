@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-03T23:59:59+09:00"
 title: はてなブログ AtomPub を使ってみた
-tags: ruby
+tags: [ruby]
 pagetype: posts
 ---
 はてなブログ AtomPub を使ってみた。Ruby のサンプルコードに従い動かしてみたところ、動かない。

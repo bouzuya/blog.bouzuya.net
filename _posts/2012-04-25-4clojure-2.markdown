@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-04-25T22:45:45+09:00"
 title: 4Clojureを楽しむ(2)〜Elementaryの見直し〜
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 [4Clojure](https://wwww.4clojure.com/)で遊んでいる。今日は「Easy」に取り組んだ。再帰的なコードの書き方は思い出してきた。でも、きっとClojureらしく書くなら、標準の関数やデータ構造を活かしたコードを書けるようになりたい。

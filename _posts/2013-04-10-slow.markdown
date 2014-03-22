@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-04-10T23:59:59+09:00"
 title: 遅い
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 遅いですね。色々と。携帯忘れるし、何やら寒いし、散々です。

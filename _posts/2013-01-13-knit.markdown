@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-01-13T23:59:59+09:00"
 title: ニット帽
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 坊主にしたら頭が寒くて仕方なくなって帰りにニット帽を買った。ひさしぶりにかぶったけれど、あたたかい。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-21T10:09:17+09:00"
 title: hubot-scripts ga.jsをつくった
-tags: javascript, hubot
+tags: [javascript, hubot]
 minutes: 32
 pagetype: posts
 ---

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-08-03T23:59:59+09:00"
 title: WSH(7)〜rotate-backup〜
-tags: wsh
+tags: [wsh]
 pagetype: posts
 ---
 バックデート。さて、飽きてきたので、そろそろ完結する。

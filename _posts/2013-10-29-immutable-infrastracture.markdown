@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-10-29T23:59:59+09:00"
 title: Immutable Infrastracture
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 [Twitter でも書いたけれど](https://twitter.com/bouzuya/status/395232684135288832)、 Immutable Infrastracture に興味がある。良い考えかただと思う。インフラをイミュータブルにする。不変にする。状態を変更させない。変更管理ではなく、新規に構築する。ちょうど Java などで言うところのイミュータブルなオブジェクトのように。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-03-15T22:53:30+09:00"
 title: 寝る準備
-tags: diary
+tags: [diary]
 pagetype: posts
 ---
 ぼくは寝相が悪い。朝起きると布団に対して90度回転していたりするくらいだ。布団がめくれているのは日常である。

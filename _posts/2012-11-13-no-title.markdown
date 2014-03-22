@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-11-13T23:52:43+09:00"
 title: 片付かない
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 片付かないけど、その中で精一杯できることをやっている状態。忙殺。

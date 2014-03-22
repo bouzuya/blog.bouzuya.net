@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-10-16T23:59:59+09:00"
 title: 大好きなあの子に100万回電話をかける方法 by Twilio
-tags: ruby, twilio
+tags: [ruby, twilio]
 pagetype: posts
 ---
 タイトルは最初にやりたかったこと。さすがに法に触れそうな気がしたのでやめて、『きみがとるまでぼくは発信をやめない by Twilio』に変えた。

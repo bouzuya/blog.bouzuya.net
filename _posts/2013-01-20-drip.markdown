@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-01-20T16:26:14+09:00"
 title: Java の起動を高速化する drip を使う
-tags: drip, java, clojure
+tags: [drip, java, clojure]
 pagetype: posts
 ---
 [Clojure][clojure] のような JVM 言語を使っていると気になるのが、JVM の起動の遅さ。これは他の JVM 言語でもよく問題になるようで、解決策が既にいくつかある。

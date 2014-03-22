@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-09-25T23:59:59+09:00"
 title: 給与は翌月25日払い
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 給与は翌月25日払い。ぼくはそれを知らなかった。

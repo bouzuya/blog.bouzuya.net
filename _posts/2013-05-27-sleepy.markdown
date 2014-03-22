@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-05-27T23:59:59+09:00"
 title: 寝る
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 寝る。

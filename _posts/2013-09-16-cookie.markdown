@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-09-16T22:22:48+09:00"
 title: Cookie Clicker
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 朝から台風が通過してひどい雨と風とが家を襲ったわけだけれど、ぼくは[Cookie Clicker][cookie-clicker]をプレイしていた。

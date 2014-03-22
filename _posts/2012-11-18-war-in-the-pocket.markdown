@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-11-18T23:05:13+09:00"
 title: ポケ戦
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 『ポケ戦(機動戦士ガンダム0080 ポケットの中の戦争)』を思いだした。

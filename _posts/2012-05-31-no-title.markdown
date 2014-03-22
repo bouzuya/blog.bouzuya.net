@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-05-31T23:04:46+09:00"
 title: 5月まとめ
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 5月は予定外のことが多すぎた。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-19T23:56:34+09:00"
 title: Backlog API wrapper for Node.js 1.0.1 をつくった
-tags: javascript
+tags: [javascript]
 minutes: 8
 pagetype: posts
 ---

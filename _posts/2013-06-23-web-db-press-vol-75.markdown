@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-06-23T22:01:42+09:00"
 title: WEB+DB Press Vol.75 を読む
-tags: book
+tags: [book]
 pagetype: posts
 ---
 『WEB+DB Press Vol.75 』を読む。

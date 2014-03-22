@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-02-09T11:43:25+09:00"
 title: Software Design 2013 02 を読んだ
-tags: book
+tags: [book]
 pagetype: posts
 ---
 Software Design 2013 02 を読んだ。いつもは Software Design を読まないのだけれど、Twitter か何かで「シェルスクリプト特集が良い」という書き込みを見て、読むことにした。

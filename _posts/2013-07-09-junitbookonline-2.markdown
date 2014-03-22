@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-07-09T23:59:59+09:00"
 title: JUnit実践入門オンライン読書会#2に参加した
-tags: book
+tags: [book]
 pagetype: posts
 ---
 [JUnit実践入門オンライン読書会#2](http://connpass.com/event/2795/)に参加した。

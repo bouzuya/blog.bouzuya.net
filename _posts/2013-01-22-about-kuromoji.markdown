@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-01-22T23:59:59+09:00"
 title: Kuromoji とは
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 そういえば、何度か [Kuromoji][kuromoji] を使った記事を書いているけれど、何をするものか書いていなかったので、改めて書いておく。

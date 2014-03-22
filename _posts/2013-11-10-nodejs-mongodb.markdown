@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-10T23:59:59+09:00"
 title: Node.jsからMongoDBを使う
-tags: javascript
+tags: [javascript]
 pagetype: posts
 ---
 Node.jsからMongoDBを使う。使うための写経などをしている。とりあえず[ドットインストールのMongoDB入門][dotinstall-mongodb]を観た。ざっくりと理解した。

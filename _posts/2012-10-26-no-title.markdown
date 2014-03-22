@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-10-26T23:33:42+09:00"
 title: のどがいたい
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 この表題で数日前にも書いた気がするけれど、それを気にしないくらいには、ぼくは楽な気持ちで書いている。

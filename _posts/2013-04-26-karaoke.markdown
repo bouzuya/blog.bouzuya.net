@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-04-26T23:59:59+09:00"
 title: あまりにおそいので
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 あまりに(自分の手、帰る時間が)おそいので、むしゃくしゃしてカラオケに行って叫んで帰る。

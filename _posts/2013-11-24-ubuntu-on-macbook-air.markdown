@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-24T23:19:39+09:00"
 title: Ubuntu on Macbook Airにした
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 Ubuntu on Macbook Airにした。いままではUbuntu on VirtualBox on Macbook Airだった。

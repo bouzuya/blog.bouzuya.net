@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-07-26T21:19:15+09:00"
 title: WSH(Windows Script Host)
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 すこし早く帰れたのに「疲れた……」なんてぼんやりしているうちにこんな時間になった。今日は寝る前に本を読みきるつもり。それができれば今日は良しとする。それについては明日書くとして、今日はWSHについて書く。

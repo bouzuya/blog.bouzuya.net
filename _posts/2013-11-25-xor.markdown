@@ -2,7 +2,7 @@
 layout: post
 pubdate: '2013-11-25T23:29:00+09:00'
 title: XORを作る
-tags: ruby
+tags: [ruby]
 pagetype: posts
 ---
 XORを作る。

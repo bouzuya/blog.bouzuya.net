@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-08-25T23:51:12+09:00"
 title: 『継続的デリバリー』を読みはじめた
-tags: book
+tags: [book]
 pagetype: posts
 ---
 『継続的デリバリー』を読みはじめた。実は昨日から読みはじめたのだけど。

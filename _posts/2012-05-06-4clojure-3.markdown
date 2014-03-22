@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-05-06T22:23:05+09:00"
 title: 4Clojureを楽しむ(3)〜4Clojureは勉強になる〜
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 [4Clojure](https://www.4clojure.com/)にて遊ぶ。Elementaryは終わり、Easyは残すところ2つ、Mediumは約1/3を終わらせた。95/146と全体の約2/3を終わらせた。

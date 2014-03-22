@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-06-23T23:38:56+09:00"
 title: Enliveでスクレイピング
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 ClojureでEnliveを用いたスクレイピングを試した。ソースコードは[bouzuya/clj-eklib](https://github.com/bouzuya/clj-eklib)を参照すること。現状では実用的な例ではなく、何ができるのかを確認するための例である。

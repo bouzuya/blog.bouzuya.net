@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-06T23:36:24+09:00"
 title: cars-counter-twitterをつくった
-tags: javascript
+tags: [javascript]
 minutes: 2
 pagetype: posts
 ---

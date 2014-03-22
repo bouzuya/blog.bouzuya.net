@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-01-11T23:59:59+09:00"
 title: load-grunt-configなどをためした
-tags: javascript, grunt
+tags: [javascript, grunt]
 minutes: 15
 pagetype: posts
 ---

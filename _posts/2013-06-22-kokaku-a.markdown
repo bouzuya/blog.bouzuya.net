@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-06-22T22:32:38+09:00"
 title: 映画『攻殻機動隊 ARISE 』を観た、とか
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 映画『攻殻機動隊 ARISE 』を観た。安心して観ていられる感じ。良かった。Surface とのコラボは笑いそうになった。色がダメなんだろうね、攻殻機動隊の舞台に使われる色と Surface の色とが合わないんだと思う。たぶんね。

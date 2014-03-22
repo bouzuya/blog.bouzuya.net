@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-11-29T23:45:46+09:00"
 title: IPMessengerと通信する、予定
-tags: java
+tags: [java]
 pagetype: posts
 ---
 JavaでIPMessengerと通信しようとしている。既に他の方が作成されたソースコードを参考に書いていたのだけれど、いろいろなやりかたを試したあと結局もとのソースコードに戻ってきた。またできたら公開する、予定。

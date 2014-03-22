@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-12-16T23:06:31+09:00"
 title: Backlog API for Clojure を公開した
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 [昨日書いたBacklogというサービス](/2012/12/15/backlog)だけれど、 [API を公開](http://www.backlog.jp/api/)していて、外部のアプリケーションから操作できるようになっている。API は XML-RPC で提供されており、https + BASIC認証で接続するようになっている。

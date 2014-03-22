@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-14T23:59:59+09:00"
 title: AppGyver Steroidsをためした
-tags: javascript
+tags: [javascript]
 minutes: 15
 pagetype: posts
 ---

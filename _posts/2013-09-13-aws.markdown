@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-09-13T23:59:59+09:00"
 title: AWS
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 22時か23時ころには寝て2時か3時ころに一度目を覚ます習慣がついた。おかげで読書の計画のほうがぼろぼろだ。連休は読書のほうを帳尻合わせするしかない。

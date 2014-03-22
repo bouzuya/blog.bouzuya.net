@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-01-01T23:59:59+09:00"
 title: hubot-urlをつくった
-tags: javascript, node.js, hubot
+tags: [javascript, node.js, hubot]
 minutes: 20
 pagetype: posts
 ---

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-17T23:59:59+09:00"
 title: grunt-contrib-connect/grunt-contrib-watchをためした
-tags: javascript, grunt
+tags: [javascript, grunt]
 minutes: 60
 pagetype: posts
 ---

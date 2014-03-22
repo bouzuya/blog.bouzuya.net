@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-09-10T23:59:59+09:00"
 title: はやく彼女つくれ
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 また寝落ち。2日連続とは。困ったことに習慣化しているのかも。

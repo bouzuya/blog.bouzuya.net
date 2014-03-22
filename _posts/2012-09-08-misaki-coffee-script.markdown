@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-09-08T19:28:17+09:00"
 title: misakiのcompiler作ったった(CoffeeScript編)
-tags: misaki, clojure, coffee-script
+tags: [misaki, clojure, coffee-script]
 pagetype: posts
 ---
 [以前、日記で紹介したmisakiのLESS CSS Compiler](http://bouzuya.github.com/2012/09/04/misaki-compiler-3.html)を基に[liquidz/misaki](https://github.com/liquidz/misaki)のCoffeeScript Compilerを作った。

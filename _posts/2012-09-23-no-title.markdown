@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-09-23T21:57:00+09:00"
 title: 片付かない
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 積まれたタスクが片付かない。一日中それにあてているのになあ。これ以上は積まないようにしないとなあ。

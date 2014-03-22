@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-02T23:46:41+09:00"
 title: JAWS-UG 大阪 #9 に参加してきた
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 JAWS-UG 大阪 #9 に参加してきた。ServiceProviders セッションを聞いて、AWS の使い方も色々だなと思った。AWS でしかできないこと(マシンをガンガン立ち上げたりして分散処理)をしていたり、他のホスティングサービスとの比較で AWS を選択したり。

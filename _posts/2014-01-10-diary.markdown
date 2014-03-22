@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-01-10T23:59:59+09:00"
 title: grunt-contrib-cleanをためした
-tags: javascript, grunt
+tags: [javascript, grunt]
 minutes: 25
 pagetype: posts
 ---

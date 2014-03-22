@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-12-30T23:59:59+09:00"
 title: 携帯からあ
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 明日で2012年も終わりなのか。はやいなあ。

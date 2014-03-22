@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-02-16T22:56:29+09:00"
 title: 数独は悲しい
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 数独は悲しい。

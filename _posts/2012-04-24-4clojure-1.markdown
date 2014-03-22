@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-04-24T21:10:43+09:00"
 title: 4Clojureを楽しむ(1)〜Elementaryを終えて〜
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 [4Clojure](https://www.4clojure.com/)で遊んでいる。楽しみながらClojureを勉強している。

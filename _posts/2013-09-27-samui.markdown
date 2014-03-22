@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-09-27T22:53:33+09:00"
 title: 寒い
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 寒い。ずっとではないけれど、朝晩はそこそこ冷える。

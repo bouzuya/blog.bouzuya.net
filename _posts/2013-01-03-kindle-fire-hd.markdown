@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-01-03T18:52:36+09:00"
 title: Kindle Fire HD をさわった
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 [Kindle Fire HD][kindle-fire-hd-16gb] をさわった。きっかけは、正月に Joshin で母が Kindle Fire HD 16 GB を即決 15,800 円の定価で買ってきたことだ。

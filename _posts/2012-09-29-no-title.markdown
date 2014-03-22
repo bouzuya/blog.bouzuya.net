@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-09-29T22:09:43+09:00"
 title: 体調不良
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 お腹がすっきりしない。体がだるい。連日のお酒のせいかな。冷房のせいかも。あるいは睡眠時間の問題かな。

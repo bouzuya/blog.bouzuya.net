@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-08-09T20:25:15+09:00"
 title: プロの力が身につくAndroidプログラミングの教科書
-tags: book, java, android
+tags: [book, java, android]
 pagetype: posts
 ---
 『プロの力が身につくAndroidプログラミングの教科書』を読んでいる。明日にはとりあえず一周読み終える予定。イラストが多く、説明も大体が分かりやすくできているように思う。これが Android 関連の書籍の 2 冊目なので、そのお陰かもしれないが。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-15T23:59:59+09:00"
 title: mochaで重複コードの排除をためした
-tags: javascript
+tags: [javascript]
 minutes: 20
 pagetype: posts
 ---

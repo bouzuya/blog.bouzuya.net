@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-01-28T23:59:59+09:00"
 title: 'grunt-phonegapのbuildで:platformをとる機能をつくった'
-tags: grunt, javascript, phonegap
+tags: [grunt, javascript, phonegap]
 minutes: 15
 pagetype: posts
 ---

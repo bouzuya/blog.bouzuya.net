@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-02-26T21:00:39+09:00"
 title: .vimrcの行数をはてなグラフに表示する
-tags: vim
+tags: [vim]
 pagetype: posts
 ---
 先日[.vimrcを1000行にする](http://bouzuya.github.com/2012/02/23/vimrc.html)と書いた。せっかくなので行数の推移を可視化することにした。

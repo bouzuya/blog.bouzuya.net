@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-01-01T23:10:09+09:00"
 title: NPOI.DataSetExtensions を公開した
-tags: csharp, dotnet
+tags: [csharp, dotnet]
 ---
 [GitHub][] に [bouzuya/NPOI.DataSetExtensions][] を公開した。
 

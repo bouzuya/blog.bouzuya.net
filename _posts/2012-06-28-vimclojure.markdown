@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-06-28T23:53:37+09:00"
 title: VimClojureでLeiningenの遅さを避ける
-tags: clojure, vim
+tags: [clojure, vim]
 pagetype: posts
 ---
 Leiningenの起動が遅いという問題をVimClojure(Nailgunを内包)で解決できた。Leiningenの起動を速くできたわけではないけれど、LeiningenでしていたことVimClojureだと速くできるので問題を解決できた次第である。

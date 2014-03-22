@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-12-17T23:39:13+09:00"
 title: Backlog API for Clojure を作っている
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 Clojure 向けの Backlog API ライブラリを作っている([bouzuya/clj-backlog](https://github.com/bouzuya/clj-backlog))。0.2.0 に向けてしゅくしゅくと作っている。develop/0.2.0 ブランチを見れば進みが分かる。

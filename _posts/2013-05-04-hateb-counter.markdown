@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-05-04T23:59:59+09:00"
 title: はてなブックマーク数をはてなグラフにポスト
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 先日の Java で書いたはてなブックマーク数をスクレイピングしたものを使って、はてなグラフに日次でポストするようにした。

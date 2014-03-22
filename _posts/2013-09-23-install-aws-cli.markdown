@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-09-23T23:20:38+09:00"
 title: Amazon Command Line Interface で Amazon EC2 インスタンスを操作する
-tags: aws
+tags: [aws]
 pagetype: posts
 ---
 Amazon Command Line Interface で Amazon EC2 インスタンスを操作する。はじめ『Amazon EC2 API Tools を使って Amazon EC2 インスタンスをコマンドラインから操作する』を書こうと思った。[http://aws.amazon.com/developertools/351][amazon-ec2-api-tools] からそれらの情報を得ることができる。書こうと思ったのだけれど、いまならもっと手軽に [AWS Command Line Interface][aws-cli] で同じことができそうなので、そちらを採用することにした。

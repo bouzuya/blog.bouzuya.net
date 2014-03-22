@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-08-16T21:45:30+09:00"
 title: い草の上敷き
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 い草の上敷き。買った。良いにおい。もっと早く買えば良かったな。夏らしくて良いな。雰囲気が出るね。

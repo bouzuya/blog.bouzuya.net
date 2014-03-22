@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-04-24T22:44:39+09:00"
 title: いまの 15 分
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 このブログを書きはじめたころ考えていた 15 分といまの 15 分が変わってきている。

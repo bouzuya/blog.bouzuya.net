@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-13T19:50:06+09:00"
 title: jshint-defaultをつくった
-tags: javascript
+tags: [javascript]
 minutes: 10
 pagetype: posts
 ---

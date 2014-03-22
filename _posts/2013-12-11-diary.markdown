@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-12-11T22:59:00+09:00"
 title: Backlog API for Node.js 0.3.0をリリースした
-tags: javascript
+tags: [javascript]
 pagetype: posts
 ---
 Backlog API for Node.js 0.3.0([bouzuya/node-backlog-api][])をリリースした。

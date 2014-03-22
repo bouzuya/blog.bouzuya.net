@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-08T23:59:59+09:00"
 title: Ruby の alias の落とし穴
-tags: ruby
+tags: [ruby]
 pagetype: posts
 ---
 Ruby の alias の落とし穴。落とし穴なんてのは普通落ちないもので、他人が落ちているのを見て笑うためにあると思っているし、事実そうである。

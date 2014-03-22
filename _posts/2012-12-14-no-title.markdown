@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-12-14T23:40:34+09:00"
 title: 異様に疲れているので寝る
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 異様に疲れているので寝る。日付が変わる前に帰ることができて、ほっとしてしまったのかも。

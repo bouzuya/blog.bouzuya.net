@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-15T23:38:19+09:00"
 title: Android アプリをつくった
-tags: android, javascript, cordova, phonegap
+tags: [android, javascript, cordova, phonegap]
 minutes: 13
 pagetype: posts
 ---

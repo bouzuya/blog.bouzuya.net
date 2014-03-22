@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-06-04T22:16:28+09:00"
 title: resolvconfを使う
-tags: ubuntu
+tags: [ubuntu]
 pagetype: posts
 ---
 いつからそうなっていたのかは分からないのだけれど、`/etc/resolv.conf`がシンボリックリンクになっていた。Ubuntu 12.04 LTSにバージョンアップしたときに変わったのかもしれない。編集しようと開くとコメントにこんなことが書いてある。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-12-16T23:12:24+09:00"
 title: Backlog API wrapper for Node.js@0.8.1をリリースした
-tags: javascript
+tags: [javascript]
 pagetype: posts
 ---
 Backlog API wrapper for Node.js@0.8.1([bouzuya/node-backlog-api@0.8.1][])をリリースした。サポートするメソッドを2,3増やした程度の変更で大したことはしていない。むしろ、今回は別の目的でのリリースと言って良い。

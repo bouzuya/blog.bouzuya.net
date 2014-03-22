@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-04-11T23:40:03+09:00"
 title: Vim scriptを書いている
-tags: vim
+tags: [vim]
 pagetype: posts
 ---
 ひさしぶりにVim scriptを書いている。もっと言うとInput Methodをつくっている。日本語入力を行うシステムである。日本語の入力部分がどうしてもしっくりこないので、自作するつもりである。完成したあかつきにはここで紹介しようと思う。とにかくいまはものをつくるって楽しい。ただそれだけだ。Enjoy programming!

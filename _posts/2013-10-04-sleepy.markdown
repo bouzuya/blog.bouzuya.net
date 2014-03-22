@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-10-04T21:49:51+09:00"
 title: 眠いので明日やります
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 眠いので明日やります。体調が悪いのか、鼻がつまってきた。

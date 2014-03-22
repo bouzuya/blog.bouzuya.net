@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-05-22T21:22:52+09:00"
 title: 4Clojureを楽しむ(9)〜動くものも書くよ、絶対に〜
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 今日も[4Clojure](https://wwww.4clojure.com/)に取り組む。120/150。そこそこ良い進み方である。あと2日でTop100入りだ。がんばろう。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-23T23:59:59+09:00"
 title: 映画『かぐや姫の物語』を観てきた
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 「今は昔、竹取の翁といふ者ありけり」からはじまる映画『かぐや姫の物語』を観てきた。ネタバレ注意。

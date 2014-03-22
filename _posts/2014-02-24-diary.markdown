@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-24T23:59:59+09:00"
 title: hubot-sakagemcをつくった
-tags: hubot
+tags: [hubot]
 minutes: 10
 pagetype: posts
 ---

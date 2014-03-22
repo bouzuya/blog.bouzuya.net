@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-08-26T22:40:49+09:00"
 title: 新デザインを適用した
-tags: css
+tags: [css]
 pagetype: posts
 ---
 [bouzuya.github.com](http://bouzuya.github.com/)に新デザインを適用した。

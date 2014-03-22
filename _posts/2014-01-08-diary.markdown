@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-01-08T23:36:02+09:00"
 title: generator-phonegapをためした
-tags: javascript, node.js, yeoman, phonegap
+tags: [javascript, node.js, yeoman, phonegap]
 minutes: 15
 pagetype: posts
 ---

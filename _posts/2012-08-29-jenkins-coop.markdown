@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-08-29T23:29:55+09:00"
 title: 2台目のJenkinsサーバー
-tags: jenkins
+tags: [jenkins]
 pagetype: posts
 ---
 Jenkinsサーバーの二台目を置いた。

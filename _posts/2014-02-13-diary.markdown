@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-13T22:11:14+09:00"
 title: node-hatena-graph-api@0.1.0をつくった
-tags: javascript
+tags: [javascript]
 minutes: 60
 pagetype: posts
 ---

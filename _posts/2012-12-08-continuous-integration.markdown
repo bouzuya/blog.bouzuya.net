@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-12-08T22:05:43+09:00"
 title: 『継続的インテグレーション入門』を読んだ
-tags: book
+tags: [book]
 pagetype: posts
 ---
 

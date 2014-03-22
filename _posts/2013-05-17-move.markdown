@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-05-17T23:59:59+09:00"
 title: Ubuntu に引っ越し
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 風邪で1日休む。夕方頃に起きてシャワーを浴び寝汗を流して、朝の「このまま死ぬかもしれない」感がなくなっているのを確認して安心する。

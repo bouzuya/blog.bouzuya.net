@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-05-13T21:08:29+09:00"
 title: 沖縄に来た(2)
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 ジンベイザメやマンタがたくさん居るところに来た。歩き疲れた。

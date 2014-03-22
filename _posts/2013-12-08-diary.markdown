@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-12-08T20:48:00+09:00"
 title: Backlog API wrapper for Node.jsを0.2.0にした
-tags: javascript
+tags: [javascript]
 pagetype: posts
 ---
 Backlog API wrapper for Node.js([bouzuya/node-backlog-api][])を0.2.0にした。0.1.1から0.2.0にバージョンアップした。

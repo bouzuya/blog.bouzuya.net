@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-04T23:59:59+09:00"
 title: 京都を旅行する
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 京都を旅行する。ひとり旅。気まぐれに行く先を決め、帰りたくなったら帰る。自由な旅行。

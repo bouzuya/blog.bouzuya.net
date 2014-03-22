@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-04-17T23:59:59+09:00"
 title: うたたね
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 電車でうたたねする気持ち良さを家で味わえないものだろうか。うたたねしてしまう状態で電車に乗りたくないせいもあるけれど。

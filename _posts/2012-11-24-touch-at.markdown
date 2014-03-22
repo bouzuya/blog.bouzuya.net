@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-11-24T18:02:38+09:00"
 title: TouchAtコマンドを作った
-tags: csharp
+tags: [csharp]
 pagetype: posts
 ---
 [bouzuya/TouchAt](https://github.com/bouzuya/TouchAt)を公開した。

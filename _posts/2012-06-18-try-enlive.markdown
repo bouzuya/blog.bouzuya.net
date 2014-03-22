@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-06-18T22:16:07+09:00"
 title: Enliveを試す
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 [Enlive](https://github.com/cgrand/enlive)を試した。[GitHubにリポジトリを公開した](https://github.com/bouzuya/clj-benlive)。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-07-21T22:41:50+09:00"
 title: EC2とIRCとを組み合わせる
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 AWS : Amazon Web Services の、特に EC2 : Elastic Compute Cloud を自然に使えるようになりたい。使い慣れないといけない。個人でも柔軟にマシンリソースを使うための手段のひとつとして Amazon EC2 は押さえておくべきだと思う。

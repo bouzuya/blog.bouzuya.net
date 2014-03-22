@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-07-29T23:07:55+09:00"
 title: WSH(2)〜WSFを書く〜
-tags: wsh
+tags: [wsh]
 pagetype: posts
 ---
 WSH(Windows Script Host)について調べている。今日はWSFについて書いておく。

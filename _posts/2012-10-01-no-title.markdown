@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-10-01T23:33:00+09:00"
 title: 10月になりました
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 10月になりました。1日から時間外。misakiの修正も確認できていないし。ううん。うまくいかないなあ。

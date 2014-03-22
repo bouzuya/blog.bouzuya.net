@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-03-25T23:15:13+09:00"
 title: 日曜プログラマーの休日
-tags: python
+tags: [python]
 pagetype: posts
 ---
 ぼくは日曜プログラマーなので日曜日にはPythonスクリプトを書いて楽しむ。

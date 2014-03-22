@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-10-29T20:38:03+09:00"
 title: はやくかえって
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 体調不良を理由に定時で帰る。定時で帰るのに理由が要るなんて。

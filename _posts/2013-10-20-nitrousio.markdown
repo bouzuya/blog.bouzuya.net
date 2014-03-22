@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-10-20T23:55:10+09:00"
 title: Nitrous.IO を試す
-tags: javascript
+tags: [javascript]
 pagetype: posts
 ---
 [Nitrous.IO][nitrous-io] を試す。Nitrous.IO は IDE の SaaS。クラウドベースの IDE には以前から興味があったのだけれど、費用やらセキュリティやらでどうせ採用できない技術だからと、試してさえいなかった。食わず嫌いはよくないと思い、試してみた。

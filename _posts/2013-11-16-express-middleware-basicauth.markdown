@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-16T16:06:04+09:00"
 title: expressのbasicAuthミドルウェアを試す。
-tags: javascript
+tags: [javascript]
 pagetype: posts
 ---
 expressのbasicAuthミドルウェアを試す。読む。しばらくexpress/connectのミドルウェアを読んで、試していく予定。

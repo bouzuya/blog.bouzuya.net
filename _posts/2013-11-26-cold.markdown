@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-26T23:59:59+09:00"
 title: 寒い
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 寒い。急に寒くなって体が痛い。また一段と冷えた感じがする。

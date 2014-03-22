@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-07-10T22:07:03+09:00"
 title: LPIC-2 10章
-tags: lpic
+tags: [lpic]
 pagetype: posts
 ---
 今日もLPIC-2の勉強をする。今日は10章。内容としてはMicrosoftネットワーク。SMBやCIFS、NFS、RPCあたりを対象としている。

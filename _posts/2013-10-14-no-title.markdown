@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-10-14T21:31:59+09:00"
 title: 風邪をひいた
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 どうも風邪をひいたようだ。風邪は意外と移るので、風邪をひいた人とご飯を食べたり遊んだりはしないほうが良いです。丸。

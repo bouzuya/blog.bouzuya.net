@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-26T22:12:44+09:00"
 title: 無題
-tags: javascript
+tags: [javascript]
 minutes: 35
 pagetype: posts
 ---

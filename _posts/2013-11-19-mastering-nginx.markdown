@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-19T23:14:53+09:00"
 title: 書籍『マスタリングNginx』を読んだ
-tags: book
+tags: [book]
 pagetype: posts
 ---
 書籍『マスタリングNginx』を読んだ。そんなに面白い本ではないね。ドキュメントを読んでいる気分。

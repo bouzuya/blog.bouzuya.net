@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-02-27T23:59:59+09:00"
 title: 寝てる
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 疲れなのか病み上がりなのかうたたねばかりしていた。そのくせ変な時間に目がさえるから困る。

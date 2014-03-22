@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-02-12T22:52:55+09:00"
 title: build.xml をひさしぶりに書いた
-tags: java
+tags: [java]
 pagetype: posts
 ---
 ひさしぶりに build.xml を書いた。build.xml は Ant で使われるビルドスクリプトである。素直な XML ファイルなのだけれど、油断するとすぐに複雑化することに定評がある。やりたいことは簡単でも build.xml でやると複雑に見えるし、すぐに可読性が下がるふしぎなファイルである。

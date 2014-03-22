@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-06-28T23:59:59+09:00"
 title: JUnit について教える
-tags: junit
+tags: [junit]
 pagetype: posts
 ---
 後輩に JUnit について教える。ぼく自身 JUnit に詳しいわけじゃないけれど、上には上、下には下が居るのでぼくなりに説明する。目標は、テスト自動化のメリットを感じられるようにすること、JUnit でコードを書けると感じてもらうこと、そのきっかけをつくること。

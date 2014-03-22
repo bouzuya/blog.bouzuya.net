@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-02-02T23:38:50+09:00"
 title: 終日アニメ
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 終日アニメを見ている。長いアニメはこれだから困る。明日からは通常営業かな。

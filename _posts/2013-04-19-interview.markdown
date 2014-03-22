@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-04-19T23:59:59+09:00"
 title: 面接にて迷う
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 面接にて迷う。

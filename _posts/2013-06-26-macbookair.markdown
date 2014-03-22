@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-06-26T22:40:36+09:00"
 title: Ubuntu on Macbook Air
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 このあいだの日曜日に 11 インチの Macbook Air 2013 年のを買った。買ったのでさっそく OS を入れ替えようと色々試したのだけれど、無線 LAN のドライバーがおかしいのか、どうしても動作せず諦めた。

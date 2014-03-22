@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-12-14T01:01:09+09:00"
 title: Project Euler #8 を解く
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 [#clojure 入門者向け勉強会 #mitori_clj](http://www.zusaar.com/event/455057)に参加している。これは[Clojure](http://clojure.org/)の勉強のために、みんなで[Project Euler](http://projecteuler.net/)の1から25を解くというイベントである。

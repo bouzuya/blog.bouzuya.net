@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-11-26T23:52:35+09:00"
 title: 東京へ
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 明日から東京へ。仕事。更新ないかも。

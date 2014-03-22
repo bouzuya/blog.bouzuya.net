@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-04-08T23:59:59+09:00"
 title: キャストパズル
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 以前から家に何個かあったのだけれど、キャストパズルにこのところハマっている。

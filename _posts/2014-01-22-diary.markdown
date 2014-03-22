@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-01-22T22:34:12+09:00"
 title: Ionicをためした
-tags: javascript, ionic
+tags: [javascript, ionic]
 minutes: 21
 pagetype: posts
 ---

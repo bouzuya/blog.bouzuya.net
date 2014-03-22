@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-09-18T07:00:44+09:00"
 title: 朝活
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 朝活をした。朝に何か活動することを朝活というらしい。

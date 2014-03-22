@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-06-12T23:59:59+09:00"
 title: JUnit のサンプルを書いた
-tags: java, junit
+tags: [java, junit]
 pagetype: posts
 ---
 JUnit のサンプルを書いた。[bouzuya/junit-stack][bouzuya/junit-stack] で公開した。なんてことはない Stack と StackImpl と StackTest だけの Eclipse Project 。

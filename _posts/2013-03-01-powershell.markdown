@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-03-01T23:59:59+09:00"
 title: PowerShell スクリプトで DB 操作
-tags: powershell
+tags: [powershell]
 pagetype: posts
 ---
 わけあって PowerShell スクリプトで DB を操作した。

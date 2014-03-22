@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-12-29T17:07:11+09:00"
 title: Backlog API for Clojure の使いかた
-tags: backlog, clojure
+tags: [backlog, clojure]
 pagetype: posts
 ---
 [Backlog API for Clojure](https://github.com/bouzuya/clj-backlog) を [Backlog アプリケーション](http://www.backlog.jp/api/application/) に掲載していただけるそうなので、使いかたなどを書いておく。

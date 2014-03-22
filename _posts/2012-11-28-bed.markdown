@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-11-28T23:43:45+09:00"
 title: ベッド
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 そういえばベッドを手に入れたのだけれど、ご覧の通り、家に居ないので意味がない。「おうちがいちばん」を何度も書いているのになあ。

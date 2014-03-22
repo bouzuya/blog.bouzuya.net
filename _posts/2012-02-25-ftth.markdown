@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-02-25T22:16:38+09:00"
 title: こんにちは光
-tags: diary
+tags: [diary]
 pagetype: posts
 ---
 我が家に光がやってきた。

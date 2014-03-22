@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-10-10T23:03:23+09:00"
 title: 友人が就職して
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 長らく無職だった友人が就職した。「自分より出来る人達に囲まれている。早く追いつきたい」と話す姿をうらやましく感じる。

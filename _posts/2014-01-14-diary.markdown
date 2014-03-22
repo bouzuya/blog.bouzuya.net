@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-01-14T23:59:59+09:00"
 title: AngularJSをためした
-tags: javascript, angularjs
+tags: [javascript, angularjs]
 minutes: 4
 pagetype: posts
 ---

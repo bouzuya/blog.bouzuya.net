@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-10-05T23:59:59+09:00"
 title: 言葉の価値
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 やけはちで後輩と飲みに行き、醜態をさらし、別れたあとひとりでカラオケに行き、喉を枯らして。ぼんやりしているうちに日付が変わる。

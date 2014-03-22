@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-11T23:07:05+09:00"
 title: ほうれんそうとベーコンの炒めものをつくった
-tags: cooking
+tags: [cooking]
 minutes: 11
 pagetype: posts
 ---

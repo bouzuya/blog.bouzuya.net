@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-01-16T23:35:40+09:00"
 title: Herokuをためした
-tags: javascript, nodejs
+tags: [javascript, nodejs]
 minutes: 17
 pagetype: posts
 ---

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-10-15T23:48:12+09:00"
 title: 犬をなでる
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 うちには犬が1匹だけ居る。ぼくが飼うのに反対した犬だ。毛がわしゃわしゃしていて、汚い犬だ。我が家に1匹だけの犬だ。

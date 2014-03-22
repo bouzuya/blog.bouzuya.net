@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-01-15T23:59:59+09:00"
 title: Knockoutをためした
-tags: javascript
+tags: [javascript]
 minutes: 1
 pagetype: posts
 ---

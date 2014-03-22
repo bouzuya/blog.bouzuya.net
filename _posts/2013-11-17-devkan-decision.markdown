@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-11-17T23:48:30+09:00"
 title: DevLOVE関西〜Decision〜に参加した
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 [DevLOVE関西〜Decision〜](http://devlove-kansai.doorkeeper.jp/events/5759)に参加した。まあ、昨日のことだけれど。丸一日の長いイベントだったけれど、楽しかった。

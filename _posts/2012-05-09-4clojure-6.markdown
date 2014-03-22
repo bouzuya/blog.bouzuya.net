@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-05-09T22:59:07+09:00"
 title: 4Clojureを楽しむ(6)〜Easyの見直し〜
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 今日は[4Clojure](https://wwww.4clojure.com/)のEasyを見直した。残り数個あるけれど、明日からはまた先へ進めていくつもりだ。

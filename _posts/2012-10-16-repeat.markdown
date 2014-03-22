@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-10-16T23:59:59+09:00"
 title: くりかえし
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 毎日同じようなことをくりかえしている。

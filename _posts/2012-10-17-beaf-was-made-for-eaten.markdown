@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-10-17T22:42:22+09:00"
 title: 肉も食べる
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 3,600円の肉を食べ、お酒を飲み、お腹をいっぱいにした。ぼくは肉も食べる。

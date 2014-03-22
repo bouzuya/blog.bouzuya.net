@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-07-07T23:42:15+09:00"
 title: CentOS 6をインストールした
-tags: centos
+tags: [centos]
 pagetype: posts
 ---
 CentOS 6をインストールした。例のごとくVirtualBoxのゲストOSとしてである。

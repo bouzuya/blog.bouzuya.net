@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-01-25T23:59:59+09:00"
 title: Streak
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 [GitHub][github] には Streak が表示されるようになった。いつ頃だったかは覚えていないけれど、比較的最近のデザイン変更で表示されるようになった。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-08-17T22:19:39+09:00"
 title: 琵琶湖に来た
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 琵琶湖に来た。ひさしぶりに親戚に会いに。

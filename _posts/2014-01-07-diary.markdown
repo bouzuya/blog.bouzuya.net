@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-01-07T23:59:59+09:00"
 title: PhoneGapをためした
-tags: javascript, phonegap
+tags: [javascript, phonegap]
 minutes: 30
 pagetype: posts
 ---

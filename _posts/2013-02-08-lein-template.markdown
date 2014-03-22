@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-02-08T23:24:51+09:00"
 title: Leiningen の template を書いてみた
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 Leiningen の template を書いてみた。[bouzuya/lein-template][lein-template] として公開した。

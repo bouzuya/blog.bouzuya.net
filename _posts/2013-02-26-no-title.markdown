@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-02-26T22:53:00+09:00"
 title: 帰宅
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 カンボジアから帰ってきたのだけれど調子が悪い。休むより他ないか。

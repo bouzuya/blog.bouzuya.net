@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-06-08T22:48:18+09:00"
 title: bouzuya.net をつくった
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 『[bouzuya.net][bouzuya-net]』をつくった。

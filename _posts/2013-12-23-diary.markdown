@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-12-23T22:12:52+09:00"
 title: Passportを読む
-tags: javascript
+tags: [javascript]
 pagetype: posts
 ---
 [passport][jaredhanson/passport]を読む。passportは[express][visionmedia/express]互換の認証ミドルウェア。通常のform認証やOpen IDやOAuthなどに対応している。今回はTwitter/GitHubのOAuth認証を組み込みたいので、これを検討した。

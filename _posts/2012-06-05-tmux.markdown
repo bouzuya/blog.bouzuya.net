@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-06-05T22:55:12+09:00"
 title: tmuxを使う(1)
-tags: tmux
+tags: [tmux]
 pagetype: posts
 ---
 すこし前から『[tmux](http://tmux.sourceforge.net/)』を使っている。tmuxはターミナルマルチプレクサのひとつである。『[GNU screen](http://www.gnu.org/software/screen/)』と同系統のソフトウェアである。どちらも分からない方のために説明すると、ひとつのターミナルで複数のターミナルを操作するソフトウェアである。

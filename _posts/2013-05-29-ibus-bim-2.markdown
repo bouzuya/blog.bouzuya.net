@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-05-29T23:59:59+09:00"
 title: ibus-bim に向けて(2)
-tags: python
+tags: [python]
 pagetype: posts
 ---
 ibus-skk と ibus-anthy と ibus 本体のソースコードリーディング。最新分は Vala で書かれているけど、ぼくは Python でやるつもり。 Python じゃなくて Ruby がやりたいんだけどなあ。うまくやれば Ruby でも書けそうだけど、とりあえずは動くものを目指す。

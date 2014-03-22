@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-07-23T23:59:59+09:00"
 title: Google Guice のサンプルを書く
-tags: java
+tags: [java]
 pagetype: posts
 ---
 ほとんど終電で帰ってきて、Google Guice のサンプルを書く。気がつけば 1:30 をまわっている。

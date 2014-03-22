@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-02-01T23:26:05+09:00"
 title: 区切り
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 今日でひとつの区切り。昨年の中頃から続けてきたことにひとつの区切りがついた。

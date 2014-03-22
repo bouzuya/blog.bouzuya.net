@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-05-11T23:59:59+09:00"
 title: Railsとキャストエクア
-tags: ruby
+tags: [ruby]
 pagetype: posts
 ---
 Ruby on Rails の環境をつくった。rbenv + bundler でなるべく複数の環境が共存できるようにした。Ruby のビルドで必要なライブラリが足りないと怒られた。SQLite3 と OpenSSL と、あともうひとつくらいあったのだけれど、忘れてしまった。Ubuntu 13.04 で新規に OS から構築したので相当な時間がかかった。

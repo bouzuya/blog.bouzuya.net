@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-02-08T23:59:59+09:00"
 title: node-hatena-graph-cli@0.1.3をつくった
-tags: javascript
+tags: [javascript]
 minutes: 3
 pagetype: posts
 ---

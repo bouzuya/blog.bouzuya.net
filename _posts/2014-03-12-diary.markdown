@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-12T23:59:59+09:00"
 title: syntastic-grunt-contrib-jshintをつくった
-tags: vim
+tags: [vim]
 minutes: 17
 pagetype: posts
 ---

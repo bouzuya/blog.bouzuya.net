@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-03-29T07:23:15+09:00"
 title: 2 日連続で早起き
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 2 日連続で早起きした。さわやか、ではないけれど、すこしでも朝型に戻したい。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-09-04T23:52:53+09:00"
 title: misakiのcompiler作ったった(LESS編)
-tags: misaki, clojure, less
+tags: [misaki, clojure, less]
 pagetype: posts
 ---
 misakiのcompilerを作ってみた。Markdownはcontentの埋め込みに手間がかかりそうなので、ひとまずLESS compilerを作った。

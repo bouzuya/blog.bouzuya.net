@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-08-14T06:51:56+09:00"
 title: git pushで自動でGitHubにもgit pushする
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 Gitは分散型のバージョン管理システムなので、リポジトリの配置に自由度がある。仕組みの上ではすべてが平等なリポジトリなので、運用でどれかをマスターにしておく必要がある。でないとどれがマスターか混乱してしまう。

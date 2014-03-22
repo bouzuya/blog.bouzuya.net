@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-08-14T22:18:56+09:00"
 title: HttpClient と Jetty
-tags: java
+tags: [java]
 pagetype: posts
 ---
 HttpClient と Jetty 。こいつらと戦う、TDDで。数ヶ月前にもこいつらとは戦った気がするのだけれど、HttpClient はインタフェースがひどい。中途半端に抽象化されているもんだから使いにくいことこのうえない。使いやすさと、サードパーティーライブラリをラップするためにライブラリを書く。

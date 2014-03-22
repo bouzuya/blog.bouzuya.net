@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-06-17T23:27:00+09:00"
 title: 長電話
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 今日は10時間の長電話をした。Skypeでの無料通話だけれど昼ごろからついさっきまで通話していた。固定電話や携帯電話だと大変なことになっていただろう。

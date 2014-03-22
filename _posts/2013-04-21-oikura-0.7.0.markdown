@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-04-21T23:37:07+09:00"
 title: oikura に検索登録機能を追加した
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 ![oikura-0.7.0](http://gyazo.com/fa573fac69f31607f109df48bd7cf875.png)

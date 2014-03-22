@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-07-30T23:59:59+09:00"
 title: エール
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 不安になったとき、どちらかと言えば、ぼくは抱えこまないタイプなのだと思う。

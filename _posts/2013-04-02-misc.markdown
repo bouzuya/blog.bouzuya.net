@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-04-02T23:02:27+09:00"
 title: 書く気になれない
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 Vimperator から TreeStyleTab を操作したり、Java での環境を整備したりしている。Ant から JUnit タスクや Javadoc タスクを呼び出すようにして、その結果を Jenkins に表示させたりしている。

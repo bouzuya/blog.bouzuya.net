@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-10-21T21:08:05+09:00"
 title: 模様替え
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 模様替えを考えている。理由は書かない。

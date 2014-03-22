@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-06-18T23:59:59+09:00"
 title: 書くことない
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 まずいな。書くことがない。そりゃ朝起きて寝るはずの時間すぎて仕事してりゃ何もあるわけない。帰っても何もする時間もないし。帰りの電車で Twitter でたわむれたり、Feed 読んだりする程度のもので。

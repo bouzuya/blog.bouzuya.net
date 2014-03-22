@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-04-16T23:55:05+09:00"
 title: 会社に携帯を忘れた
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 会社に携帯を忘れた。帰りの電車ですこし寝るとずいぶんと元気になることが分かった。

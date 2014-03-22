@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-10-19T23:49:38+09:00"
 title: マイペース
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 結果としてマイペースにやっている。そんな気がしてきた。

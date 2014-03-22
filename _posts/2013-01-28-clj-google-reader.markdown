@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-01-28T23:59:59+09:00"
 title: Google Reader API for Clojure を書いている
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 Google Reader の情報を Clojure で取得したい。まずはスターしているエントリーの情報を取得したい。それを使って、以前 C# で書いた「スターしているフィードの情報をメールで翌日に通知するアプリケーション」を Clojure でリプレースしたい。

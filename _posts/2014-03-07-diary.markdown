@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-07T23:59:59+09:00"
 title: LightTableをためした
-tags: misc
+tags: [misc]
 minutes: 10
 pagetype: posts
 ---

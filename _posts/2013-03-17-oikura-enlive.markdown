@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-03-17T23:47:13+09:00"
 title: oikura の進捗報告
-tags: clojure
+tags: [clojure]
 pagetype: posts
 ---
 ぼく以外は誰も待っていないだろうけど、 oikura の進捗を報告する。

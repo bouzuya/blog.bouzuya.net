@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-06-13T23:53:32+09:00"
 title: Hello, Thymeleaf!
-tags: thymeleaf
+tags: [thymeleaf]
 pagetype: posts
 ---
 Hello, Thymeleaf! テンプレートエンジンThymeleafを試してみた。飲み会から帰宅したあとの1時間でどこまでできるかを試した。この調子で毎日すこしずつでも進めていけば、来月にはかなりのものができているはず。

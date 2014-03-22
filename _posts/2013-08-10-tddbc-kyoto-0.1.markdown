@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-08-10T23:59:59+09:00"
 title: TDDBC Kyoto 0.1 に参加した
-tags: java
+tags: [java]
 pagetype: posts
 ---
 TDDBC Kyoto 0.1 に参加した。京都も暑い。TDDとかペアプログラミングとかを実際にする機会がないので参加してみた。

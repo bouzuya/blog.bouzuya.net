@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-06-21T23:59:59+09:00"
 title: あれもしたいこれもしたい
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 いままで色々な「〜したい」「〜やりたい」を書いてきた。

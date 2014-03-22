@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2013-06-04T23:59:59+09:00"
 title: Ubuntu にて Postfix で Gmail に転送
-tags: misc
+tags: [misc]
 pagetype: posts
 ---
 残業がおかしいことになっていて、そのうち朝が夜になりそうだけれども、ぼくの名刺がわりの Web ページをつくるべく、メールまわりを整備している。メールアドレスとしては独自ドメインを使いつつ、 Gmail に転送してそちらで操作できるようにするつもりである。

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2012-03-21T23:17:35+09:00"
 title: 『みんなのPython』を読み終えた
-tags: python, book
+tags: [python, book]
 pagetype: posts
 ---
 『[みんなのPython](http://amazon.jp/o/ASIN/4797353953/bouzuya-22)』を読み終えた。細かいところまでていねいに読んだわけではなく、ざっと目を通す程度に読んだ。あとはPythonで書かれたソースコードを読みつつ書きつつ覚えていこうと思う。
