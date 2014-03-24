@@ -1,0 +1,17 @@
+---
+layout: post
+pubdate: "2014-03-24T22:37:05+09:00"
+title: Backbone.jsとRequireJSのサンプルをつくった
+tags: javascript
+minutes: 5
+pagetype: posts
+---
+[Backbone.jsとRequireJSのサンプル][bouzuya/backbone-requirejs-example]をつくった。正確には、以前つくりかけていたものを放置していて、このままだとどうせ削除してしまい、もったいないのでGitHubにアップロードした。
+
+Backbone.jsとRequireJSのサンプルとは書いているものの、`server/`には簡単なNode.jsのRESTfulなサーバーがあるし、`Procfile`があるのでHerokuにデプロイできる、はず。試していないけど。一緒に動かせるわけではなく、`app/`と`server/`とは完全に切れていて、`app/`側は`grunt server`で動くみたい。自分で書いたのにひとごと感がすごい。
+
+こういう構成で今後たくさん書くつもりなので、サンプルとして置いておく。
+
+パッと目につくだけでもgruntの設定がYeomanのgenerator-backboneで出力されたままだったり、`test/`を動かしていなかったり、ひどい感じ。
+
+[bouzuya/backbone-requirejs-example]: https://github.com/bouzuya/backbone-requirejs-example
