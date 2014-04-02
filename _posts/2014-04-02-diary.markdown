@@ -22,7 +22,7 @@ issue番号でブランチをつくる。
 
 空コミットをつくる。
 
-<script src="https://gist.github.com/bouzuya/9944964.js"></script>
+    git commit --allow-empty
 
 forkしてあるリポジトリにpush。
 
