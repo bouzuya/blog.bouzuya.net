@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-31T23:59:59+09:00"
 title: Route53とHerokuとの連携をためした
-tags: misc
+tags: [misc]
 minutes: 15
 pagetype: posts
 ---
