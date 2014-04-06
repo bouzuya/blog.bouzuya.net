@@ -1,0 +1,33 @@
+---
+layout: post
+pubdate: "2014-04-06T22:29:46+09:00"
+title: 今週のふりかえり(14)
+tags: ['looking back']
+minutes: 
+pagetype: posts
+---
+今週のふりかえり。2014-03-31/2014-04-06の一週間をふりかえる。
+
+- [2014-04-05 node-backlog-cli@0.1.4をつくった](http://blog.bouzuya.net/2014/04/05/diary/)
+- [2014-04-04 無題](http://blog.bouzuya.net/2014/04/04/diary/)
+- [2014-04-03 無題](http://blog.bouzuya.net/2014/04/03/diary/)
+- [2014-04-02 WIPブランチをPull Requestする運用をためした](http://blog.bouzuya.net/2014/04/02/diary/)
+- [2014-04-01 S3でBackbone.jsのHistory(pushState)に対応できるかをためした](http://blog.bouzuya.net/2014/04/01/diary/)
+- [2014-03-31 Route53とHerokuとの連携をためした](http://blog.bouzuya.net/2014/03/31/diary/)
+
+今週は先週決まってきた方向へ前進している。bwilike.meをリプレースし、それを使ったハイブリッドアプリをつくる。Route53とHerokuとの連携やS3とBackboneとの連携などがその一部。遅いような気もするけど、まあ順調だろう。S3とBackboneとの連携はbwilike.meにほとんどそのまま使うつもり。bwilike.meのクライアントはもうすぐ終わり。今週は結局サーバーには着手できなかった。
+
+GitHubでの運用フローをいろいろためしてみて、いまはBacklogとWIP PRを使って運用すればどうかなと考えている。その運用を補助するものとしてnode-backlog-cliをつくった。積極的につくって、公開していきたい。なんでも、ね。ただBacklogどれだけ好きなんだよ、Nulab社員かよ、ってなるけど。
+
+ゲームではSkyrimをすこしずつ進めている。そのうちクリアできるのかな。
+
+- K:
+  - Gistを使う 72->78(+6) 目標97
+- P:
+  - hubot-scriptsをつくっていない
+  - 料理をつくっていない
+- T:
+  - 週頭にhubot-scripts/料理を片づける
+  - bwilike.meの新バージョンを公開する
+  - 年目標のてこ入れを考える
+

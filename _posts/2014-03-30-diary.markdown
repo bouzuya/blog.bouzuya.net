@@ -14,7 +14,6 @@ pagetype: posts
 - [2014-03-26 New Relicをためした](http://blog.bouzuya.net/2014/03/26/diary/)
 - [2014-03-25 "bouzuya.net@0.4.0をつくった"](http://blog.bouzuya.net/2014/03/25/diary/)
 - [2014-03-24 Backbone.jsとRequireJSのサンプルをつくった](http://blog.bouzuya.net/2014/03/24/diary/)
-- [2014-03-23 今週のふりかえり(12)](http://blog.bouzuya.net/2014/03/23/diary/)
 
 今週はhubot-scriptsと[bwilike.me](http://bwilike.me/)のHerokuでの置き換えをしている。
 
