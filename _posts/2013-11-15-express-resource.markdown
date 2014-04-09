@@ -9,8 +9,8 @@ express-resourceを試す。そのメモ。
 
 - Node.jsではデファクトスタンダードなWebアプリケーションフレームワークexpressを拡張するライブラリ。
 - expressにresource構文を提供するexpress-resourceを試す。
-- 詳細は[https://npmjs.org/package/express-resource][https://npmjs.org/package/express-resource]からたどるか、
-- GitHubの[https://github.com/visionmedia/express-resource][https://github.com/visionmedia/express-resource]からどうぞ。
+- 詳細は[https://npmjs.org/package/express-resource](https://npmjs.org/package/express-resource)からたどるか、
+- GitHubの[https://github.com/visionmedia/express-resource](https://github.com/visionmedia/express-resource)からどうぞ。
 - resourceはRuby on Railsのconfig/routes.rbでおなじみの構文で、特定のリソースに対するCRUDを提供する。
 - express-resource が定義する routes は次の通り。
 
