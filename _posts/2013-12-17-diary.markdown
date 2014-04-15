@@ -11,7 +11,7 @@ Coverallsはテストカバレッジの履歴を管理したり、バッジ表�
 
 前に書いたとおり、あくまで実施はそれぞれで行う。Node.jsの場合も色々なやりかたはあるみたい。
 
-ぼくの場合は、[visionmedia/mocha][]を使っているので、それと連携できるもの。今回は[fishbar/jscoverage][]と[cainus/coveralls][]と[StevenLooman/mocha-lcov-reporter][]とを使った。
+ぼくの場合は、[visionmedia/mocha][]を使っているので、それと連携できるもの。今回は[fishbar/jscoverage][]と[cainus/node-coveralls][]と[StevenLooman/mocha-lcov-reporter][]とを使った。
 
 `jscoverage lib/`とすると`lib-cov/`にカバレッジをとれるように変換されたコードを出力できる。それを使って`mocha -R mocha-lcov-reporter`で実行すると、coverallsに送れる形式のデータで出力される。ひとつにまとめると`jscoverage lib && BACKLOG_API_COV=1 mocha -R mocha-lcov-reporter | coveralls`となる。`BACKLOG_API_COV`を使って、`lib/`と`lib-cov/`とを切り替えている。別のモジュールを使った例だが、[alanshaw/nodeunit-lcov-coveralls-example][]が分かりやすい。
 
@@ -30,9 +30,10 @@ Coverallsはちょっと扱いが難しくて、Travis-CIなら最後に`after_s
 
 38 min.
 
-[coveralls]: https://coveralls.io/
-[travis-ci]: https://travis-ci.org/
-[visionmedia/mocha]: https://github.com/visionmedia/mocha
-[fishbar/jscoverage]: https://github.com/fishbar/jscoverage
 [StevenLooman/mocha-lcov-reporter]: https://github.com/StevenLooman/mocha-lcov-reporter
 [alanshaw/nodeunit-lcov-coveralls-example]: https://github.com/alanshaw/nodeunit-lcov-coveralls-example
+[cainus/node-coveralls]: https://github.com/cainus/node-coveralls
+[coveralls]: https://coveralls.io/
+[fishbar/jscoverage]: https://github.com/fishbar/jscoverage
+[travis-ci]: https://travis-ci.org/
+[visionmedia/mocha]: https://github.com/visionmedia/mocha
