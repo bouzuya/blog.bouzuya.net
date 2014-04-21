@@ -1,12 +1,12 @@
 ---
 layout: post
 pubdate: "2014-04-14T14:15:33+09:00"
-title: HubotからBacklogにIssue登録するHubotスクリプトをかいた
+title: HubotからBacklogにIssue登録するHubotスクリプトをつくった
 tags: ['hubot-script']
 minutes: 13
 pagetype: posts
 ---
-[HubotからBacklogにIssue登録するHubotスクリプト](https://github.com/faithcreates/hubot-scripts/pull/23)をかいた。
+[HubotからBacklogにIssue登録するHubotスクリプト](https://github.com/faithcreates/hubot-scripts/pull/23)をつくった。
 
 ぼくは以前から[bouzuya/node-backlog-api][]を書いているくらいなので、Node.jsから[Backlog](http://www.backlog.jp/)を操作するくらいはおちゃのこさいさいなのだけれど、意外なことにHubot経由ではあまり操作していない。理由は、Backlogの書き込み操作をすると、書き込みユーザーがHubotに登録してあるユーザーになるとかで、ややこしいので。それもあって読み込みしかしていなかった。だけど、今回はHubotスクリプトについての要望のみに限定して、読み書きをできるようにしてみた次第。
 

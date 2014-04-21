@@ -12,8 +12,8 @@ pagetype: posts
 - [2014-04-18 無題](http://blog.bouzuya.net/2014/04/18/diary/)
 - [2014-04-17 無題](http://blog.bouzuya.net/2014/04/17/diary/)
 - [2014-04-16 Testemをためした](http://blog.bouzuya.net/2014/04/16/diary/)
-- [2014-04-15 bouzuya-fixturesをかいた](http://blog.bouzuya.net/2014/04/15/diary/)
-- [2014-04-14 HubotからBacklogにIssue登録するHubotスクリプトをかいた](http://blog.bouzuya.net/2014/04/14/diary/)
+- [2014-04-15 bouzuya-fixturesをつくった](http://blog.bouzuya.net/2014/04/15/diary/)
+- [2014-04-14 HubotからBacklogにIssue登録するHubotスクリプトをつくった](http://blog.bouzuya.net/2014/04/14/diary/)
 - [2014-04-13 今週のふりかえり(15)](http://blog.bouzuya.net/2014/04/13/diary/)
 
 淡白にKPTのみ。
