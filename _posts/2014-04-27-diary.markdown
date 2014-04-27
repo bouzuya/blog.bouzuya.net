@@ -1,0 +1,31 @@
+---
+layout: post
+pubdate: "2014-04-27T23:59:59+09:00"
+title: 今週のふりかえり(17)
+tags: ['looking back']
+minutes: 5
+pagetype: posts
+---
+今週のふりかえり。2014-04-21/2014-04-27の一週間をふりかえる。
+
+- [2014-04-26 無題](http://blog.bouzuya.net/2014/04/26/diary/)
+- [2014-04-25 無題](http://blog.bouzuya.net/2014/04/25/diary/)
+- [2014-04-24 BacklogのIssueを表示するHubotスクリプトの改良版をつくった](http://blog.bouzuya.net/2014/04/24/diary/)
+- [2014-04-23 無題](http://blog.bouzuya.net/2014/04/23/diary/)
+- [2014-04-22 そばをつくった](http://blog.bouzuya.net/2014/04/22/diary/)
+- [2014-04-21 Backlogのサマリーを得るHubotスクリプトをつくった](http://blog.bouzuya.net/2014/04/21/diary/)
+- [2014-04-20 今週のふりかえり(16)](http://blog.bouzuya.net/2014/04/20/diary/)
+
+淡白にKPTのみ。そのに。
+
+- K:
+  - Hubotスクリプトの更新を続ける
+  - 読書会(everyday rails)を続ける
+  - 付き合いも大事に
+- P:
+  - 料理のレベル。うどん・そばは。
+  - Hubotスクリプト以外のプログラミング
+  - 先週のTが
+- T:
+  - 先週のTを
+
