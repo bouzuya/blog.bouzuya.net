@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-22T23:59:59+09:00"
 title: 無題
-tags: blog
+tags: [blog]
 minutes: 18
 pagetype: posts
 ---

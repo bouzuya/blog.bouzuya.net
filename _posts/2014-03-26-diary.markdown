@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-03-26T23:40:44+09:00"
 title: New Relicをためした
-tags: javascript, heroku, bwilike
+tags: [javascript, heroku, bwilike]
 minutes: 10
 pagetype: posts
 ---
