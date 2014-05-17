@@ -18,4 +18,4 @@ JavaScript のラインカバレッジをとるなら、`blanket` / `jscoverage`
 
 でも、子プロセスは取れない、と。まあ、そりゃそうか。カバレッジは unit test でとることにして E2E テストではとらないことにしよう。諦めが肝心だ。
 
-
+[bouzuya/commander-b]: https://github.com/bouzuya/commander-b
