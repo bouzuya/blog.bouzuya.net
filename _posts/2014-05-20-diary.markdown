@@ -1,0 +1,160 @@
+---
+layout: post
+pubdate: "2014-05-20T19:33:28+09:00"
+title: GitHub + Travis CI + Amazon S3 で git push で更新されるサイトをつくった
+tags: [misc]
+minutes: 20
+pagetype: posts
+---
+GitHub + Travis CI + Amazon S3 で `git push` で更新されるサイトをつくったので、その手順をメモ。
+
+## 前提条件
+
+- GitHub のアカウントを持っている
+- GitHub にリポジトリを持っている (例では [bouzuya/bouzuya.net][] を使う)
+- GitHub にリポジトリは Node.js のパッケージである (ルートに`package.json`がある)
+- Travis CI のアカウントを持っている
+- Travis CI の CLI をインストールしている (`gem install travis`)
+- AWS のアカウントを持っている
+
+## 概要
+
+実現したい動きは次のとおり
+
+1. GitHub のリポジトリに `git push origin master` する
+2. Travis CI がリポジトリの更新を検知し Amazon S3 にデプロイ
+3. Amazon S3 にホストされているサイトが見れる
+
+## 手順
+
+### AWS の設定
+
+#### IAM でデプロイ用ユーザーをつくる
+
+IAM から Create New Users して、適当な名前でつくって Download Credentials し、Access Key Id, Secret Access Key を取得する。
+
+```csv
+User Name,Access Key Id,Secret Access Key
+"username",ABCDEFGHIJKLMNOPQRST,abcdefghijklmnopqrstuvwxyz0123456789abcd
+```
+
+こんな感じで手に入る。
+
+#### つくったデプロイ用ユーザーに Amazon S3 の更新権限を与える
+
+IAM でつくったデプロイ用ユーザーを選択し、権限を与える。 `s3:*` アクションは大きすぎる気もするけど、面倒なのでこれでいい。最悪バケツが消えるだけ。
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "s3:*",
+      "Resource": [
+         "arn:aws:s3:::bouzuya.net",
+         "arn:aws:s3:::bouzuya.net/*"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": "s3:ListAllMyBuckets",
+      "Resource": "arn:aws:s3:::*"
+    }
+  ]
+}
+```
+
+#### Amazon S3 バケツの設定
+
+Amazon S3 バケツ `bouzuya.net` を リージョン `ap-northeast-1` につくる。
+
+バケツ名は `CNAME` 設定する場合はホスト名にしておくほうが良い。詳しくは S3 のドキュメントを参照。
+
+サイトとして公開するので、公開設定を加える。
+
+- Static Website Hosting を Enable Website hosting にして Index Document に index.html をいれておく。
+- すべて `public-read` にするなら、次のようなポリシーを `Add bucket policy` で加えておく。
+
+```json
+{
+  "Version": "2008-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowPublicRead",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::bouzuya.net/*"
+    }
+  ]
+}
+```
+
+#### (Route53の設定)
+
+[http://bouzuya.net](http://bouzuya.net) の場合は DNS も要るので Route53 も適当にさわる。
+
+Route53 -> S3 なら `bouzuya.net` のようなドメインでも普通に振り分けられる。
+
+### Travis CI の設定
+
+#### Travis CI にリポジトリを登録する。
+
+[https://travis-ci.org/](https://travis-ci.org/) にログインして、当該リポジトリを ON にしておく。
+
+#### secure: の取得
+
+次に設定ファイルとして、リポジトリのルートに `.travis.yml` を置くのだけど、その前に `secure:` をつくっておく。
+
+    $ # さきほど得られたAmazon S3ユーザーの Access Key Id
+    $ travis encrypt -r bouzuya/bouzuya.net ABCDEFGHIJKLMNOPQRST
+    Please add the following to your .travis.yml file:
+
+    secure: "..."
+
+    Pro Tip: You can add it automatically by running with --add.
+    $
+    $ # さきほど得られたAmazon S3ユーザーの Secret Access Key
+    $ travis encrypt -r bouzuya/bouzuya.net abcdefghijklmnopqrstuvwxyz0123456789abcd
+    Please add the following to your .travis.yml file:
+
+    secure: "..."
+
+    Pro Tip: You can add it automatically by running with --add.
+
+#### 設定ファイルを置く
+
+設定ファイルをつくる。 次の通り。
+
+`"..."` には上記の `secure: "..."` が入る。 Travis CI で値は展開される。
+
+```yaml
+language: node_js
+node_js:
+  - "0.10"
+deploy:
+  provider: s3
+  access_key_id:
+    secure: "..."
+  secret_access_key:
+    secure: "..."
+  bucket: bouzuya.net
+  region: ap-northeast-1
+  endpoint: s3-ap-northeast-1.amazonaws.com
+  local-dir: public
+  on:
+    branch: master
+```
+
+[設定の詳細な説明は Travis CI のヘルプに任せる](http://docs.travis-ci.com/user/deployment/s3/)として、要するに Node.js のプロジェクトとして処理し、 対象のバケツは `bouzuya.net` で、対象のディレクトリは `public` で、ブランチ `master` が更新されたときに Amazon S3 にデプロイする、みたいな設定。
+
+### 最後に
+
+これであとは普段通り `html` やらをコミットして `git push origin master` するだけ。
+
+[http://bouzuya.net/](http://bouzuya.net/) はこうやって動いています。
+
+[bouzuya/bouzuya.net]: https://github.com/bouzuya/bouzuya.net
