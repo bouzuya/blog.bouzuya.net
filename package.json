@@ -1,0 +1,11 @@
+{
+  "name": "blog.bouzuya.net",
+  "version": "0.0.0",
+  "description": "bouzuya's blog.",
+  "main": "index.js",
+  "scripts": {
+    "start": "kraken"
+  },
+  "author": "bouzuya",
+  "license": "MIT",
+}
