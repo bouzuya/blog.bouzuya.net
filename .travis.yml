@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - "0.10"
+after_success: npm start
 deploy:
   provider: s3
   access_key_id:
