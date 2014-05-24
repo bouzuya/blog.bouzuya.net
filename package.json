@@ -8,4 +8,11 @@
   },
   "author": "bouzuya",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/blog.bouzuya.net.git"
+  },
+  "dependencies": {
+    "kraken": "git://github.com/bouzuya/kraken"
+  }
 }
