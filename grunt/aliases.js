@@ -1,9 +1,19 @@
 module.exports = {
+  build: [
+    'shell:kraken',
+    'requirejs:compile',
+    'copy:build'
+  ],
   develop: [
-    'connect',
-    'watch'
+    'connect:develop',
+    'watch:develop'
+  ],
+  'server:build': [
+    'connect:build',
+    'watch:develop'
   ],
   default: [
-    'jshint'
+    'jshint',
+    'build'
   ]
 };

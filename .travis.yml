@@ -1,7 +1,10 @@
 language: node_js
 node_js:
   - "0.10"
-before_deploy:
+install:
+  - npm install
+  - $(npm bin)/bower install
+script:
   - npm start
 deploy:
   provider: s3

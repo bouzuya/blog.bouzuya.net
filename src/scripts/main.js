@@ -1,10 +1,12 @@
 require.config({
   paths: {
+    'backbone.babysitter' : 'vendor/backbone.babysitter/lib/backbone.babysitter',
+    'backbone.wreqr' : 'vendor/backbone.wreqr/lib/backbone.wreqr',
     backbone: 'vendor/backbone/backbone',
+    hbs: 'vendor/require-handlebars-plugin/hbs'  ,
     jquery: 'vendor/jquery/dist/jquery',
-    marionette: 'vendor/backbone.marionette/lib/backbone.marionette',
-    underscore: 'vendor/underscore/underscore',
-    hbs: 'vendor/require-handlebars-plugin/hbs'
+    marionette: 'vendor/backbone.marionette/lib/core/amd/backbone.marionette',
+    underscore: 'vendor/underscore/underscore'
   },
   shim: {
     jquery: {
@@ -16,10 +18,6 @@ require.config({
     backbone: {
       deps: ['jquery', 'underscore'],
       exports: 'Backbone'
-    },
-    marionette: {
-      deps: ['jquery', 'underscore', 'backbone'],
-      exports: 'Marionette'
     }
   }
 });
