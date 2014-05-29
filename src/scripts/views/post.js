@@ -6,8 +6,14 @@ define(['marionette', 'hbs!templates/post'], function(Marionette, template) {
 
     template: template,
 
+    templateHelpers: {
+      permalink: function() {
+        return this.date.replace(/-/g, '/') + '/';
+      }
+    },
+
     triggers: {
-      'click .date': 'selected:post'
+      'click .date': 'selected:post',
     }
   });
 });
