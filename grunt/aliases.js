@@ -2,6 +2,7 @@ module.exports = {
   build: [
     'shell:kraken',
     'requirejs:compile',
+    'less',
     'copy:build'
   ],
   develop: [
