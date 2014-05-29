@@ -1,6 +1,6 @@
 {
   "name": "blog.bouzuya.net",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "bouzuya's blog.",
   "main": "index.js",
   "scripts": {
