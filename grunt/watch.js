@@ -4,6 +4,6 @@ module.exports = {
       livereload: 35729,
     },
     files: ['src/**/*.*'],
-    tasks: ['jshint']
+    tasks: ['jshint', 'less']
   }
 };
