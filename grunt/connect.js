@@ -2,7 +2,7 @@ module.exports = {
   develop: {
     options: {
       port: 9000,
-      base: ['build', 'src'],
+      base: ['src', 'build'],
       livereload: 35729,
       open: true
     }
