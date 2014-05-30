@@ -7,7 +7,7 @@ define(['marionette', 'hbs!templates/post-detail'], function(Marionette, templat
     template: template,
 
     ui: {
-      permalink: '.date'
+      permalink: '.permalink'
     },
 
     events: {

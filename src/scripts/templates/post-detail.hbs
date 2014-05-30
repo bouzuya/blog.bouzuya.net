@@ -1,9 +1,9 @@
 <div class="post">
-<span class="date"><a href="{{permalink}}">{{date}}</a></span>
-<span class="title">{{title}}</span>
+<span class="date"><a class="permalink" href="{{permalink}}">{{date}}</a></span>
+<span class="title"><a class="permalink" href="{{permalink}}">{{title}}</a></span>
 <ul class="tags">
   {{#each tags}}
-  <li class="tag">{{this}}</li>
+  <li class="tag"><a href="/tags/{{this}}">{{this}}</a></li>
   {{/each}}
 </ul>
 <div class="content">
