@@ -2,7 +2,6 @@ module.exports = {
   compile: {
     options: {
       baseUrl: 'src/scripts/',
-      // mainConfigFile: 'src/scripts/main.js',
       name: 'main',
       out: 'build/scripts/main.js',
       uglify: {

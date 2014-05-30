@@ -1,5 +1,5 @@
 module.exports = {
-  develop: {
+  default: {
     options: {
       port: 9000,
       base: ['src', 'build'],

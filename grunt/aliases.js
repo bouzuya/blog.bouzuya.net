@@ -5,13 +5,13 @@ module.exports = {
     'less',
     'copy:build'
   ],
-  develop: [
-    'connect:develop',
-    'watch:develop'
+  server: [
+    'connect:default',
+    'watch:default'
   ],
   'server:build': [
     'connect:build',
-    'watch:develop'
+    'watch:default'
   ],
   default: [
     'jshint',

@@ -1,5 +1,5 @@
 module.exports = {
-  develop: {
+  default: {
     options: {
       livereload: 35729,
     },
