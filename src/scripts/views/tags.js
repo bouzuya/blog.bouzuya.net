@@ -1,8 +1,10 @@
-define(['marionette', 'views/tag'], function(Marionette, TagView) {
-  return Marionette.CollectionView.extend({
-    tagName: 'ul',
-
+define(['marionette', 'views/tag', 'hbs!templates/tags'], function(Marionette, TagView, template) {
+  return Marionette.CompositeView.extend({
     className: 'tags',
+
+    template: template,
+
+    itemViewContainer: 'ul',
 
     itemView: TagView,
 
