@@ -1,10 +1,8 @@
-define(['marionette', 'views/post', 'hbs!templates/posts'], function(Marionette, PostView, template) {
-  return Marionette.CompositeView.extend({
+define(['marionette', 'hbs!templates/posts', 'views/post'], function(Marionette, template, PostView) {
+  return Marionette.CollectionView.extend({
+    tagName: 'ul',
+
     className: 'posts',
-
-    template: template,
-
-    itemViewContainer: 'ul',
 
     itemView: PostView,
 
@@ -13,7 +11,7 @@ define(['marionette', 'views/post', 'hbs!templates/posts'], function(Marionette,
     },
 
     initialize: function(options) {
-      this.tags = options.tags || [];
+      this.tags = options.tags;
     },
 
     onSelectedPost: function(eventName, args) {
@@ -24,7 +22,7 @@ define(['marionette', 'views/post', 'hbs!templates/posts'], function(Marionette,
 
     // overrides addItemView for filtering by tags
     addItemView: function(post) {
-      if (this.tags.length === 0 || post.hasTags(this.tags)) {
+      if (!this.tags || post.hasTags(this.tags)) {
         var args = Array.prototype.slice.call(arguments);
         Marionette.CollectionView.prototype.addItemView.apply(this, args);
       }

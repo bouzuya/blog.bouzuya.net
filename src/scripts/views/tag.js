@@ -8,6 +8,12 @@ define(['marionette', 'hbs!templates/tag'], function(Marionette, template) {
 
     triggers: {
       'click .name': 'selected:tag'
+    },
+
+    onSelectedTag: function(options) {
+      var fragment = 'tags/' + options.model.get('name');
+      Backbone.history.navigate(fragment, { trigger: true });
+      return false;
     }
   });
 });
