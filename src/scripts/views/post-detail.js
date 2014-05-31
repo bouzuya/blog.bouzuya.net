@@ -28,7 +28,12 @@ define(['marionette', 'hbs!templates/post-detail', 'views/tags'], function(Mario
       'sync': 'onSync'
     },
 
+    initialize: function(options) {
+      this.app = options.app;
+    },
+
     onSync: function() {
+      this.app.vent.trigger('update:title', this.model.get('title'));
       this.render();
       this.tags.show(new TagsView({ collection: this.model.get('tags') }));
     },

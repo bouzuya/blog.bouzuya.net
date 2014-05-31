@@ -12,7 +12,12 @@ define(['marionette', 'views/tags', 'hbs!templates/tags-page'], function(Marione
       'sync': 'onSync'
     },
 
+    initialize: function(options) {
+      this.app = options.app;
+    },
+
     onShow: function() {
+      this.app.vent.trigger('update:title', 'tags');
       this.collection.fetch();
     },
 

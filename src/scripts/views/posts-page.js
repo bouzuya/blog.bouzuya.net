@@ -9,7 +9,12 @@ define(['marionette', 'hbs!templates/posts-page', 'views/posts', 'views/tags'], 
       posts: '.posts-region'
     },
 
+    initialize: function(options) {
+      this.app = options.app;
+    },
+
     onShow: function() {
+      this.app.vent.trigger('update:title', 'posts');
       if (this.model.get('tags')) {
         this.tags.show(new TagsView({ collection: this.model.get('tags') }));
       }
