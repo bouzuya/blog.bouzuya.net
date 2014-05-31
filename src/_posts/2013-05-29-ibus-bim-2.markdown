@@ -1,0 +1,28 @@
+---
+layout: post
+pubdate: "2013-05-29T23:59:59+09:00"
+title: ibus-bim に向けて(2)
+tags: [python]
+pagetype: posts
+---
+ibus-skk と ibus-anthy と ibus 本体のソースコードリーディング。最新分は Vala で書かれているけど、ぼくは Python でやるつもり。 Python じゃなくて Ruby がやりたいんだけどなあ。うまくやれば Ruby でも書けそうだけど、とりあえずは動くものを目指す。
+
+今日は次のあたりを読む。
+
+- main.py
+- factory.py
+- engine.py
+
+`python main.py` で起動してタスクバー(?) のメニューに追加することはできた。ところが、どうもうまくエンジンを起動できない。
+
+`main.py` はエントリポイント。IBusComponent を作ったり、IBusEngineDesc を登録したり、IBusFactory でエンジン作ったり、main loop の開始をしたり。
+
+`factory.py` は Signal 受信してエンジン作ったりしてる。はずなんだけど、Signal を受信できていないくさい。
+
+`engine.py` はキーとかを処理するエンジンの役割だけど、ここまでこれていない。
+
+Signal を受信できていない気がする。そもそも、Signal って何よって感じ。C# における Event ぽいものだとは思うんだけど、GObject というものを継承することで追加している機能ぽい。うまく動かないのはリファレンスと実際に試しているもののバージョンが違うせいのような気もする。
+
+繰り返すけど Python じゃなくて Ruby の勉強がしたいんです。でもその前にこのムカつく IME をどうにかするために、ibus-bim を作る。うむ。
+
+10 min.

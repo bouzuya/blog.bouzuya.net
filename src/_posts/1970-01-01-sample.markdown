@@ -36,10 +36,6 @@ pagetype: posts
 
 > blockquote
 > blockquote
-> blockquote
->
-> blockquote
-> blockquote
 
 ## pre / code
 

@@ -1,0 +1,44 @@
+---
+layout: post
+pubdate: "2014-04-07T08:23:16+09:00"
+title: hubot-scripts name.js/gengo.jsをつくった
+tags: [hubot]
+minutes: 16
+pagetype: posts
+---
+hubot-scripts [name.js](https://github.com/faithcreates/hubot-scripts/pull/19)/[gengo.js](https://github.com/faithcreates/hubot-scripts/pull/20)をつくった。どちらも小さなHubotスクリプト。
+
+name.jsはひらがなで名前をつくるスクリプト。固定するひらがなと文字数と生成する個数を渡せば、名前をつくって返してくれる。
+
+例を挙げると
+
+    > @hubot name あ**
+
+で、「あ」からはじまり3文字の名前の案が20個つくられる。
+
+    > @hubot name あ** 5
+
+こうすれば5個。
+
+    > @hubot name xxxxあ 3
+
+こうすれば、「あ」でおわり5文字の名前の案が3個つくられる。
+
+アルゴリズムはひらがな以外をランダムなひらがなで置き換えているだけ。簡単。
+
+次にgengo.js。ゲンゴって何だ、って。元号。「eraじゃなくて」と思っても気にしない。これは西暦を渡して元号を返す。
+
+例を挙げると
+
+    > @hubot gengo
+
+で、今年の元号(例: 平成26年)を返す。
+
+    > @hubot gengo 1980
+
+で、指定した年の元号(例: 昭和55年)を返す。
+
+明治以降に対応していて、境界の年は次の元号の元年を優先している。要するに年をif elseで並べただけ。
+
+ちょっとでもほしいHubotスクリプトが思いつけばGitHubのIssueに登録し、それを誰かが実装する。こういう流れは良いと思う。社内だけでなく、社外、つまりお客さんとの間でこれができて、その価値に合った料金を支払う。そういう当たり前の関係がつくれればいいのになあ。気軽にやりとりして、良いものをつくっていける、そんな関係ね。
+

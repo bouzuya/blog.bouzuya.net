@@ -1,0 +1,9 @@
+---
+layout: post
+pubdate: "2014-03-01T23:59:59+09:00"
+title: 無題
+tags: [misc]
+minutes: 
+pagetype: posts
+---
+半日寝て、お腹が治っていないのを確認し、大阪の友人のところへ行き、飯を食う。Skyrimを貸し与えられ、帰ってくる。

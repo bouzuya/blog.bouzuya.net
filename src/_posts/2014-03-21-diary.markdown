@@ -1,0 +1,34 @@
+---
+layout: post
+pubdate: "2014-03-21T10:09:17+09:00"
+title: hubot-scripts ga.jsをつくった
+tags: [javascript, hubot]
+minutes: 32
+pagetype: posts
+---
+[hubot-scripts ga.js](https://github.com/faithcreates/hubot-scripts/pull/9)をつくった。ga.jsはGoogle Analyticsの結果を取得するHubotスクリプト。
+
+困ったこととか得た知識とかを軽く書いておく。
+
+Google AnalyticsのAPIを呼び出すのに手こずった。いろいろポイントがあるんだけど、順番に書く。
+
+ライブラリ。Google APIは[Node.js向けにはalpha版としつつもクライアントライブラリ](https://github.com/google/google-api-nodejs-client/)が提供されている。ただ、[サンプルは充実していない](https://github.com/google/google-api-nodejs-client/tree/master/examples)し、ドキュメントを読むか、慣れないと分かりづらい。
+
+Google APIの呼び方。今回は次のような感じ。
+
+1. Google Developers Consoleでプロジェクトを作る(課金の単位。無料枠で十分使える)
+2. API & Auth > APIs でAPIを有効にする
+3. API & Auth > Credentials でOAuth認証情報を得る
+4. Google Analyticis側でOAuth認証情報で手に入れたメールアドレスに権限を付ける
+5. 対象のAPIのドキュメントを調べて、APIを呼び出す
+
+OAuthでも種類を選べる。上記手順の3。よくWebブラウザで使うようなWeb applicationとかService accountとか。正直、名前からイメージできない。今回のAPIサーバーのための認証ならService accountだと思う。このService accountでの認証が実はJWT(JSON Web Tokens)と呼ばれていて、ライブラリでも使えるように準備はされているのだけれど、そもそもJWTというキーワードに到達しづらいので、気づくまでに手こずった。signed JSON、実質はメールアドレスと秘密鍵で認証する。目立つサンプルはWeb applicationばかりでJWTの情報はあまりない。Web applicationよりService account(JWT)の方が慣れれば簡単に呼び出せるんだけどね。送信の要る情報が少ないし、やりとり少ないし。
+
+秘密鍵の配置。今回はHubotから呼び出すので秘密鍵を配置する方法に困って、結局すべて環境変数にした。p12をpemに変換して、それを指定する。これまたサンプルがなくて、ファイルパスを指定する例(keyFile)はあってもプレーンテキストの秘密鍵を文字列で指定する例(key)はない。しれっと用意されている引数(括弧書きしたもの)を指定すれば動く。
+
+Google APIs Discovery Service。GoogleのAPIは「[Google APIs Discovery Service](https://developers.google.com/discovery/)」ってのがあって、ライブラリはこれに対応している。Discovery ServiceってのはAPIの仕様を返すAPI。どんなAPIがあるのか、どんなパラメーターを指定が要るのか、どんな認証が要るのか。そういう情報を返す。プログラミングのデザインパターンで言えばservice locatorみたいなものかな。ちなみにFlickrのAPIも同じような実装になってる。こういう実装にしておけば巨大なAPIになったときも困らないんだろう。自分でこういうものを実装するときの参考になりそう。
+
+複雑だけど分かってしまえば、割と当たり前の構成なんだよね。外部のAPIに触れるって大切だと思う。学ぶことが多い。
+
+あ、全然関係ないけど、彼女に振り回されてて、時間が。これにさらに子どもが居る人たちってすごいと思う。自分の時間をどうやって捻出しているのか気になる。
+

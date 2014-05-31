@@ -1,0 +1,41 @@
+---
+layout: post
+pubdate: "2014-02-03T13:45:48+09:00"
+title: uploader-hatena-graphをつくった
+tags: [javascript]
+minutes: 15
+pagetype: posts
+---
+[bouzuya/uploader-hatena-graph][]をつくった。これははてなグラフにカウントをアップロードするスクリプト。以前はClojure等で書いていたものをJavaScript(Node.js)で書き直した。これを使って、いま停止させているスクリプトを改めて動かす予定。
+
+これを書き直す過程でいろいろとハマったので、このエントリーではそれを書いておく。
+
+[はてなグラフAPIのドキュメント][hatena-graph-api]を読むと、いまは認証方式としてWSSEとOAuthとに対応しているらしい。以前はWSSEで認証していたのだけれど、今回は名前の売れているOAuthで認証しようと思った。
+
+そしてハマる。
+
+OAuth認証で書いてみたのだけれど、動かない。はてなグラフへのリクエストにOAuthのヘッダーをつけて送ると500エラーが返される。同じプログラムではてなブックマーク(こちらもOAuth認証)へリクエストすると動くので、まず間違いなくはてなグラフがおかしい。そもそも500エラーって。問い合わせを投げつつ、ひとまず諦めてWSSE認証ではてなグラフAPIを呼び出すことにした。
+
+次のハマりポイントは、[WSSE認証のパスワードとして要求される文字列が、ログインのときに使うパスワードではなく、APIキーに変わっていること](http://hatena.g.hatena.ne.jp/hatenagraph/20131003/1380786459)。[各サービスへのメール投稿用アドレス](https://www.hatena.ne.jp/my/config/mail/upload)のユーザー名部分(@より前のもの)がAPIキーらしい。はてなブログの場合はより長くなっているけど、長くなっている部分は無視して良い。ちなみに、このAPIキーは[はてなブログの管理画面](http://blog.hatena.ne.jp/my/config/detail)でも確認できる。この情報が小さい文字やブログ記事でちょろっと書かれているのでハマった。「パスワードによる認証は、2014年3月5日廃止します」と書いてあるけど、既に動かず、403エラーが返される。
+
+他のハマりポイントとしては、WSSE認証の実装関連で2点。[例で挙げられているURLのPasswordDigestの値が間違っている](http://www.xml.com/pub/a/2003/12/17/dive.html)のが1点。"quR/EWLAV4xLf9Zqyw4pDmfV90Y="と書いてあるけど、正しくは"quR/EWLAV4xLf9Zqyw4pDmfV9OY=" (後ろから3文字目の0はOが正しい)。もう1点がはてなグラフの側はNonceをBASE64エンコードしないといけない。[RubyGemsのhatenaapigraph(公式のライブラリ)](https://rubygems.org/gems/hatenaapigraph)の実装を確認して気づいた。あとから読み返すと注釈(\*1としか表示されておらず、クリックすると404。マウスホバーで内容を確認できる)に書いてあった。
+
+いろいろと説明が分かりづらいんだよね。
+
+整理すると、はてなグラフだと認証方式は次の3つがある。
+
+- OAuth認証
+- WSSE認証(パスワード)
+- WSSE認証(APIキー)
+
+2014年3月5日以降はWSSE(パスワード)が廃止される。しかし、それまでは上記の3つの方式どれでもいけるとドキュメント上はなっているが、実際にはWSSE認証(APIキー)以外は動かない。また参考として挙げられているURLとは違い、Nonceをヘッダーに含める際はBASE64エンコードしないといけない。ドキュメント上は極めて確認しづらい。これはなかなかイケてないですね。
+
+もうハマりたくないので、[bouzuya/node-wsse][]([npmjs/node-wsse][])と[bouzuya/node-hatena-graph-api][]([npmjs/node-hatena-graph-api][])というモジュールをつくった。node-wsseはWSSE認証のUsernameTokenを生成するモジュール。node-hatena-graph-apiははてなグラフAPIのラッパーモジュール。node-wsseにはNonceをBase64エンコードするかどうかのオプションをつけたし、node-hatena-graph-apiではWSSE(APIキー)を採用している。これでもうハマらない。
+
+[hatena-graph-api]: http://developer.hatena.ne.jp/ja/documents/graph/apis/rest
+[npmjs/node-wsse]: https://npmjs.org/package/wsse
+[npmjs/node-hatena-graph-api]: https://npmjs.org/package/hatena-graph-api
+[bouzuya/node-wsse]: https://github.com/bouzuya/node-wsse
+[bouzuya/node-hatena-graph-api]: https://github.com/bouzuya/node-hatena-graph-api
+[bouzuya/uploader-hatena-graph]: https://github.com/bouzuya/uploader-hatena-graph
+

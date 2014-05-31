@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2013-01-17T23:53:07+09:00"
+title: よくばったら
+tags: [misc]
+pagetype: posts
+---
+よくばったら時間内に終わらなかった。おまけに眠い。RDBMS や SQL は手軽に扱うのが難しい。
+
+4 min.

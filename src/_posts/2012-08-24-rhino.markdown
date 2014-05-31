@@ -1,0 +1,14 @@
+---
+layout: post
+pubdate: "2012-08-24T23:41:39+09:00"
+title: ClojureでJavaScriptを扱う
+tags: [clojure, javascript]
+pagetype: posts
+---
+ClojureでJavaScriptを扱う。LESSというCSSを出力する言語がある。SASSと同系統のこの言語はJavaScriptで実装されている。これを例のmisakiに組み込もうと思った。
+
+Javaは1.6からjavax.script名前空間のクラス群をインタフェースとして、JavaScriptを扱うことができる。内部的にはMozillaのRhinoを使っているそうだ。
+
+うまくいくはずだったのだけれど、なにやら`window`が定義されないよ、などと叱られる。Hello, World!くらいはできるのだけれど、なんとも悔しいので書かない。
+
+4 min.

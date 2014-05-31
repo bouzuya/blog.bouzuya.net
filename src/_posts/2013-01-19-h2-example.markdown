@@ -1,0 +1,29 @@
+---
+layout: post
+pubdate: "2013-01-19T23:59:59+09:00"
+title: Clojure から H2 を使う準備
+tags: [clojure]
+pagetype: posts
+---
+[H2][h2] を [Clojure][clojure] から使うために[試している][h2-example]。[Apache Derby][derby] を使うつもりだったのだけれど、ことあるごとに例外を投げるし、あまり良い印象がないので、以前からお世話になっている H2 に切り換えることにした。
+
+実際のところ H2 を使うというよりは `clojure.java.jdbc` を使うための練習に近い。
+
+`clojure.java.jdbc` のドキュメントはいまひとつ分かりづらいのでソースコードを頻繁に追っている。`master` を見ると `with-connection` などは `:deprecated "0.3.0"` となっている。どうも `*db*` をやめたいらしい。
+
+`clojure.java.jdbc` の `0.3.0` 以降では、次の例のような doto を使って `db` を設定させるコードが標準になるのかもしれない。
+
+    (doto db
+      (db-do-commands
+        true
+        "INSERT INTO ... "))
+
+ぼくも `clj-backlog` などで `*backlog-auth*` を使っていて、状態を外部に持つのは良くない感じがしている。関数は引数と戻り値だけで動くべきだと思う。
+
+10 min.
+
+[h2]: http://www.h2database.com
+[clojure]: http://clojure.org
+[h2-example]: https://gist.github.com/4569831
+[derby]: http://db.apache.org/derby/
+

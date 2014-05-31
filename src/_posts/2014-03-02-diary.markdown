@@ -1,0 +1,37 @@
+---
+layout: post
+pubdate: "2014-03-02T20:06:47+09:00"
+title: 今週のふりかえり(9)
+tags: ['looking back']
+minutes: 13
+pagetype: posts
+---
+今週のふりかえり。2014-02-24/2014-03-02の一週間をふりかえる。
+
+- [2014-03-01 無題](http://blog.bouzuya.net/2014/03/01/diary/)
+- [2014-02-28 無題](http://blog.bouzuya.net/2014/02/28/diary/)
+- [2014-02-27 無題](http://blog.bouzuya.net/2014/02/27/diary/)
+- [2014-02-26 無題](http://blog.bouzuya.net/2014/02/26/diary/)
+- [2014-02-25 無題](http://blog.bouzuya.net/2014/02/25/diary/)
+- [2014-02-24 hubot-sakagemcをつくった](http://blog.bouzuya.net/2014/02/24/diary/)
+
+見るからにダメなのだけれど。詳しく見ていく。
+
+まず水曜日から調子が悪くなって、もどしたりくだしたりを繰り返している。もどすことは減ってきているので、そのうち落ち着くとは思うのだけれど、あまり良いことではない。
+
+あとはhubot-scriptsの環境を整えている。`external-scripts.json`に追加すると`@hubot help`で出ないことに気づいてなおしたり、hubot-sakagemcのバグを直したり、いろいろ。
+
+CSSでは`-webkit-overflow-scrolling: touch`を指定しておくとiOSでスクロールに慣性がつくようになることを知る。一方でこれを使うとDOM操作が遅くなるような。
+
+今日は野菜炒めをつくって食べたので、つくった(料理)はクリアできそう。
+
+毎回でてきてうっとうしいKPTの項目はREADME.mdに移そう。
+
+- K:
+  - 8 「つくった(hubot-script)」を書く
+- P:
+  - 9 体調管理ができていない
+- T:
+  - 9 早寝早起きする。06:00には起きよう、00:00には寝よう
+  - 8 たまった雑誌を読む
+

@@ -1,0 +1,12 @@
+---
+layout: post
+pubdate: "2014-04-24T23:59:59+09:00"
+title: BacklogのIssueを表示するHubotスクリプトの改良版をつくった
+tags: ['hubot-scripts']
+minutes: 2
+pagetype: posts
+---
+BacklogのIssueを表示するHubotスクリプトの細かな改善を続けている。[GitHubのPRのURLを表示できるようにしてみた](https://github.com/faithcreates/hubot-scripts/pull/32)り、[`robot.hear()`で勝手に応答できるようにしてみた](https://github.com/faithcreates/hubot-scripts/pull/31)り。
+
+とりあえず、忙しくてそれどころじゃない。目もなんだかつかれている。
+

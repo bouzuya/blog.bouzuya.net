@@ -1,0 +1,36 @@
+---
+layout: post
+pubdate: "2012-05-27T17:10:34+09:00"
+title: 4Clojureを楽しむ(10)〜Mediumを終えて〜
+tags: [clojure]
+pagetype: posts
+---
+[4Clojure](https://www.4clojure.com/)のMediumを終えた。Elementary、Easyを経て、Mediumまで来た。今月の目標はEasyを終えることだったのだけれど、それに加えてMediumを終えることができた。全150問のうち130問を解いている。これはいま登録されている利用者6661人のうち94位である。上位100に入ることができた。
+
+あまりに嬉しかったので画像を取得した。
+
+<img width="360" height="360" src="http://bouzuya.github.com/images/4clojure-10-medium.png" />
+<img width="360" height="279" src="http://bouzuya.github.com/images/4clojure-10-rank94.png" />
+
+また今回は4Clojure関連記事の第10回である。せっかくの機会なので過去に書いたClojureに関する記事についてまとめた。表題をつけなおしたり、番号の誤りを直したりしてある。
+
+- 04/22 [『kyoto.clj#1 -Clojure勉強会-』に参加した](http://bouzuya.github.com/2012/04/22/kyoto-clj-1.html)
+- 04/23 [とりあえずLeiningen〜5分ではじめるClojure REPL〜](http://bouzuya.github.com/2012/04/23/leiningen.html)
+- 04/24 [4Clojureを楽しむ(1)〜Elementaryを終えて〜](http://bouzuya.github.com/2012/04/24/4clojure-1.html)
+- 04/25 [4Clojureを楽しむ(2)〜Elementaryの見直し〜](http://bouzuya.github.com/2012/04/25/4clojure-2.html)
+- 05/06 [4Clojureを楽しむ(3)〜4Clojureは勉強になる〜](http://bouzuya.github.com/2012/05/06/4clojure-3.html)
+- 05/07 [4Clojureを楽しむ(4)〜Easyを終えて〜](http://bouzuya.github.com/2012/05/07/4clojure-4.html)
+- 05/08 [4Clojureを楽しむ(5)〜#()マクロ〜](http://bouzuya.github.com/2012/05/08/4clojure-5.html)
+- 05/09 [4Clojureを楽しむ(6)〜Easyの見直し〜](http://bouzuya.github.com/2012/05/09/4clojure-6.html)
+- 05/16 [4Clojureを楽しむ(7)〜timeマクロ〜](http://bouzuya.github.com/2012/05/16/4clojure-7.html)
+- 05/19 [Clojureで郵便番号データを得るスクリプトを書いた](http://bouzuya.github.com/2012/05/19/clojure-zipcode.html)
+- 05/20 [Leiningenについて調べた](http://bouzuya.github.com/2012/05/20/clojure-leiningen.html)
+- 05/21 [4Clojureを楽しむ(8)〜Clojureに集中する〜](http://bouzuya.github.com/2012/05/21/4clojure-8.html)
+- 05/22 [4Clojureを楽しむ(9)〜動くものも書くよ、絶対に〜](http://bouzuya.github.com/2012/05/22/4clojure-9.html)
+- 05/27 [4Clojureを楽しむ(10)〜Mediumを終えて〜](http://bouzuya.github.com/2012/05/27/4clojure-10.html)
+
+Clojureを勉強することになったきっかけは、4/22の勉強会である。Clojureには興味がなかったが、事前学習として『プログラミングClojure』をざっと読み、参加した。4Clojureとの出会いは、この勉強会あとの懇親会で「何か作る」と言った手前やめるわけにもいかず、何をしようか考えていたところに、[Takahiro Nodaさんのツイート](https://twitter.com/tnoda_/status/194331844353867776)を見たことだ。4Clojureはパズルゲームをしているようで楽しくて仕方ない。途中、郵便番号データを取得するスクリプトを書いてみたり、その過程でLeiningenについて調べたりもした。
+
+今回はひとつの区切りだけれど、まだClojureで満足のいくものを作ることができていない。まだまだしっくりきていない機能もたくさんあるし、Clojureができると言えるになりたいな。
+
+65 min.

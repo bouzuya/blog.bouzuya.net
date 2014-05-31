@@ -1,0 +1,51 @@
+---
+layout: post
+pubdate: "2014-03-16T23:59:59+09:00"
+title: 今週のふりかえり(11)
+tags: ['looking back']
+minutes: 25
+pagetype: posts
+---
+今週のふりかえり。2014-03-10/2014-03-17の一週間をふりかえる。
+
+- [2014-03-15 Android アプリをつくった](http://blog.bouzuya.net/2014/03/15/diary/)
+- [2014-03-14 AppGyver Steroidsをためした](http://blog.bouzuya.net/2014/03/14/diary/)
+- [2014-03-13 jshint-defaultをつくった](http://blog.bouzuya.net/2014/03/13/diary/)
+- [2014-03-12 syntastic-grunt-contrib-jshintをつくった](http://blog.bouzuya.net/2014/03/12/diary/)
+- [2014-03-11 hubot-scripts yoshiyoshi.jsをつくった](http://blog.bouzuya.net/2014/03/11/diary/)
+- [2014-03-10 無題](http://blog.bouzuya.net/2014/03/10/diary/)
+
+つくっているし、ためしている。継続的ではない前進を感じる一週間だった。
+
+プログラミング関連では、次のものをつくっている。
+
+- hubot-scripts : 定期実行/監視/指定部屋への発言 [yoshiyoshi.js](https://github.com/faithcreates/hubot-scripts/pull/6)
+- JSHint Reporter : [bouzuya/jshint-default][]
+- Androidアプリ
+
+つくったもので、一番大きいのはAndroidアプリだろう。Google Play Developerに登録し、Androidアプリを登録できた。正式公開はしていないが、手順は検証できた。またhubot-scriptsをつくっていて、週1回の目標を達成できている。内容としても新しいことをできている。指定部屋への発言という普段と違う発言方法を検証できた。
+
+先週の問題であるところの「つくった」を書けるところまでやりきれていないというものは、JSHint Reporterのようにキリの良いところまでつくれたので良かった。
+
+ためしたものとしては、AppGyver Steroidsを書いているが、上記Androidもhubot-scriptsもためしていると言って良い。
+
+ブログには書いていないが、書籍を何冊か購入している。うち一冊は小さいが書いていて、『コンピュータプログラミングの概念・技法・モデル』(CTMCP。通称ガウディ本)を読みはじめている。この本は分厚いので読み終えるか怪しい。すこしずつ読むつもり。
+
+見えにくいところでゲーム(Skyrim)をやりすぎていないのも良いね。
+
+料理ができていないのがすこし残念かな。
+
+- K:
+  - Androidアプリ開発(製品版公開を目指す)
+  - 「つくった」に書けるところまでやりきる姿勢を続けたい
+  - Skyrimのプレイ時間を現状におさえたい
+- p:
+  - 料理ができていない
+- T:
+  - 年間目標の達成度を確認したい
+  - hubot-mock-adapterについて書きたい
+  - grunt-contrib-jshintについて書きたい
+  - grunt-contrib-connectについて書きたい
+  - grunt-contrib-watchについて書きたい
+
+[bouzuya/jshint-default]: https://github.com/bouzuya/jshint-default

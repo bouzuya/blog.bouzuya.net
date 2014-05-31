@@ -1,0 +1,23 @@
+---
+layout: post
+pubdate: "2013-12-16T23:12:24+09:00"
+title: Backlog API wrapper for Node.js@0.8.1をリリースした
+tags: [javascript]
+pagetype: posts
+---
+Backlog API wrapper for Node.js@0.8.1([bouzuya/node-backlog-api@0.8.1][])をリリースした。サポートするメソッドを2,3増やした程度の変更で大したことはしていない。むしろ、今回は別の目的でのリリースと言って良い。
+
+その別の目的というのが[Travis CI][travis-ci]の試用である。
+
+今回のリリースのREADME.mdを見れば分かるが、よく見かける[![Build Status](https://travis-ci.org/bouzuya/node-backlog-api.png?branch=0.8.1)](https://travis-ci.org/bouzuya/node-backlog-api)イメージが表示されている。これはTravis-CIでのビルド・テスト結果を表示したイメージである。おそらくpassingとなっているはずだ。
+
+Travis CIは以前から知っていた。いつからかは明確ではないが、Clojureのコンテンツジェネレーターmisakiで使われていたのは覚えているので、少なくとも1年前には知っていたはずだ。いままでなんとなく試していなかったが、試してみたところ、いままで損していたと感じた。
+
+使いかたは簡単でGitHubアカウントでサインアップして、リポジトリに`.travis.yml`を配置するだけ。Node.jsなら`npm test`などを実行してくれる。最低限の設定ファイルでここまでやってくれるなんて、と驚いた。これで済むところはこれで済ませたい。自分でJenkinsやらをホストするのがバカらしくなる。
+
+Jenkinsのためのビルドスクリプトの配置場所について考えたことがあったけど、Travis CIのように標準的なファイル名を決めておいてリポジトリのルートに置いておけば、それを解釈する動きで良い気がしてきた。`.jenkins.json` みたいので良いような。
+
+48 min.
+
+[bouzuya/node-backlog-api@0.8.1]: https://github.com/bouzuya/node-backlog-api/tree/0.8.1
+[travis-ci]: https://travis-ci.org/ 

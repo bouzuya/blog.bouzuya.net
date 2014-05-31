@@ -1,0 +1,17 @@
+---
+layout: post
+pubdate: "2013-02-06T23:59:59+09:00"
+title: 飲む
+tags: [misc]
+pagetype: posts
+---
+飲んだ。ふらふらになりながらも、帰宅後に環境構築。今日の目標は OpenJDK 32 bit を動作させること。 Ubuntu Desktop 64 bit では OpenJDK Server VM しかないので、Ubuntu Server 32 bit を試してみる。 Client ではなく Server にしたのは、どうせ Terminal しか使わないのなら、という判断。エコでしょ。
+
+セットアップにて日本語ではなく English で設定してしまい、コンソールに豆腐 ( ■ ) が表示されてハマる。文字化け対応は面倒な割に得るものが少ないからうれしくない。`locale` で確認すると `LANG=en_US.UTF-8` などが表示される。`locale-gen ja_JP.UTF-8` して `update-locale ja_JP.UTF-8` して `apt-get install jfbterm` して復旧させた。フォントが明朝なのか、カクカクしているけれど、そこそこ見やすいのでそのまま使うことに。
+
+`apt-get install openjdk-7-jdk` してみたところ、`OpenJDK Client VM (build 32.2-b09, mixed mode, sharing)` と表示され、一安心。Leiningen をインストールして試してみたらやはり速い。`lein version` に 7 s かかるというありえない速度だった以前の環境とは違い、1 s 未満で返ってくる。
+
+まだ移設は終わっていないけれど、この環境なら、よりプログラミングを楽しめるに違いない。
+
+20 min.
+

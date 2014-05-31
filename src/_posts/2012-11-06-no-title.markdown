@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2012-11-06T23:48:51+09:00"
+title: ねる
+tags: [misc]
+pagetype: posts
+---
+いやなことからにげるためにねる。
+
+1 min.

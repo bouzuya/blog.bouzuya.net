@@ -1,0 +1,12 @@
+---
+layout: post
+pubdate: "2013-06-06T23:59:59+09:00"
+title: mail.mailutils(1)
+tags: [misc]
+pagetype: posts
+---
+Terminal で、コマンドでメールを操作できるようにしようとしている。メールを使ったあれやこれやがしたいからだ。
+
+ただ、あれもしたいこれもしたいばっかり書いている気がする。Rails もほったらかしだし、ibus もほったらかしなのに。
+
+1 min.

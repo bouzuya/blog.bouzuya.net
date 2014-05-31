@@ -1,0 +1,11 @@
+---
+layout: post
+pubdate: "2014-01-21T23:24:11+09:00"
+title: 無題
+tags: [misc]
+minutes: 2
+pagetype: posts
+---
+AngularJSとjQuery Mobileとを組み合わせて使おうとしたがうまく動かずangular-jqmも1.2.x向けは開発中。Ionicはalpha previewでかなしみにくれている。
+
+何もできていないけど、Cordova(PhoneGap) + AngularJS + Ionic でハイブリッドアプリつくろう、と思った。

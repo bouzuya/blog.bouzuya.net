@@ -1,0 +1,24 @@
+---
+layout: post
+pubdate: "2014-02-24T23:59:59+09:00"
+title: hubot-sakagemcをつくった
+tags: [hubot]
+minutes: 10
+pagetype: posts
+---
+[hubot-sakagemc][bouzuya/hubot-sakagemc]をつくった。hubot scriptで何か役に立つものをと思ってつくった。
+
+Twitterに[@sakagemc][]というユーザーが居て、写真をよくアップロードしている。それらの写真はFlickrにアップロードされているのだけれど、その画像をランダムで返すのが、今回つくったscriptである。疲れたときなどは次のようにHipChatなどで入力すると良い。
+
+    hubot: sakagemc
+
+実際に使っている場面はこんな感じ。(hubot名がdybotなので注意)
+
+![@dybot sakagemc](http://gyazo.com/6ffc8ef4fd95dfff16859e27c8440a32.png)
+
+なかなか良いでしょ。写真が良い。ピカピカしている。
+
+起動時にキャッシュして、それ以降はそこからランダムに返すので、たまにhubotを再起動してあげると良い。
+
+[@sakagemc]: https://twitter.com/sakagemc
+[bouzuya/hubot-sakagemc]: https://github.com/bouzuya/hubot-sakagemc

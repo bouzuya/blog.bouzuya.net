@@ -1,0 +1,13 @@
+---
+layout: post
+pubdate: "2013-01-31T23:53:13+09:00"
+title: ひさしぶりにアニメ
+tags: [misc]
+pagetype: posts
+---
+早く帰れたので、昨日書いた [bouzuya/clj-vnote][clj-vnote] の直しを考えていたのだけれど、アニメを見はじめてしまった。スキがあるなあ。スキだらけだ。
+
+2 min.
+
+[clj-vnote]: https://github.com/bouzuya/clj-vnote/
+

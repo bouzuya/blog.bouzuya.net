@@ -1,0 +1,21 @@
+---
+layout: post
+pubdate: "2013-10-22T23:59:59+09:00"
+title: ぼくは chef
+tags: [ruby]
+pagetype: posts
+---
+ぼくは chef 。いや、料理ができなくて chef を使うわけだから owner かも。なんでもいいけど。
+
+chef はプロビジョニングのためのソフトウェア。公式の説明を直訳するならインフラをコードに変換する自動化プラットフォームだそうで。
+
+誰が言いはじめたのかは知らないけど([\*1][ref1])、プロビジョニングを領域で分けて bootstrapping/configuration/orchestration で考えるなら chef は configuration にあたるらしい。ミドルウェアやシステム設定を行うってこと。よく分からないけど、OS/MW/APP くらいのイメージだと思う。bootstrapping は AWS で、configuration は chef で、orchestration は capistrano なんかがその例らしい。へえ。
+
+chef server とか想像するだけで面倒なので、chef solo を knife solo 経由で使う『入門 Chef Solo 』な使い方を練習中。chef でなくても良いけど、環境構築は自動化すべきだ。自動化の過程で何かしらのコードとして明示されて改善できるようになる。手順書だとどうしても暗黙の手順や前提知識が必要になるし、ミスも生まれる。時間がかかることもままある。コマンドを実行して放置するだけで良いなら多少時間がかかっても良い。機械的な手順に対話は必要ない。
+
+料理の練習をしないといけないのだけれど、同時に環境も料理するわけで、なんだろうな。この感じ。
+
+14 min.
+
+[ref1]: http://mizzy.org/blog/2010/03/26/1/
+

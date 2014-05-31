@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2013-12-22T23:59:59+09:00"
+title: Amazon SQSとMongoDBをさわさわ
+tags: [misc]
+pagetype: posts
+---
+昨日の続きで色々さわさわしている。Amazon SQSとMongoDBをさわった。MongoDBは以前すこし試していたのだけれど、実際に使おうとすると慣れていないとどうしてもうまくいかない。Amazon SQSはジョブキューというのかな、あれに使えるかと思ったのだけど、試しはじめたら時間を食いすぎて困っている。
+
+1 min.
