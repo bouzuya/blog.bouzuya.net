@@ -7,11 +7,13 @@ define(['marionette', 'hbs!templates/post-detail'], function(Marionette, templat
     template: template,
 
     ui: {
-      permalink: '.permalink'
+      permalink: '.permalink',
+      tagLink: '.tag a'
     },
 
     events: {
-      'click @ui.permalink': 'onClickPermalink'
+      'click @ui.permalink': 'onClickPermalink',
+      'click @ui.tagLink': 'onClickTagLink'
     },
 
     templateHelpers: {
@@ -30,6 +32,12 @@ define(['marionette', 'hbs!templates/post-detail'], function(Marionette, templat
 
     onClickPermalink: function() {
       var fragment = this.model.get('date');
+      Backbone.history.navigate(fragment, { trigger: true });
+      return false;
+    },
+
+    onClickTagLink: function(e) {
+      var fragment = $(e.currentTarget).attr('href');
       Backbone.history.navigate(fragment, { trigger: true });
       return false;
     }
