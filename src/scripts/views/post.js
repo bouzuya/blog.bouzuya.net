@@ -1,5 +1,5 @@
-define(['marionette', 'hbs!templates/post'], function(Marionette, template) {
-  return Marionette.ItemView.extend({
+define(['marionette', 'hbs!templates/post', 'views/tags'], function(Marionette, template, TagsView) {
+  return Marionette.Layout.extend({
     tagName: 'li',
 
     className: 'post',
@@ -12,6 +12,10 @@ define(['marionette', 'hbs!templates/post'], function(Marionette, template) {
       }
     },
 
+    regions: {
+      tags: '.tags-region'
+    },
+
     ui: {
       permalink: '.date, .title',
       tagLink: '.tag a'
@@ -21,14 +25,8 @@ define(['marionette', 'hbs!templates/post'], function(Marionette, template) {
       'click @ui.permalink': 'selected:post',
     },
 
-    events: {
-      'click @ui.tagLink': 'onClickTagLink'
-    },
-
-    onClickTagLink: function(e) {
-      var fragment = $(e.currentTarget).attr('href');
-      Backbone.history.navigate(fragment, { trigger: true });
-      return false;
+    onShow: function() {
+      this.tags.show(new TagsView({ collection: this.model.get('tags') }));
     }
   });
 });

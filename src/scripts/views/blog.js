@@ -3,13 +3,12 @@ define([
   'hbs!templates/blog',
   'models/post',
   'collections/posts',
-  'models/tag',
   'collections/tags',
   'views/posts',
   'views/post-detail',
-  'views/tags',
+  'views/tags-page',
   'views/header'
-], function(Marionette, template, Post, Posts, Tag, Tags, PostsView, PostDetailView, TagsView, HeaderView) {
+], function(Marionette, template, Post, Posts, Tags, PostsView, PostDetailView, TagsPageView, HeaderView) {
   return Marionette.Layout.extend({
     tagName: 'section',
 
@@ -62,15 +61,14 @@ define([
 
     onIndexTag: function() {
       var tags = new Tags();
-      var tagsView = new TagsView({ collection: tags });
-      this.body.show(tagsView);
-      tags.fetch();
+      var tagsPageView = new TagsPageView({ collection: tags });
+      this.body.show(tagsPageView);
     },
 
     onShowTag: function(name) {
-      var tag = new Tag({ name: name });
+      var tags = new Tags([{ name: name }]);
       var posts = new Posts();
-      var postsView = new PostsView({ collection: posts, tags: [tag] });
+      var postsView = new PostsView({ collection: posts, tags: tags });
       this.body.show(postsView);
       posts.fetch();
     }

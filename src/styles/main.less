@@ -50,6 +50,19 @@ a {
   }
 }
 
+.tags {
+  display: inline;
+  font-size: 3 * @unit;
+  ul {
+    display: inline;
+    .tag {
+      display: inline;
+      &:before { content: "[ "; }
+      &:after { content: " ]"; }
+    }
+  }
+}
+
 // blog
 .blog {
   width: 100%;
@@ -72,23 +85,24 @@ a {
   }
 }
 
-// .header
 .header {
   position: relative;
   width: 320px;
   margin: 0 auto;
-  text-align: center;
   .title {
     position: absolute;
     top: 0;
-    left: 44px;
+    left: 0;
+    right: 44px;
+    line-height: 44px;
     padding: 0;
     text-indent: 0;
     display: inline;
+    overflow: hidden;
     a {
       text-shadow: 2px 2px @color2;
       font-family: @font1, sans-serif;
-      font-size: 8 * @unit;
+      font-size: 7 * @unit;
       color: @color1;
       text-decoration: none;
       border-bottom: none;
@@ -102,12 +116,14 @@ a {
     .menu-button {
       position: absolute;
       top: 0;
-      left: 0;
-      margin: 2 * @unit 1.5 * @unit 2 * @unit 0;
+      right: 0;
+      margin: 2 * @unit 0 2 * @unit 1.5 * @unit;
       width: 7 * @unit;
       height: 7 * @unit;
       line-height: 7 * @unit;
-      box-shadow: 1px 1px @color2;
+      text-align: center;
+      text-shadow: 2px 2px @color2;
+      box-shadow: 2px 2px @color2;
       font-size: 5 * @unit;
       border: 2px solid @color1;
       border-radius: 2 * @unit;
@@ -122,7 +138,7 @@ a {
       display: none;
       position: absolute;
       top: 44px;
-      left: 0;
+      right: 0;
       border: 2px solid @color1;
       border-radius: 2 * @unit;
       background-color: @color4;
@@ -167,18 +183,6 @@ a {
     .title {
       font-weight: bold;
       line-height: 2;
-    }
-    .tags {
-      margin: @unit 4 * @unit;
-      font-size: 3 * @unit;
-      ul {
-        display: inline;
-      }
-      .tag {
-        display: inline;
-        &:before { content: "[ "; }
-        &:after { content: " ]"; }
-      }
     }
     .content {
       h1, h2, h3, h4, h5, h6 {
@@ -232,30 +236,20 @@ a {
     .title {
       font-weight: bold;
     }
-    .tags {
+    .tags-region {
       display: inline;
-      font-size: 3 * @unit;
-      ul {
-        display: inline;
-      }
-      .tag {
-        &:before { content: "[ "; }
-        &:after { content: " ]"; }
-        display: inline;
-      }
     }
   }
 }
 
 // .tags
-.body-region > .tags {
+.body-region > .tags-page {
   width: 320px;
   margin: 0 auto;
+  h1 { margin: @unit; }
+  .tags > i { display: none; }
   .tag {
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    display: block;
     line-height: 2;
-    &:before { content: "[ "; }
-    &:after { content: " ]"; }
   }
 }
