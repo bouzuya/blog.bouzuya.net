@@ -21,3 +21,7 @@ bouzuya's blog.
 # Lisence
 
 MIT
+
+# Badges
+
+[![Build Status](https://travis-ci.org/bouzuya/blog.bouzuya.net.svg)](https://travis-ci.org/bouzuya/blog.bouzuya.net)
