@@ -33,8 +33,7 @@ define(['marionette', 'models/blog', 'views/blog', 'routers/blog'], function(Mar
   });
   app.addInitializer(function(options) {
     new BlogRouter(options); // { app: ..., blog: ... }
-    Backbone.history.start();
-    // Backbone.history.start({ pushState: true, root: '/' });
+    Backbone.history.start({ pushState: true, root: '/' });
   });
   app.start({ app: app });
 });
