@@ -22,6 +22,7 @@ define(['marionette', 'views/tags', 'hbs!templates/tags-page'], function(Marione
     },
 
     onSync: function() {
+      this.collection.sort();
       this.tags.show(new TagsView({ collection: this.collection }));
     }
   });
