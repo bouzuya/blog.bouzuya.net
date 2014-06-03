@@ -22,7 +22,9 @@ define(['marionette', 'hbs!templates/posts-page', 'views/posts', 'views/tags'], 
         collection: this.model.get('posts'),
         tags: this.model.get('tags')
       }));
-      this.model.get('posts').fetch();
+      this.model.get('posts').fetch().then(function() {
+        this.model.get('posts').trigger('reset'); // re-render
+      }.bind(this));
     }
   });
 });

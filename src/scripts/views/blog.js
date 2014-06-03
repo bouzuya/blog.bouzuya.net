@@ -55,7 +55,7 @@ define([
       this.app.vent.trigger('update:title');
       var posts = new Posts();
       posts.fetch().then(function() {
-        var latest = posts.at(posts.length - 1);
+        var latest = posts.at(0);
         var postDetailView = new PostDetailView({ app: this.app, model: latest });
         this.body.show(postDetailView);
         latest.fetch();
