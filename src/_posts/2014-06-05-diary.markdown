@@ -1,0 +1,28 @@
+---
+layout: post
+pubdate: "2014-06-05T07:42:33+09:00"
+title: blog.bouzuya.net@0.2.1 をつくった
+tags: [javascript]
+minutes: 10
+pagetype: posts
+---
+[blog.bouzuya.net@0.2.1][bouzuya/blog.bouzuya.net@0.2.1] をつくった。
+
+以下の細かい修正を入れている。
+
+- p の margin を大きくした
+- /tags の並び順をタグ名の昇順にした
+- /posts の並び順を日付の降順にした
+- メニューに /atom.xml へのリンクを追加した
+
+[大きな課題がまだまだ残っていて][bouzuya/blog.bouzuya.net/issues]、それらの対応を進めていくつもり。
+
+いま使い勝手の面での大きな問題は、
+
+- 次・前のページへのリンクがないこと
+- /posts ページの表示に時間がかかること
+
+他にもいろいろあるが、このふたつは致命的なので、次はこれらにまず対応しようと思っている。
+
+[bouzuya/blog.bouzuya.net@0.2.1]: http://github.com/bouzuya/blog.bouzuya.net/tree/0.2.1
+[bouzuya/blog.bouzuya.net/issues]: http://github.com/bouzuya/blog.bouzuya.net/issues
