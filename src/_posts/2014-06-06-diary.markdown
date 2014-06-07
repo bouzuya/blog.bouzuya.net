@@ -3,7 +3,7 @@ layout: post
 pubdate: "2014-06-06T23:59:59+09:00"
 title: blog.bouzuya.net@0.2.2 をつくった
 tags: [javascript]
-minutes:
+minutes: 6
 pagetype: posts
 ---
 blog.bouzuya.net@0.2.2 をつくった。
