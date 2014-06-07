@@ -1,0 +1,53 @@
+@import './variables.less';
+
+.body-region > .post-detail {
+  width: 100%;
+  .post {
+    width: 320px;
+    margin: 0 auto;
+    .date {
+      line-height: 2;
+    }
+    .title {
+      font-weight: bold;
+      line-height: 2;
+    }
+    .content {
+      h1, h2, h3, h4, h5, h6 {
+        margin: 6 * @unit 0 2 * @unit 0;
+      }
+      p {
+        margin: 3 * @unit 0 3 * @unit 0;
+        word-break: break-all;
+      }
+      blockquote {
+        color: @color2;
+        padding: @unit 2 * @unit;
+        border-left: @unit solid @color3;
+      }
+      code {
+        background-color: @color3;
+        border-radius: @unit;
+      }
+      pre {
+        padding: 2 * @unit;
+        background-color: @color3;
+        border-radius: 2 * @unit;
+        overflow: hidden;
+      }
+      em, strong {
+        font-weight: bold;
+        font-style: normal;
+      }
+      ul, ol {
+        margin: 0 0 0 6 * @unit;
+      }
+      ul {
+        list-style-type: disc;
+      }
+      ol {
+        list-style-type: decimal;
+      }
+    }
+  }
+}
