@@ -1,4 +1,10 @@
-define(['marionette', 'hbs!templates/posts-page', 'views/posts', 'views/tags'], function(Marionette, template, PostsView, TagsView) {
+define([
+  'marionette',
+  'hbs!templates/posts-page',
+  'views/post-list',
+  'views/post-tree',
+  'views/tags'
+], function(Marionette, template, PostListView, PostTreeView, TagsView) {
   return Marionette.Layout.extend({
     className: 'posts-page',
 
@@ -17,11 +23,15 @@ define(['marionette', 'hbs!templates/posts-page', 'views/posts', 'views/tags'], 
       this.app.vent.trigger('update:title', 'posts');
       if (this.model.get('tags')) {
         this.tags.show(new TagsView({ collection: this.model.get('tags') }));
+        this.posts.show(new PostListView({
+          collection: this.model.get('posts'),
+          tags: this.model.get('tags')
+        }));
+      } else {
+        this.posts.show(new PostTreeView({
+          collection: this.model.get('posts')
+        }));
       }
-      this.posts.show(new PostsView({
-        collection: this.model.get('posts'),
-        tags: this.model.get('tags')
-      }));
       this.model.get('posts').fetch().then(function() {
         this.model.get('posts').trigger('reset'); // re-render
       }.bind(this));

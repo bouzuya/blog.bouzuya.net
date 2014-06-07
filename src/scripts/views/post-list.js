@@ -1,8 +1,8 @@
-define(['marionette', 'hbs!templates/posts', 'views/post'], function(Marionette, template, PostView) {
+define(['marionette', 'views/post'], function(Marionette, PostView) {
   return Marionette.CollectionView.extend({
     tagName: 'ul',
 
-    className: 'posts',
+    className: 'post-list',
 
     itemView: PostView,
 
