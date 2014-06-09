@@ -8,6 +8,7 @@ module.exports = {
         beautify: true
       },
       paths: {
+        'backbone-filtered-collection': 'vendor/backbone-filtered-collection/backbone-filtered-collection',
         'backbone.babysitter' : 'vendor/backbone.babysitter/lib/backbone.babysitter',
         'backbone.wreqr' : 'vendor/backbone.wreqr/lib/backbone.wreqr',
         backbone: 'vendor/backbone/backbone',
