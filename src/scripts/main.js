@@ -1,9 +1,10 @@
 require.config({
   paths: {
-    'backbone.babysitter' : 'vendor/backbone.babysitter/lib/backbone.babysitter',
-    'backbone.wreqr' : 'vendor/backbone.wreqr/lib/backbone.wreqr',
+    'backbone-filtered-collection': 'vendor/backbone-filtered-collection/backbone-filtered-collection',
+    'backbone.babysitter': 'vendor/backbone.babysitter/lib/backbone.babysitter',
+    'backbone.wreqr': 'vendor/backbone.wreqr/lib/backbone.wreqr',
     backbone: 'vendor/backbone/backbone',
-    hbs: 'vendor/require-handlebars-plugin/hbs'  ,
+    hbs: 'vendor/require-handlebars-plugin/hbs',
     jquery: 'vendor/jquery/dist/jquery',
     marionette: 'vendor/backbone.marionette/lib/core/amd/backbone.marionette',
     underscore: 'vendor/underscore/underscore'
@@ -22,7 +23,12 @@ require.config({
   }
 });
 
-define(['marionette', 'models/blog', 'views/blog', 'routers/blog'], function(Marionette, Blog, BlogView, BlogRouter) {
+define([
+  'marionette',
+  'models/blog',
+  'views/blog',
+  'routers/blog'
+], function(Marionette, Blog, BlogView, BlogRouter) {
   var app = new Marionette.Application();
 
   app.addRegions({ body: 'body' });

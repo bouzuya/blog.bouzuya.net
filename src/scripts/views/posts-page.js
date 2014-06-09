@@ -1,10 +1,11 @@
 define([
   'marionette',
   'hbs!templates/posts-page',
+  'backbone-filtered-collection',
   'views/post-list',
   'views/post-tree',
   'views/tags'
-], function(Marionette, template, PostListView, PostTreeView, TagsView) {
+], function(Marionette, template, FilteredCollection, PostListView, PostTreeView, TagsView) {
   return Marionette.Layout.extend({
     className: 'posts-page',
 
@@ -21,20 +22,17 @@ define([
 
     onShow: function() {
       this.app.vent.trigger('update:title', 'posts');
-      if (this.model.get('tags')) {
-        this.tags.show(new TagsView({ collection: this.model.get('tags') }));
-        this.posts.show(new PostListView({
-          collection: this.model.get('posts'),
-          tags: this.model.get('tags')
-        }));
+      var posts = this.model.get('posts');
+      var tags = this.model.get('tags');
+      if (tags) {
+        var filtered = new FilteredCollection(posts);
+        filtered.filterBy(function(p) { return p.hasTags(tags); });
+        this.tags.show(new TagsView({ collection: tags }));
+        this.posts.show(new PostListView({ collection: filtered }));
       } else {
-        this.posts.show(new PostTreeView({
-          collection: this.model.get('posts')
-        }));
+        this.posts.show(new PostTreeView({ collection: posts }));
       }
-      this.model.get('posts').fetch().then(function() {
-        this.model.get('posts').trigger('reset'); // re-render
-      }.bind(this));
+      posts.fetch();
     }
   });
 });
