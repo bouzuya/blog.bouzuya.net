@@ -6,11 +6,12 @@ define([
   'models/posts-page',
   'collections/posts',
   'collections/tags',
+  'backbone-filtered-collection',
   'views/posts-page',
   'views/post-detail',
   'views/tags-page',
   'views/header'
-], function($, Marionette, template, Post, PostsPage, Posts, Tags, PostsPageView, PostDetailView, TagsPageView, HeaderView) {
+], function($, Marionette, template, Post, PostsPage, Posts, Tags, FilteredCollection, PostsPageView, PostDetailView, TagsPageView, HeaderView) {
   return Marionette.Layout.extend({
     tagName: 'section',
 
@@ -25,6 +26,9 @@ define([
 
     initialize: function(options) {
       this.app = options.app;
+      this.tags = new Tags();
+      this.posts = new Posts();
+      this.filtered = new FilteredCollection(this.posts);
       this.app.vent.on('index:post', this.onIndexPost, this);
       this.app.vent.on('show:post', this.onShowPost, this);
       this.app.vent.on('show:post:latest', this.onShowPostLatest, this);
@@ -39,38 +43,44 @@ define([
     },
 
     onIndexPost: function() {
-      var model = new PostsPage();
+      var model = new PostsPage({ posts: this.posts });
       this.body.show(new PostsPageView({ app: this.app, model: model }));
+      this.posts.fetch();
     },
 
     onShowPost: function(date) {
-      var post = new Post({ date: date });
-      var postDetailView = new PostDetailView({ app: this.app, model: post });
-      this.listenTo(postDetailView, 'update:title', this.onUpdateTitle);
-      this.body.show(postDetailView);
-      post.fetch();
+      this.posts.fetch().then(function() {
+        var post = this.posts.findWhere({ date: date });
+        var postDetailView = new PostDetailView({ app: this.app, model: post });
+        this.listenTo(postDetailView, 'update:title', this.onUpdateTitle);
+        this.body.show(postDetailView);
+        post.fetch();
+      }.bind(this));
     },
 
     onShowPostLatest: function() {
-      this.app.vent.trigger('update:title');
-      var posts = new Posts();
-      posts.fetch().then(function() {
-        var latest = posts.at(0);
-        var postDetailView = new PostDetailView({ app: this.app, model: latest });
-        this.body.show(postDetailView);
+      this.posts.fetch().then(function() {
+        var latest = this.posts.at(0);
+        this.body.show(new PostDetailView({
+          app: this.app,
+          model: latest
+        }));
         latest.fetch();
       }.bind(this));
     },
 
     onIndexTag: function() {
-      var tags = new Tags();
-      var tagsPageView = new TagsPageView({ app: this.app, collection: tags });
-      this.body.show(tagsPageView);
+      this.body.show(new TagsPageView({
+        app: this.app,
+        collection: this.tags
+      }));
     },
 
     onShowTag: function(name) {
-      var model = new PostsPage({ tagName: name });
+      this.tags.reset([{ name: name }]);
+      var model = new PostsPage({ tags: this.tags, posts: this.posts });
       this.body.show(new PostsPageView({ app: this.app, model: model }));
+      this.posts.fetch();
     },
 
     onUpdateTitle: function(title) {

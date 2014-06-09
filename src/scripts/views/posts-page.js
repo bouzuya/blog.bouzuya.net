@@ -24,7 +24,7 @@ define([
       this.app.vent.trigger('update:title', 'posts');
       var posts = this.model.get('posts');
       var tags = this.model.get('tags');
-      if (tags) {
+      if (tags.length > 0) {
         var filtered = new FilteredCollection(posts);
         filtered.filterBy(function(p) { return p.hasTags(tags); });
         this.tags.show(new TagsView({ collection: tags }));
@@ -32,7 +32,6 @@ define([
       } else {
         this.posts.show(new PostTreeView({ collection: posts }));
       }
-      posts.fetch();
     }
   });
 });

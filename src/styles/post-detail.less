@@ -56,4 +56,32 @@
       }
     }
   }
+
+  nav {
+    position: relative;
+    width: 320px;
+    height: 8 * @unit;
+    margin: 2 * @unit auto;
+    font-size: 6 * @unit;
+    .older {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 30%;
+      text-align: center;
+      a:hover {
+        background: none;
+      }
+    }
+    .newer {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 30%;
+      text-align: center;
+      a:hover {
+        background: none;
+      }
+    }
+  }
 }
