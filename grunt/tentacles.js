@@ -4,7 +4,7 @@ module.exports = {
       bucketName: 'blog.bouzuya.net'
     },
     files: [
-      { cwd: 'build', src: '**' }
+      { cwd: 'build', src: '**', filter: 'isFile' }
     ]
   }
 };
