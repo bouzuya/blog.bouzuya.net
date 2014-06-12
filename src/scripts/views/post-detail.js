@@ -24,12 +24,22 @@ define(['marionette', 'hbs!templates/post-detail', 'views/tags'], function(Mario
 
     templateHelpers: function() {
       var path = this.model.path();
-      var olderPath = this.model.olderPath();
-      var newerPath = this.model.newerPath();
+      var older = this.model.older();
+      var newer = this.model.newer();
+      var olderPath = older ? older.path() : null;
+      var newerPath = newer ? newer.path() : null;
+      var olderTitle = older ? older.get('title') : null;
+      var newerTitle = newer ? newer.get('title') : null;
+      var olderDate = older ? older.get('date') : null;
+      var newerDate = newer ? newer.get('date') : null;
       return {
         permalink: function() { return path; },
-        older: function() { return olderPath; },
-        newer: function() { return newerPath; }
+        olderPath: function() { return olderPath; },
+        newerPath: function() { return newerPath; },
+        olderTitle: function() { return olderTitle; },
+        newerTitle: function() { return newerTitle; },
+        olderDate: function() { return olderDate; },
+        newerDate: function() { return newerDate; }
       };
     },
 

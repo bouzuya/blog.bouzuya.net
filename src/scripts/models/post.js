@@ -36,16 +36,16 @@ define(['backbone', 'collections/tags'], function(Backbone, Tags) {
       return '/' + this.get('date').replace(/-/g, '/') + '/';
     },
 
-    olderPath: function() {
+    older: function() {
       var col = this.collection;
       var idx = col.indexOf(this);
-      return (idx + 1 < col.length ? col.at(idx + 1).path() : null);
+      return (idx + 1 < col.length ? col.at(idx + 1) : null);
     },
 
-    newerPath: function() {
+    newer: function() {
       var col = this.collection;
       var idx = col.indexOf(this);
-      return (idx - 1 >= 0 ? col.at(idx - 1).path() : null);
+      return (idx - 1 >= 0 ? col.at(idx - 1) : null);
     }
   });
 });

@@ -6,9 +6,12 @@
     width: 320px;
     margin: 0 auto;
     .date {
+      font-size: 5 * @unit;
+      display: block;
       line-height: 2;
     }
     .title {
+      font-size: 5 * @unit;
       font-weight: bold;
       line-height: 2;
     }
@@ -61,26 +64,24 @@
     width: 320px;
     height: 8 * @unit;
     margin: 2 * @unit auto;
-    font-size: 6 * @unit;
-    .older {
+    font-size: 5 * @unit;
+    .older, .newer {
+      white-space: nowrap;
+      width: 50%;
+      display: block;
       position: absolute;
       top: 0;
-      left: 0;
-      width: 30%;
-      text-align: center;
       a:hover {
         background: none;
       }
     }
+    .older {
+      left: 0;
+      text-align: left;
+    }
     .newer {
-      position: absolute;
-      top: 0;
       right: 0;
-      width: 30%;
-      text-align: center;
-      a:hover {
-        background: none;
-      }
+      text-align: right;
     }
   }
 }
