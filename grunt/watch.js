@@ -3,7 +3,7 @@ module.exports = {
     options: {
       livereload: 35729,
     },
-    files: ['src/**/*.*'],
-    tasks: ['jshint', 'less']
+    files: ['src/**/*.*', 'test/**/*.*'],
+    tasks: ['jshint', 'less', 'karma:unit']
   }
 };
