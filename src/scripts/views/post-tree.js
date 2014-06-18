@@ -13,12 +13,8 @@ define([
       'years': '.post-tree-years-region'
     },
 
-    collectionEvents: {
-      'sync': 'onSync'
-    },
-
-    onSync: function(collection) {
-      var years = new PostTreeYears(collection, { parse: true });
+    onShow: function() {
+      var years = new PostTreeYears(this.collection, { parse: true });
       this.years.show(new PostTreeYearsView({ collection: years }));
     }
   });

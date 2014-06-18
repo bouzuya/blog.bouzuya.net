@@ -64,13 +64,13 @@ define(['marionette', 'hbs!templates/post-detail', 'views/tags'], function(Mario
     },
 
     onClickOlderLink: function() {
-      var fragment = this.model.olderPath();
+      var fragment = this.model.older().path();
       Backbone.history.navigate(fragment, { trigger: true });
       return false;
     },
 
     onClickNewerLink: function() {
-      var fragment = this.model.newerPath();
+      var fragment = this.model.newer().path();
       Backbone.history.navigate(fragment, { trigger: true });
       return false;
     }
