@@ -1,16 +1,14 @@
 language: node_js
 node_js:
   - "0.10"
-after_success: npm start
-deploy:
-  provider: s3
-  access_key_id:
-    secure: "bhislzVxTjbMcdDDMlHeh7iK9X1sK6b9VBFsL++v+SakMvVBtId4CVGWACRsa5kW8qaghNt8tm8kC4B5X0Y/VSJ6BfNIADkIVOZkkmV2GMGyX3Vlul4/D9Lu83SytKyPS5Krldv6Q3PuyVWRWwjdX9T97pjC0DqVbmfimV6JK6E="
-  secret_access_key:
-    secure: "CnpN7+C5ZlASWSnSVAfLch0HgD1nliD+yNLN+MMUBNFP+hve6zw/klUb9fbFJlmPZwdKIKKnNYcMQdV2wWkDqUwzpbePNV3UznHLdhK65pijlu/QMmu+V+fGypscw1nHbSFFL5nLSqLJWHVouoDCHbJ1x7nJ01XAOZEwVimIv7A="
-  bucket: blog.bouzuya.net
-  region: ap-northeast-1
-  endpoint: s3-ap-northeast-1.amazonaws.com
-  local-dir: build
-  on:
-    branch: master
+env:
+  global:
+    - secure: "IUcXD8Bh+ypzsMZ2XScWb2Yd6Gg9Ko8B5hSKVDr9cfGtfw4fYCV2tcAlG9/lF/S3krmM5G3v5J0BI61vjuWk/xM0LUcH2yNpe0Xfba2959q+97MD5YJ6Fh+KLzRprmY4L3ChVwRPA6Gm+pv8mnWzBLUD0dcXjilva3miTpPkzF4="
+    - secure: "NEnBnkuvncpFdTx+6H2oo9RuVrc38iEtFGm0cUfwnWLQkuJEekSF99Rrl8xdDlmtQiBB/hDBLh/zO2GTRUXLMrrKgoPM/QIVlC6VokSb5uKQFRsWJkirAaoAPxWhrQznzvSED4J/+Q8csaf3IOyk61GrSSFPZzvs/3VOeheBjqU="
+    - secure: "Ha7SrQfDWRd1VKnwnwiqfFut4y8I5NoRmzR6jg4udWs+/dWV9sWzWzc/iZjPL5UlM0tcBXTgi74EldoCW/OAkukcmzH5PyiQ7yPaJfLwxmzGTkQuXiE6d9UH+ORIWOfQu23pVUBhSnWtl3MUVLGJN0gy3/qbTCL4nyb+oQL1nmw="
+install:
+  - npm install
+  - $(npm bin)/bower install
+script:
+  - npm start
+  - $(npm bin)/grunt tentacles

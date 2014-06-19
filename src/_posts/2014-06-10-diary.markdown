@@ -1,0 +1,17 @@
+---
+layout: post
+pubdate: "2014-06-10T22:31:24+09:00"
+title: 『Everyday Rails - RSpecによるRailsテスト入門』をよんだ
+tags: [book]
+minutes: 10
+pagetype: posts
+---
+![](http://i.gyazo.com/b1d06e2c7b618a48997b1a2bcfd10741.png)
+
+『[Everyday Rails - RSpecによるRailsテスト入門][everydayrailsrspec-jp]』をよんだ。
+
+良い本だった。ほかの RSpec 関連本を読んでいないのでなんとも言えないけど。ひととおり読めば、RSpec で普通にテストを書けるようになる、たぶん。少なくともぼくは業務で困らないくらいには書けるようになった。
+
+だらだらと読書会を通じて読んだので、そこそこ時間がかかってしまったけど、読んで良かったと思った一冊。
+
+[everydayrailsrspec-jp]: https://leanpub.com/everydayrailsrspec-jp

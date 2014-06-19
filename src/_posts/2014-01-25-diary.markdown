@@ -1,0 +1,9 @@
+---
+layout: post
+pubdate: "2014-01-25T23:59:38+09:00"
+title: AngularJSのFactoryをためした
+tags: [angularjs]
+minutes: 4
+pagetype: posts
+---
+タイトルはダミー。昨日の続きでIonic + AngularJS + Cordova(PhoneGap)なアプリをつくっている。でタイトルにあるようなAngularJSのあれやこれやをためしながらつくっていたのだけれど、外部との通信がどうにもならなくて。通信先が外部サービスだったので、そこがうまくいかないとどうしようもない。諦めてサーバーサイドをNode.js + Expressなどでつくりはじめたのだけれど、winstonやらを知って、ログまわりやエラー処理の良い方法を検討していたら、完成せず。なんだかなあ。ダメだな。

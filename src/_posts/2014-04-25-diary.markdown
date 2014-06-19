@@ -1,0 +1,17 @@
+---
+layout: post
+pubdate: "2014-04-25T23:59:59+09:00"
+title: 無題
+tags: [misc]
+minutes: 5
+pagetype: posts
+---
+細々としたことを何点か。
+
+NU/boardが会社で支給されることが決まった。ぼくは以前からNU/boardを使っているのだけれど、「もっと書くようにすべき！」とのお達しで、支給されることになった。やったね。サイズはA4のもの。これで会社用と自宅用とふたつ持ってることになる。意外と高いんだよね。
+
+BacklogとGitHubとHipChatの連携のためにいろいろ試している。昨日も書いたけどね。シェルスクリプトやHubotスクリプトで[node-backlog-api][bouzuya/node-backlog-api]をつかって連携させている。運用フローにあわせて、つぎはぎしている感じ。でも、それができることは大きくて、例えば、ExcelやAPIの提供されないサービスを組み合わせていたら、これはやりづらい。Backlog/GitHub/HipChatはどれもAPIが公開されている。割と良い選択なのかも。
+
+この週末は彼女とおでかけ。めずらしく休みがあうので、何か考えないといけなかったんだけど、何も考えていない。山にでも登ろうと思う。
+
+[bouzuya/node-backlog-api]: https://github.com/bouzuya/node-backlog-api

@@ -1,0 +1,33 @@
+---
+layout: post
+pubdate: "2014-05-14T23:39:09+09:00"
+title: commander-b をつくった
+tags: [javascript]
+minutes: 8
+pagetype: posts
+---
+[commander-b][bouzuya/commander-b] をつくった。
+
+commander-b は Node.js の CLI をつくるためのヘルパーライブラリ。[commander.js][visionmedia/commander.js] ライクなインターフェースを持っている。
+
+シンプルな例を挙げるとこんな感じ。commander.js を使ったことがある人なら、ほとんど同じだということが分かると思う。
+
+    var command = require('commander-b');
+    
+    command()
+    .version('0.1.0')
+    .action(function() { console.log('Yukiho is God.'); })
+    .execute();
+ 
+つくった理由としては、[node-backlog-cli][bouzuya/node-backlog-cli] をつくる過程でサブコマンド前提の commander.js がほしくなったから。 commander.js は使いやすいインタフェースで気に入っているのだけれど、サブコマンドにはあまり適していなくて、指定したオプションを勝手に捨てたり、サブコマンドがそれぞれ別ファイルだったりで、いまいち。なので、サブコマンド前提の commander.js ぽい何かをつくろうと思った。
+
+とりあえず、まだベータ版なので、npm には登録していないので、もし、ためしたい場合には次のように GitHub から得ると良い。
+
+    npm install bouzuya/commander-b
+
+次はこれを使いながらものをつくる。つくる過程で足りないところは補って、安定してきたら npm にリリースする。
+
+
+[bouzuya/commander-b]: https://github.com/bouzuya/commander-b
+[visionmedia/commander.js]: https://github.com/visionmedia/commander.js
+[bouzuya/node-backlog-cli]: https://github.com/bouzuya/node-backlog-cli

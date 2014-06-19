@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2014-01-09T21:18:56+09:00"
+title: Grunt/JSHintをためした
+tags: [javascript]
+minutes: 10
+pagetype: posts
+---
+[Grunt][gruntjs]/[JSHint][jshint]をためした。ためしたというか、Gruntfile.jsを編集しはじめたといった方が適当かも。おかげでずいぶんその動作が分かってきた。
+
+GruntはThe JavaScript Task Runnerというだけあって、タスクを動かせるなら中身はなんでもありだ。lintからcompressからなんでもやる。そういうわけだからGruntfile.jsは混沌としている印象。慣れたらそうでもないのだろうけど、結構な量になる。
+
+とりあえずJSHintについて調べた。JSLintの後継というか、フォークである。潜在的な問題のあるコードなどを検出する。こういうツールもなるべく使っていくようにしないとなあ。
+
+中身についてはまだ手を着けていない。はやくやらないと。
+
+[gruntjs]: http://gruntjs.com/
+[jshint]: http://www.jshint.com/

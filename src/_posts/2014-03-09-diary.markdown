@@ -1,0 +1,48 @@
+---
+layout: post
+pubdate: "2014-03-09T22:16:06+09:00"
+title: 今週のふりかえり(10)
+tags: ['looking back']
+minutes: 22
+pagetype: posts
+---
+今週のふりかえり。2014-03-03/2014-03-09の一週間をふりかえる。
+
+- [2014-03-08 映画『アイズ・ワイド・シャット』をみた](http://blog.bouzuya.net/2014/03/08/diary/)
+- [2014-03-07 LightTableをためした](http://blog.bouzuya.net/2014/03/07/diary/)
+- [2014-03-06 無題](http://blog.bouzuya.net/2014/03/06/diary/)
+- [2014-03-05 hubot-sakagemcのbomb機能をつくった](http://blog.bouzuya.net/2014/03/05/diary/)
+- [2014-03-04 無題](http://blog.bouzuya.net/2014/03/04/diary/)
+- [2014-03-03 『JavaScript: The Good Parts』をよんだ](http://blog.bouzuya.net/2014/03/03/diary/)
+
+あまりつくっていないようだ。
+
+プログラミングに関して言えば、[bouzuya/hubot-sakagemc][]は簡単な機能拡張。hubot-scriptsのテストを改良しようと試行錯誤しているけど、モノがないのでつくったに出せないでいる。[faithcreates/hubot-scripts][]にPRしているので、また明日にでも書く、来週分だね。
+
+読書について。タイミング的に書けていないけど、WEB+DB PRESS VOL.79やSoftware Design 2014-02,03を読んだ。
+
+料理について。つくったというほどではないけど、ラーメンにキャベツなどを切って入れるようにしている。ひと手間で良くなる。大して良くなるわけでもないからいままでしてこなかったわけだけど、そういうこともしていくべきかと考えている。包丁に慣れて、料理のハードルを下げなきゃね。
+
+反省とか。
+
+[bouzuya/hubot-sakagemc][]の機能拡張だけど、正直、あまり使われていない。画面を埋め尽くすsakagemcは「流す」ためにしかつかえないしね。ただ、使われそうなものを考えて考えて書くのではなく、ぼくの場合、あたるまで書くのが正解な気がする。
+
+おなか痛いが完治していなかった。火曜日に腹痛と悪寒がひどかった。さっと帰って寝たら、悪寒はなくなったので、よしとする。確か年始にひいたおみくじで、病気ははやく治せと書いてあった気がする。治さねば。おなか痛いで思い出したことには、食間に「陀羅尼助丸」を飲んでいる。きいているのか分からないけど、もともと気休めみたいなものだから、しばらくは飲みつづける。食間を食事中だとずっと勘違いしていた。sakagemcに指摘されて知った。母親にそんなことも知らなかったのかとバカにされた。
+
+Skyrimはやりすぎないようにしたい。けど、面白い。すごい面白い。走り回るだけで楽しい。「こどもか」とつっこまれるかもしれないが、やってみれば分かる。楽しいから。
+
+- K:
+  - 料理にはひと手間かける(なるべく包丁を使う)
+  - 雑誌の購読(積ん読にしない)
+- P:
+  - 「つくった」を書けるところまでやりきれていない
+  - 使われるように、もっとたくさんのhubot-scriptを書く
+  - Skyrimをやりすぎている
+- T:
+  - Skyrimは最大1日1時間
+  - grunt-contrib-jshintについて書く
+  - hubot-mock-adapterについて書く
+  - 定期実行するhubot-scriptを書く
+
+[bouzuya/hubot-sakagemc]: https://github.com/bouzuya/hubot-sakagemc
+[faithcreates/hubot-scripts]: https://github.com/faithcreates/hubot-scripts

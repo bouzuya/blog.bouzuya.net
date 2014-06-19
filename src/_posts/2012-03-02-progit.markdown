@@ -1,0 +1,32 @@
+---
+layout: post
+pubdate: "2012-03-02T00:01:02+09:00"
+title: 携帯電話(Galaxy S II)で電子書籍(Pro Git)を読む
+tags: [diary]
+pagetype: posts
+---
+電車の行き帰りに携帯電話(Galaxy S II)で電子書籍(Pro Git)を読んでいる。
+
+「携帯電話だと画面が小さいから電子書籍はダメだろう」なんて試す前から諦めていたのだけど、試してみたところ思いのほか快適だった。確かに画面は小さいが横向き画面なら十分な横幅を確保できるし、小ささのおかげでかさばらず、人がそこそこ居る電車でも読むことができるし、ポケットから出してすぐに読みはじめることができる。小ささは短所であり長所でもあった。この「手軽さ」こそが思いのほか快適な理由である。
+
+読んでいる書籍は『[Pro Git](http://progit.org/)』の日本語版PDFである。
+
+せっかくなので作り方を書いておく。言われるままに進めたので、余計なものをインストールしているかもしれない。下記の通り実行する場合は注意すべきである。
+
+実行した環境はUbuntu 11.10である。
+
+    $ cd
+    $ git clone https://github.com/progit/progit.git
+    $ cd ~/progit
+    $ sudo apt-get install pandoc
+    $ sudo apt-get install texlive-xetex
+    $ sudo apt-get install texlive-latex-recommended
+    $ sudo apt-get install ttf-ipafont
+    $ sudo apt-get install fonts-vlgothic
+    $ ./makepdfs ja
+
+これでprogit.ja.pdfができるので、あとはPDFファイルを開くことができれば読むことができる。
+
+携帯電話(Galaxy S II)も素晴らしいし、電子書籍(PDF)も素晴らしいし、書籍(Pro Git)の内容も素晴らしい。「素晴らしい時代に生まれた」と、ぼくは感動している。
+
+25 min.

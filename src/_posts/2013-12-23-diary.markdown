@@ -1,0 +1,25 @@
+---
+layout: post
+pubdate: "2013-12-23T22:12:52+09:00"
+title: Passportを読む
+tags: [javascript]
+pagetype: posts
+---
+[passport][jaredhanson/passport]を読む。passportは[express][visionmedia/express]互換の認証ミドルウェア。通常のform認証やOpen IDやOAuthなどに対応している。今回はTwitter/GitHubのOAuth認証を組み込みたいので、これを検討した。
+
+具体的には[passport-twitter][jaredhanson/passport-twitter]と[passport-github][jaredhanson/passport-github]を使った。割と手軽に実装できるので、なかなか良さそう。
+
+簡単に説明すると、passportはexpressのためのミドルウェアを提供してくれる。個々の認証の実装はストラテジーモジュールがあるので、それをpassportに組み込んで使う。デフォルトでは`req.user`に認証情報を格納してくれる。セッションへの格納なども制御できる。 詳細はREADMEにもあるが、[passport-local][jaredhanson/passport-local]の[example][passport-example]が分かりやすい。
+
+今回の使いかたでは、サービス用のアカウントとしてTwitterアカウントを使い、その他にGitHubのアカウントを紐付けておく。認証として使うTwitter部分は素直な実装で良いのだけれど、GitHubについては対応しづらかった。今回は強引に`session:false`オプションを使って、`session`にはTwitterの認証情報・`req.user`にはGitHubの認証情報という状況をつくって対応した。何がおかしいのか伝わらないと思うけど、そこそこいびつな対応だと思う。
+
+サービス開発の進捗だけど、web部分の動きは一通りできていて、あとはデザイン。workerについては更新はできるのだけれど、キューに入れたりができてなくって、そのあたりはまだ。間違いなく利用者の少ないサービスだから、こそこそと作って、遊ぼうと思う。
+
+18 min.
+
+[jaredhanson/passport]: https://github.com/jaredhanson/passport
+[jaredhanson/passport-github]: https://github.com/jaredhanson/passport-github
+[jaredhanson/passport-twitter]: https://github.com/jaredhanson/passport-twitter
+[jaredhanson/passport-local]: https://github.com/jaredhanson/passport-local
+[passport-example]: https://github.com/jaredhanson/passport-local/tree/master/examples/login
+[visionmedia/express]: https://github.com/visionmedia/express

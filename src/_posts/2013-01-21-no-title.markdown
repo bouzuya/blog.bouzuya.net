@@ -1,0 +1,12 @@
+---
+layout: post
+pubdate: "2013-01-21T23:40:38+09:00"
+title: Firefox に戻ってきた
+tags: [firefox]
+pagetype: posts
+---
+Google Chrome のタブにうんざりしたので、Firefox に戻ってきた。Firefox には Tree Style Tab があるし、Vimperator もある。
+
+調子に乗ってタブをたくさん開くとメモリ使用量がえらいことになった。Firefox 怖い。
+
+2 min.

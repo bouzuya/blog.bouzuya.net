@@ -1,0 +1,145 @@
+---
+layout: post
+pubdate: "2014-06-02T23:59:59+09:00"
+title: blog.bouzuya.net@0.2.0 をつくった
+tags: [javascript]
+minutes: 40
+pagetype: posts
+---
+blog.bouzuya.net@0.2.0 をつくった。
+
+## 回想
+
+2012 年に bouzuya.github.com をつくってから、もう 2 年以上が経つ。今日までにいろいろと変わった。たとえば GitHub Pages のドメインが github.com から github.io に変わった。その時点でサイト名とドメインとが一致しなくなった。そこでドメインを blog.bouzuya.net にした上で、今日までやってきた。それがもうずいぶんと前だ。
+
+いつか乗り換えようと何度も書いている。GitHub Pages で使われている Ruby のサイトジェネレーター [Jekyll][jekyll/jekyll] から Clojure のジェネレーターの [misaki][liquidz/misaki] に乗り換えようとも思ったし、[MovableType][movabletype/movabletype] や, [Ghost][tryghost/Ghost] にしようかとも思ったのだけど、結局、自分でつくることにした。使うよりつくるほうが楽しいからね。
+
+## で、blog.bouzuya.net は何が変わったのか
+
+仕様でいうと、次のような点で変わった。
+
+1. ドメインにあわせてサイト名を blog.bouzuya.net に変えた。
+2. プロフィールやプロジェクトなどの不要なページを消した。
+3. 1 日 1 ポストという制約を設けて permalink を /yyyy/mm/dd/ にした。
+4. タグで絞り込めるようにした。
+
+実装でいうと、次のような点で変わった。
+
+1. API サーバー + アプリケーションの構成にした。
+2. アプリケーションには JavaScript を前提とした。
+3. GitHub Pages (Jekyll) ではなく、オレオレ実装 (Marionette.js) にした。
+4. GitHub Pages ではなく Amazon S3 へホストした。
+
+## 仕様の変更点
+
+それぞれを見ていこう。
+
+### サイト名の変更
+
+ドメインにあわせてサイト名を blog.bouzuya.net に変えた。説明の必要はないだろう。個別記事のタイトルも「タイトル - bouzuya.github.com」から「タイトル - blog.bouzuya.net」に変わっている。
+
+比較表   | 旧                 | 新
+---------|--------------------|------------------
+サイト名 | bouzuya.github.com | blog.bouzuya.net
+ドメイン | blog.bouzuya.net   | blog.bouzuya.net
+
+### 不要なページの削除
+
+プロフィールページやプロジェクトページなどの不要なページを消した。プロフィールページといってもろくに情報がなかった。Name, Location ...。それなら Twitter の bio で十分だと判断した。プロジェクトページに相当するものは必要だろうが blog.bouzuya.net 内にあるのは違和感がある。あえて何かするなら、せいぜいタグ付けだろう。
+
+### 1 日 1 ポストの制約
+
+1 日 1 ポストという制約を設けて permalink を /yyyy/mm/dd/ にした。これは意外と大きな変更だ。実際問題一日に何回もポストすることはない。それぞれのタイトルを URL に含む必要もあまりない。きちんとタイトルをつけているならともかく、最近はずっと diary だ。URL につける適切なキーワードを考えるのは無駄な労力がかかる。それを URL から削ってしまった。
+
+もちろん過去のリンクは正しく動くことを確認している。/yyyy/mm/dd/title/ も /yyyy/mm/dd/title.html も /yyyy/mm/dd/ にリダイレクトする。
+
+タグで絞り込めるようにした。タグ自体は以前からつけていたのだけど、機能を実装していなかった。この機会に実装した。まだ使い勝手はあまり良くないので、改善していくつもりだ。
+
+仕様変更はそれくらい。
+
+## 実装の変更点
+
+実装の詳細を見ていくのだが、その前にざっくりと流れを書いておく。[先週だかにすこし書いた気がするのだけど][2014-05-27] 、あらためて。
+
+1. bouzuya.github.com 時代からの Jekyll の Markdown を [myjekyll][bouzuya/myjekyll] というオレオレライブラリで parse する
+2. [kraken][bouzuya/kraken] というオレオレライブラリで JSON として保存する (atom.xmlも)
+3. Marionette.js でオレオレクライアントを素朴に実装し、JSON を表示する
+4. Travis CI と Amazon S3 とを組み合わせて `git push` でデプロイする
+
+こんな感じ。もうちっと見ていく。
+
+### JSON API + JavaScript SPA という構成
+
+まず構成が変わった。JSON を返す API サーバーと JavaScript によるクライアントアプリケーションのような構成になっている。
+
+以前は Jekyll を使って HTML を生成していた。今回は JSON と atom.xml とを生成している。HTML + JavaScript + CSS (LESS) で SPA (Single Page Application) をつくってあり、JSON を parse して表示する。JSON 部分はジェネレーターではなく Heroku などで表示するように変えても問題なく動くだろう。
+
+### JavaScript を前提に、データ必要なら JSON を
+
+上記の通り、JavaScript を前提にしている。データが必要なら JSON API に直接アクセスすれば良い、という方針。
+
+以前なら HTML を返すべきみたいのがあったと思うのだけど、もう JSON を返す URL は普通にあって良いと思う。`jq` みたいなコマンドも出てきて扱いやすくなっているはず。curl から jq にパイプでつなげば良いだけなので、コマンドラインでの処理も問題なし。
+
+ただ、もうちょっと JSON の配置 (API) は考えたい。方針は上記の通りなのだけど、あまり優しくない URL 設計になってしまっているので。いまのところ、とりあえず動く、という状態。
+
+### SPA に Marionette.js の採用
+
+SPA の実装のために Marionette.js を使っている。Marionette.js は Backbone.js を拡張するライブラリ。
+
+はじめ Backbone.js を使おうとも思ったが、いろいろと試しておきたいので、今回は Marionette.js を使うことにした。Marionette.js を使った感想などをすこし書く。
+
+Marionette.js は Backbone.js の View をかなり良くしてくれた。使えばわかるが Backbone.js の View はほとんど何もしてくれない。結果として何も考えずにつくると View が複雑になる。レンダリングもイベントハンドリングも Model への操作も全部 View がやる。ほとんどすべてが View につっこまれた状態になる。
+
+Marionette.js の View は Backbone.js の View の複雑さをマシにしてくれる。
+
+例えば Marionette.View は render を実装済みである。ItemView や CollectionView などには model や collection を設定しておけば、適切なタイミングで render を呼び出してくれる。次のようなボイラープレートコードを書かなくて良い。
+
+    var json = this.model.toJSON();
+    var html = this.template(json);
+    this.$el.html(html);
+
+ほかにも Marionette.Layout を使う。Layout は region を持つ。さきの ItemView や CollectionView を Layout の region に `this.region1.show(itemView);` のように設定すれば `render` を呼び出してくれる。ネストされたビューの扱いがやりやすくなる。
+
+Controller も Marionette.js により追加されているのだけど、正直あんまりしっくりきていない。また使いながら、どうすべきかは考えるつもり。
+
+### Amazon S3 へのホスティング
+
+以前「[GitHub + Travis CI + Amazon S3 で git push で更新されるサイトをつくった][2014-05-20]」で書いたものをほとんどそのまま使っている。`.travis.yml` に次のような記述を加えている。`access_key_id` や `secret_access_key` や `bucket` などを変更すれば、ほかでもそのまま使えるはず。
+
+    deploy:
+      provider: s3
+      access_key_id:
+        secure: "bhislzVxTjbMcdDDMlHeh7iK9X1sK6b9VBFsL++v+SakMvVBtId4CVGWACRsa5kW8qaghNt8tm8kC4B5X0Y/VSJ6BfNIADkIVOZkkmV2GMGyX3Vlul4/D9Lu83SytKyPS5Krldv6Q3PuyVWRWwjdX9T97pjC0DqVbmfimV6JK6E="
+      secret_access_key:
+        secure: "CnpN7+C5ZlASWSnSVAfLch0HgD1nliD+yNLN+MMUBNFP+hve6zw/klUb9fbFJlmPZwdKIKKnNYcMQdV2wWkDqUwzpbePNV3UznHLdhK65pijlu/QMmu+V+fGypscw1nHbSFFL5nLSqLJWHVouoDCHbJ1x7nJ01XAOZEwVimIv7A="
+      bucket: blog.bouzuya.net
+      region: ap-northeast-1
+      endpoint: s3-ap-northeast-1.amazonaws.com
+      skip_cleanup: true
+      local-dir: build
+      on:
+        branch: master
+
+`skip_cleanup` を `true` にしておかないと、ビルドしたものを消されてしまうので注意、くらいかな。
+
+## その他
+
+できあがっているものとしては、Jekyll のような汎用のジェネレーターではなくて、素朴に Marionette.js でブログっぽい何かを実装してあるだけ。それぞれのライブラリの役割も API も実に中途半端。
+
+実装はチープなんだけど、やってみて良かったと思っている。Marionette.js をためすことができたし、GitHub + Travis CI + Amazon S3 で GitHub Pages 程度の手軽さでサイトをホスティングできるようになったし、ついに GitHub Pages ( Jekyll ) から乗り換えることができた。しかも、操作感はほぼ損なわず。
+
+将来的にやりたいこととしてはいろいろある。[課題も山積している][bouzuya/blog.bouzuya.net/issues]。
+
+- Jekyll Markdown を捨てたい
+- JavaScript を前提としたメリットを出したい
+- Atom Editor からもっと手軽に扱えるように
+
+[bouzuya/blog.bouzuya.net/issues]: https://github.com/bouzuya/blog.bouzuya.net/issues
+[2014-05-20]: http://blog.bouzuya.net/2014/05/20/
+[2014-05-27]: http://blog.bouzuya.net/2014/05/27/
+[tryghost/Ghost]: https://github.com/tryghost/Ghost
+[jekyll/jekyll]: https://github.com/jekyll/jekyll
+[liquidz/misaki]: https://github.com/liquidz/misaki
+[movabletype/movabletype]: https://github.com/movabletype/movabletype
+[bouzuya/myjekyll]: https://github.com/bouzuya/myjekyll
+[bouzuya/kraken]: https://github.com/bouzuya/kraken

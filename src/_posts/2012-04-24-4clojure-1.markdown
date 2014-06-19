@@ -1,0 +1,14 @@
+---
+layout: post
+pubdate: "2012-04-24T21:10:43+09:00"
+title: 4Clojureを楽しむ(1)〜Elementaryを終えて〜
+tags: [clojure]
+pagetype: posts
+---
+[4Clojure](https://www.4clojure.com/)で遊んでいる。楽しみながらClojureを勉強している。
+
+今日は「Elementary」の問題をかたづけた。基礎のはずなのだけど、『[プログラミングClojure](http://amazon.jp/o/ASIN/4274067890/bouzuya-22)』を一通りは読んだはずなのだけど、覚えのない関数やマクロが出てくる。流し読みじゃダメなのだろう。
+
+Clojureらしく書くことはもちろん、Lispらしく書くこともままならない自分が嫌になった。『プログラミングClojure』もそうだし、『[Scheme手習い](http://amazon.jp/o/ASIN/4274068269/bouzuya-22)』を読み返したくなった。まったくダメだ。
+
+20 min.

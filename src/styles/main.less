@@ -1,0 +1,57 @@
+@import '../scripts/vendor/fontawesome/less/font-awesome.less';
+@import './variables.less';
+
+@font-face {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fredoka One'), local('FredokaOne-Regular'), url(../fonts/FredokaOne-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(../fonts/OpenSans-Extrabold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(../fonts/ShareTechMono-Regular.woff) format('woff');
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: @font2, sans-serif;
+}
+
+html, body {
+  font-size: 4 * @unit;
+  background-color: @background-color;
+  color: @color;
+  line-height: 1.4;
+  width: 100%;
+  overflow: scroll;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  text-shadow: 2px 2px @color2;
+  color: @color1;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover {
+    background: linear-gradient(to bottom, transparent 70%, @color1 70%);
+  }
+}

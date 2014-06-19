@@ -1,0 +1,45 @@
+---
+layout: post
+pubdate: "2014-05-04T23:59:59+09:00"
+title: 今週のふりかえり(18)
+tags: ['looking back']
+minutes: 19
+pagetype: posts
+---
+今週のふりかえり。2014-04-28/2014-05-04の一週間をふりかえる。
+
+- [2014-05-03 Promise で async ライクな機能をつくった](http://blog.bouzuya.net/2014/05/03/diary/)
+- [2014-05-02 backlog-summaryの改良版をつくった](http://blog.bouzuya.net/2014/05/02/diary/)
+- [2014-05-01 Backlog+WIP PRのスクリプトの改良版をつくった](http://blog.bouzuya.net/2014/05/01/diary/)
+- [2014-04-30 Backlogの処理中の課題を表示するHubotスクリプトをつくった](http://blog.bouzuya.net/2014/04/30/diary/)
+- [2014-04-29 backlog-cli@0.2.0をつくった](http://blog.bouzuya.net/2014/04/29/diary/)
+- [2014-04-28 無題](http://blog.bouzuya.net/2014/04/28/diary/)
+- [2014-04-27 今週のふりかえり(17)](http://blog.bouzuya.net/2014/04/27/diary/)
+
+Backlogばかりだなあ。先週もそうだけど、時間外勤務が多くて、どうしても個人的な活動への時間が減っている。くたびれて帰ってくると、もうダメ、というアレ。Backlogばかりなのは、Backlog関連のものは業務でそのまま使えるから。
+
+Backlog + GitHub な環境をすこしでも改善しようとしているのが分かる。
+
+- Hubotスクリプト backlog-summary
+- Hubotスクリプト backlog-status
+- シェルスクリプト wip-pr
+- backlog-cli
+
+Everyday Railsは停止中。相方も忙しいからね。もう基本的な部分は大丈夫。業務で使っている。
+
+今週は環境構築とかもやっている。AWSでつくるのが多いのだけど、Herokuを使えるようになりたい。前から書いているけどね。あとDockerをためしておきたい。Elastic Beanstalkで使えるようになったし、市民権を得ていると言っても良い気がする。
+
+先々週のTは諦める。できないことをできないできないと言うのはみじめさだけを感じて良くない。もっと前向きに進めたいからね。ただ、ブログの更新時間をはやめるのだけは大切にしたいな。
+
+- K:
+  - Backlog環境の改善(Hubotスクリプト, シェルスクリプト, backlog-cli)
+- P:
+  - 更新時間が遅い
+- T:
+  - Heroku + S3 で GitHub Pages 
+  - Docker
+  - Ruby カバレッジ
+  - レビュー依頼するシェルスクリプト
+  - ブログの更新時間の更新時間を早める(風呂より前)
+  - Nexus5の使用感を書く
+

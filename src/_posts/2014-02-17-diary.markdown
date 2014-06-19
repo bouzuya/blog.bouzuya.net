@@ -1,0 +1,14 @@
+---
+layout: post
+pubdate: "2014-02-17T23:59:59+09:00"
+title: node-backlog-api@0.10.0をつくった
+tags: [javascript]
+minutes: 5
+pagetype: posts
+---
+node-backlog-api@0.10.0をつくった。backlog.admin以外のメソッドは可能な範囲で実装を完了した。
+
+簡単な例をつくったくらいで、テストをほとんどしていないので、おかしいかもしれないけど、まあいいんじゃないかな。
+
+backlog.adminをつくろうとしたのだけれど、ごちゃごちゃと試していたらJavaScriptのprototypeあたりの知識不足で変にハマってしまったので、今日はパス。
+

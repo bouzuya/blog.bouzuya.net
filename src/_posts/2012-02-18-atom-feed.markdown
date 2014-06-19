@@ -1,0 +1,45 @@
+---
+layout: post
+pubdate: "2012-02-18T23:07:14+09:00"
+title: JekyllでAtom Feedを配信する
+tags: [jekyll]
+pagetype: posts
+---
+このBlogにAtom Feedを追加した。これによりGoogle ReaderなどのFeed ReaderでこのBlogの記事を購読することができる。やったね。
+
+さてJekyllで運営しているBlogであればFeedを配信することは簡単だ。
+
+index.htmlに各記事の情報を埋め込むのと同様に、Feedの形式のファイルに各記事の情報を埋め込むだけだ。このBlogの場合は現状では次のようになっている。変数postにおけるpubdateやtitle、変数siteにおけるauthorは独自に追加しているものである。
+
+    ---
+    layout: nil
+    ---
+    <?xml version="1.0" encoding="utf-8"?>
+    <feed xmlns="http://www.w3.org/2005/Atom">
+        <title>bouzuya.github.com</title>
+        <link rel="alternate" type="text/html" href="{{ "{{" }} site.url }}" />
+        <updated>{{ "{{" }} site.time | date_to_xmlschema }}</updated>
+        <id>{{ "{{" }} site.url }}</id>
+        <author>
+            <name>{{ "{{" }} site.author }}</name>
+        </author>
+        {{ "{%" }} for post in site.posts limit:20 %}
+        <entry>
+            <title>{{ "{{" }} post.title }}</title>
+            <link href="{{ "{{" }} site.url }}{{ "{{" }} post.url }}" />
+            <updated>{{ "{{" }} post.pubdate }}</updated>
+            <id>{{ "{{" }} site.url }}{{ "{{" }} post.id }}</id>
+            <content type="html">{{ "{{" }} post.content | xml_escape }}</content>
+        </entry>
+        {{ "{%" }} endfor %}
+    </feed>
+
+あとはindex.htmlにlink要素をいれておけば準備万端である。
+
+{% highlight html %}
+<link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed" />
+{% endhighlight %}
+
+ね、簡単でしょ？さあ、[このBlogのFeed](http://bouzuya.github.com/atom.xml)を購読してみよう！
+
+34 min.

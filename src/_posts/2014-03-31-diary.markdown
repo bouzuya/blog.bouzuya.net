@@ -1,0 +1,15 @@
+---
+layout: post
+pubdate: "2014-03-31T23:59:59+09:00"
+title: Route53とHerokuとの連携をためした
+tags: [misc]
+minutes: 15
+pagetype: posts
+---
+bwilike.meのHeroku移行の関連でRoute53とHerokuとの連携をためした。
+
+いまbwilike.meはその名前のとおり"root domain"/"naked"/"Zone Apex"(?)で設定されているのだけれど、これはCNAMEレコードではできない。現在はRoute53とEC2なので設定できているのだけど、Route53とHerokuだと設定できなくなってしまう。bwilike.meへのアクセスをwww.bwilike.meなどにリダイレクトさせるのはできるのだけれど、せっかくドメインを取っているのにwwwをつけたくない。
+
+そこでS3に静的なサイトをホストしてHerokuをAPIサーバーとして運用しようかと思っている。
+
+http://bwilike.me/users/:usernameなURLにアクセスされたときに/にあるファイルを返しつつ、パスをハッシュとして渡すような設定したい。[S3のリダイレクト設定でできないことはない](http://stackoverflow.com/questions/16267339/s3-static-website-hosting-route-all-paths-to-index-html)けど、どうかな。もうちょっと試してみる。

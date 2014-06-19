@@ -1,0 +1,14 @@
+@import './variables.less';
+
+.tags {
+  display: inline;
+  font-size: 3 * @unit;
+  ul {
+    display: inline;
+    .tag {
+      display: inline;
+      &:before { content: "[ "; }
+      &:after { content: " ]"; }
+    }
+  }
+}

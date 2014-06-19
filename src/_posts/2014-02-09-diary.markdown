@@ -1,0 +1,69 @@
+---
+layout: post
+pubdate: "2014-02-09T23:38:09+09:00"
+title: 今週のふりかえり(6)
+tags: ['looking back']
+minutes: 25
+pagetype: posts
+---
+今週のふりかえり。2/3-2/8の一週間をふりかえる。
+
+- [2014-02-08 node-hatena-graph-cli@0.1.3をつくった](http://blog.bouzuya.net/2014/02/08/diary/)
+- [2014-02-07 node-hatena-graph-cliをつくった](http://blog.bouzuya.net/2014/02/07/diary/)
+- [2014-02-06 cars-counter-twitterをつくった](http://blog.bouzuya.net/2014/02/06/diary/)
+- [2014-02-05 cars-counter-githubをつくった](http://blog.bouzuya.net/2014/02/05/diary/)
+- [2014-02-04 carsをつくった](http://blog.bouzuya.net/2014/02/04/diary/)
+- [2014-02-03 uploader-hatena-graphをつくった](http://blog.bouzuya.net/2014/02/03/diary/)
+
+「つくった」が並んでいて、良い感じ。
+
+つくった中身は主にcars(はてなグラフに投稿していたスクリプトのNode.js移植)と、その関連でつくったHatena::Graph CLI。どれも小さいスクリプトなので大した量ではない。タイトルにおさまりきってない感じがあるので並べてみた。
+
+- [bouzuya/node-wsse][]
+- [bouzuya/node-hatena-graph-api][]
+- [bouzuya/node-hatena-graph-cli][]
+- [bouzuya/cars][]
+- [bouzuya/cars-reporter-console][]
+- [bouzuya/cars-reporter-hatena-graph][]
+- [bouzuya/cars-counter-hatena-bookmark][]
+- [bouzuya/cars-counter-twitter][]
+- [bouzuya/cars-counter-github][]
+
+書いていないけど、料理は野菜炒めをつくった。意外と簡単なのでつくっていきたい。
+
+やりたいと言っていたことはほとんどできていない。「Ionic/AngularJS/MongoDB/Express/Node.js/Heroku/AngularJS/Ionic/PhoneGap」あたりは使えていないし、朝起きて考えようとか、曜日ごとに何かしようとか。
+
+なぜ、できていないのかな。そこに意識がいかないからかな。「つくった」はタイトルを意識するからできている気がするし。なぜ、意識がいかないのかな。ふりかえりタイミングが遅いからかな。週に1回のふりかえりだと遅いのかも。なぜ、毎日ふりかえらないのかな。これは横着してるだけだろうな。なぜ横着したくなるのかな。簡単に確認する方法がないからかな。
+
+毎日、週のふりかえりを見よう。ふりかえりを見るためのスクリプトを書こう。
+
+ふりかえりが期待ほどは機能していないことは気にしているのだけれど、それでも、できていないことに気づけているのはふりかえりのおかげなので、その点は良いので、週のふりかえりは続けていきたい。
+
+- K:
+  - 小さいものでもつくって「つくった」を書く
+  - 料理を週一回はする
+  - 週のふりかえりを続ける
+- P:
+  - Ionic/AngularJS/MongoDB/Express/Node.js/Heroku/AngularJS/Ionic/PhoneGap を使えていない
+  - Node.jsサーバーサイドのまとめ、今回のCLI作成まとめを書けていない
+  - 曜日ごとに何かするができていない
+- T:
+  - 週のふりかえりを見るためのスクリプトをつくる
+  - CLI作成の際のまとめを書く
+  - 曜日ごとに何をするかを書く
+  - 料理の結果を書く
+  - BacklogのCLIをつくりたい
+  - bouzuya版はてなグラフをつくりたい
+  - bouzuya版はてなグラフのクライアントとしてハイブリッドアプリをつくりたい
+  - CSS3の習熟度を上げたい
+
+[bouzuya/node-wsse]: https://github.com/bouzuya/node-wsse
+[bouzuya/node-hatena-graph-api]: https://github.com/bouzuya/node-hatena-graph-api
+[bouzuya/node-hatena-graph-cli]: https://github.com/bouzuya/node-hatena-graph-cli
+[bouzuya/cars]: https://github.com/bouzuya/cars
+[bouzuya/cars-reporter-console]: https://github.com/bouzuya/cars-reporter-console
+[bouzuya/cars-reporter-hatena-graph]: https://github.com/bouzuya/cars-reporter-hatena-graph
+[bouzuya/cars-counter-hatena-bookmark]: https://github.com/bouzuya/cars-counter-hatena-bookmark
+[bouzuya/cars-counter-twitter]: https://github.com/bouzuya/cars-counter-twitter
+[bouzuya/cars-counter-github]: https://github.com/bouzuya/cars-counter-github
+

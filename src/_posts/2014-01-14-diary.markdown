@@ -1,0 +1,14 @@
+---
+layout: post
+pubdate: "2014-01-14T23:59:59+09:00"
+title: AngularJSをためした
+tags: [javascript, angularjs]
+minutes: 4
+pagetype: posts
+---
+AngularJSをためした。ざっくりさわったのだけれど、すごい手軽。Backbone.jsだと面倒なことでもすぐにできるので、SPAをつくりたい気持ちになれる。
+
+ためしにJSONを返すサーバーを用意して、そこからとったデータをあのHTMLベースのテンプレートを使ってゴリゴリ動かして、気持ちいい。
+
+もうちょっとためさないといけないけど、Backbone.jsをためすよりずっと楽しそう。Backbone.jsからAngularJSに乗り換えようかな。やりたいことがひととおりできるか確認しないとなあ。
+

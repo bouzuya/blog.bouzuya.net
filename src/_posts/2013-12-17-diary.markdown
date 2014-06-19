@@ -1,0 +1,39 @@
+---
+layout: post
+pubdate: "2013-12-17T23:12:18+09:00"
+title: Coverallsを試す
+tags: [javascript]
+pagetype: posts
+---
+Backlog API wrapper for Node.jsで[Coveralls][coveralls]を試す。
+
+Coverallsはテストカバレッジの履歴を管理したり、バッジ表示するサービス。昨日書いた[Travis CI][travis-ci]と連携されることも多い。あくまで取得は各言語のライブラリで実施して、その結果を送って管理してもらう。テストカバレッジなどは自分で実施すると飽きるとやめてしまうことも多いので、こういうサービスをいかしたい。
+
+前に書いたとおり、あくまで実施はそれぞれで行う。Node.jsの場合も色々なやりかたはあるみたい。
+
+ぼくの場合は、[visionmedia/mocha][]を使っているので、それと連携できるもの。今回は[fishbar/jscoverage][]と[cainus/node-coveralls][]と[StevenLooman/mocha-lcov-reporter][]とを使った。
+
+`jscoverage lib/`とすると`lib-cov/`にカバレッジをとれるように変換されたコードを出力できる。それを使って`mocha -R mocha-lcov-reporter`で実行すると、coverallsに送れる形式のデータで出力される。ひとつにまとめると`jscoverage lib && BACKLOG_API_COV=1 mocha -R mocha-lcov-reporter | coveralls`となる。`BACKLOG_API_COV`を使って、`lib/`と`lib-cov/`とを切り替えている。別のモジュールを使った例だが、[alanshaw/nodeunit-lcov-coveralls-example][]が分かりやすい。
+
+Coverallsはちょっと扱いが難しくて、Travis-CIなら最後に`after_success:`にでも書いていれば動くけど、ローカルから実行しようとすると`repo_token`などが要る。
+
+気が向いたらまたまとめよう。とりあえずの手順。
+
+1. `.gitignore`に`lib-cov/`を追加
+2. `npm install --save-dev jscoverage coveralls mocha-lcov-reporter`を実行
+3. `package.json`の`script`に`"coveralls": "jscoverage lib && APP_COV=1 mocha -R mocha-lcov-reporter | coveralls"`を追加
+4. `index.js`で`APP_COV`を使って`lib`/`lib-cov`を切り替え
+5. `.travis.yml`に`after_success:`で`- npm run-script coveralls`とする
+6. Travis CIで管理
+
+ぼくならこれで十分かなあ。あとはコードを改善する、と。
+
+38 min.
+
+[StevenLooman/mocha-lcov-reporter]: https://github.com/StevenLooman/mocha-lcov-reporter
+[alanshaw/nodeunit-lcov-coveralls-example]: https://github.com/alanshaw/nodeunit-lcov-coveralls-example
+[cainus/node-coveralls]: https://github.com/cainus/node-coveralls
+[coveralls]: https://coveralls.io/
+[fishbar/jscoverage]: https://github.com/fishbar/jscoverage
+[travis-ci]: https://travis-ci.org/
+[visionmedia/mocha]: https://github.com/visionmedia/mocha

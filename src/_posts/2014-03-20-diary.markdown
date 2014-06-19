@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2014-03-20T20:25:55+09:00"
+title: "hubot-url@0.2.0をつくった"
+tags: [javascript, hubot]
+minutes: 9
+pagetype: posts
+---
+[hubot-url@0.2.0][bouzuya/hubot-url@0.2.0]をつくった。昨日のことだけど。昨日書き忘れてた。
+
+URLをうまく取得できなかった場合に、"no title"を出していたのだけれど、それがちょっとうるさいと指摘されたのでなしにした。動いているか分からなくなるので出していたのだけれど、出なかったら出なかったで困らないので。
+
+あと無視URLを設定できるようにした。githubやtwitterなどはHipChatだともともと応答が用意されているので、hubotで対応する必要がないので、無視できるようにした。
+
+小さな改善だけど、とりあえず週1ノルマ達成できた。
+
+
+[bouzuya/hubot-url@0.2.0]: https://github.com/bouzuya/hubot-url/tree/0.2.0

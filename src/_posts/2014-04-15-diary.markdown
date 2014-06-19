@@ -1,0 +1,37 @@
+---
+layout: post
+pubdate: "2014-04-15T13:43:17+09:00"
+title: bouzuya-fixturesをつくった
+tags: [javascript]
+minutes: 17
+pagetype: posts
+---
+[bouzuya/bouzuya-fixtures][]をつくった。bouzuya-fixturesはfixturesライブラリ。指定したファイルを`require`するだけのもの。yak shaving。
+
+    // test/fixtures/users.js
+    module.exports = {
+      user1: { name: 'bouzuya' },
+    };
+
+    // index.js
+    var fixtures = require('bouzuya-fixtures');
+    fixtures('users').then(function(users) {
+      console.log(users['user1']); //=> { name: 'bouzuya' }
+    });
+
+まあ、これ自体は割とどうでも良いのだけれど、これを機会にひさしぶりに[Coveralls](https://coveralls.io/)を使った。[以前もCoverallsについては書いていて](http://blog.bouzuya.net/2013/12/17/diary/)、そのときにも[bouzuya/coveralls-example][]を書いている。ふだんカバレッジをほとんどとらずにいるのだけど、目安のためにもとるべきなので、慣れるために今回は設定した。
+
+以前も書いたとおり、そんなに設定は難しくなくってmochaをつかっているなら、次のような感じでHTMLを出力できる。`APP_COV`の有無で`require('./lib/')`か`require('./lib-cov/')`かを振り分けるように設定も忘れずに。
+
+    $ npm install jscoverage
+    $ $(npm bin)/jscoverage lib
+    $ APP_COV=1 $(npm bin)/mocha -R html-cov
+
+mochaのreporterとしてmocha-lcov-reporterを使って、coverallsに出力を渡せばcoverallsへの出力もOK。実際にはTravis CIから送ると想定。そうでないならキーなどが必要なはず。面倒。
+
+    $ $(npm bin)/jscoverage lib && APP_COV=1 $(npm bin)/mocha -R mocha-lcov-reporter | $(npm bin)/coveralls
+
+このへんをまとめて`package.json`やらに設定しておくだけ。以前も一度書いているので簡単にできた。`html-cov`で出力されたhtmlを開いて確認、とかも良いね。コンソールで確認したいんだけど、そのためのreporterはないみたいで残念。
+
+[bouzuya/bouzuya-fixtures]: https://github.com/bouzuya/bouzuya-fixtures
+[bouzuya/coveralls-example]: https://github.com/bouzuya/coveralls-example

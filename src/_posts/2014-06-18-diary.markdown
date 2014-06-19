@@ -1,0 +1,26 @@
+---
+layout: post
+pubdate: "2014-06-18T23:59:59+09:00"
+title: ひとり読書会をつくった
+tags: [hitoridokusho]
+minutes: 15
+pagetype: posts
+---
+ひとり読書会をつくった。
+
+[Doorkeeperはここ][doorkeeper/hitoridokusho]で、[Twitterはここ][twitter/hitoridokusho]で、[GitHubはここ][github/hitoridokusho]。すべて id は hitoridokusho にしてある。dokusyo じゃなく dokusho 、dokushokai じゃなく dokusho 。hitoridokusho 。
+
+何かイベントを企画しようと思ったのだけど、特に思いつかないので、以前から小さくやっている読書会をオープンにすることにした。さっそく今日「[ひとり読書会 #1 AngularJS アプリケーション開発ガイド (1)][hitoridokusho#1]」を実施した。参加者はぼくひとり。
+
+やりながらテーマや方針などを定めていこうと考えている。テーマが決まってきたら、それに特化したものに作り変える気がする。ひとまず「 bouzuya さんと本を読もう」くらいの会にするつもり。内容的にあまり大きくやっても仕方がないものなので、3 人から 5 人くらいが規模的には良い。
+
+以前からやっている読書会を、イベントページを用意してオープンにする。それだけで外から見えるようになる。大切なのは、もっと外を見ること。外から見えること。一歩ずつ進むしかない。
+
+[今回の反省がたくさんある][hitoridokusho#1note]し、毎回いろいろな発見があるはず。どんどん変えて、良くするつもり。
+
+
+[doorkeeper/hitoridokusho]: http://hitoridokusho.doorkeeper.jp
+[twitter/hitoridokusho]: https://twitter.com/hitoridokusho
+[github/hitoridokusho]: https://github.com/hitoridokusho
+[hitoridokusho#1]: http://hitoridokusho.doorkeeper.jp/events/12642
+[hitoridokusho#1note]: https://github.com/hitoridokusho/hitoridokusho/blob/master/2014-06-19.md

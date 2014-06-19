@@ -1,0 +1,11 @@
+---
+layout: post
+pubdate: "2014-04-19T23:59:59+09:00"
+title: UX KOBE Vol.3にいった
+tags: [misc]
+minutes: 2
+pagetype: posts
+---
+UX KOBE Vol.3にいった。あたまがいたくて、つらぽよだった。
+
+ユーザビリティテストのためのデータ集め。動画とったり。noviceとexpertとで差をとるNE分析ってのをするらしいよ。

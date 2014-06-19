@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2013-06-10T23:59:59+09:00"
+title: 寝る
+tags: [misc]
+pagetype: posts
+---
+家事をして寝る。やらなきゃいけない場面がある、とか格好をつける。
+
+1 min.

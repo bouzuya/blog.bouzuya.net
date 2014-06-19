@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2012-08-17T22:23:39+09:00"
+title: WSC Windows Script Component
+tags: [wsh]
+pagetype: posts
+---
+[WSC(Windows Script Component)](http://msdn.microsoft.com/ja-jp/library/cc392140)を知る。再利用を進めるうえで良さそうだ。
+
+登録したオブジェクトを`WScript.CreateObject`できる。これは良い。FileSystemObjectのようなオブジェクトを手軽に作ることができる。
+
+問題があるとすれば利用する前に登録が必要であることだ。そしてこれはおそらくレジストリーに登録される。なるべく登録せずに使いたい。
+
+VBScriptのGetObjectで`script:`の形式で登録なしに使うことができる。WScriptのGetObjectだとなぜかできない。WMIのときの`winmgmts:`と同様の現象だ。なぜだ。WMIのときはCreateObjectでなんとかなった、今回もどうにかならないか探している。ちなみに、こういう〜:を「モニカ」というらしい。よく分からないが、どうもそうみたいだ。
+
+今日は疲れているので、これくらいでおしまい。
+
+13 min.

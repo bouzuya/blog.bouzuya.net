@@ -1,0 +1,36 @@
+---
+layout: post
+pubdate: "2014-02-26T22:12:44+09:00"
+title: 無題
+tags: [javascript]
+minutes: 35
+pagetype: posts
+---
+朝から職場のトイレでもどした。出勤したのだけれど、お腹が痛いのと吐き気がひどくて「やっぱりダメだ」と思い、早退した。
+
+家で夜まで寝て、すこし調子が戻ったように感じたので、おかゆを食べ、Backbone.jsをためす。
+
+[`Collection#fetch`][collection#fetch]した際に、同じデータなのに毎回addされる動きをあやしいと思い、確認したところ、[`Model#idAttribute`][model#idattribute]の設定に誤りがあった。
+
+`Collection#fetch`の動きは、簡単に表すと[`Collection#sync`][collection#sync]を呼び、[`Backbone#sync`][backbone#sync]を呼び、サーバーからデータを読んで、[`Collection#set`][collection#set]する。`Collection#fetch`で、コールバックとして`Collection#set`または`Collection#reset`を呼び、あれば`options.success`を呼び、そのあと`sync`イベントを発火するような関数を設定している。
+
+`Collection#set`ではドキュメントを見るかぎり、賢くmergeすると書いてあるのだけれど、上記のように毎回addされて、ちっとも賢くないと勘違いしていた。
+
+`Collection#set`を読むと答えは簡単で、Modelのid(`idAttribute`または`'id'`)を`Collection#get`して存在するかを確認するので、idが正しく設定されていなければ、同じデータとして扱われない。MongoDBを使う場合はidは`_id`となるので、`Model#idAttribute`に`'_id'`を設定してやれば良い。同じデータとして扱われれば、Collectionにaddするのではなく、Modelごとに[`Model#set`][model#set]が呼ばれる。
+
+また調子が悪くなってきたので、寝る。
+
+[model#idattribute]: https://github.com/jashkenas/backbone/blob/1.1.2/backbone.js#L272
+[model#set]: https://github.com/jashkenas/backbone/blob/1.1.2/backbone.js#L308
+[collection#sync]: https://github.com/jashkenas/backbone/blob/1.1.2/backbone.js#L632
+[collection#set]: https://github.com/jashkenas/backbone/blob/1.1.2/backbone.js#L668
+[collection#fetch]: https://github.com/jashkenas/backbone/blob/1.1.2/backbone.js#L858
+[backbone#sync]: https://github.com/jashkenas/backbone/blob/1.1.2/backbone.js#L1132
+
+
+
+
+
+
+
+

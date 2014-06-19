@@ -1,0 +1,20 @@
+---
+layout: post
+pubdate: "2014-01-13T23:40:57+09:00"
+title: SPA-with-Backboneをためした
+tags: [javascript, backbone.js]
+minutes: 
+pagetype: posts
+---
+[SPA-with-Backbone](https://github.com/mitsuruog/SPA-with-Backbone)をためした。これはBackbone.jsでSPA:Single-Page Applicationをつくるチュートリアル。[http://mawatari.jp/archives/roadmap-for-backbonejs-beginners](http://mawatari.jp/archives/roadmap-for-backbonejs-beginners)経由で知り、Backbone.jsの学習のために取り組むことにした。
+
+実際にためしたみたのだけれど、書いてあるとおりでは期待通りに動いてくれない。記載されているTwitterのAPI廃止だけでなく、Bootstrapのバージョンが変わっていたりするのが主な原因。
+
+もともとぼくはかかれているとおりにはやるつもりはなくて、Yeomanのgenerator-backboneでひな形をつくり、テンプレートエンジンにはejsを使い、サービス通信部分は優先度を下げて取り組むつもりだった。だったのだけれど、最新版のライブラリだととてもじゃないが動かせなかった。本来やりたいところとは別の、Bootstrapの面倒を見ることになってしまった。それにしてもBootstrapのクラス名とCSSとの対応がちっとも直感的じゃないのだけれど、あれはああいうものなのかな。そのうちさわるかもしれないけど、あんまり関わりたくないなあ。
+
+学ぶところがなかったわけではなく、Mediatorパターンを使ってView間のやりとりにイベントを使う部分や、Viewの分割方針などはすごく参考になった。そもそも、Backbone.jsではこういった方針を立てないと、細かい部分が何も決まっていない状態になることが分かった。あくまでもBackboneなのだと分かった。
+
+予想より時間がかかってしまって、本来やりたいところまでいけなかったけど、まあ仕方ないか。
+
+今日で連休も終わりか。明日から一週間がんばろう。
+

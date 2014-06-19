@@ -1,0 +1,12 @@
+<div class="post">
+  <span class="date"><a class="permalink" href="{{permalink}}">{{date}}</a></span>
+  <span class="title"><a class="permalink" href="{{permalink}}">{{title}}</a></span>
+  <div class="tags-region"></div>
+  <div class="content">{{{html}}}</div>
+</div>
+<nav>
+  <ul>
+    {{#if olderPath}}<li class="older"><a href="{{olderPath}}" title="{{olderTitle}}"><i class="fa fa-chevron-left"></i> {{olderDate}}</a></li>{{/if}}
+    {{#if newerPath}}<li class="newer"><a href="{{newerPath}}" title="{{newerTitle}}">{{newerDate}} <i class="fa fa-chevron-right"></i></a></li>{{/if}}
+  </ul>
+</nav>

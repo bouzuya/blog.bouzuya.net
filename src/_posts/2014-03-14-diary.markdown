@@ -1,0 +1,28 @@
+---
+layout: post
+pubdate: "2014-03-14T23:59:59+09:00"
+title: AppGyver Steroidsをためした
+tags: [javascript]
+minutes: 15
+pagetype: posts
+---
+[AppGyver Steroids][steroids]をためした。AppGyver Steroidsはハイブリッドアプリをつくるためのフレームワークやクラウドサービス。
+
+PhoneGapの上に構築されているらしく、プラグインなどを共有している。ただ、ぼくの感覚ではほとんど別物。WebViewごとJavaScriptで操作できるので、恐ろしいことになっている。例えば、画面を移動する場合でも`steroids.layers.push(new steroids.views.WebView('xxx'));`とかできる。これ結構すごいよ。JavaScriptからネイティブ部分を操作できるのはPhoneGapの機能なんだけど、WebView自体を動かすってのは相当にすごい。こんなのできたらを実際にやってしまっている。
+
+CoffeeScriptで書かれているCLIはnpmで配布されておりNode.jsで動く。モダンなツールですね。導入が手軽だ。良い。CLIからgrunt-steroidsを使ったプロジェクトのひな形を生成して、gruntを使って開発していく。ファイルの変更を監視して、スマホ側に変更が反映される。良い。
+
+で、ぼくはこれを使うかと言われれば使わない。理由はいくつかある。
+
+まず、技術の流用が全然きかないから。AppGyver Steroidsでアプリをつくっているうちは良いがそこで得た知識がほかに生きそうにない。steroids-jsを使うことを強制されるし、それに依存したアプリになる。
+
+次に、特定の企業に依存しすぎる。しかも、依存する先の企業がAppGyverというよく分からない企業。上記の依存関係で言えばcordovaでも同じなのだけれど、cordovaの場合はローカルでビルドもできるし、OSSのうば捨て山ことApache Software Foundationで管理されているので、安心である。せめてsteroidsがローカルでビルドできると良いんだけど、パッと探した感じ見当たらない。理屈の上ではできるはずなのだけれど。
+
+最後に、Android側のつくりこみが甘い。iOS onlyが多すぎる。ぼくはAndroidをメインで使いたいので、不愉快である。
+
+先日、Google Playに$25払ってアプリを登録できるようにしたので、正式にbouzuya名義でアプリをつくるつもり。「steroidsでサクっとつくろう」と考えていたのだけれど、チュートリアルなどをひととおり確認した結果、良い点・悪い点が見えてきて、参考にしつつも、使わずに進めることにした。だから、まだアプリできてない。本当は今日リリース予定だったんだけどね。
+
+AppGyver Steroidsと類似サービスだと[Monaca][monaca]とかがあるんだけど、そちらも一度見ておきたいなあ。アシアル株式会社がやっているのだけれど、日本語リソースのCordova/PhoneGapはほとんど、この会社から出ているんじゃないかという状態だしね。ひとまず素朴にCordovaかPhoneGapでアプリつくって仮にでもリリースして、それからにする。
+
+[steroids]: http://www.appgyver.com/steroids
+[monaca]: http://monaca.mobi/ja/

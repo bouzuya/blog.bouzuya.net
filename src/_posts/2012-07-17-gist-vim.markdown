@@ -1,0 +1,43 @@
+---
+layout: post
+pubdate: "2012-07-17T23:19:56+09:00"
+title: Gist.vimを使う
+tags: [vim]
+pagetype: posts
+---
+この頃はコードをちっとも書かないので、反省して「もっとブログにコードを書いていこう」と決意した。一日にひとつと言わずふたつみっつ書こう。そういう気持ちはある。気持ちは。
+
+ブログに載せるような短いコードは[Gist](https://gist.github.com/)だろうというイメージがあるので、ひとまず手軽にGistに投げられるように[Gist.vim](https://github.com/mattn/gist-vim/)をインストールした。Gist.vimはmattnさんの作ったプラグインで、GistをVimから操作できる。
+
+インストール自体は`NeoBundle 'mattn/gist-vim'`からの`NeoBundleInstall`などでさくっとやってもらえばいい。
+
+これでひとつGistへの投稿というハードルはクリアした。次のハードルはコードをブログにはりつけることだ。
+
+これも簡単と言えば簡単なのだけれど、scriptタグを貼り付けるだけのGist標準の貼り付けだと、フィードにコードが出力されないので、フィードリーダーでぼくのブログを読んでくださっている読者さんが不満だろう。そこでやっつけのスクリプトを書いた。
+
+<div><script src="https://gist.github.com/3129678.js?file=yank_gist.vim"></script><noscript><pre><code>function! s:yank_gist()
+  let gist_id = input('gist? ')
+  execute 'Gist' gist_id
+  let match = matchlist(bufname('%'), '^gist:\(\d*\)/\(.*\)$')
+  if empty(match)
+    echoerr 'no match'
+    return
+  endif
+  let gist_url = printf('https://gist.github.com/%s.js?file=%s', match[1], match[2])
+  let code = join(getline(1, '$'), &quot;\n&quot;)
+  let code = substitute(code, '&amp;', '\&amp;amp;', 'g')
+  let code = substitute(code, '&gt;', '\&amp;gt;', 'g')
+  let code = substitute(code, '&lt;', '\&amp;lt;', 'g')
+  let code = substitute(code, '&quot;', '\&amp;quot;', 'g')
+  let html = printf('&lt;div&gt;&lt;script src=&quot;%s&quot;&gt;&lt;/script&gt;&lt;noscript&gt;&lt;pre&gt;&lt;code&gt;%s&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;',
+        \ gist_url,
+        \ code)
+  let @a = html
+endfunction
+nnoremap &lt;script&gt; &lt;Leader&gt;G :&lt;C-u&gt;call &lt;SID&gt;yank_gist()&lt;C-m&gt;</code></pre></noscript></div>
+
+Gist.vimがやりたいことのほとんどをやってくれるので、あとは適当にバッファから値ひっこぬいてレジスタaにはりつけ。マッピングも適当。`"aP`とかすればバッファに貼り付けられて幸せというわけ。
+
+こんな感じでゴミクズなコードでもすこしずつでも書いていくべきだと思ってる。
+
+21 min.

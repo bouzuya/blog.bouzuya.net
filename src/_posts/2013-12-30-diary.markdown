@@ -1,0 +1,42 @@
+---
+layout: post
+pubdate: "2013-12-30T12:12:58+09:00"
+title: bwilike.meを公開した
+tags: [javascript]
+pagetype: posts
+---
+[bwilike.me][]を公開した。bwilike.meはTwitterプロフィールを自動更新するWebサービス。GitHubのアクティビティに基づいて、実際にさわっているプログラミング言語をTwitterプロフィールにlike:として設定してくれる。詳細はリンク先を参照。
+
+TwitterユーザーかつGitHubユーザーかつ、プロフィールに好きなプログラミング言語を載せたいユーザーかつ、正確に毎日更新したいユーザーとなると、相当、母集団は少ないはずだけど、使いたい人は使ってみてほしい。
+
+宣伝はさておき、bwilike.meの中身やら反省やらを書いておく。
+
+まずbwilike.meのインフラ面から。bwilike.meはAWSで動いている。DNSとしてRoute53、ロードバランサーとしてELB、Web/DBとしてEC2、ジョブキューとしてSQSを使用している。自動化はほとんどしていない。ソフトウェアのインストールなどは、忘れないように最低限のシェルスクリプトを書いてあるくらい。
+
+ミドルウェアとしては、Node.js、MongoDBで動いている。それくらいかなあ。基本的には[bouzuya/bwilike][]を見れば分かるのだけれど、foreverを使ってデーモン化したNode.jsと、ほとんど入れたままの状態のMongoDB。
+
+アプリケーションとしては、webはexpressをベースとして使い、テンプレートエンジンにjade、CSSプリプロセッサにLESS(less-middleware)、DBとの接続にはmongodbをそのまま使っている。セッションストアにはconnect-mongo、認証まわりにpassportを使い、passport-twitter/passport-githubを使っている。workerはaws-sdkとtwitter/githubを使っている。ベタに書きすぎててダサいけど、気にしない。
+
+構成要素としてはこんなものかな。素朴なNode.jsアプリケーションといった感じ。
+
+あとは反省。KPTで振り返る。Twitterでぽろぽろ書いてしまったので、もうまとめたリストだけ。
+
+- K: Keep
+  - 自分の使いたいものを公開サービス化する
+  - Linux (Ubuntu) + Node.js + MongoDB + JavaScript によるアプリケーション開発
+- P: Problem
+  - 公開までに時間がかかりすぎている
+  - フロントエンドの知識が不十分
+  - 移植性が悪い
+- T: Try
+  - 3日で開発する
+  - フロントエンドのMVCフレームワーク(Backbone.js)を使う
+  - インフラとしてPaaS(Heroku)を使う
+
+さあ、次は何をつくろうか。
+
+16 min.
+
+[bwilike.me]: http://bwilike.me/
+[bouzuya/bwilike]: https://github.com/bouzuya/bwilike
+

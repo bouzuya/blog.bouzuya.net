@@ -1,0 +1,29 @@
+---
+layout: post
+pubdate: "2014-02-13T22:11:14+09:00"
+title: node-hatena-graph-api@0.1.0をつくった
+tags: [javascript]
+minutes: 60
+pagetype: posts
+---
+[bouzuya/node-hatena-graph-api@0.1.0][]をつくった。[昨日書いたpromiseパターンの内容](http://blog.bouzuya.net/2014/02/12)を実践してみたところ。
+
+やっぱりこれで良いと思う。[kriskowal/q][]に依存してしまうけど、それは気にしなくても良いと思う。さらに何かに依存してるとかもないしね。やろうと思えば0.0.1のものをpromiseパターンでwrapできるだろうけど、そんなことをユーザーにさせるよりも利便性をとりたい。一部のインタフェースを気にいってなかったので、手を入れれてちょうど良い感じ。
+
+qをつかって今回みたいのをつくる場合は、次の例みたいにするだけだし、そんなに難しくない。
+
+    var q = require('q');
+    var fn = function() {
+      var deferred = q.defer();
+      doSomething(function(err, result) {
+        if (err) {
+          deferred.reject(err);
+        } else {
+          deferred.resolve(result);
+        }
+      });
+      return deferred.promise;
+    };
+
+[kriskowal/q]: https://github.com/kriskowal/q
+[bouzuya/node-hatena-graph-api@0.1.0]: https://github.com/bouzuya/node-hatena-graph-api/tree/0.1.0

@@ -1,0 +1,10 @@
+---
+layout: post
+pubdate: "2012-06-26T23:59:59+09:00"
+title: 毎日書くことは難しい
+tags: [misc]
+pagetype: posts
+---
+毎日書くことは難しい。その日のうちに帰れない場合はなおさらだ。
+
+2 min.
