@@ -1,0 +1,21 @@
+---
+layout: post
+pubdate: "2014-06-19T23:33:35+09:00"
+title: blog.bouzuya.net@0.2.4 をつくった
+tags: [javascript]
+minutes: 6
+pagetype: posts
+---
+[blog.bouzuya.net@0.2.4][bouzuya/blog.bouzuya.net@0.2.4] をつくった。
+
+0.2.4 では次の点が変わった。
+
+- 古い(前の)ポスト・新しい(次の)ポストへのリンクを加えた
+- タグ絞り込み時の URL を `/tags/:tag` から `/posts?tags=:tag` へ変えた
+- fetch のタイミングを変えて、速くした
+
+最初のひとつ以外は、インタフェースとしては小さい違い。みっつめは体感でかなり違う。
+
+今日はすこしはやめに休む。
+
+[bouzuya/blog.bouzuya.net@0.2.4]: https://github.com/bouzuya/blog.bouzuya.net/tree/0.2.4
