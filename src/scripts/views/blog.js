@@ -4,13 +4,14 @@ define([
   'hbs!templates/blog',
   'models/post',
   'models/posts-page',
+  'models/query-string',
   'collections/posts',
   'collections/tags',
   'views/posts-page',
   'views/post-detail',
   'views/tags-page',
   'views/header'
-], function($, Marionette, template, Post, PostsPage, Posts, Tags, PostsPageView, PostDetailView, TagsPageView, HeaderView) {
+], function($, Marionette, template, Post, PostsPage, QueryString, Posts, Tags, PostsPageView, PostDetailView, TagsPageView, HeaderView) {
   return Marionette.Layout.extend({
     tagName: 'section',
 
@@ -42,10 +43,16 @@ define([
       this.fetch = this.posts.fetch();
     },
 
-    onIndexPost: function() {
+    onIndexPost: function(queryString) {
+      var query = QueryString.parse(queryString);
+      this.tags.reset((query.tags || '').split(',').filter(function(tag) {
+        return tag.trim().length > 0;
+      }).map(function(tag) {
+        return { name: tag };
+      }));
+
       this.fetch.then(function() {
-        console.log(this.posts.length);
-        var model = new PostsPage({ posts: this.posts });
+        var model = new PostsPage({ posts: this.posts, tags: this.tags, style: this.tags.length > 0 ? 'list' : 'tree' });
         this.body.show(new PostsPageView({ app: this.app, model: model }));
       }.bind(this));
     },
@@ -76,14 +83,6 @@ define([
           app: this.app,
           collection: this.tags
         }));
-      }.bind(this));
-    },
-
-    onShowTag: function(name) {
-      this.fetch.then(function() {
-        this.tags.reset([{ name: name }]);
-        var model = new PostsPage({ tags: this.tags, posts: this.posts });
-        this.body.show(new PostsPageView({ app: this.app, model: model }));
       }.bind(this));
     },
 

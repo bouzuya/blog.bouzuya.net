@@ -11,7 +11,7 @@ define(['marionette', 'hbs!templates/tag'], function(Marionette, template) {
     },
 
     onSelectedTag: function(options) {
-      var fragment = 'tags/' + options.model.get('name');
+      var fragment = 'posts?tags=' + options.model.get('name');
       Backbone.history.navigate(fragment, { trigger: true });
       return false;
     }

@@ -24,13 +24,14 @@ define([
       this.app.vent.trigger('update:title', 'posts');
       var posts = this.model.get('posts');
       var tags = this.model.get('tags');
-      if (tags.length > 0) {
+      var style = this.model.get('style');
+      if (style === 'tree') {
+        this.posts.show(new PostTreeView({ collection: posts }));
+      } else {
         var filtered = new FilteredCollection(posts);
-        filtered.filterBy(function(p) { return p.hasTags(tags); });
+        filtered.filterBy(function(post) { return post.hasTags(tags); });
         this.tags.show(new TagsView({ collection: tags }));
         this.posts.show(new PostListView({ collection: filtered }));
-      } else {
-        this.posts.show(new PostTreeView({ collection: posts }));
       }
     }
   });
