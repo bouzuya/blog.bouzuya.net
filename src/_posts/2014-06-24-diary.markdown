@@ -3,7 +3,7 @@ layout: post
 pubdate: "2014-06-24T23:59:59+09:00"
 title: hubot-sakagemc@0.2.1 をつくった
 tags: [hubot, javascript]
-minutes:
+minutes: 15
 pagetype: posts
 ---
 ![](http://img.bouzuya.net/2014-06-24.png)
