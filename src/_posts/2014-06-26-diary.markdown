@@ -1,0 +1,22 @@
+---
+layout: post
+pubdate: "2014-06-26T23:43:33+09:00"
+title: blog.bouzuya.net@0.2.5 をつくった
+tags: [javascript]
+minutes: 12
+pagetype: posts
+---
+![](http://img.bouzuya.net/2014-06-26.png)
+
+[blog.bouzuya.net@0.2.5][bouzuya/blog.bouzuya.net@0.2.5] をつくった。予定より 5 日も遅れてしまった。Hubot の CoffeeScript 対応があったり、読書会を企画したり、いろいろあったからね。
+
+変更点は次の通り。
+
+- はてなブックマークボタンの追加
+- ツイートボタンの追加
+- posts にポスト数を追加
+- tags にポスト数を追加
+
+見える変更が多いので、評価には差があると思う。すこしずつでも良くしていきたいね。
+
+[bouzuya/blog.bouzuya.net@0.2.5]: https://github.com/bouzuya/blog.bouzuya.net/tree/0.2.5
