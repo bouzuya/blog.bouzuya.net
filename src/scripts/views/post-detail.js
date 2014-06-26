@@ -32,7 +32,13 @@ define(['marionette', 'hbs!templates/post-detail', 'views/tags'], function(Mario
       var newerTitle = newer ? newer.get('title') : null;
       var olderDate = older ? older.get('date') : null;
       var newerDate = newer ? newer.get('date') : null;
+      var encodedUrl = encodeURIComponent('http://blog.bouzuya.net' + path);
+      var encodedTitle = encodeURIComponent(this.model.get('title') + ' - blog.bouzuya.net');
+      var addBookmarkUrl = 'http://b.hatena.ne.jp/add?mode=confirm&title=' + encodedTitle + '&url=' + encodedUrl;
+      var postTweetUrl = 'https://twitter.com/share?counturl=' + encodedUrl + '&text=' + encodedTitle + '&url=' + encodedUrl;
       return {
+        addBookmarkUrl: function() { return addBookmarkUrl; },
+        postTweetUrl: function() { return postTweetUrl; },
         permalink: function() { return path; },
         olderPath: function() { return olderPath; },
         newerPath: function() { return newerPath; },
