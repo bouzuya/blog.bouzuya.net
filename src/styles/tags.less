@@ -7,8 +7,13 @@
     display: inline;
     .tag {
       display: inline;
-      &:before { content: "[ "; }
-      &:after { content: " ]"; }
+      .name {
+        &:before { content: "[ "; }
+        &:after { content: " ]"; }
+      }
+      .post-count {
+        display: none;
+      }
     }
   }
 }

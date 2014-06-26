@@ -20,7 +20,9 @@ define(['backbone', 'collections/tags'], function(Backbone, Tags) {
     },
 
     parse: function(data) {
-      data.tags = new Tags(data.tags, { parse: true });
+      data.tags = new Tags(data.tags.map(function(tag) {
+        return { name: tag };
+      }));
       return data;
     },
 
