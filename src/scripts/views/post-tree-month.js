@@ -20,6 +20,11 @@ define([
       'dates': '.dates-region'
     },
 
+    templateHelpers: function() {
+      var postCount = this.model.get('dates').length;
+      return { postCount: function() { return postCount; } };
+    },
+
     onClick: function() {
       if (!this.dates.currentView) {
         var view = new PostTreeDatesView({

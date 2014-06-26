@@ -7,9 +7,7 @@ define(['backbone', 'models/tag'], function(Backbone, Tag) {
     comparator: 'name',
 
     parse: function(data) {
-      return data.map(function(s) {
-        return { name: s };
-      });
+      return data;
     }
   });
 });

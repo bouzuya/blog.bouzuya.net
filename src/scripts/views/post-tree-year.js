@@ -21,6 +21,13 @@ define([
       'months': '.months-region'
     },
 
+    templateHelpers: function() {
+      var postCount = this.model.get('months').reduce(function(count, month) {
+        return count + month.get('dates').length;
+      }, 0);
+      return { postCount: function() { return postCount; } };
+    },
+
     onClick: function() {
       if (!this.months.currentView) {
         var view = new PostTreeMonthsView({
