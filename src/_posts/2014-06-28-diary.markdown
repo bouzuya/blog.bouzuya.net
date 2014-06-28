@@ -6,7 +6,7 @@ tags: [vim]
 minutes: 9
 pagetype: posts
 ---
-[osaka.vim #1][osakavim#1] に参加した。参加している(三次会中)。
+[osaka.vim #1][osakavim#1] に参加した。参加している(二次会中)。
 
 カラオケに 6 人。誰かが歌っている間 5 人が PC をさわっているという不思議空間。なるほど、Vim は良いエディタだ。
 
