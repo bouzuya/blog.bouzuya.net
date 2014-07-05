@@ -1,0 +1,19 @@
+---
+layout: post
+pubdate: "2014-07-04T23:59:59+09:00"
+title: hubot-url@0.3.0 をつくった
+tags: [hubot]
+minutes: 5
+pagetype: posts
+---
+![](http://img.bouzuya.net/2014-07-04.png)
+
+hubot-url@0.3.0 をつくった。変更点は以下の通り。
+
+- JavaScript -> CoffeeScript への移行
+- `scraper` -> `cheerio` への移行
+- テスト用のドライバーを利用
+
+動きには変化はない。大幅リファクタリングといったところか。
+
+今回の変更を hibot に反映して試している。Lingr で画像 URL を展開してもらうには URL だけを発言しないといけないみたいなので、そこの仕様を変更するかも。
