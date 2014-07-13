@@ -1,12 +1,12 @@
-  ---
+---
 layout: post
 pubdate: "2014-07-12T23:59:59+09:00"
 title: ひとり読書会 #5 にくわわった
-tags: [hitoridokusho]
-minutes:
+tags: ['hitoridokusho']
+minutes: 5
 pagetype: posts
 ---
-![](http://img.bouzuya.net/2014-07-12.png)
+![2014-07-12](http://img.bouzuya.net/2014-07-12.png)
 
 [ひとり読書会 #5][hitoridokusho#5] に参加した。
 
