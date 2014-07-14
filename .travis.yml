@@ -8,6 +8,7 @@ env:
     - secure: "Ha7SrQfDWRd1VKnwnwiqfFut4y8I5NoRmzR6jg4udWs+/dWV9sWzWzc/iZjPL5UlM0tcBXTgi74EldoCW/OAkukcmzH5PyiQ7yPaJfLwxmzGTkQuXiE6d9UH+ORIWOfQu23pVUBhSnWtl3MUVLGJN0gy3/qbTCL4nyb+oQL1nmw="
 install:
   - npm install
+  - $(npm bin)/bower --version
   - $(npm bin)/bower install
 script:
   - npm start
