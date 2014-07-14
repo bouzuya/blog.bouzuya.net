@@ -1,0 +1,23 @@
+---
+layout: post
+pubdate: "2014-07-14T23:49:09+09:00"
+title: hubot-gengo をつくった
+tags: [hubot, hubot-script-per-day]
+minutes: 13
+pagetype: posts
+---
+![](http://img.bouzuya.net/2014-07-14.png)
+
+[hubot-gengo][bouzuya/hubot-gengo] をつくった。1 日 1 スクリプトの 1 作目。
+
+とはいえ、新しいものではなくて、[以前つくったスクリプト][2014-04-07]の移植である。
+
+できることは `hubot gengo` とリクエストすれば、いまの元号を返してくれる。それだけ。
+
+    bouzuya> @hubot gengo
+    hubot> 平成26年
+
+おまけ程度に `hubot gengo <year>` で year の元号を教えてくれるが、明治までしか対応していないし、日付を見ないざっくり仕様。
+
+[2014-04-07]: http://blog.bouzuya.net/2014/04/07/
+[bouzuya/hubot-gengo]: https://github.com/bouzuya/hubot-gengo
