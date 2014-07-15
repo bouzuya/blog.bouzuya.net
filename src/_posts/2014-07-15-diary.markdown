@@ -1,0 +1,23 @@
+---
+layout: post
+pubdate: "2014-07-15T13:49:58+09:00"
+title: hubot-lgtm をつくった
+tags: [hubot, hubot-script, hubot-script-per-day]
+minutes: 6
+pagetype: posts
+---
+![](http://img.bouzuya.net/2014-07-15.png)
+
+[hubot-lgtm][bouzuya/hubot-lgtm] をつくった。1 日 1 Hubot スクリプトの 2 作目。
+
+とはいえ、これも新しいものではなくて、[2014-03-28][] に書いたスクリプトを移植したもの。
+
+できることは `hubot lgtm` とリクエストしたときに [www.lgtm.in][lgtm] から画像 URL をとってきて返してくれる。最近のチャットなら URL からの画像展開くらいは普通にやってくれるはずなので、lgtm がいい感じに表示されるはず。
+
+    bouzuya> hubot lgtm
+    hubot> https://
+
+ちなみに `hubot lgtm bomb` や `hubot lgtm bomb <N>` というものもあるが、たいていは迷惑なだけなのであまり使わない。
+
+[2014-03-28]: http://blog.bouzuya.net/2014/03/28/
+[bouzuya/hubot-lgtm]: https://github.com/bouzuya/hubot-lgtm
