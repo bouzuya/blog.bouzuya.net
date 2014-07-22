@@ -1,0 +1,32 @@
+---
+layout: post
+pubdate: "2014-07-22T23:44:47+09:00"
+title: hubot-friday13th をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 9
+pagetype: posts
+---
+![](http://img.bouzuya.net/2014-07-22.png)
+
+[hubot-friday13th][gh:bouzuya/hubot-friday13th] をつくった。 [1 日 1 Hubot スクリプト][hubot-script-per-day]の 9 作目。
+
+hubot-friday13th は次の 13 日の金曜日を表示するスクリプト。
+
+きっかけは、適当に Web 巡回していて見かけたページで 13 日の金曜日を算出するプログラムを紹介していたこと。どこで見たのかは忘れてしまった。
+
+実装は、`moment` のサンプルコードみたいなもの。`sinon` の `sinon.useFakerTimes` を使っているあたりは何かの参考になるかも。
+
+使いかたは、`hubot friday` といった形で話しかけるだけ。
+
+    bouzuya> hibot friday
+    hubot> the next friday the 13th is 2015-02-13
+
+    bouzuya> hibot friday 25
+    hubot> the next friday the 25th is 2014-07-25
+
+後ろにオプションで数字を取る。その日付の金曜日を探すことができる。
+
+で、何に使うのって、言われても困るのだけど。
+
+[gh:bouzuya/hubot-friday13th]: https://github.com/bouzuya/hubot-friday13th
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
