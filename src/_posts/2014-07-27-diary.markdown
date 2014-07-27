@@ -1,0 +1,50 @@
+---
+layout: post
+pubdate: "2014-07-27T23:32:15+09:00"
+title: 今週のふりかえり (40) & hubot-auto-nonomulish をつくった
+tags: ['looking back', hubot, hubot-scripts, hubot-script-per-day]
+minutes: 30
+pagetype: posts
+---
+今週のふりかえり。2014-07-21/2014-07-27 の一週間をふりかえる。あとは [1 日 1 Hubot スクリプト][hubot-script-per-day]の 14 日目の [hubot-auto-nonomulish][gh:bouzuya/hubot-auto-nonomulish] について。
+
+- [2014-07-26 赤目四十八滝にいった & hubot-auto-fav をつくった][2014-07-26]
+- [2014-07-25 hubot-mizuyari をつくった][2014-07-25]
+- [2014-07-24 hubot-fact をつくった][2014-07-24]
+- [2014-07-23 hubot-watch-message-count をつくった][2014-07-23]
+- [2014-07-22 hubot-friday13th をつくった][2014-07-22]
+- [2014-07-21 hubot-list-pr をつくった][2014-07-21]
+- [2014-07-20 今週のふりかえり (39) & hubot-fav をつくった][2014-07-20]
+
+今週も Hubot スクリプト週。無事 1 日 1 Hubot スクリプトを 2 週間続けることができた。でも、専用ページはまだ準備していない。
+
+今週も「[ひとり読書会 #8, #9][hitoridokusho]」を実施した。続いているよ。メンバー増えないけど。
+
+今日は大阪市立科学館に行った。プラネタリウムに。椅子がふかふかだった。
+
+[hubot-auto-nonomulish][gh:bouzuya/hubot-auto-nonomulish] は [2014-07-11][] につくった [hubot-nonomulish][gh:bouzuya/hubot-nonomulish] を自動で動くように変更したもの。こちらからの要求なしに動いてくれるほうが楽しいと思うんだよね。
+
+- K:
+  - 1 日 1 Hubot スクリプトを続ける。
+  - 週 2 回のひとり読書会を続ける。
+- P:
+  - Hubot スクリプトまとめページができていない。
+  - 時間がない。
+- T:
+  - Bootstrap を bouzuya.net に適用する。
+  - Bootstrap で Hubot スクリプトまとめページをつくる。
+
+
+
+
+[2014-07-26]: http://blog.bouzuya.net/2014/07/26/
+[2014-07-25]: http://blog.bouzuya.net/2014/07/25/
+[2014-07-24]: http://blog.bouzuya.net/2014/07/24/
+[2014-07-23]: http://blog.bouzuya.net/2014/07/23/
+[2014-07-22]: http://blog.bouzuya.net/2014/07/22/
+[2014-07-21]: http://blog.bouzuya.net/2014/07/21/
+[2014-07-20]: http://blog.bouzuya.net/2014/07/20/
+[2014-07-11]: http://blog.bouzuya.net/2014/07/11/
+[gh:bouzuya/hubot-nonomulish]: https://github.com/bouzuya/hubot-nonomulish
+[gh:bouzuya/hubot-auto-nonomulish]: https://github.com/bouzuya/hubot-auto-nonomulish
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
