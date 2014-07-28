@@ -1,0 +1,31 @@
+---
+layout: post
+pubdate: "2014-07-28T23:54:54+09:00"
+title: hubot-randict をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 9
+pagetype: posts
+---
+![](http://img.bouzuya.net/2014-07-28.png)
+
+[hubot-randict][gh:bouzuya/hubot-randict] をつくった。 [1 日 1 Hubot スクリプト][hubot-script-per-day]の 15 作目。
+
+hubot-randict は weblio 辞書からランダムにひとつの単語を表示するスクリプト。
+
+ネタさがしに辞書を適当に開こうと思い、せっかくなので、辞書を開くその行為自体をスクリプト化した。
+
+今回はテストの実装をさぼった。このあいだの generator-hubot-script-gulp を受けて、テストコードをどうすべきか迷っている。[kakashi][gh:bouzuya/kakashi] を使わずに、Sinon.JS だけでやるほうが賢い気がしている。Hubot 自体のほうが kakashi よりシンプルだとか、そういう根本的な問題があるような。
+
+実装は、weblio のランダム表示の URL を呼び出して、meta タグから概要を引っ張ってきて。とそんな感じ。詳細は本家で見るようにしているし、商用利用でもないので、たぶん大丈夫でしょう。
+
+使いかたは、`hubot randict` といった形で話しかけるだけ。適当な単語とその説明を偉そうに教えてくれる。
+
+    bouzuya> hibot randict
+    hubot> 短刀 - 国指定文化財等データベース。 短い刀。日本刀では刀身の長さ一尺以下あたりからいう。合口拵（あいくちごしらえ）のものが多い。 「短刀」に似た言葉&raquo;類語の一覧を見る短剣懐刀&...
+    http://www.weblio.jp/content/%E7%9F%AD%E5%88%80
+
+意外とこういうランダム系のスクリプトには需要があって、作業に疲れた時にちょっと叩いて、変わったものが出るとうれしいし、それをきっかけとして話題が広がることもある。
+
+[gh:bouzuya/hubot-randict]: https://github.com/bouzuya/hubot-randict
+[gh:bouzuya/kakashi]: https://github.com/bouzuya/kakashi
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
