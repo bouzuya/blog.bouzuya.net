@@ -1,0 +1,33 @@
+---
+layout: post
+pubdate: "2014-07-29T23:59:59+09:00"
+title: hubot-hello をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 20
+pagetype: posts
+---
+![](http://img.bouzuya.net/2014-07-29.png)
+
+[hubot-hello][gh:bouzuya/hubot-hello] をつくった。 [1 日 1 Hubot スクリプト][hubot-script-per-day]の 16 作目。
+
+hubot-hello は hello に hello! と返すスクリプト。
+
+「なんで、いまさら？」「ネタ切れか！」などと言われそうだけど、原点回帰した。このあいだの [generator-hubot-script-gulp][gh:sanemat/generator-hubot-script-gulp] の構成を真似て、[hubot-script-boilerplate][gh:bouzuya/hubot-script-boilerplate] を見直そうと考えている。そのためにまず [kakashi][gh:bouzuya/kakashi] の使用をやめて、[Sinon.JS][gh:cjohansen/Sinon.JS] と [power-assert][gh:twada/power-assert] でテストを素朴に書いてみた。
+
+mocha + power-assert + Sinon.JS を CoffeeScript で使うという構成なのだけど、`mocha --compilers coffee:coffee-script/register` だとうまくいかなかった。代わりに [espower-coffee][gh:twada/espower-coffee] をインストールして `mocha --require espower-coffee/guess` している。ちなみに mocha のオプションをこう変えると `--recursive` オプションが効かなくなるので、ファイルのパターンを指定しておくと良い。詳細は [hubot-hello][gh:bouzuya/hubot-hello] の package.json を参照。Groovy からの移植だか知らないけど、power-assert いいね。twada++。
+
+使いかたは、`hubot hello` といった形で話しかけるだけ。
+
+    bouzuya> hibot hello
+    hubot> hello!
+
+本当はいろんな国の言葉を混ぜるとか、入退室に合わせてあいさつさせるとか、いろいろあるのだけど、時間もないので、こういう形に。
+
+[gh:bouzuya/hubot-hello]: https://github.com/bouzuya/hubot-hello
+[gh:bouzuya/hubot-script-boilerplate]: https://github.com/bouzuya/hubot-script-boilerplate
+[gh:bouzuya/kakashi]: https://github.com/bouzuya/kakashi
+[gh:sanemat/generator-hubot-script-gulp]: https://github.com/sanemat/generator-hubot-script-gulp
+[gh:cjohansen/Sinon.JS]: https://github.com/cjohansen/Sinon.JS
+[gh:twada/power-assert]: https://github.com/twada/power-assert
+[gh:twada/espower-coffee]: https://github.com/twada/espower-coffee
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
