@@ -1,0 +1,14 @@
+---
+layout: post
+pubdate: "2014-07-30T23:59:59+09:00"
+title: 神戸.rb Meetup #1 にいった & hubot-backlog-status をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[神戸.rb Meetup #1](http://koberb.doorkeeper.jp/events/13652) にいった。東灘.rb 時代に一度参加している。今回は名前が変わって 1 回目。次回は 8/13 なので参加できないなあ。
+
+[hubot-backlog-status][gh:bouzuya/hubot-backlog-status] をつくった。 [1 日 1 Hubot スクリプト][hubot-script-per-day]の 17 作目。これは以前に書いたもののリメイクなのだけど、ブログから見つけられなかったので、リンクは割愛。テストも割愛。飲みに行ったこともあり、遅いので、いろいろ割愛。
+
+[gh:bouzuya/hubot-backlog-status]: https://github.com/bouzuya/hubot-backlog-status
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
