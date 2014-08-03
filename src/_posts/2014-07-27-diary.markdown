@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2014-07-27T23:32:15+09:00"
-title: 今週のふりかえり (40) & hubot-auto-nonomulish をつくった
+title: 今週のふりかえり(30) & hubot-auto-nonomulish をつくった
 tags: ['looking back', hubot, hubot-scripts, hubot-script-per-day]
 minutes: 30
 pagetype: posts
@@ -14,7 +14,7 @@ pagetype: posts
 - [2014-07-23 hubot-watch-message-count をつくった][2014-07-23]
 - [2014-07-22 hubot-friday13th をつくった][2014-07-22]
 - [2014-07-21 hubot-list-pr をつくった][2014-07-21]
-- [2014-07-20 今週のふりかえり (39) & hubot-fav をつくった][2014-07-20]
+- [2014-07-20 今週のふりかえり (29) & hubot-fav をつくった][2014-07-20]
 
 今週も Hubot スクリプト週。無事 1 日 1 Hubot スクリプトを 2 週間続けることができた。でも、専用ページはまだ準備していない。
 
@@ -33,9 +33,6 @@ pagetype: posts
 - T:
   - Bootstrap を bouzuya.net に適用する。
   - Bootstrap で Hubot スクリプトまとめページをつくる。
-
-
-
 
 [2014-07-26]: http://blog.bouzuya.net/2014/07/26/
 [2014-07-25]: http://blog.bouzuya.net/2014/07/25/
