@@ -1,0 +1,32 @@
+---
+layout: post
+pubdate: "2014-08-10T23:13:34+09:00"
+title: hubot-keion をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 20
+pagetype: posts
+---
+![](http://img.bouzuya.net/2014-08-10.png)
+
+[hubot-keion][gh:bouzuya/hubot-keion] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 28 日目。
+
+hubot-keion は「けいおん」のようなひらがなからなるランダムな名前を生成する Hubot スクリプト。 [2014-04-27][] につくった name.js のリメイク。
+
+コマンドとしては `hubot keion` が提供される。パターンを渡すと、それにそってランダムな名前を生成する。N オプションがあって、生成する個数を増やせる。
+
+    bouzuya> @hubot keion ****
+    hubot> げげぶげ
+    bouzuya> @hubot keion **おん
+    hubot> さめおん
+    bouzuya> @hubot keion **** 5
+    hubot> うげばし
+    ゕびえし
+    ょつぶだ
+    びぷめゕ
+    けえゃぅ
+
+あんまりうまく名前にならないので、名前ぽいものが出たらうれしい、という遊び。
+
+[gh:bouzuya/hubot-keion]: https://github.com/bouzuya/hubot-keion
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[2014-04-27]: http://blog.bouzuya.net/2014/04/27/
