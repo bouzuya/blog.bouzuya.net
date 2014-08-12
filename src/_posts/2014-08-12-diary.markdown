@@ -1,0 +1,30 @@
+---
+layout: post
+pubdate: "2014-08-12T23:59:59+09:00"
+title: 'bouzuya.net の新デザイン & hubot-pr をつくった'
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 10
+pagetype: posts
+---
+[hubot-pr][gh:bouzuya/hubot-pr] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 30 日目。
+
+hubot-pr は Pull Request を一覧表示したり、マージしたりするための Hubot スクリプト。 [2014-07-17][] につくった [hubot-merge-pr][gh:bouzuya/hubot-merge-pr] と [2014-07-21][] につくった [hubot-list-pr][gh:bouzuya/hubot-list-pr] とをマージしたもの。
+
+つくった理由は `list-pr` や `merge-pr` というコマンドが長いから。単純な理由だけど、これが意外と重要。1 日に何度も使うコマンドだし、チャットという共有空間で typo するのはストレスがたまるからね。
+
+使い方・設定の詳細はリポジトリを参照。
+
+で、今日は [bouzuya.net][] の新デザインもつくった。今日の作業は、むしろ、こっちがメイン。Bootstrap を使うようにしてみた。PC での見ばえが良くなった。いいんじゃないでしょうか。
+
+あとは [http://tkbjs.doorkeeper.jp/events/13606][tkbjs] に初参加。
+
+眠いので以下略。
+
+[bouzuya.net]: http://bouzuya.net
+[gh:bouzuya/hubot-pr]: https://github.com/bouzuya/hubot-pr
+[gh:bouzuya/hubot-list-pr]: https://github.com/bouzuya/hubot-list-pr
+[gh:bouzuya/hubot-merge-pr]: https://github.com/bouzuya/hubot-merge-pr
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[2014-07-17]: http://blog.bouzuya.net/2014/07/17/
+[2014-07-21]: http://blog.bouzuya.net/2014/07/21/
+[tkbjs]: http://tkbjs.doorkeeper.jp/events/13606
