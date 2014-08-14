@@ -1,0 +1,31 @@
+---
+layout: post
+pubdate: "2014-08-14T23:13:24+09:00"
+title: hubot-color をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 8
+pagetype: posts
+---
+[hubot-color][gh:bouzuya/hubot-color] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 32 日目。
+
+hubot-color はカラーコードを RGB 形式・ HSL 形式・ HEX 形式で表示する Hubot スクリプト。
+
+[tinycolor2][gh:bgrins/TinyColor] という npm package がなかなか便利なので、それを活かしたスクリプトをと思って使った。
+
+使い方・設定の詳細はリポジトリを参照。サンプルはこんな感じ。
+
+    bouzuya> hubot help color
+      hubot> hubot color - convert the color code to rgb, hsl, and hex format
+
+    bouzuya> hubot color green
+      hubot> color green is rgb(0, 128, 0), hsl(120, 100%, 25%), #008000.
+    bouzuya> hubot color #4e6a41
+      hubot> color #4e6a41 is rgb(78, 106, 65), hsl(101, 24%, 34%), #4e6a41.
+    bouzuya> hubot color rgb(78, 106, 65)
+      hubot> color rgb(78, 106, 65) is rgb(78, 106, 65), hsl(101, 24%, 34%), #4e6a41.
+
+今日やりたかった blog.bouzuya.net のデザイン変更はできなかった。明日も一日おでかけ、か。
+
+[gh:bouzuya/hubot-color]: https://github.com/bouzuya/hubot-color
+[gh:bgrins/TinyColor]: https://github.com/bgrins/TinyColor
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
