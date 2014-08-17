@@ -1,14 +1,26 @@
 ---
 layout: post
 pubdate: "2014-08-10T23:13:34+09:00"
-title: hubot-keion をつくった
-tags: [hubot, hubot-scripts, hubot-script-per-day]
+title: 今週のふりかえり(32) & hubot-keion をつくった
+tags: ['looking back', hubot, hubot-scripts, hubot-script-per-day]
 minutes: 20
 pagetype: posts
 ---
+今週のふりかえり。2014-08-04/2014-08-10 の一週間をふりかえる。あとは [1 日 1 Hubot スクリプト][hubot-script-per-day]の 28 日目の [hubot-keion][gh:bouzuya/hubot-keion] について書く。
+
+- [2014-08-09 hubot-sakagemc をつくった][2014-08-09]
+- [2014-08-08 hubot-doorkeeper をつくった][2014-08-08]
+- [2014-08-07 hubot-backlog-activity をつくった][2014-08-07]
+- [2014-08-06 hubot-docomo-dialogue をつくった][2014-08-06]
+- [2014-08-05 hubot-twitter-favs をつくった][2014-08-05]
+- [2014-08-04 hubot-backlog-stock をつくった][2014-08-04]
+- [2014-08-03 今週のふりかえり(31) & hubot-script-hoshii をつくった][2014-08-03]
+
+うん、Hubot スクリプトしか記録がないね。読み返してみても、「眠いので以下略」率の高いこと高いこと。[hubot-backlog-activity][gh:bouzuya/hubot-backlog-activity] が評判良かった。社内で。まあ、必要だからね。
+
 ![](http://img.bouzuya.net/2014-08-10.png)
 
-[hubot-keion][gh:bouzuya/hubot-keion] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 28 日目。
+で、今日は [hubot-keion][gh:bouzuya/hubot-keion] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 28 日目
 
 hubot-keion は「けいおん」のようなひらがなからなるランダムな名前を生成する Hubot スクリプト。 [2014-04-27][] につくった name.js のリメイク。
 
@@ -27,6 +39,22 @@ hubot-keion は「けいおん」のようなひらがなからなるランダ�
 
 あんまりうまく名前にならないので、名前ぽいものが出たらうれしい、という遊び。
 
+- K:
+  - Hubot スクリプトを書き続ける
+- P:
+  - 今週のふりかえり書き忘れてた([2014-08-17][] 追記)
+- T:
+  - Bootstrap 力をつける
+
 [gh:bouzuya/hubot-keion]: https://github.com/bouzuya/hubot-keion
+[gh:bouzuya/hubot-backlog-activity]: https://github.com/bouzuya/hubot-backlog-activity
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[2014-08-17]: http://blog.bouzuya.net/2014/08/17/
 [2014-04-27]: http://blog.bouzuya.net/2014/04/27/
+[2014-08-09]: http://blog.bouzuya.net/2014/08/09/
+[2014-08-08]: http://blog.bouzuya.net/2014/08/08/
+[2014-08-07]: http://blog.bouzuya.net/2014/08/07/
+[2014-08-06]: http://blog.bouzuya.net/2014/08/06/
+[2014-08-05]: http://blog.bouzuya.net/2014/08/05/
+[2014-08-04]: http://blog.bouzuya.net/2014/08/04/
+[2014-08-03]: http://blog.bouzuya.net/2014/08/03/
