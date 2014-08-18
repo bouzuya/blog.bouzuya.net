@@ -1,0 +1,33 @@
+---
+layout: post
+pubdate: "2014-08-18T23:59:59+09:00"
+title: hatena-fotolife-cli / hatena-fotolife-api / hubot-hatena-fotolife をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 25
+pagetype: posts
+---
+[hatena-fotolife-cli][gh:bouzuya/node-hatena-fotolife-cli] / [hatena-fotolife-api][gh:bouzuya/node-hatena-fotolife-api] / [hubot-hatena-fotolife][gh:bouzuya/hubot-hatena-fotolife] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 36 日目。
+
+![](http://img.f.hatena.ne.jp/images/fotolife/b/bouzuya/20140818/20140818234149.gif)
+
+Hatena::Fotolife Atom API のラッパーである hatena-fotolife-api をつくり、それを使った CLI である hatena-fotolife-cli および Hubot スクリプト hubot-hatena-fotolife をつくった。
+
+はてなフォトライフ (Hatena::Fotolife) を使おうと考えたきっかけは、README にアニメーション GIF をつけると決めたこと。そうすると必然的にどこかにアニメーション GIF をホストしないといけないのだけど、自分の Amazon S3 にホストすると転送量とかかかって嫌だなあと。で、はてなブログやらはてなブックマークやらでお世話になっているはてなのサービスを使ってみようと思った次第。
+
+はてなフォトライフを使うのは良いとして、毎日のように Hubot スクリプトを書き、アニメーション GIF をつくり、アップロードするとなると、サイトにアクセスするのは面倒くさい。GitHub も Travis CI も CLI を使って設定しているので、はてなフォトライフだけサイトアクセスするのは苦痛以外の何者でもない。そこで、 はてなフォトライフ Atom API を使って、CLI をつくることにした。
+
+[hatena-graph-api][gh:bouzuya/node-hatena-graph-api] や [hatena-graph-cli][gh:bouzuya/node-hatena-graph-cli] のときと同じように API ラッパーを書き、それを使った CLI をつくった。今回は CLI をつくるためには [commander-b][gh:bouzuya/commander-b] を使った。
+
+まだ完成度が低いけど、最低限ぼくが使う分には問題なくなったので、もうそんなに更新しないかも。
+
+hubot-hatena-fotolife はあまり面白くない Hubot スクリプト。ランダムで画像をとってくるのだけど、はてなフォトライフ Atom API はそのユーザーのデータしか扱えないので、そんなに面白い画像が出ない。
+
+まあ、いいか。
+
+[gh:bouzuya/node-hatena-fotolife-cli]: https://github.com/bouzuya/node-hatena-fotolife-cli
+[gh:bouzuya/node-hatena-fotolife-api]: https://github.com/bouzuya/node-hatena-fotolife-api
+[gh:bouzuya/hubot-hatena-fotolife]: https://github.com/bouzuya/hubot-hatena-fotolife
+[gh:bouzuya/node-hatena-graph-cli]: https://github.com/bouzuya/node-hatena-graph-cli
+[gh:bouzuya/node-hatena-graph-api]: https://github.com/bouzuya/node-hatena-graph-api
+[gh:bouzuya/commander-b]: https://github.com/bouzuya/commander-b
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
