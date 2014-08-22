@@ -1,0 +1,19 @@
+---
+layout: post
+pubdate: "2014-08-22T23:59:59+09:00"
+title: hubot-timer をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 4
+pagetype: posts
+---
+[hubot-timer][gh:bouzuya/hubot-timer] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 40 日目。
+
+hubot-timer はシンプルなタイマーになる Hubot スクリプト。秒数とメッセージとを指定して、指定した秒数後に Hubot からメッセージが送られてくる。
+
+今日は [node-hatena-fotolife-api][gh:bouzuya/node-hatena-fotolife-api] の `1.0.0` 向けに gulp まわりの設定をしていた。`gulp` + `coffee-script` + `power-assert` + `istanbul` な構成に変えるつもり。
+
+Hubot スクリプトのネタ切れ度合いがすごいので、何か考えないと。
+
+[gh:bouzuya/hubot-timer]: https://github.com/bouzuya/hubot-timer
+[gh:bouzuya/node-hatena-fotolife-api]: https://github.com/bouzuya/node-hatena-fotolife-api
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
