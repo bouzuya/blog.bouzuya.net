@@ -73,7 +73,7 @@ minutes: に書くのにかけた時間をつける。
 [marionettejs/backbone.marionette]: https://github.com/marionettejs/backbone.marionette
 [jrburke/requirejs]: https://github.com/jrburke/requirejs
 
-# Lisence
+# License
 
 MIT
 
