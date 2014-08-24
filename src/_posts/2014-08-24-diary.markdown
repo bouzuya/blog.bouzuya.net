@@ -1,0 +1,37 @@
+---
+layout: post
+pubdate: "2014-08-24T23:59:59+09:00"
+title: 今週のふりかえり(34) & hubot-sier をつくった
+tags: ['looking back', hubot, hubot-scripts, hubot-script-per-day]
+minutes: 7
+pagetype: posts
+---
+今週のふりかえり。2014-08-18/2014-08-24 の一週間をふりかえる。あとは [1 日 1 Hubot スクリプト][hubot-script-per-day]の 42 日目の [hubot-sier][gh:bouzuya/hubot-sier] について書く。
+
+- [2014-08-23 node-hatena-fotolife-api@0.4.0 & hubot-yahoo-now をつくった][2014-08-23]
+- [2014-08-22 hubot-timer をつくった][2014-08-22]
+- [2014-08-21 hubot-onaka-senaka をつくった][2014-08-21]
+- [2014-08-20 hubot-backlog-issue-preview をつくった][2014-08-20]
+- [2014-08-19 hubot-fuga をつくった][2014-08-19]
+- [2014-08-18 hatena-fotolife-cli / hatena-fotolife-api / hubot-hatena-fotolife をつくった][2014-08-18]
+- [2014-08-17 今週のふりかえり(33) & hubot-blog-bouzuya-net をつくった][2014-08-17]
+
+hubot-* のネタ切れ苦しい感がすごい。名前変更と機能追加しただけの hubot-backlog-issue-preview とか、fuga とか、timer とか、onaka-senaka とか、今日の sier とか。ちょうどいいネタがないとか、あっても、つくる時間がないとか。
+
+今週は残業がそこそこあったり、node-hatena-fotollife-* をつくったりしているせいだ。
+
+node-hatena-fotolife-api に関してはほぼ完成。node-hatena-fotolife-cli については今週できるはず。
+
+hubot-sier は特定キーワードに反応して「それ SIer ぽいですね。」を返す Hubot スクリプト。なんでも SIer ぽいですねと言えば許される雰囲気あるので。
+
+今日は京都へ。せっかく買った VAIO Pro 11 も全然さわれてなくって。
+
+[2014-08-23]: http://blog.bouzuya.net/2014/08/23/
+[2014-08-22]: http://blog.bouzuya.net/2014/08/22/
+[2014-08-21]: http://blog.bouzuya.net/2014/08/21/
+[2014-08-20]: http://blog.bouzuya.net/2014/08/20/
+[2014-08-19]: http://blog.bouzuya.net/2014/08/19/
+[2014-08-18]: http://blog.bouzuya.net/2014/08/18/
+[2014-08-17]: http://blog.bouzuya.net/2014/08/17/
+[gh:bouzuya/hubot-sier]: https://github.com/bouzuya/hubot-sier
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
