@@ -1,0 +1,16 @@
+---
+layout: post
+pubdate: "2014-08-29T23:59:59+09:00"
+title: hubot-conversation をつくった。
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 1
+pagetype: posts
+---
+[hubot-conversation][gh:bouzuya/hubot-conversation] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 47 日目。
+
+確かに、せやな、場合による で会話できるかを実験する Hubot スクリプト。
+
+もっと自然な会話をさせてみたいなあ。人工無能を Hubot スクリプトで実現できないものかな。
+
+[gh:bouzuya/hubot-conversation]: https://github.com/bouzuya/hubot-convertion
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
