@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2014-08-26T23:59:59+09:00"
-title: hubot-poyo をつくった
+title: 神戸.rb Meetup #3 にいった & hubot-poyo をつくった
 tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 2
 pagetype: posts
