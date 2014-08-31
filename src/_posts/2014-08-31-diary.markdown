@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-08-31T23:59:59+09:00"
 title: 今週のふりかえり(35) & hubot-rot13 をつくった
-tags: []
+tags: ['looking back', 'hubot', 'hubot-scripts', 'hubot-script-per-day']
 minutes:
 pagetype: posts
 ---
