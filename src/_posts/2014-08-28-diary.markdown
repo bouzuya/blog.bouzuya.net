@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2014-08-28T23:59:59+09:00"
-title: hubot-backlog-milestone をつくった。
+title: hubot-backlog-milestone をつくった
 tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 1
 pagetype: posts
