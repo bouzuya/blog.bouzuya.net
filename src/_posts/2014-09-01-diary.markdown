@@ -14,7 +14,7 @@ pagetype: posts
 
 はてなフォトライフから最近の画像を表示する Hubot スクリプト [hubot-hatena-fotolife][gh:bouzuya/hubot-hatena-fotolife] のときにも触れたのだけど、はてなフォトライフ AtomPub API 同様にはてなブログ AtomPub API も個人向けの利用を想定していて、検索などの機能がないので、割とつまらないものになってしまうんだよなあ。
 
-[gh:bouzuya/hubot-yahoo-movies]: https://github.com/bouzuya/hubot-convertion
+[gh:bouzuya/hubot-hatena-blog]: https://github.com/bouzuya/hubot-hatena-blog
 [gh:bouzuya/node-hatena-blog-api]: https://github.com/bouzuya/node-hatena-blog-api
 [gh:bouzuya/hubot-blog-bouzuya-net]: https://github.com/bouzuya/hubot-blog-bouzuya-net
 [gh:bouzuya/hubot-hatena-fotolife]: https://github.com/bouzuya/hubot-hatena-fotolife
