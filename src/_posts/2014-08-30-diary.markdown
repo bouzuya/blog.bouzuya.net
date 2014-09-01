@@ -14,5 +14,5 @@ Yahoo 映画から検索する Hubot スクリプト。
 
 あとはフラットなたこ焼きを作ったりしていて、バタバタしている。
 
-[gh:bouzuya/hubot-yahoo-movies]: https://github.com/bouzuya/hubot-convertion
+[gh:bouzuya/hubot-yahoo-movies]: https://github.com/bouzuya/hubot-yahoo-movies
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
