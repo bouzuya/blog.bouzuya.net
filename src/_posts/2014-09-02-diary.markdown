@@ -1,0 +1,14 @@
+---
+layout: post
+pubdate: "2014-09-02T23:59:59+09:00"
+title: hubot-backlog-report をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 2
+pagetype: posts
+---
+[hubot-backlog-report][gh:bouzuya/hubot-backlog-report] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 51 日目。
+
+Backlog から、今日完了されたチケットを取得する Hubot スクリプト。たぶん、業務で使う。日報で使うので、こういう名前にした。
+
+[gh:bouzuya/hubot-backlog-report]: https://github.com/bouzuya/hubot-backlog-report
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
