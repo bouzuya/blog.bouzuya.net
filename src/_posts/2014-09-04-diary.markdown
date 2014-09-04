@@ -1,0 +1,20 @@
+---
+layout: post
+pubdate: "2014-09-04T23:38:24+09:00"
+title: hubot-stdout-brain をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 6
+pagetype: posts
+---
+[hubot-stdout-brain][gh:bouzuya/hubot-stdout-brain] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 53 日目。
+
+これは永続化できず、脳の内容をぶちまけるだけの Hubot スクリプト。価値はない。むしろセキュリティ上のリスクがあるかも。
+
+そろそろ Hubot の brain でも書くかと思ったけど、良いアイデアが浮かばないので、とりあえず動きを追いかけようと思って stdout にただ内容を投げた。
+
+処理をすべきタイミングは一般的な brain ならこの程度。`mergeData` でデータを読むと、`loaded` イベントが投げられ、一定時間おき、あるいは `save` 呼び出しごとに `save` イベントが投げられ、`set` 呼び出しごとに `loaded` イベントが投げられ、終了時には `close` イベントが投げられる。
+
+昨日のスクリプトが何の役にも立たないと言われたけど、今日のスクリプトはもっとひどい。常に前進(?)している。
+
+[gh:bouzuya/hubot-stdout-brain]: https://github.com/bouzuya/hubot-stdout-brain
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
