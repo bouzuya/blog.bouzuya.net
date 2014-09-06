@@ -1,0 +1,16 @@
+---
+layout: post
+pubdate: "2014-09-05T23:59:59+09:00"
+title: hubot-qiita をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 4
+pagetype: posts
+---
+[hubot-qiita][gh:bouzuya/hubot-qiita] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 54 日目。
+
+hubot-qiita は Qiita から記事を検索する Hubot スクリプト。言うほど便利じゃない気がする。
+
+ホントは Qiita:Team を弊社が導入したので、そこから人気記事を取ったりとかしたかったんだけど、ちょうど良い API がなかったので、逃げた感じ。
+
+[gh:bouzuya/hubot-qiita]: https://github.com/bouzuya/hubot-qiita
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
