@@ -1,0 +1,20 @@
+---
+layout: post
+pubdate: "2014-09-06T23:59:59+09:00"
+title: "映画『攻殻機動隊 ARISE border:4 Ghost Stands Alone』をみた & hubot-google-news をつくった"
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 7
+pagetype: posts
+---
+![](http://img.f.hatena.ne.jp/images/fotolife/b/bouzuya/20140907/20140907075618.gif)
+
+映画『攻殻機動隊 ARISE border:4 Ghost Stands Alone』をみた。これでひと通り ARISE をみたことになる、と。 2015 年に次の映画の公開が決まっているらしいね。本編の内容よりビジネスとしてどうなのかとかが気になる。きっと映画と BD とネット配信とで TV はなし、期間も劇場も絞って、みたいな売り方(ほかにも工夫があるとは思う)が成功だったんだろうね。TV から BD だと回収率が悪いとか、そういうのがあるのかも。まあ、そういうのはよく分からないけど、少なくとも通常のアニメでお金を落とさないぼくがお金を落としているのは間違いないから、他にも似たような人が居て、そこそこお金になっているんじゃないかと予想している。
+
+さて、 [1 日 1 Hubot スクリプト][hubot-script-per-day]。今日で 55 日目。[hubot-google-news][gh:bouzuya/hubot-google-news] をつくった。
+
+[hubot-google-news][gh:bouzuya/hubot-google-news] は Google News から記事を取得する Hubot スクリプト。
+
+困ったときのスクレイピング。サイトを選ぶだけだもんね。
+
+[gh:bouzuya/hubot-google-news]: https://github.com/bouzuya/hubot-google-news
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
