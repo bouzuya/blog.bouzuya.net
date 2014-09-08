@@ -1,0 +1,55 @@
+---
+layout: post
+pubdate: "2014-09-07T23:59:59+09:00"
+title: 今週のふりかえり(36) & hubot-backlog-burndownchart をつくった
+tags: ['looking back', 'hubot', 'hubot-scripts', 'hubot-script-per-day']
+minutes: 30
+pagetype: posts
+---
+今週のふりかえり。2014-09-01/2014-09-07 の一週間をふりかえる。あとは [1 日 1 Hubot スクリプト][hubot-script-per-day]の 56 日目の [hubot-backlog-burndownchart][gh:bouzuya/hubot-backlog-burndownchart] について書く。
+
+- [2014-09-06 映画『攻殻機動隊 ARISE border:4 Ghost Stands Alone』をみた & hubot-google-news をつくった][2014-09-06]
+- [2014-09-05 hubot-qiita をつくった][2014-09-05]
+- [2014-09-04 hubot-stdout-brain をつくった][2014-09-04]
+- [2014-09-03 hubot-taka をつくった][2014-09-03]
+- [2014-09-02 hubot-backlog-report をつくった][2014-09-02]
+- [2014-09-01 hubot-hatena-blog をつくった][2014-09-01]
+- [2014-08-31 今週のふりかえり(35) & hubot-rot13 をつくった][2014-08-31]
+
+[hatena-blog-api][gh:bouzuya/node-hatena-blog-api]@0.2.0 と [hatena-blog-cli][gh:bouzuya/node-hatena-blog-cli]@0.3.0 をリリースした。その過程で見つけたバグを修正した [hatena-fotolife-cli][gh:bouzuya/node-hatena-fotolife-cli]@0.2.1 と [commander-b][gh:bouzuya/commander-b]@0.2.2 もリリース。
+
+バグはすごくくだらないものなんだけど、使わないと気づかない感じのもの。使ってみて分かることって多いよね。ドッグフーディングしないとダメだわ。
+
+あと [hubot-script-boilerplate][gh:bouzuya/hubot-script-boilerplate] の gulpfile を直して、 `hubot help XXX` を動くようにした。まだすべてのスクリプトへの適用はできていないけどね。 `npm install` できなくなっている問題は最新のものでは直せているのだけど、その変更を過去の Hubot スクリプトに適用するのが厳しい。今日のものを入れると 56 個もあるわけだから。 1 個 5 分で済ませても 5 時間もかかる。
+
+それに関連して VAIO Pro 11 への移行がほぼ完了して、アニメーション GIF 作成環境も移せたので、なるべく Hubot スクリプトにはアニメーション GIF を載せていきたい。 hatena-fotolife-cli でそれをアップロードしつつ、ね。
+
+VAIO Pro 11 に移行した感想を軽く書いておくと、画面がちょっとザラッとする感じがあるのとキーピッチが狭いのと表面の加工が割とデリケートでぼくみたく乱暴に使うと傷が目立つのが気になる。とにかく軽いし、バッテリーの持ちも問題にならないし、以前の Macbook Air より性能も良い (良くした) ので、快適。キーピッチやらは慣れてくるとさほど問題にならない。たまにきゅうくつに感じるけど。
+
+そして、今日の 1 日 1 Hubot スクリプトは、[hubot-backlog-burndownchart][gh:bouzuya/hubot-backlog-burndownchart] 。
+
+hubot-backlog-burndownchart は Backlog のバーンダウンチャート画像を Slack にファイルアップロードする Hubot スクリプト。まだアップロードしかできていないけど、そのうちにシェアできるようにする。バーンダウンチャート良いんだけど、それが表示されているページをあんまり見ないので、毎日自動で表示してくれるといいな、って。とりあえず、手動で出せるようにしてみた。
+
+- K
+  - 1 日 1 Hubot スクリプトを続ける
+- P
+  - 寝るのが遅い
+- T
+  - もうすこし完成度の高いものをつくる
+  - 英語そろそろ本気出す
+  - ひとり読書会を再開する
+
+[gh:bouzuya/hubot-backlog-burndownchart]: https://github.com/bouzuya/hubot-backlog-burndownchart
+[gh:bouzuya/hubot-script-boilerplate]: https://github.com/bouzuya/hubot-script-boilerplate
+[gh:bouzuya/node-hatena-blog-api]: https://github.com/bouzuya/node-hatena-blog-api
+[gh:bouzuya/node-hatena-blog-cli]: https://github.com/bouzuya/node-hatena-blog-cli
+[gh:bouzuya/node-hatena-fotolife-cli]: https://github.com/bouzuya/node-hatena-fotolife-cli
+[gh:bouzuya/commander-b]: https://github.com/bouzuya/commander-b
+[2014-09-06]: http://blog.bouzuya.net/2014/09/06/
+[2014-09-05]: http://blog.bouzuya.net/2014/09/05/
+[2014-09-04]: http://blog.bouzuya.net/2014/09/04/
+[2014-09-03]: http://blog.bouzuya.net/2014/09/03/
+[2014-09-02]: http://blog.bouzuya.net/2014/09/02/
+[2014-09-01]: http://blog.bouzuya.net/2014/09/01/
+[2014-08-31]: http://blog.bouzuya.net/2014/08/31/
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
