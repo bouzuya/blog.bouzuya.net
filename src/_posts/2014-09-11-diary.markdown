@@ -1,0 +1,20 @@
+---
+layout: post
+pubdate: "2014-09-11T23:59:59+09:00"
+title: hubot-gist をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 13
+pagetype: posts
+---
+[hubot-gist][gh:bouzuya/hubot-gist] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 60 日目。
+
+![](http://img.f.hatena.ne.jp/images/fotolife/b/bouzuya/20140912/20140912000520.gif)
+
+hubot-gist は指定したユーザーの gist を一覧表示する Hubot スクリプト。 ID を追加指定すれば内容を表示できる。
+
+まあ、それなりに良いスクリプトだとは思うのだけど、ひとつ失敗をした。この内容表示のためにも user が必要なこと。眠い目こすりながら考えなしにつくったらそうなった。言い訳じみているけど、ダメなものはダメだ。
+
+このスクリプトは次につくりたい Hubot スクリプトへのステップとしてつくっている。それはもっと面白いものになるはずだ。
+
+[gh:bouzuya/hubot-gist]: https://github.com/bouzuya/hubot-gist
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
