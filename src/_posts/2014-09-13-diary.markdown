@@ -1,0 +1,38 @@
+---
+layout: post
+pubdate: "2014-09-13T21:38:47+09:00"
+title: 『 Arduino をはじめよう』をよんだ & hubot-firmata-led をつくった
+tags: [reading, hubot, hubot-scripts, hubot-script-per-day]
+minutes: 59
+pagetype: posts
+---
+『[ Arduino をはじめよう][isbn:487311537X]』をよんだ。また [hubot-firmata-led][gh:bouzuya/hubot-firmata-led] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 62 日目。
+
+『 Arduino をはじめよう』は表題どおり [Arduino][arduino] の初心者向けの本。 Arduino は "OPEN-SOURCE ELECTRONICS PROTOTYPING PLATFORM" らしい。要するに OSS で安価で小型で、アナログ・デジタルの IO や USB ポートを備えた、ちょっとした電子工作やプロトタイプ向けの基板、かな。
+
+ぼくは電子工作に興味がある。理由は単純で、流行っているから。正しくは、流行っているように思うから。最近のサービスを見ていると、ソフトウェアだけではなく、ハードウェアにタッチしたようなものも見かける。スマートフォンもそうだけれど、ちょっとしたハードウェアを自作している例もある。そういう状況のなかで「ソフトウェアしかさわらない、さわれない」という姿勢をつらぬくべきではないとぼくは思う。別に電子工作・ハードウェアの達人になろうということではなくて、かじっておくことで苦手意識がなくなるし、「どうしていいのか分からない」という状態から「ひょっとしたらできるかも」という状態へ変えられるかもしれない、という期待もある。あとは機械をいじれる人にあこがる、とか。昔からものを組み立てたり、つくったりするのは好きだし……。要するに「電子工作って楽しそう」ってこと。
+
+手はじめに Raspberry Pi か Arduino かを手にしようと思っていた。たぶん、ぼくの見ているサイトや Software Design か WEB+DB Press あたりで、そのキーワードを取り上げていたのだと思う。調べてみると Arduino はこの本とそれに合わせたキットとが売られていて、まったく電子工作の類の経験がないぼくでもできそうな感じがしたので、それぞれ迷わずに購入した。
+
+届いた Arduino の第一印象は、「やっぱりぼくには無理なんじゃないかな」って不安。仮にもパソコンの自作くらいはしたことがあるので、基板を見るくらいは平気なのだけど、最近はノートパソコンばっかりだし、そんなに頻繁にさわるものでもないし、ピンとかついてても、これをどうすりゃいいの……って、不安に感じた。落ち着いてから見ると、個々のピンには説明がプリントされているし、 ARDUINO UNO ってロゴもきれいにプリントされているし、大きくもなく小さくなく、ちょうどいい大きさだし、よく分からないけど、きっと洗練されているのだろうとも感じた。
+
+『Arduino をはじめよう』にそって作業した。そんなに分量はなくて、まる一日もかからなかった。途中、 Kindle で『 AKB49 』の無料おためしを読むくらいの余裕があった。
+
+内容的にも難しくはなくて、用語の説明がないものもあるけれど、調べれば済むことなので、問題はなかった。手順どおり進めると LED をチカチカさせたり、それにスイッチをつけたり、フェードイン・アウトしたり……文字にすると「だから何？」と言いたくなるようなことだけど、実際に動くと楽しかった。これを楽しいと感じる程度にはぼくは電子工作に向いているんだろうと安心した。
+
+読み終えたあと、JavaScript (Node.js) で操作できないかと調べたら、やっぱりできた。 USB でさした Arduino とシリアル通信できれば十分なので、きっとあるだろうとは思ったけど。思った以上に簡単だったので、それを紹介する。
+
+まず [serialport][gh:voodootikigod/node-serialport] をつかった。生データが返ってきている感は満載だけど、それでも Arduino をさわった後だと、そこまで抵抗なくさわれた。さすがに低レイヤーすぎるので、別ライブラリを検討した。
+
+もうすこし高レイヤーのライブラリを探してためしたのが、[firmata][gh:jgautier/firmata] で、これがかなり良い。 Arduino をはじめようの中では Arduino IDE でコードを書いて Arduino に書き込むことをしていたのだけど、firmata は別のアプローチを取っている。 Arduino には firmata 向けのファームウェアを書き込んでおき、それと firmata protocol で通信する。これはそのラッパーライブラリ。使用感は Arduino IDE で書いていたコードとほとんど同じ。ただし、言語は JavaScript だし、書き込みも要らない。かなり気楽に扱える。 firmata 向けファームウェアの書き込みは Arduino IDE に標準でついていて、 "File > Examples > Firmata > Standard Firmata" でコード例を表示して、それを書いておくだけで OK 。簡単すぎる。
+
+今日の Hubot スクリプトはそれを使って LED の ON/OFF を切り替えるものにした。 Hubot の動いているマシンに Arduino をつながないといけないので、利用できるケースは少ない。ライブラリの紹介だと思ってほしい。
+
+1 日をつぶすくらいの価値はあったし、本と合わせても 6000 円程度。良い経験ができた。これはおすすめできる。
+
+[isbn:487311537X]: https://www.amazon.co.jp/dp/487311537X
+[arduino]: http://arduino.cc/
+[gh:voodootikigod/node-serialport]: https://github.com/voodootikigod/node-serialport
+[gh:jgautier/firmata]: https://github.com/jgautier/firmata
+[gh:bouzuya/hubot-firmata-led]: https://github.com/bouzuya/hubot-firmata-led
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
