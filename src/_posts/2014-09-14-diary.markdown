@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2014-09-14T23:59:59+09:00"
-title: 御苗場Vol.15関西に行った & hubot-udon をつくった
+title: 今週のふりかえり(37) & 御苗場Vol.15関西に行った & hubot-udon をつくった
 tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 10
 pagetype: posts
@@ -22,6 +22,41 @@ pagetype: posts
 
 今日の Hubot スクリプトは hubot-udon 。うどん画像を表示する。処理自体はほとんど標準添付の google-images.coffee (`hubot img` などで知られるアレ) と同じ。あのスクリプトの中で使われている Google Image Search API は deprecated とされていて、別の URL を使わないといけないのだけど、設定などが面倒なので、承知の上でこうした。
 
+追記。今週の振り返りをできていなかったので追記する。
+
+- [2014-09-13 『 Arduino をはじめよう』をよんだ & hubot-firmata-led をつくった][2014-09-13]
+- [2014-09-12 hubot-script-gist をつくった][2014-09-12]
+- [2014-09-11 hubot-gist をつくった][2014-09-11]
+- [2014-09-10 神戸.rb Meetup #4 にいった & hubot-github-public-repos をつくった][2014-09-10]
+- [2014-09-09 IRKit をためした & hubot-backlog-watch-users をつくった][2014-09-09]
+- [2014-09-08 hubot-sleepy をつくった][2014-09-08]
+- [2014-09-07 今週のふりかえり(36) & hubot-backlog-burndownchart をつくった][2014-09-07]
+
+- K
+  - Hubot スクリプトのスクリーションショット増えている。
+  - はてなフォトライフ CLI が活きている。
+  - Arduino つづける。 Raspberry Pi でも良いかも。
+  - Hubot スクリプトつづける。
+  - つくる (料理) がない
+- P
+  - まだ寝るのが遅い→残業が悪い?
+  - 英語で本気を出せていない。
+  - ひとり読書会を再開できていない。
+  - Hubot スクリプトのまとめページをつくる。 Bootstrap & AngularJS etc...
+  - TypeScript リファレンスを放置している。
+  - Ruby on Rails guides を放置している。
+  - 今週の振り返りを忘れる。
+- T
+  - (上記 P をなんとかする)
+
+
+[2014-09-13]: http://blog.bouzuya.net/2014/09/13/
+[2014-09-12]: http://blog.bouzuya.net/2014/09/12/
+[2014-09-11]: http://blog.bouzuya.net/2014/09/11/
+[2014-09-10]: http://blog.bouzuya.net/2014/09/10/
+[2014-09-09]: http://blog.bouzuya.net/2014/09/09/
+[2014-09-08]: http://blog.bouzuya.net/2014/09/08/
+[2014-09-07]: http://blog.bouzuya.net/2014/09/07/
 [peaklife]: http://peaklife.jp
 [@sakagemc]: https://twitter.com/sakagemc
 [gh:bouzuya/hubot-udon]: https://github.com/bouzuya/hubot-udon
