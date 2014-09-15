@@ -1,0 +1,28 @@
+---
+layout: post
+pubdate: "2014-09-14T23:59:59+09:00"
+title: 御苗場Vol.15関西に行った & hubot-udon をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 10
+pagetype: posts
+---
+御苗場 Vol.15 関西にいった。また [hubot-udon][gh:bouzuya/hubot-udon] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 63 日目。
+
+まずは御苗場 Vol.15 関西にいったことから。
+
+場所は京セラドームスカイホール。 JAWS FESTA Kansai 2013 の会場だったところ。会場はちょうど SMAP のコンサートと重なっているらしく、最寄り駅である大正駅からすでに同じ色・模様のバッグをもった人やチケットゆずってくださいのノートをかかげた人であふれかえっていた。直通のエスカレーターが使えない状態になっていて、入り口がわかりづらく、戸惑った。エレベーターで 9F のスカイホールまであがれば良いらしかった。
+
+趣旨はよく知らない。写真好きな人たちがカメラやらの会社を呼びつつ企画した感じかな。ぼくが行こうと思ったのは、参加者に [@sakagemc][] の名前があって [peaklife.jp][peaklife] の作品を出展しているとのことだったから。
+
+あんまり新しい作品は多くなかった。 @sakagemc に確認したところ、最近の作品は作風をすこし変えているので、統一感がなくなるからとのこと。へえ。いろんな人のものが展示してあったのだけど、peaklife.jp のものはひときわ密度が高かった。与えられたスペースいっぱいに peaklife.jp の作品が並べられていた。全力で、って。なるほどなあ。
+
+そういう作品展に出そうってくらいだからか、自己主張の強い作品は多い。きっといろんなこだわりがあるんだろうな。アンケートで投票してくれとか言われたのだけど、遠慮しておいた。こういうものに評価をつけるのってぼくには難しい。
+
+さて、帰って blog.bouzuya.net を AngularJS でつくりなおそうかと思い、gulp の設定をいじっていたのだけど、思い通りにいかなくて、ぐだぐだ。お腹が空いて、むしょうにうどんが食べたくなったので、今日の Hubot スクリプトはうどんにした。
+
+今日の Hubot スクリプトは hubot-udon 。うどん画像を表示する。処理自体はほとんど標準添付の google-images.coffee (`hubot img` などで知られるアレ) と同じ。あのスクリプトの中で使われている Google Image Search API は deprecated とされていて、別の URL を使わないといけないのだけど、設定などが面倒なので、承知の上でこうした。
+
+[peaklife]: http://peaklife.jp
+[@sakagemc]: https://twitter.com/sakagemc
+[gh:bouzuya/hubot-udon]: https://github.com/bouzuya/hubot-udon
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
