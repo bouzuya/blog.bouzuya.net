@@ -1,0 +1,20 @@
+---
+layout: post
+pubdate: "2014-09-19T23:59:59+09:00"
+title: hubot-bbn-tags をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 10
+pagetype: posts
+---
+[hubot-bbn-tags][gh:bouzuya/hubot-bbn-tags] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 68 日目。
+
+hubot-bbn-tags は [blog.bouzuya.net](http://blog.bouzuya.net/) の tags からランダムに 5 つ取り出す　Hubot スクリプト。
+
+![](http://img.f.hatena.ne.jp/images/fotolife/b/bouzuya/20140920/20140920003331.gif)
+
+自分のブログの API だと気を使わなくて済むのが良い。
+
+最近、体調悪いなあ。季節の変わり目だからかな。
+
+[gh:bouzuya/hubot-bbn-tags]: https://github.com/bouzuya/hubot-bbn-tags
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
