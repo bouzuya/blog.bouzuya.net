@@ -26,7 +26,7 @@ pagetype: posts
 
 こういうやけっぱちなスクリプトを減らしたいんだけどね。
 
-[gh:bouzuya/hubot-bbn-tags]: https://github.com/bouzuya/hubot-bbn-tags
+[gh:bouzuya/hubot-planet-of-the-apes]: https://github.com/bouzuya/hubot-planet-of-the-apes
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
 [hitoridokusho]: http://hitoridokusho.doorkeeper.jp/
 [hitoridokusho/events/17]: http://hitoridokusho.doorkeeper.jp/events/15500
