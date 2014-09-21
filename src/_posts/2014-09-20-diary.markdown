@@ -1,0 +1,33 @@
+---
+layout: post
+pubdate: "2014-09-20T23:59:59+09:00"
+title: hubot-planet-of-the-apes をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 15
+pagetype: posts
+---
+[ひとり読書会 #17][hitoridokusho/events/17] を実施した。また [hubot-planet-of-the-apes][gh:bouzuya/hubot-planet-of-the-apes] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 69 日目。
+
+[ひとり読書会][hitoridokusho] をふたたびはじめた。#16 から 1 ヶ月以上の期間をあけてしまったけれど、今日からは毎週土曜日 19:00 〜 21:00 で定期的に実施していくつもりだ。
+
+今回の本は [世界で闘うプログラミング力を鍛える 150 問][hitoridokusho/books/3] にした。前回に続いて基礎訓練に近いけど、こういうものこそ定期的にすべきなのだと思う。
+
+第 1 回は問題に到達するまでのページ数がかなりあって、問題としては進まなかった。みんなでうんうん考えてもいまひとつなので、問題は次回までの宿題にするルールで進めることにしてみた。
+
+内容はともかくふたたびはじめられたことをまずは評価したい。
+
+さて、お次は Hubot スクリプト。
+
+今日の Hubot スクリプトは hubot-planet-of-the-apes 。これは猿の惑星のネタバレをしてくれる Hubot スクリプト。なので、紹介は簡単に。
+
+使いかたは `hubot where am i` とたずねるだけ。
+
+きっかけは地上波で『猿の惑星: 創世記』を放送していたので。
+
+こういうやけっぱちなスクリプトを減らしたいんだけどね。
+
+[gh:bouzuya/hubot-bbn-tags]: https://github.com/bouzuya/hubot-bbn-tags
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[hitoridokusho]: http://hitoridokusho.doorkeeper.jp/
+[hitoridokusho/events/17]: http://hitoridokusho.doorkeeper.jp/events/15500
+[hitoridokusho/books/3]: http://www.amazon.co.jp/dp/B00HR19TSO/
