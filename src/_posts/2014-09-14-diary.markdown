@@ -37,7 +37,6 @@ pagetype: posts
   - はてなフォトライフ CLI が活きている。
   - Arduino つづける。 Raspberry Pi でも良いかも。
   - Hubot スクリプトつづける。
-  - つくる (料理) がない
 - P
   - まだ寝るのが遅い→残業が悪い?
   - 英語で本気を出せていない。
@@ -46,6 +45,7 @@ pagetype: posts
   - TypeScript リファレンスを放置している。
   - Ruby on Rails guides を放置している。
   - 今週の振り返りを忘れる。
+  - つくる (料理) がない
 - T
   - (上記 P をなんとかする)
 
