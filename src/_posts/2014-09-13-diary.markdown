@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-09-13T21:38:47+09:00"
 title: 『 Arduino をはじめよう』をよんだ & hubot-firmata-led をつくった
-tags: [reading, hubot, hubot-scripts, hubot-script-per-day]
+tags: [book, hubot, hubot-scripts, hubot-script-per-day]
 minutes: 59
 pagetype: posts
 ---
