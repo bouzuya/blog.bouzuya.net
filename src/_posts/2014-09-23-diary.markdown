@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-09-23T08:00:37+09:00"
 title: 『Arduino で電子工作をはじめよう』をよんだ & hubot-nozakikun をつくった
-tags: [arduino, book, hubot, hubot-scripts, hubot-scripts-per-day]
+tags: [arduino, book, hubot, hubot-scripts, hubot-script-per-day]
 minutes: 54
 pagetype: posts
 ---
