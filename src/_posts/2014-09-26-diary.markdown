@@ -1,0 +1,19 @@
+---
+layout: post
+pubdate: "2014-09-26T22:49:51+09:00"
+title: hubot-gistlog-show をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 4
+pagetype: posts
+---
+[hubot-gistlog-show][gh:bouzuya/hubot-gistlog-show] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 75 日目。
+
+![](http://img.f.hatena.ne.jp/images/fotolife/b/bouzuya/20140926/20140926224619.gif)
+
+hubot-gistlog-show は特定の public gist を表示する Hubot スクリプト。ただし、 [昨日書いたとおり][2014-09-25]、gist をブログ化することを想定して表示する。
+
+明日は投稿かな。
+
+[2014-09-25]: http://blog.bouzuya.net/2014/09/25/
+[gh:bouzuya/hubot-gistlog-show]: https://github.com/bouzuya/hubot-gistlog-show
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
