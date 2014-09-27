@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-09-14T23:59:59+09:00"
 title: 今週のふりかえり(37) & 御苗場Vol.15関西に行った & hubot-udon をつくった
-tags: [hubot, hubot-scripts, hubot-script-per-day]
+tags: ['looking back', hubot, hubot-scripts, hubot-script-per-day]
 minutes: 10
 pagetype: posts
 ---
