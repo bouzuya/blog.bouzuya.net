@@ -1,0 +1,21 @@
+---
+layout: post
+pubdate: "2014-09-27T23:59:59+09:00"
+title: 英文法の学習をはじめた & hubot-gistlog-create をつくった
+tags: [english, hubot, hubot-scripts, hubot-script-per-day]
+minutes: 8
+pagetype: posts
+---
+英文法の学習をはじめた。また、[hubot-gistlog-create][gh:bouzuya/hubot-gistlog-create] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 76 日目。
+
+「そろそろ英語の学習に本気を出す」と言い続けて、数週間。今週になって動きはじめたので書いておく。
+
+問題集を購入し、1 日 30 分ずつ学習する。きちんと続ければ、ちょうど 2014-12-31 で問題集が終わる予定。こっそりとはじめていて、今日で 5 日目。この調子で続けたい。1 回 30 問なのだけど、30 門のうち 10 問も解けない場合があった。これから良くなるだろう。
+
+hubot-gistlog-create は public gist を作成する Hubot スクリプト。ただし、[2014-09-25][2014-09-25] に書いたとおり、gist をブログ化することを想定して情報の入力を求める。
+
+投稿して、一覧で表示して、個別で表示して、ができるようになった。あとは何だろう。検索とかタグづけとかしたいかなあ。
+
+[2014-09-25]: http://blog.bouzuya.net/2014/09/25/
+[gh:bouzuya/hubot-gistlog-create]: https://github.com/bouzuya/hubot-gistlog-create
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
