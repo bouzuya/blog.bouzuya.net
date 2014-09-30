@@ -1,0 +1,19 @@
+---
+layout: post
+pubdate: "2014-09-30T23:59:59+09:00"
+title: hubot-twada をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[hubot-twada][gh:bouzuya/hubot-twada] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 79 日目。
+
+![](http://img.f.hatena.ne.jp/images/fotolife/b/bouzuya/20141001/20141001003829.gif)
+
+hubot-twada は「テスト書いてない」と言うと「お前それ [@t_wada][] の前でも同じこと言えんの？」と返される Hubot スクリプト。
+
+最近、RSpec をどんどん嫌いになっていて、テスト書きたくない病気にかかっている。見えない @t_wada の圧力で、テストを書くように意識するためにつくった。
+
+[@t_wada]: https://twitter.com/t_wada
+[gh:bouzuya/hubot-twada]: https://github.com/bouzuya/hubot-twada
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
