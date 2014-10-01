@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2014-10-01T23:59:59+09:00"
+title: hubot-capital-city をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[hubot-capital-city][gh:bouzuya/hubot-capital-city] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 80 日目。
+
+hubot-capital-city は世界の首都をランダムでひとつ表示する。特に意味はない。
+
+ほぼ定時で帰っているにも関わらず、この間の誕生日プレゼント (イヤホン) の初期不良対応に時間がとられて何もできなかった。最低だ。
+
+腰が痛いのは治ってきているし、上向きにはなっている。はやねはやおきも Ruby on Rails Guides も英語も続けられているし、ね。
+
+[gh:bouzuya/hubot-capital-city]: https://github.com/bouzuya/hubot-capital-city
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
