@@ -1,0 +1,23 @@
+---
+layout: post
+pubdate: "2014-10-04T23:59:59+09:00"
+title: hubot-endless8 をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 10
+pagetype: posts
+---
+[hubot-endless8][gh:bouzuya/hubot-endless8] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 83 日目。
+
+hubot-endless8 はエンドレスエイトの長門のように「何回目か？」を聞くとその質問の回数を答えてくれる Hubot スクリプト。
+
+エンドレスエイトを一挙放送と聞いたので見ていたのだけど、いつの間にか寝てしまっていた。
+
+今日は、http://www.omegle.com/ で知らない US のひととチャットしてみた。伝わらないし、とっさにどう答えていいか分からない。昼ごろは優しい人とあたったんだけど、夜はダメだった。性別聞いて kick みたいのばっかり。英語の学習のほうはまま順調に進んでいる。身についているかは分からないけれど。
+
+あとは、[ひとり読書会][hitoridokusho]を継続している。『世界で闘うプログラミング力を鍛える 150 問』は 3 回目。やりかたには慣れたけど、参加者いなくてひとり読書会。『Ruby on Rails Guides』は 12 回。 Action Controller Overview を終えた。まだ半分も行ってないし、20 章分くらい残ってる。こっちもなかなかだなあ。
+
+Arduino やらせっかく届いた Raspberry Pi もさわれていないし……くそー
+
+[hitoridokusho]: https://github.com/hitoridokusho/hitoridokusho/wiki
+[gh:bouzuya/hubot-endless8]: https://github.com/bouzuya/hubot-endless8
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
