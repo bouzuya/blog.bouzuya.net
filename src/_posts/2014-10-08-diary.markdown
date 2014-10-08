@@ -1,0 +1,16 @@
+---
+layout: post
+pubdate: "2014-10-08T23:59:59+09:00"
+title: hubot-hatena-star-count をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 10
+pagetype: posts
+---
+[hubot-hatena-star-count][gh:bouzuya/hubot-hatena-star-count] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 87 日目。
+
+hubot-hatena-star-count は指定のブログのはてなスターの URL をカウントする Hubot スクリプト。ネタ切れ苦しい。
+
+ローカル Hubot 向け Atom Package の進捗だけど、見た目はともかくとして、メッセージの送受信(表示含む)ができるようになった。見た目の修正のために Hubot アダプター側の修正を入れる予定。ユーザー名が hubot になってないし、投稿日時がほしい。
+
+[gh:bouzuya/hubot-hatena-star-count]: https://github.com/bouzuya/hubot-hatena-star-count
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
