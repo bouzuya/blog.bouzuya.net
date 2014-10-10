@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 20
 pagetype: posts
 ---
-[hubot-ping][gh:bouzuya/hubot-power-usage] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 89 日目。
+[hubot-ping][gh:bouzuya/hubot-ping] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 89 日目。
 
 hubot-ping は外部からの ping に応答するための URL を提供する Hubot スクリプト。
 
@@ -26,7 +26,5 @@ Heroku の idling 自体は以前から有名な問題で、Hubot を Heroku に
 [newrelic]: http://newrelic.com/
 [pingdom]: https://www.pingdom.com/
 [gh:faithcreates/sushi]: https://github.com/faithcreates/sushi
-[gh:bouzuya/hubot-power-usage]: https://github.com/bouzuya/hubot-power-usage
-[gh:bouzuya/hubot-b]: https://github.com/bouzuya/hubot-b
+[gh:bouzuya/hubot-ping]: https://github.com/bouzuya/hubot-ping
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
-[yahoo-power-usage]: http://developer.yahoo.co.jp/webapi/shinsai/setsuden/v1/latestpowerusage.html
