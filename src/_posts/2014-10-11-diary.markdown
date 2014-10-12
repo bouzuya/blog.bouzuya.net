@@ -1,0 +1,38 @@
+---
+layout: post
+pubdate: "2014-10-11T23:59:59+09:00"
+title: タンク工作基本セットをためした & hubot-furigana をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes:
+pagetype: posts
+---
+[タミヤのタンク工作基本セット][tamiya]をためした。また、[hubot-furigana][gh:bouzuya/hubot-furigana] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 90 日目。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>キャタピラはね、無限なんだ。 <a href="http://t.co/47nqOpxFjn">pic.twitter.com/47nqOpxFjn</a></p>&mdash; bouzuya (@bouzuya) <a href="https://twitter.com/bouzuya/status/520759082987171840">October 11, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+つくった。
+
+説明もやさしく組み立ても簡単だった。適度な工作している感を味わえた。ミニ四駆で遊んでいたころに思わなかったこととして、この製品をつくるのって想像以上に難しいと思った。ユーザーにちょうど良いと感じさせるものを提供するのって難しいと思う。しっかりしたパーツがつくれたうえで、それを手軽に扱えるようにうまく配置して……とか、そういうのも。タミヤはすごいな。
+
+このセットは説明どおりに組み立てても最後にパーツが残る。いくつかのパーツを組み合わせてセット化して売っているからだろうけど、ぼくには「あくまでもこれはサンプル。この先は自分で考えて、なにかをつくってほしい」というメッセージに思えた。
+
+できあがったものもなかなか良い。パッケージをみたときは、かまぼこ板みたいのがダサいと思っていたけれど、自分でつくると気にならなくなった。思ったよりパワフルでちょっとした段差くらいは軽く乗り越えていく感じ。自分がつくったものが動く感じ。「これだよこれこれ！」って。1,000円そこらではしゃいでしまう。
+
+キャタピラが良い。たぶん人気なんだろうね。キャタピラを組み込んだ類似のセットがタミヤからいくつか出ている。こういうのを楽しめる層とキャタピラかっこいい層とがある程度重なっているんだろうな。キャタピラ！とかドリル！とかそういうのにはしゃぐ感じの層。
+
+ありきたりだけど、こういうのにカメラつんだり、リモートコントロールできたら楽しいんだろうなと思う。そういうことはぼくにはまだ難しい。
+
+さて、次は Hubot スクリプト。
+
+hubot-furigana はふりがなをかえしてくれる Hubot スクリプト。
+
+[2014-10-09][] に書いた [hubot-power-usage][gh:bouzuya/hubot-power-usage] に続いて、Yahoo! Japan の API を使っている。何かもっといい活用方法があると思うんだけど、眠い目こすりながらつくるにはこれが限界。
+
+あと、関係ないけど、今日はひとり読書会を実施したし、英語も進めていて、充実していた。疲れた。
+
+[2014-10-09]: http://blog.bouzuya.net/2014/10/09/
+[tamiya]: http://www.tamiya.com/japan/products/70108tracked_vehicle/
+[gh:bouzuya/hubot-furigana]: https://github.com/bouzuya/hubot-furigana
+[gh:bouzuya/hubot-power-usage]: https://github.com/bouzuya/hubot-power-usage
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
