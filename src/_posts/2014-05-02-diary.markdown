@@ -10,12 +10,12 @@ pagetype: posts
 
 backlog-summaryはBacklogの進捗のサマリーを表示するHubotスクリプト。今回の変更内容は次のとおり。
 
-> 1. すべての課題が完了している場合を非表示にしていたため、作業したにもかかわらずサマリーに表示されないことがありました。ユーザー行の場合は一件でも課題を完了させていれば表示するようにしました。マイルストーン行の場合は従来どおりの表示です。 
+> 1. すべての課題が完了している場合を非表示にしていたため、作業したにもかかわらずサマリーに表示されないことがありました。ユーザー行の場合は一件でも課題を完了させていれば表示するようにしました。マイルストーン行の場合は従来どおりの表示です。
 > 2. 実績時間入力のモチベーションを向上するため、実績時間`actual`を表示しました。
 > 3. 結果がどのプロジェクトのものか分かりにくくなるため、結果行のヘッダーに`backlog-summary <project-key> result:`を追加しました。
-> 
+>
 > 実行イメージ:
-> 
+>
 >     bouzuya> @hubot backlog-summary HUBOT
 >     hubot> OK. Now loading...
 >     hubot> backlog-summary HUBOT result:
@@ -35,3 +35,4 @@ backlog-summaryはBacklogの進捗のサマリーを表示するHubotスクリ�
 
 [node-backlog-api][bouzuya/node-backlog-api]を書いてる人間でこれなんだから、たぶん、Backlog APIはあんまり使われていないのだろうなあ。
 
+[bouzuya/node-backlog-api]: https://github.com/bouzuya/node-backlog-api
