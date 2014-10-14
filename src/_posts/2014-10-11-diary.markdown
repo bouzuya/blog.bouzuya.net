@@ -3,7 +3,7 @@ layout: post
 pubdate: "2014-10-11T23:59:59+09:00"
 title: タンク工作基本セットをためした & hubot-furigana をつくった
 tags: [hubot, hubot-scripts, hubot-script-per-day]
-minutes:
+minutes: 30
 pagetype: posts
 ---
 [タミヤのタンク工作基本セット][tamiya]をためした。また、[hubot-furigana][gh:bouzuya/hubot-furigana] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 90 日目。
