@@ -14,5 +14,6 @@ hubot-kancolle は艦これのカードを返してくれる Hubot スクリプ�
 
 この連休はあんまり充実していなかった。なんだか体調も悪かったし。[bbn-light][gh:bouzuya/bbn-light] で自分のブログを見返せたことが唯一良かったことと言っていいんじゃないかな。
 
+[gh:bouzuya/bbn-light]: https://github.com/bouzuya/bbn-light
 [gh:bouzuya/hubot-kancolle]: https://github.com/bouzuya/hubot-kancolle
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
