@@ -1,0 +1,16 @@
+---
+layout: post
+pubdate: "2014-10-15T23:59:59+09:00"
+title: hubot-kobe-temp をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[hubot-kobe-temp][gh:bouzuya/hubot-kobe-temp] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 94 日目。
+
+hubot-kobe-temp は神戸の気温を返す Hubot スクリプト。
+
+急に寒くなったので。
+
+[gh:bouzuya/hubot-kobe-temp]: https://github.com/bouzuya/hubot-kobe-temp
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
