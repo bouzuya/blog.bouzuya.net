@@ -1,0 +1,16 @@
+---
+layout: post
+pubdate: "2014-10-16T23:59:59+09:00"
+title: hubot-google-places をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[hubot-google-places][gh:bouzuya/hubot-google-places] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 95 日目。
+
+hubot-google-places は事前に設定した中心座標から、指定のキーワードの場所を検索する Hubot スクリプト。
+
+別件の検証を兼ねて。
+
+[gh:bouzuya/hubot-google-places]: https://github.com/bouzuya/hubot-google-places
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
