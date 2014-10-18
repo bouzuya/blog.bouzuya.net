@@ -1,0 +1,34 @@
+---
+layout: post
+pubdate: "2014-10-17T23:59:59+09:00"
+title: きのこのリゾットをつくった & hubot-yahoo-geocoder をつくった
+tags: [cooking, hubot, hubot-scripts, hubot-script-per-day]
+minutes: 12
+pagetype: posts
+---
+きのこのリゾットをつくった。また、[hubot-yahoo-geocoder][gh:bouzuya/hubot-yahoo-geocoder] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 96 日目。
+
+きのこのリゾットをつくった。料理をつくったという記事を書くのはひさしぶりだなあ。味は食べられるものだったけど、まんまきのこで色や見た目が悪かったので、写真などはなし。
+
+hubot-yahoo-geocoder は指定の住所から座標を取得し、Google Map URL を返す。これも最近たくさんつくっている Yahoo! Japan Developer API のひとつ。
+
+ついでに、ぼくの Hubot スクリプトから Yahoo API を使ったものをまとめておくと、次の 3 つがあるみたい。
+
+- [2014-10-09][] の [hubot-power-usage][gh:bouzuya/hubot-power-usage]
+- [2014-10-11][] の [hubot-furigana][gh:bouzuya/hubot-furigana]
+- [2014-10-12][] の [hubot-chiebukuro][gh:bouzuya/hubot-chiebukuro]
+
+今回の [hubot-yahoo-geocoder][gh:bouzuya/hubot-yahoo-geocoder] も入れると、 4 つかな。
+
+ほかにも Yahoo News をスクレイピングしたのもあるけど、あれも書き直したほうが良いかもね。
+
+API を使うために KEY などを要求する Hubot スクリプトは導入の手間があるのでできれば避けたいんだけどね。
+
+[2014-10-09]: http://blog.bouzuya.net/2014/10/09/
+[2014-10-11]: http://blog.bouzuya.net/2014/10/11/
+[2014-10-12]: http://blog.bouzuya.net/2014/10/12/
+[gh:bouzuya/hubot-chiebukuro]: https://github.com/bouzuya/hubot-chiebukuro
+[gh:bouzuya/hubot-furigana]: https://github.com/bouzuya/hubot-furigana
+[gh:bouzuya/hubot-power-usage]: https://github.com/bouzuya/hubot-power-usage
+[gh:bouzuya/hubot-yahoo-geocoder]: https://github.com/bouzuya/hubot-yahoo-geocoder
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
