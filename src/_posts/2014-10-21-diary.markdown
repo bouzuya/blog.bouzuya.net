@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 11
 pagetype: posts
 ---
-[hubot-qr][gh:bouzuya/hubot-qr] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 99 日目。
+[hubot-qr][gh:bouzuya/hubot-qr] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 100 日目。
 
 hubot-qr は指定したキーワードから QR コードをつくって返す Hubot スクリプト。
 
