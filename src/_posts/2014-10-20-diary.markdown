@@ -6,7 +6,7 @@ tags: [book, hubot, hubot-scripts, hubot-script-per-day]
 minutes: 25
 pagetype: posts
 ---
-『[モダン Web ](http://www.oreilly.co.jp/books/9784873116921/)』をよんだ。また、[hubot-claudia][gh:bouzuya/hubot-claudia] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 98 日目。
+『[モダン Web ](http://www.oreilly.co.jp/books/9784873116921/)』をよんだ。また、[hubot-claudia][gh:bouzuya/hubot-claudia] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 99 日目。
 
 モダン Web は、モダン (いま、そしてすこし未来の) な Web のスナップショットをふかんし、短くまとめることに成功している本だと思う。
 
