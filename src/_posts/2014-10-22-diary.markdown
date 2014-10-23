@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 10
 pagetype: posts
 ---
-[hubot-pr][gh:bouzuya/hubot-pr]@2.0.0 をつくった。また [hubot-fumo][gh:bouzuya/hubot-fumo] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 100 日目。
+[hubot-pr][gh:bouzuya/hubot-pr]@2.0.0 をつくった。また [hubot-fumo][gh:bouzuya/hubot-fumo] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 101 日目。
 
 hubot-pr は PR の一覧表示、マージを行う Hubot スクリプト。今回のバージョンアップで対話式に変わった。yes/no でマージするかどうかを答えられるようにした。もっといろいろ変えようとは思ってるのだけど、手を出せていない。
 
@@ -29,6 +29,8 @@ hubot-pr は PR の一覧表示、マージを行う Hubot スクリプト。今
 最近 npm に git:// を書いても動かないことがあるので、その対応方法として、tar.gz URL を使うと良いことを書いた。
 
 GitHub は .tar.gz な URL も用意してくれるので、それを使うと良いですよ、という内容。ぼくの Hubot スクリプトも README 直そうかな。
+
+<ins>あとで数え直したら今日は 101 日目だったという……</ins>
 
 [qiita:325e2dbd30bbe54b0ae4]: http://qiita.com/bouzuya/items/325e2dbd30bbe54b0ae4
 [qiita:fc4739d9c5c8ced99010]: http://qiita.com/bouzuya/items/fc4739d9c5c8ced99010
