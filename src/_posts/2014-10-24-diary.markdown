@@ -1,0 +1,25 @@
+---
+layout: post
+pubdate: "2014-10-24T23:59:59+09:00"
+title: hubot-backlog-assign をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 10
+pagetype: posts
+---
+[hubot-backlog-assign][gh:bouzuya/hubot-backlog-assign] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 103 日目。
+
+hubot-backlog-assign をつくった。指定したレビュアーを Backlog の課題の担当者に設定する Hubot スクリプト。いかにもだけど、業務用。
+
+GitHub の URL が Backlog の課題のコメントに含まれている前提の動きになっている。これは会社のルールに準拠している。
+
+GitHub の Issue が弱いので別でチケット管理使っているっていうのはよく聞くんだけど、 GitHub + Backlog + Hubot な会社ってどれくらいあるんだろうね。やっぱり Redmine や Trac が多いのかな。自分でホストするのもあれだし、入力画面が重い (?) イメージがある。画面項目が多いとか、検索・一覧画面がいまいちとか。何より乗り換えコストの関係で Backlog を使い続けている。
+
+公開はしていないけど、会社の開発フローにもっとツールの助けを入れたいと思っていて、そのためのコマンドラインツールを書いている。
+
+PR の作成やチケットの更新はそのツールの仕事にして、レビュー依頼とマージとは Hubot の仕事にしようとしている。具体的には、レビュー依頼はこの hubot-backlog-assign で、マージは [hubot-pr][gh:bouzuya/hubot-pr] でやろうと考えている。こういうのってほかの組織への適用が難しいから、書いたところで「へー」で終わりなんだろうけどね。
+
+Qiita の今日の更新はなし。contribution をカウントするスクリプト書いておこうかな。
+
+[backlog-assign]: http://synthsky.com/backlog-assign/
+[gh:bouzuya/hubot-backlog-assign]: https://github.com/bouzuya/hubot-backlog-assign
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
