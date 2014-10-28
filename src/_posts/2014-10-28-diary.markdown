@@ -1,0 +1,22 @@
+---
+layout: post
+pubdate: "2014-10-28T23:59:59+09:00"
+title: hubot-jquery-search をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[hubot-jquery-search][gh:bouzuya/hubot-jquery-search] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 107 日目。
+
+hubot-jquery-search は jQuery の API を api.jquery.com から検索する Hubot スクリプト。
+
+ぼくは Firefox の検索エンジンに "?jq" というキーワードで Google 検索の "site:api.jquery.com" を登録してあるんだけど、それと似たようなもの。
+
+最近 hubot に呼びかけるタイプのパターンがあんまり好きじゃない。打つの面倒だし。
+
+Hubot の Issue 見ていると、listener の middleware とか namespace とか入りそう。楽しみ。 listener 自体を操作したりって名前がなくてすごいイマイチなんだよね。`Robot#hear` や `Robot#respond` で登録された listener を後から書き換えるのはかなり難しくて、`regex` に適当なキーワードを投げてマッチするどうかで探さなきゃいけない。`hubot-script-boilerplate` のテストコードはパターン部分と処理部分とを分離してテストしているんだけど、その取り出し方が `[0]` みたいなインデックスで取り出しているのもこれのせい。
+
+Qiita は今日も更新なし。contribution をカウントするスクリプトは、まだずっと忘れている。
+
+[gh:bouzuya/hubot-jquery-search]: https://github.com/bouzuya/hubot-jquery-search
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
