@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2014-10-27T23:59:59+09:00"
+title: hubot-backlog-notification をつくった
+tags: [misc, hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+風邪で一日ダウンしていた。また、[hubot-backlog-notification][gh:bouzuya/hubot-backlog-notification] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 106 日目。
+
+hubot-backlog-notification は Backlog の通知を表示する個人向け Hubot スクリプト。
+
+個人向けの Hubot スクリプトを増やしていくつもり。この土日で atom-hubot-b がマシになったので、ローカル Hubot をそろそろ本格的に動かそうかと。
+
+Qiita は今日も更新なし。contribution をカウントするスクリプトは、ずっと忘れている。
+
+[gh:bouzuya/hubot-backlog-notification]: https://github.com/bouzuya/hubot-backlog-notification
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
