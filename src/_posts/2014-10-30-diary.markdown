@@ -1,0 +1,20 @@
+---
+layout: post
+pubdate: "2014-10-30T23:59:59+09:00"
+title: hubot-help-json をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[hubot-help-json][gh:bouzuya/hubot-help-json] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 109 日目。
+
+hubot-help-json は `Robot#helpCommands()` を返すルーティングを定義する Hubot スクリプト。
+
+Twitter のタイムラインで「コマンドの補完ができないのがつらい」というのが流れていた。そもそも、「 Hubot のコマンド」という考えかた自体が本質的にどうなんだというのはあるんだけど、実際問題、共有 Terminal として Hubot を使う人が多いのは事実だと思うし、bash / zsh に比べて補完がなくてつらいよねというのは分かる。結局、クライアント次第ではあるんだけど、実現できるように `Robot#helpCommands()` (hubot help で出ているアレ) を返す API を定義したらいいんじゃないの、ってのがこの Hubot スクリプト。
+
+あとは、クライアント側でリスト出したりしぼりこんだりはしてね、って感じ。肝心なところがないけど、本質的には、Hubot はあくまでもチャットの 1 ユーザー (BOT) なので、補完がどうとか言ってるのがおかしいんだよね。会話ではなくコマンドとして認識されているのがよく分かるね。
+
+Qiita は今日も更新なし。contribution をカウントするスクリプトは、まだまだまだずっと忘れている。
+
+[gh:bouzuya/hubot-help-json]: https://github.com/bouzuya/hubot-help-json
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
