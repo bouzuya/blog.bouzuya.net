@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2014-10-31T23:59:59+09:00"
-title: FaithCreates Inc. 寿司会 #1 にいった & hubot-qiita-contribution をつくった
+title: 'FaithCreates Inc. 寿司会 #1 にいった & hubot-qiita-contribution をつくった'
 tags: [misc, hubot, hubot-scripts, hubot-script-per-day]
 minutes: 25
 pagetype: posts
