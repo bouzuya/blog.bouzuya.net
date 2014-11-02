@@ -1,0 +1,62 @@
+---
+layout: post
+pubdate: "2014-11-01T23:59:59+09:00"
+title: 今週のふりかえり(44) & hubot-cookpad をつくった
+tags: ['looking back', 'hubot', 'hubot-adapters', 'hubot-script-per-day']
+minutes: 40
+pagetype: posts
+---
+今週のふりかえり。2014-10-27/2014-11-01 の一週間をふりかえる。あとは [1 日 1 Hubot スクリプト][hubot-script-per-day]の 111 日目の [hubot-cookpad][gh:bouzuya/hubot-cookpad] について書く。
+
+今週で 44 週目。今年も残すところ 8 週というところでルールを変えることにした。ふりかえりを日曜日から土曜日にずらすという点を変えた。意図としては日曜日の夜は、ふりかえりというよりは明日から仕事がはじまる、一週間がはじまるという気持ちになっていて、とても、先週をふりかえろうという状況ではないことに、43 週目にして気がついたからだ。そういう意味では日曜からはじまるカレンダーの表記は正しいのかもしれない。
+
+そういうわけで今週は 7 日分ではなく 6 日分のふりかえり。
+
+- [2014-10-31 FaithCreates Inc. 寿司会 #1 にいった & hubot-qiita-contribution をつくった][2014-10-31]
+- [2014-10-30 hubot-help-json をつくった][2014-10-30]
+- [2014-10-29 hubot-namaeranking をつくった][2014-10-29]
+- [2014-10-28 hubot-jquery-search をつくった][2014-10-28]
+- [2014-10-27 hubot-backlog-notification をつくった][2014-10-27]
+- [2014-10-26 今週のふりかえり(43) & hubot-cookpad をつくった][2014-10-26]
+
+体調不良で月曜日は欠勤。今週は短いはずなのだけど、木曜日の寿司会 #1 もあってひどく疲れている。金曜日はグラタンをつくったし、土曜日はだまし絵展IIに行ってきた。いそがしい。
+
+Hubot スクリプトはいつもどおり。今週の出来事としては、どこまで続けるべきなのだろうか迷っていたところ、 Ruboty で 1 日 1 Ruboty スクリプトを書いていた @block_given? さんの 31 日でやめます宣言があった。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p><a href="https://twitter.com/bouzuya">@bouzuya</a> わたしは31日続いたところでやめます。1日1人でできることが感覚的につかめたのと、それなりに色々なこと試せたので。1日1つだとボリュームが限定されるのでスパンを変えて別なことやろうかなと…</p>&mdash; block_given? (@block_given) <a href="https://twitter.com/block_given/status/527371410306367488">October 29, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+いろいろと思うところがある。
+
+ぼくは 100 日というやめどきを既に過ぎてしまっているし、365 日の半分である 180 日でやめるというのもなんとなく中途半端だ。年末まで続けるのは時期としては良いが、成果物としての評価はどうだろうか。量が質になるかという挑戦なので、中途半端な量ではいけないだろう。「1年間スクリプトを毎日作りつづけた」という事実がほしい。
+
+一方で @block_given? さんの書くことももっともだし、ぼく自身、1 日でできる範囲の限界は強く感じている。新しいものをつくることに必死で、つくったもののバージョンアップの余裕もないし、違うものに挑戦する余裕もない。繰り返しつくることの良さは分かったので、もうすこし柔軟に違う題材や違う期間。特に業務に役立つような領域でやりたいなあ。
+
+- K
+  - 週のふりかえりをかきつづける。
+  - Hubot スクリプトをつくりつづける。
+  - はやねはやおきをつづける。
+  - bubot & hubot-b & atom-hubot-b を更新しつづける(公開できていないが)。
+  - つくった ( 料理 ) をつづける(まだ書けていないが)。
+- P
+  - ひとり読書会『[Ruby on Rails Guides][hitoridokusho/books/railsguides]』をつづけられていない。
+  - Arduino Tutorial をつづけられていない。
+  - Hubot スクリプトのまとめページをつくれていない。
+  - Hubot で何を話すか考えていない。
+  - hubot-gistlog をつくれていない。
+  - Raspberry Pi をためせていない。
+  - TypeScript リファレンスをよめていない。 (Ruby on Rails Guides の後に読んでいく)
+  - 英文法の学習が遅れている。(24/104)
+- T
+  - Hubot スクリプトのまとめページをつくる。
+  - ガウディ本 (CTMCP) の読書会をはじめる
+
+[2014-10-31]: http://blog.bouzuya.net/2014/10/31/
+[2014-10-30]: http://blog.bouzuya.net/2014/10/30/
+[2014-10-29]: http://blog.bouzuya.net/2014/10/29/
+[2014-10-28]: http://blog.bouzuya.net/2014/10/28/
+[2014-10-27]: http://blog.bouzuya.net/2014/10/27/
+[2014-10-26]: http://blog.bouzuya.net/2014/10/26/
+[hitoridokusho/books/railsguides]: http://guides.rubyonrails.org/
+[gh:bouzuya/hubot-cookpad]: https://github.com/bouzuya/hubot-cookpad
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
