@@ -1,0 +1,20 @@
+---
+layout: post
+pubdate: "2014-11-05T23:59:59+09:00"
+title: hubot-oreilly をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[hubot-oreilly][gh:bouzuya/hubot-oreilly] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 114 日目。
+
+hubot-oreilly は oreilly から本をランダムで一冊返す Hubot スクリプト。
+
+関係ないけど、oreilly から今度出る『 Web API: The Good Parts 』がほしいな。紙の本ってのが残念だけど。
+
+fgb コマンドの調整。動きはほとんど問題ない。あとは実行前の確認やチェックを強化する。明日はリリースの予定。
+
+体調が悪いし、なんだか眠い。はやめに寝よう。
+
+[gh:bouzuya/hubot-oreilly]: https://github.com/bouzuya/hubot-oreilly
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
