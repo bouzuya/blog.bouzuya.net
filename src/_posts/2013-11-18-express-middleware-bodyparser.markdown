@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-11-18T23:59:59+09:00"
 title: express/connectミドルウェアbodyParserを読む
 tags: [javascript]
+minutes: 60
 pagetype: posts
 ---
 [express][npm/express]/[connect][npm/connect]のミドルウェアを読んでいく。今回はbodyParserミドルウェアを読んでいく。

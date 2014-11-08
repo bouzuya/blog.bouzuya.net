@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-05-22T23:59:59+09:00"
 title: 疲れた
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 楽しむには体力が必要で、ぼくは疲れてしまった。

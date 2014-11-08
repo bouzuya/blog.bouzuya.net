@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-06-10T23:31:16+09:00"
 title: Androidハッカソン@大阪に参加した
 tags: [misc]
+minutes: 12
 pagetype: posts
 ---
 『[Androidハッカソン@大阪](http://atnd.org/events/28658)』に参加してきた。今回が初Android、初ハッカソンだった。記録というよりは感想を書く。

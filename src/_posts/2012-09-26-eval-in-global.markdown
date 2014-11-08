@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-09-26T22:12:10+09:00"
 title: JScriptでglobalなevalできない
 tags: [jscript]
+minutes: 7
 pagetype: posts
 ---
 わけあってサクラエディタのマクロを書いている。

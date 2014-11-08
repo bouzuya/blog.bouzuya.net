@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-06-21T23:54:15+09:00"
 title: 今日もカレー
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 まさか本当に毎日カレーとは……。

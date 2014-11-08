@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-03-23T23:12:03+09:00"
 title: 寿司屋に行ったことを回りくどく説明する
 tags: [misc]
+minutes: 29
 pagetype: posts
 ---
 ひさしぶりにお寿司を食べた。

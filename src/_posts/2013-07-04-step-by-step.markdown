@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-07-04T23:59:59+09:00"
 title: 日付は変わっているけれど
 tags: [misc]
+minutes: 5
 pagetype: posts
 ---
 雨。そして残業。ぼんやりしていたら 1:30 。だめだなあ。

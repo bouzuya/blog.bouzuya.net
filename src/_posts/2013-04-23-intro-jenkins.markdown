@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-04-23T23:59:59+09:00"
 title: Jenkins を説明する場合
 tags: [misc]
+minutes: 5
 pagetype: posts
 ---
 「Jenkins って何」と聞かれた場合に、ぼくは「GUI 付きのタスクスケジューラ」と説明している。

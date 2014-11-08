@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-18T23:32:42+09:00"
 title: gitのマスターリポジトリの引越し
 tags: [misc]
+minutes: 20
 pagetype: posts
 ---
 gitのマスターリポジトリをSambaサーバー上の共有ディレクトリに移動し、それをマウントして、見せるようにした。

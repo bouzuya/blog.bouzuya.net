@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-10-21T23:59:59+09:00"
 title: わがまま
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 わがままなくらいなら可愛いのかもしれないが、はかどらないことこの上ない。

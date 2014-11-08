@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-09T23:59:59+09:00"
 title: Subversion からエクスポートして
 tags: [java]
+minutes: 5
 pagetype: posts
 ---
 Java で Subversion から .java ファイルをエクスポートして、エクスポートディレクトリにある .java ファイルに対応する .class ファイルを、既にコンパイルの終わっている別のディレクトリからコピーしてくるバッチ処理をするコードを書いた。[bouzuya/ExportBatch][bouzuya/ExportBatch] に公開している。

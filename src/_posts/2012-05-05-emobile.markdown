@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-05-05T23:36:32+09:00"
 title: EMOBILE GL01Pが届いた
 tags: [misc]
+minutes: 60
 pagetype: posts
 ---
 EMOBILE GL01Pが届いた。実を言うと届いたのは2日前である。昨日、そして今日の2日間で試していた。まだ2日ではあるが、試した感想などを書いておきたい。

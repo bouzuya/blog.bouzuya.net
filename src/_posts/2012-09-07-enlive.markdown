@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-09-07T23:45:01+09:00"
 title: enliveのおさらい
 tags: [enlive, clojure]
+minutes: 13
 pagetype: posts
 ---
 [cgrand/enlive](https://github.com/cgrand/enlive)をおさらいしている。セレクタの書きかたや`deftemplate`や`defsnippet`あたりの使いかたなどを見直している。

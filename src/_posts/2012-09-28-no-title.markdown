@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-09-28T23:59:59+09:00"
 title: 朝起きたら連絡先が増えていた
 tags: [misc]
+minutes: 30
 pagetype: posts
 ---
 2日続けて日付を戻す。飲み会。こんなペースだとお金がどんどん減って体重がどんどん増えるよ。

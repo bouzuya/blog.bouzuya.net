@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-03-14T23:29:12+09:00"
 title: 情けは人のためならず
 tags: [diary]
+minutes: 15
 pagetype: posts
 ---
 同僚とJava勉強会をした。実際はぼくの勉強になっていないので「同僚のJava勉強に付き合った」と書くのが正しい。

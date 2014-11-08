@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-04-15T23:53:58+09:00"
 title: Nexus7 が届いた
 tags: [misc]
+minutes: 3
 pagetype: posts
 ---
 Nexus7 が届いた。開けにくいパッケージに「 ASUS はいまいちイケてない」なんて文句をつぶやいた

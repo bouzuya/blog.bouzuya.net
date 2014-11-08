@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-09T23:01:04+09:00"
 title: GitHub Pages がビルドしてくれない
 tags: [misc]
+minutes: 3
 pagetype: posts
 ---
 GitHub Pages がビルドしてくれなくなった。

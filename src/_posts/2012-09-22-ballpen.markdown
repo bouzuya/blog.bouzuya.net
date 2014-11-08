@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-09-22T22:01:00+09:00"
 title: ボールペンを買いに行く
 tags: [misc]
+minutes: 36
 pagetype: posts
 ---
 今日はボールペンを買いに行った。

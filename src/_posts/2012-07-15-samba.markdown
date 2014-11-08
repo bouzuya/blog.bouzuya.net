@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-15T23:24:10+09:00"
 title: SMBサーバー(Samba)をインストール
 tags: [misc]
+minutes: 30
 pagetype: posts
 ---
 SMBサーバー(Samba)をインストールした。設定ファイルは比較的シンプルなのだけれど、いまひとつ何を設定しているのか分からない状態である。

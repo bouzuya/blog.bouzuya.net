@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-11-22T23:27:14+09:00"
 title: bouzuya icon generatorを作った
 tags: [javascript]
+minutes: 10
 pagetype: posts
 ---
 bouzuya icon generatorを作った。

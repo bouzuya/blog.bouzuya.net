@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-05-19T23:52:03+09:00"
 title: Clojureで郵便番号データを得るスクリプトを書いた
 tags: [clojure]
+minutes: 8
 pagetype: posts
 ---
 [Clojureで郵便番号データを得るスクリプトを書いた](https://github.com/bouzuya/clj-zipcode)。GitHubにリポジトリを作り、スクリプトを置いた。

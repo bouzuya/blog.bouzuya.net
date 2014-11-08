@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-13T23:59:59+09:00"
 title: oikura で DB を読み書きする準備
 tags: [clojure]
+minutes: 3
 pagetype: posts
 ---
 oikura で DB を読み書きする準備をしている。とりあえず固定で delete して insert するようにしてテストだけど書いてみた。あとは今日検証したことを活かしてラッパーを書こう。必要なのは……

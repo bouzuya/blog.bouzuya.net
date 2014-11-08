@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-09-12T23:39:40+09:00"
 title: enliveでサイトを作っている
 tags: [enlive, clojure]
+minutes: 12
 pagetype: posts
 ---
 定時で帰れたのでenliveでサイトを作っている。

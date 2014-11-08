@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-03-26T22:36:16+09:00"
 title: Vimでprefixキーを持つkey mappingについて
 tags: [vim]
+minutes: 55
 pagetype: posts
 ---
 Vimでprefixキーを持つkey mappingについて書く。

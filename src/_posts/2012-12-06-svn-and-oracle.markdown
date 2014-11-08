@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-12-06T23:59:59+09:00"
 title: SubversionとOracle Databaseとの同期
 tags: [misc]
+minutes: 10
 pagetype: posts
 ---
 SubversionとOracle Databaseとの同期について考えている。バージョン管理システムはSubversion以外でも良いし、RDBMSもOracle Database以外でも良い。バージョン管理システムとRDBMSとの間で同期をとりたいのだ。

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-07-13T22:50:54+09:00"
 title: ぼくがモテないのはどう考えてもぼくが悪い
 tags: [misc]
+minutes: 20
 pagetype: posts
 ---
 『[私がモテないのはどう考えてもお前らが悪い][watamote-1]』を読む。不本意ながらマーケティングに踊らされ Kindle にて買う。最新刊([1][watamote-1],[2][watamote-2],[3][watamote-3],[4][watamote-4])まで読み終えた。

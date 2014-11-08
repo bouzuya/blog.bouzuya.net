@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-11-06T23:14:21+09:00"
 title: 10月の体重の推移
 tags: [misc]
+minutes: 15
 pagetype: posts
 ---
 10月の体重の推移について書く。

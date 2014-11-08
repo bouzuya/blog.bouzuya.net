@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-27T23:59:59+09:00"
 title: clojure.data.zip.xml を試す
 tags: [clojure]
+minutes: 14
 pagetype: posts
 ---
 `clojure.data.zip.xml` を使って Clojure で XML を扱った。

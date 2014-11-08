@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-05T10:24:21+09:00"
 title: "Clojure 向けのはてなグラフ API ラッパー『Hatena::Graph API for Clojure』を書いた"
 tags: [clojure]
+minutes: 60
 pagetype: posts
 ---
 [Clojure][clojure] 向けのはてなグラフ API ラッパー『[Hatena::Graph API for Clojure][hatena-graph-api-for-clojure]』を書いた。

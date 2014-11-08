@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-08-20T23:45:27+09:00"
 title: ClojureでMarkdownを使う
 tags: [clojure]
+minutes: 7
 pagetype: posts
 ---
 ClojureでMarkdownを使う。きっとClojure製のMarkdownパーサーはあるのだろうけど、今回はJavaのライブラリ[MarkdownJ](http://code.google.com/p/markdownj/)を使うことにした。簡単にしか使ってないけれど、これでぼくの目的は十分果たせそうなので良しとする。コード全体は[GitHubにclj-ex-mkdとして公開](https://github.com/bouzuya/clj-ex-mkd)している。

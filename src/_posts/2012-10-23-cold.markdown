@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-10-23T23:46:23+09:00"
 title: さむい
 tags: [misc]
+minutes: 7
 pagetype: posts
 ---
 さむくなってきた。

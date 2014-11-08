@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-02-23T09:16:32+09:00"
 title: カンボジアから、そのに
 tags: [misc]
+minutes: 30
 pagetype: posts
 ---
 カンボジアから。三日目(実質二日目)の今日はアンコールトムへ。

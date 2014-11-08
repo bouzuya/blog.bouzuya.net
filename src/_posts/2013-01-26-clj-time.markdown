@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-26T23:59:59+09:00"
 title: clj-time でハマる
 tags: [clojure]
+minutes: 10
 pagetype: posts
 ---
 Clojure 向けの Joda-Time ラッパーである clj-time を使っていて色々ハマった。

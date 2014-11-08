@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-12-15T23:12:16+09:00"
 title: 攻殻機動隊ARISE border:2 Ghost Whispersを観る
 tags: [misc]
+minutes: 17
 pagetype: posts
 ---
 攻殻機動隊ARISE border:2 Ghost Whispersを観る。映画館に行く予定だったのだけれど時間が合わないので、諦めてバンダイチャンネルで購入して観た。結果的には安上がりだし、時間も節約できて良かったと思う。

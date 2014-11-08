@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-09-15T23:40:27+09:00"
 title: 本屋に行く
 tags: [misc]
+minutes: 6
 pagetype: posts
 ---
 本屋に行く。ひさしぶりに。台風による雨の中を。

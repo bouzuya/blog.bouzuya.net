@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-03-09T23:39:41+09:00"
 title: 『ストリートファイターX鉄拳』を購入した
 tags: [game]
+minutes: 15
 pagetype: posts
 ---
 今日は会社からの帰り道に『ストリートファイターX鉄拳』(以下ストクロ)を購入した。

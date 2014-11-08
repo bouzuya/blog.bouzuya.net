@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-02-03T23:16:58+09:00"
 title: VNOTE reader for Clojure をアップデートした
 tags: [clojure]
+minutes: 25
 pagetype: posts
 ---
 [bouzuya/clj-vnote][clj-vnote] を [0.2.0][clj-vnote-0.2.0] にアップデートした。

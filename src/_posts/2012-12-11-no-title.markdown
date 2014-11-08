@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-12-11T23:59:59+09:00"
 title: 携帯を忘れる
 tags: [misc]
+minutes: 2
 pagetype: posts
 ---
 携帯電話を忘れる。お気に入りのスマートフォンを自宅に忘れる。駅に着くまでに気づいたのに、引き返す時間もなかった。

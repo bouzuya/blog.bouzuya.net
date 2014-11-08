@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-01T21:36:11+09:00"
 title: Android 学習 (1)
 tags: [java, android]
+minutes: 12
 pagetype: posts
 ---
 Android 学習の 1 日目。とりあえず、実機と仮想マシンとで Hello World 的なものや電卓を動かす。意外ときちんと動いた。もっとハマりそうなものだけど ADT よくできてる。

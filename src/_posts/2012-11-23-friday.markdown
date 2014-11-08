@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-11-23T23:49:39+09:00"
 title: 仕事を理由に断る
 tags: [misc]
+minutes: 4
 pagetype: posts
 ---
 仕事を理由にいろいろ断る。断ってばかりだと誘われなくなってしまいそうで怖い。

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-12-30T12:12:58+09:00"
 title: bwilike.meを公開した
 tags: [javascript]
+minutes: 16
 pagetype: posts
 ---
 [bwilike.me][]を公開した。bwilike.meはTwitterプロフィールを自動更新するWebサービス。GitHubのアクティビティに基づいて、実際にさわっているプログラミング言語をTwitterプロフィールにlike:として設定してくれる。詳細はリンク先を参照。

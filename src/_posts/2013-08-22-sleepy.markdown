@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-22T23:59:59+09:00"
 title: 乱れ
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 暑いのと筋肉痛がひどくて眠れないので、サイトを見はじめたら、1時をまわっていた。乱れとる。

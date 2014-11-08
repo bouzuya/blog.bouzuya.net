@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-12-31T19:12:01+09:00"
 title: 2013年のふりかえり
 tags: [misc]
+minutes: 32
 pagetype: posts
 ---
 2013年のふりかえり。ふりかえってみよう。2013年はどんな年だったろう。

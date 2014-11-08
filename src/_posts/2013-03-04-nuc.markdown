@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-04T23:12:13+09:00"
 title: NUC が気になる
 tags: [misc]
+minutes: 9
 pagetype: posts
 ---
 昨日も書いたけれど NUC が気になっている。

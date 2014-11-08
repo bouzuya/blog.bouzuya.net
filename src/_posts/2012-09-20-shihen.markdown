@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-09-20T23:29:16+09:00"
 title: シヘン
 tags: [misc]
+minutes: 9
 pagetype: posts
 ---
 そいつらは次々とぼくに襲いかかった。倒したと思ったら次のやつが襲いかかってきた。そいつらをみんなはシヘンと呼んでいる。

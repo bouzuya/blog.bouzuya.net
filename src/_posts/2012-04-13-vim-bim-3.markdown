@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-04-13T22:50:51+09:00"
 title: Vim scriptを3連続で書く
 tags: [vim]
+minutes: 33
 pagetype: posts
 ---
 Vim scriptを3日連続で書く。無理をすれば日記くらいは書ける状態にはなったので、いま試しにbimで日記を書いている。効率がすこぶる悪い。エラーと戦いながら書いている。まだ実用的でないことだけははっきりと分かった。

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-10-02T23:59:59+09:00"
 title: 一度横になったらもうダメだね
 tags: [misc]
+minutes: 10
 pagetype: posts
 ---
 一度横になったらもうダメだね。寝ちゃう。変に疲れているんだよね。

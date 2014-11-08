@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-19T23:38:32+09:00"
 title: こんにちはお仕事
 tags: [misc]
+minutes: 3
 pagetype: posts
 ---
 ハローワークと眼科とに行く。達成感はなし。作業。

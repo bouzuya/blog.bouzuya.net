@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-11-15T23:31:06+09:00"
 title: express-resourceを試す
 tags: [javascript]
+minutes: 60
 pagetype: posts
 ---
 express-resourceを試す。そのメモ。

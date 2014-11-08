@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-31T21:09:06+09:00"
 title: WSH(4)〜VBScriptにおけるDateTime〜
 tags: [wsh]
+minutes: 23
 pagetype: posts
 ---
 WSHの4回目。今日は日付の扱いと、命名規則をガイドラインに準拠させることについて記録しておく。どちらもWSHというよりはVBScriptの範囲である。

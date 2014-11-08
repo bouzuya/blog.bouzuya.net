@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-04-27T23:45:33+09:00"
 title: 『コーディングを支える技術』を読んだ
 tags: [book]
+minutes: 10
 pagetype: posts
 ---
 『[コーディングを支える技術][langbook]』を読んだ。

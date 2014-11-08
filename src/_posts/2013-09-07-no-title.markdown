@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-09-07T22:57:02+09:00"
 title: 秋物を出す
 tags: [misc]
+minutes: 4
 pagetype: posts
 ---
 秋物の衣類を引っ張り出した。出したところ、ほこりでムズムズしてしまって、何もできなくなってしまった。

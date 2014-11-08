@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-11-25T20:56:04+09:00"
 title: 『JUnit実践入門』を読んだ
 tags: [book]
+minutes: 8
 pagetype: posts
 ---
 『[JUnit実践入門](http://amazon.jp/o/ASIN/477415377X/bouzuya-22)』を読んだ。正しくは読んでいる。全20章のうち17章まで読んだ。残りの18〜20章は演習問題になっているので、問題以外の箇所についてはひととおり読んだので、ここでひとつの区切りにするつもり。

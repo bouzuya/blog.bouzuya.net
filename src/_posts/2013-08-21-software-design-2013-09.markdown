@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-21T23:59:59+09:00"
 title: Software Design 2013 09
 tags: [misc]
+minutes: 7
 pagetype: posts
 ---
 ひさびさの寝落ち。3時に目が覚める。携帯とWEB+DB PRESSを持ったまま、うつぶせで寝ていた。

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-02-22T21:55:53+09:00"
 title: 耳栓のすすめ
 tags: [diary]
+minutes: 30
 pagetype: posts
 ---
 ぼくはまっくらで静かな部屋で寝たい。

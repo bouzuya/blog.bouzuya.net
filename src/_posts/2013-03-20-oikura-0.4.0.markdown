@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-20T21:20:01+09:00"
 title: oikura の画面づくり
 tags: [clojure]
+minutes: 5
 pagetype: posts
 ---
 [bouzuya/oikura][bouzuya/oikura] の画面がひとまず動くようになった。まだ検索も登録もつけていないし、画像も都度生成しているので効率が悪い。でも、ぼくひとりが使う分にはこれで十分かもしれない。

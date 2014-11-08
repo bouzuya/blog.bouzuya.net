@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-14T23:24:54+09:00"
 title: Clojure での省略可能引数の書きかた
 tags: [clojure]
+minutes: 12
 pagetype: posts
 ---
 Clojure での省略可能引数の書きかたについて考えてみた。

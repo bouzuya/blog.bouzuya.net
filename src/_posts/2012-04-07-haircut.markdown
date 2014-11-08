@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-04-07T23:05:46+09:00"
 title: 髪を切った
 tags: [misc]
+minutes: 17
 pagetype: posts
 ---
 今日は買い物に行ったり週次の作業を片付けたりしたのだけど、特に書きたいのは髪を切ったことだ。

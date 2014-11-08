@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-08-11T09:38:31+09:00"
 title: Windows環境で分単位のタスクをスケジュールするには
 tags: [misc]
+minutes: 22
 pagetype: posts
 ---
 <ins>[後日、画面から設定する方法や、スクリプトを書いた。](http://bouzuya.github.com/2012/08/12/schtasks-2.html)</ins>

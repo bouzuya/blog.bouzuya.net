@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-18T23:59:59+09:00"
 title: 寝坊に残業
 tags: [misc]
+minutes: 4
 pagetype: posts
 ---
 寝坊した。遅刻はしなかったけれど、朝プロはできず。残業した。月曜日に向けた準備が終わらなくて。体内時計が狂う。否応なしに。

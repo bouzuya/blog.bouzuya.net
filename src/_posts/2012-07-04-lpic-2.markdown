@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-04T21:57:08+09:00"
 title: LPIC-2 4章
 tags: [lpic]
+minutes: 10
 pagetype: posts
 ---
 LPIC-2に向けた勉強をしている。今日は4章である。4章の内容はRAIDおよびLVMについて、である。

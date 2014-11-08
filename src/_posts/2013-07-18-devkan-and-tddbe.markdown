@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-07-18T22:21:17+09:00"
 title: 『今日から始める自動化』に参加した
 tags: [book, misc]
+minutes: 10
 pagetype: posts
 ---
 [DevLOVE関西 今日から始める自動化～自動化入門講座～][devkan]に参加した。遅れて行ったら最前列中央に座らされる罰ゲーム付きでした。

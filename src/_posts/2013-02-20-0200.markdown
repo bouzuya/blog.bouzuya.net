@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-02-20T23:59:59+09:00"
 title: "02:00"
 tags: [misc]
+minutes: 0
 pagetype: posts
 ---
 2 時とか。笑うしかない。

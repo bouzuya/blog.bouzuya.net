@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-02-17T22:57:46+09:00"
 title: Vim Scriptの勉強
 tags: [vim]
+minutes: 23
 pagetype: posts
 ---
 今日はVim Scriptの勉強をした。本当はPostfixの本を読むつもりだったのだけど、友人がVim Scriptのデバッグに苦しんでいるようだったので、それを手伝うことにした。結果としてVim Scriptの勉強になった。

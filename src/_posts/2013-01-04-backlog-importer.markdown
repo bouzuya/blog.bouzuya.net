@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-04T21:25:42+09:00"
 title: Backlog Importer を書いた
 tags: [clojure, backlog]
+minutes: 45
 pagetype: posts
 ---
 [Backlog Importer][backlog-importer] を書いた。

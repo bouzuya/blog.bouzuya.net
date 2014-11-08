@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-04-20T23:59:59+09:00"
 title: 『JUnit実践入門読書会 in 大阪』に参加してきた
 tags: [junitbook]
+minutes: 15
 pagetype: posts
 ---
 [『JUnit実践入門読書会 in 大阪』][doorkeeper]に参加してきた。

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-15T23:47:17+09:00"
 title: Kuromoji で読みを使う
 tags: [clojure, kuromoji]
+minutes: 8
 pagetype: posts
 ---
 [bouzuya/clj-kuromoji-example](https://github.com/bouzuya/clj-kuromoji-example/tree/0.3.0) `0.3.0` を公開した。

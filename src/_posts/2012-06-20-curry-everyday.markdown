@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-06-20T23:59:59+09:00"
 title: 毎日カレー
 tags: [misc]
+minutes: 28
 pagetype: posts
 ---
 終電間際の普通電車での家路。モバイルルーターは電池切れでちかちか光って消えるだけ。スタンドアローン。

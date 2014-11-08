@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-10-06T13:41:03+09:00"
 title: 2013年9月まとめ
 tags: [misc]
+minutes: 60
 pagetype: posts
 ---
 さて、だらだらと先延ばししてきた 9 月まとめをしよう。

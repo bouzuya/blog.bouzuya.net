@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-04-12T22:58:41+09:00"
 title: Vim scriptを毎日書く
 tags: [vim]
+minutes: 15
 pagetype: posts
 ---
 連日Vim scriptを書いている。bimという名前のプラグインを書いている。昨日書いていた日本語入力システムである。全体像についてはそのうちまとめるつもりである。ひとまずSKKに似た変換機構を持つIMで、入力モードはなしというところまでは決まっている。

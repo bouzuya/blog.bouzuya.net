@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-09-24T18:41:46+09:00"
 title: 鮎と蛙
 tags: [misc]
+minutes: 26
 pagetype: posts
 ---
 あるところに水を知らない鮎が居た。

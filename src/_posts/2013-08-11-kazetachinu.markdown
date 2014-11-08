@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-11T23:20:03+09:00"
 title: 映画『風立ちぬ』を観た
 tags: [misc]
+minutes: 13
 pagetype: posts
 ---
 映画『風立ちぬ』を観た。何が言いたいのか分からなかった。堀越二郎リスペクト、なのかな。

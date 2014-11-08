@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-10T23:59:59+09:00"
 title: Amazon から価格を検索する oikura 
 tags: [clojure]
+minutes: 15
 pagetype: posts
 ---
 Amazon から商品の価格を得られる [oikura][bouzuya/oikura] を書いた。

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-09-28T23:59:59+09:00"
 title: JAWS FESTA Kansai 2013 に参加した
 tags: [misc]
+minutes: 30
 pagetype: posts
 ---
 [JAWS FESTA Kansai 2013][jawsfesta] に参加した。JAWS-UG は Japan Amazon Web Services User Group の略で JAWS FESTA は JAWS-UG が企画したイベントである。京セラドーム大阪9Fスカイホールにて開催された。事前登録数トータル800人規模のイベントで、実参加者も600人ちかく居た。

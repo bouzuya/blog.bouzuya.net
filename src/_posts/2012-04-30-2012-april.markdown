@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-04-30T22:17:02+09:00"
 title: 2012年4月
 tags: [misc]
+minutes: 43
 pagetype: posts
 ---
 4月が終わった。これで2012年も1/3が終わってしまった。今月はどんな結果に終わったのか。

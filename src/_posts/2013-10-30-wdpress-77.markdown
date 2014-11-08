@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-10-30T23:19:59+09:00"
 title: WEB+DB PRESS Vol.77 を読む
 tags: [misc]
+minutes: 9
 pagetype: posts
 ---
 WEB+DB PRESS Vol.77 を読む。だらだらと持ち運んでいたので表紙がくるくるになってしまった。一気に読んでしまうのが吉。

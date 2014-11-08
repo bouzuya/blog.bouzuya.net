@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-05-03T23:27:55+09:00"
 title: はてなブックマークでユーザーごとのブックマーク数を得る
 tags: [misc]
+minutes: 5
 pagetype: posts
 ---
 [はてなブックマークでユーザーごとのブックマーク数を得るためにスクレイピングした。](https://gist.github.com/bouzuya/5509002)

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-04-19T23:49:52+09:00"
 title: 積極的に話しかけたら
 tags: [misc]
+minutes: 3
 pagetype: posts
 ---
 積極的に話しかけたら「無理しなくていいよ」と返されて、ぼくは黙りこんでしまった。

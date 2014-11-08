@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-30T23:51:15+09:00"
 title: Amazon VPC を試す
 tags: [aws]
+minutes: 6
 pagetype: posts
 ---
 Amazon VPC を試す。Amazon VPC : Virtual Private Cloud は AWS : Amazon Web Services のひとつで Amazon EC2 : Elastic Compute Cloud のインスタンスをネットワーク管理できるようにしたもの、かな。ここに自宅のネットワーク、端末をごっそり移そうと思っている。勉強がてら。コストが高くつくし、不便もあるんだろうけど、そこは経験かと。

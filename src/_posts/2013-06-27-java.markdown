@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-06-27T21:50:28+09:00"
 title: JUnit の練習など
 tags: [java]
+minutes: 15
 pagetype: posts
 ---
 JUnit の練習などをする。写経はバカにできない、少なくともぼくのようなバカにとっては。

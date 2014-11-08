@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-12-02T23:59:59+09:00"
 title: チャットがほしい
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 チャットがほしい。複数人でできて、ファイルの受け渡しができて、スマホからも使えて、メッセージ受信時に通知がくるやつが。Facebookはなくなってほしい。

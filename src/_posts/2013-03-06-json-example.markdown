@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-06T23:35:09+09:00"
 title: Java JSON のサンプルを公開した
 tags: [java]
+minutes: 4
 pagetype: posts
 ---
 昨日書いた Java JSON のサンプルを [bouzuya/json-example][bouzuya/json-example] として公開した。

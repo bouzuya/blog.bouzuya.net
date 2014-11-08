@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-12-18T23:59:59+09:00"
 title: のどがいたい
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 のどがいたい。調子を崩される寒さ、乾燥。いつもより一枚多く着たのだけどなあ。

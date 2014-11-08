@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-10-18T23:59:59+09:00"
 title: Twilio API 勉強会@大阪に参加した
 tags: [ruby]
+minutes: 17
 pagetype: posts
 ---
 [Twilio API 勉強会@大阪](http://atnd.org/event/E0020002)に参加した。最近はここに書いているとおり Twilio を触っていて、それに関連しての参加という流れ。

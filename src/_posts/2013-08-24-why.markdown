@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-24T23:34:37+09:00"
 title: はきけ
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 理由は分からないけど、吐き気がした。そして、お腹を壊した。なぜ?

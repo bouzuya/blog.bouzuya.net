@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-06-02T23:59:59+09:00"
 title: 『言の葉の庭』を観てきた
 tags: [misc]
+minutes: 20
 pagetype: posts
 ---
 映画『言の葉の庭』を観てきた。

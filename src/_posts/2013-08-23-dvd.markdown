@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-23T23:49:10+09:00"
 title: 東京ゴッドファザーズ観る
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 DVDが出てきた。東京ゴッドファザーズの。で、衝動的に観て。ああ、よくできてるって感動する。気づくとこんな時間。

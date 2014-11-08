@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-10-28T17:58:49+09:00"
 title: WindowsバッチファイルのTips
 tags: [bat]
+minutes: 60
 pagetype: posts
 ---
 予告どおりWindowsバッチについて書く。基礎的な部分から書こうかとも思ったが、すでに多くのサイトで書かれているので、巨人の方に乗る意味で、そちらをまず紹介して、その補足だけしようと思う。

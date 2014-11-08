@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-08-07T22:02:18+09:00"
 title: WSHからWMIを使おうとするも断念
 tags: [wsh, wmi]
+minutes: 7
 pagetype: posts
 ---
 WSHからWMIを使おうとするもうまくいかず断念した。

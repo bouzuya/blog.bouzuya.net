@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-11-15T20:32:16+09:00"
 title: 悪寒
 tags: [misc]
+minutes: 0
 pagetype: posts
 ---
 悪寒がするので早く寝る。

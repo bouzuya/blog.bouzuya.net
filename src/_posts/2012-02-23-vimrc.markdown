@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-02-23T22:08:44+09:00"
 title: .vimrcを1000行にする
 tags: [vim]
+minutes: 18
 pagetype: posts
 ---
 今日は勇気を出してTwitterで[@ShougoMatsu](https://twitter.com/#!/ShougoMatsu)さんに質問をした。

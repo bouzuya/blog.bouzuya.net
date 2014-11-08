@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-15T23:47:34+09:00"
 title: あられ
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 あられをひとふくろ丸々食べた。お腹がふくれて死にそう。ダメだ。

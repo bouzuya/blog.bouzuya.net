@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-12-19T23:47:27+09:00"
 title: Backlog API の仕様
 tags: [clojure]
+minutes: 6
 pagetype: posts
 ---
 [昨日問い合わせた件](/2012/12/18/backlog-api-for-clojure-3/)は、やはり対応してくれなさそう。そりゃそうか。リスクリターン合わないよね。諦めて自作する。

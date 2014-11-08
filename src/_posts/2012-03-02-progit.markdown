@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-03-02T00:01:02+09:00"
 title: 携帯電話(Galaxy S II)で電子書籍(Pro Git)を読む
 tags: [diary]
+minutes: 25
 pagetype: posts
 ---
 電車の行き帰りに携帯電話(Galaxy S II)で電子書籍(Pro Git)を読んでいる。

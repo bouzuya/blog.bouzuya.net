@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-11-27T23:24:56+09:00"
 title: 東京にて
 tags: [misc]
+minutes: 3
 pagetype: posts
 ---
 東京にて宿泊。慣れないベッド、薄暗い部屋。早く帰りたいなあ。おうちが一番。

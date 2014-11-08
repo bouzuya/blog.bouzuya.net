@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-12T23:59:59+09:00"
 title: Logicool k750r が届いた
 tags: [misc]
+minutes: 25
 pagetype: posts
 ---
 Logicool k750r が届いた。クレジットカードのポイントをむだづかいしてキーボードを買った。ワイヤレスソーラーキーボードの Logicool k750r である。

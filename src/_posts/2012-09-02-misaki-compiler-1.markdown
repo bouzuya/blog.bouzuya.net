@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-09-02T23:25:55+09:00"
 title: misakiのcompilerを作る
 tags: [misaki,clojure]
+minutes: 10
 pagetype: posts
 ---
 そろそろ[misaki](http://liquidz.github.com/misaki/)のcompilerを作ろうと思い、動きを調べた。

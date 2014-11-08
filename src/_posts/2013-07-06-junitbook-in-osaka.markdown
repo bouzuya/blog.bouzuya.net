@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-07-06T23:16:58+09:00"
 title: JUnit実践入門読書会 in 大阪に参加した
 tags: [book]
+minutes: 15
 pagetype: posts
 ---
 『[JUnit実践入門読書会 in 大阪][junitbook-in-osaka]』に参加した。

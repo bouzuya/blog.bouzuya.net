@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-22T14:49:25+09:00"
 title: AmazonでMP3をダウンロードした
 tags: [misc]
+minutes: 60
 pagetype: posts
 ---
 [Amazon](http://amazon.co.jp)ではMP3のダウンロード販売をしているらしい。前から存在には気づいていたが利用したことはなかった。今日はそれを利用してみることにした。

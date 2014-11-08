@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-02-19T17:51:50+09:00"
 title: はてなブログにPythonでポストする
 tags: [jekyll, python]
+minutes: 30
 pagetype: posts
 ---
 今日ははてなブログにPythonでポストするスクリプトを書いた。

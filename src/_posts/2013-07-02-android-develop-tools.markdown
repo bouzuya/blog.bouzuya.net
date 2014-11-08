@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-07-02T22:21:20+09:00"
 title: Android 開発環境
 tags: [android]
+minutes: 2
 pagetype: posts
 ---
 Android 開発環境を整える、はずだったのだけれど、ディスク容量が足りなくて泣く。

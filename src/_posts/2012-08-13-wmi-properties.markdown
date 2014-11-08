@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-08-13T20:09:24+09:00"
 title: WMIクエリーを投げるスクリプト
 tags: [wmi]
+minutes: 28
 pagetype: posts
 ---
 WMIスクリプト入門の1〜3部を読み終えた。ざっとだけれど。

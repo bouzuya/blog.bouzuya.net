@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-07T23:10:48+09:00"
 title: 朝プロ
 tags: [misc]
+minutes: 8
 pagetype: posts
 ---
 

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-02T22:42:02+09:00"
 title: 低血圧
 tags: [misc]
+minutes: 30
 pagetype: posts
 ---
 どうやらぼくは低血圧のようだ。

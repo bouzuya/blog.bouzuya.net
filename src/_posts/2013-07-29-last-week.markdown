@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-07-29T23:07:57+09:00"
 title: 調子の悪い月曜日
 tags: [misc]
+minutes: 25
 pagetype: posts
 ---
 「最後の週」は英語でどう表現するのだろう。last week だと先週だしなあ。さて、月曜日だけど調子が悪いので、途中でお休みをいただいた。

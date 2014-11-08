@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-05-28T23:54:22+09:00"
 title: ibus-bim を作りたい
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 ibus-bim を作りたい。vim-bim とコンセプトは同じで、MS-IME ライクな操作かつ、送り位置の指定ができ、SKK 辞書を使用する、そういう IME.

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-04-05T23:59:59+09:00"
 title: 送別会
 tags: [misc]
+minutes: 20
 pagetype: posts
 ---
 送別会のため、仕事を先送りする。今日残らず、明日出るという選択である。

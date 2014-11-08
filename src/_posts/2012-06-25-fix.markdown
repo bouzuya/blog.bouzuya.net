@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-06-25T23:51:20+09:00"
 title: Nailgunを試す
 tags: [clojure]
+minutes: 3
 pagetype: posts
 ---
 Leiningenの起動があまりに遅いので解決策を模索している。NailgunはそのひとつでJava VMの起動を高速化する。起動を高速化するというよりはほとんど常駐させている形である。VimClojureからこのNailgunが使えるはずなのだけれど、うまく行かない。もうすこし試してみてうまく行けば方法などを書く。

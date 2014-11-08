@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-09-21T23:59:59+09:00"
 title: Ubuntu に Windows Azure 向けの Node.js 環境を整える
 tags: [javascript]
+minutes: 15
 pagetype: posts
 ---
 Ubuntu に Windows Azure 向けの Node.js 環境を整える。なんで Azure というつっこみはさておき、Ubuntu でやってみたくなったので試す。

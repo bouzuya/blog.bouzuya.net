@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-06-02T23:19:37+09:00"
 title: サイトデザイン変更
 tags: [web]
+minutes: 28
 pagetype: posts
 ---
 『[bouzuya.github.com](http://bouzuya.github.com/)』のデザインを変更した。

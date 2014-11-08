@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-12-28T23:59:59+09:00"
 title: 買い物とか
 tags: [misc]
+minutes: 5
 pagetype: posts
 ---
 買い物とか。ちょっと遅いクリスマスプレゼントを買うために、神戸や三宮などをうろうろする。

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-05T22:05:13+09:00"
 title: Android 学習 (3)
 tags: [java, android]
+minutes: 15
 pagetype: posts
 ---
 Android 学習の 3 日目。すこしずつだけど慣れてきた感じがする。ただ、全体像がどうにも見えないのは、選んだ書籍が悪いせいな気がしている。

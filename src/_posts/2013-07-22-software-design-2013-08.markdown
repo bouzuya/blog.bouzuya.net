@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-07-22T22:43:16+09:00"
 title: Software Design 2013 08 を読む
 tags: [book]
+minutes: 8
 pagetype: posts
 ---
 『Software Design 2013 08』を読む。今月から Software Design を定期購読することにした。ひさしぶりに読んだのだけれど、ひどく雑多な印象を受けた。雑誌なんてそんなものと割り切って必要な情報だけ取り入れようと思う。

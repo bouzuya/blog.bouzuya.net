@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-19T23:59:59+09:00"
 title: 終わらない
 tags: [misc]
+minutes: 2
 pagetype: posts
 ---
 終わらないので終わりにする。何やら数日前にも似たようなことを書いた気がする。明日は技術検証かな。

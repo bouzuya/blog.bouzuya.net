@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-12-05T23:59:59+09:00"
 title: dotfilesを公開した
 tags: [misc]
+minutes: 5
 pagetype: posts
 ---
 [bouzuya/dotfiles][]を公開した。

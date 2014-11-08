@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-23T23:51:24+09:00"
 title: oikura の properties 読み込み対応
 tags: [clojure]
+minutes: 5
 pagetype: posts
 ---
 Tomcat へのデプロイのため oikura に地味な修正をした。

@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-11-12T22:56:26+09:00"
 title: npmは良いものだ
 tags: [javascript]
+minutes: 23
 pagetype: posts
 ---
 現状のぼくのNode.jsのプロジェクトのはじめかたをメモしておく。あとで読み返したときに成長を感じるためだけのものなので、間違っても参考にはしないように。

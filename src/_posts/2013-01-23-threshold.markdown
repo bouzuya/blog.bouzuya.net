@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-23T23:59:59+09:00"
 title: しきい値を上げてはいけない
 tags: [misc]
+minutes: 4
 pagetype: posts
 ---
 帰った。

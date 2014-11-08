@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-28T06:34:59+09:00"
 title: 早起きした
 tags: [misc]
+minutes: 10
 pagetype: posts
 ---
 早起きした。特別早いわけではなくて、以前起きていた時間に起きただけで、最近起きている時間が遅すぎるだけである。

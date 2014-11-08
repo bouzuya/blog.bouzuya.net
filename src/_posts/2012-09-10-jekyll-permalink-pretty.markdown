@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-09-10T23:28:03+09:00"
 title: Jekyllのpermalinkオプションのprettyに気づく
 tags: [jekyll]
+minutes: 13
 pagetype: posts
 ---
 今日、お昼休みにJekyllのソースコードを追っていたら、permalinkオプションの存在に気づく。

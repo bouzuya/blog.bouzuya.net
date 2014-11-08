@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-05T23:15:33+09:00"
 title: Excelアドインを作成する
 tags: [excel]
+minutes: 17
 pagetype: posts
 ---
 ほんの数日前まで知らなかったのだけれど、Excelマクロはアドインとして登録することができる。

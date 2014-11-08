@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-08-08T21:55:38+09:00"
 title: 川を歩く
 tags: [misc]
+minutes: 4
 pagetype: posts
 ---
 あまりはかどっていないのだけれど、気晴らしは欠かさない。

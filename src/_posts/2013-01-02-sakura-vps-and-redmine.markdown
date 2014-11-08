@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-01-02T23:29:56+09:00"
 title: さくらVPSでRedmineを動かす
 tags: [misc]
+minutes: 20
 pagetype: posts
 ---
 [Backlog][] にふれたことで、ぼくの中でのバグトラッキングシステム (BTS) がにわかに盛り上がっている。BTS についての知識や経験を得たいと考えている。

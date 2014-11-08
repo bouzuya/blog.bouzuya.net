@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-11-16T23:59:59+09:00"
 title: 落日
 tags: [music]
+minutes: 21
 pagetype: posts
 ---
 東京事変の『落日』を聞きながら、ぼんやりとしている。

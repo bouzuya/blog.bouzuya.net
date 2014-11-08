@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-12-26T00:56:02+09:00"
 title: 生のADO.NETのコードサンプル
 tags: [ado.net]
+minutes: 10
 pagetype: posts
 ---
 遅いのがまずいなら、早くすれば良いのではないか。連続して今日の分の記録。

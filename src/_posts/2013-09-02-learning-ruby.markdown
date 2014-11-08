@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-09-02T23:28:46+09:00"
 title: 初めてのRuby
 tags: [ruby]
+minutes: 6
 pagetype: posts
 ---
 『初めてのRuby』を読み進めている。文法事項の面白そうなところだけをかじることを目的としているので3日で読む予定。今日はその2日目。

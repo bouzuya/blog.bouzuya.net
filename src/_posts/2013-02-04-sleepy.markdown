@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-02-04T23:56:26+09:00"
 title: 眠い
 tags: [misc]
+minutes: 1
 pagetype: posts
 ---
 しばしば書いているけれど、ときどきものすごく眠い日がある。今日はその日。

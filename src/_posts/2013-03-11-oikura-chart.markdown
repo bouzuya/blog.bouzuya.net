@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-03-11T23:59:59+09:00"
 title: JFreeChart を試す
 tags: [clojure]
+minutes: 5
 pagetype: posts
 ---
 昨日の oikura の続き。グラフの出力について調べる。 [JFreeChart][jfreechart] を Clojure から使ってみる。今日は帰りも遅かったので、とりあえず写経。こんな感じのグラフが出来た。

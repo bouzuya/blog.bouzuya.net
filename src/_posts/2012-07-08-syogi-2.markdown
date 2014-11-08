@@ -3,6 +3,7 @@ layout: post
 pubdate: "2012-07-08T22:41:21+09:00"
 title: 将棋をさす。その2
 tags: [misc]
+minutes: 13
 pagetype: posts
 ---
 友人と将棋をさした。[ひとつきぶりの再戦](http://bouzuya.github.com/2012/06/03/syogi.html)である。戦績は2戦2勝。うち1戦は角飛車落ちでの勝利。ぼくが上手なわけではなく、友人が下手なのである。

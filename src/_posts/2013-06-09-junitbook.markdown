@@ -3,6 +3,7 @@ layout: post
 pubdate: "2013-06-09T23:59:59+09:00"
 title: JUnit 実践入門読書会に参加した
 tags: [misc]
+minutes: 5
 pagetype: posts
 ---
 JUnit 実践入門読書会に参加した。といっても昨日、いや一昨日のことだけれど。
