@@ -22,4 +22,5 @@ Qiita の今日の更新はなし。contribution をカウントするスクリ�
 
 [backlog-assign]: http://synthsky.com/backlog-assign/
 [gh:bouzuya/hubot-backlog-assign]: https://github.com/bouzuya/hubot-backlog-assign
+[gh:bouzuya/hubot-pr]: https://github.com/bouzuya/hubot-pr
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
