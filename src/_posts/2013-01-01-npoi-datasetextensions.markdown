@@ -3,6 +3,8 @@ layout: post
 pubdate: "2013-01-01T23:10:09+09:00"
 title: NPOI.DataSetExtensions を公開した
 tags: [csharp, dotnet]
+minutes: 27
+pagetype: posts
 ---
 [GitHub][] に [bouzuya/NPOI.DataSetExtensions][] を公開した。
 
@@ -21,4 +23,3 @@ tags: [csharp, dotnet]
 [NPOI]: http://npoi.codeplex.com/
 [Apache POI]: http://poi.apache.org/
 [MonoDevelop]: http://monodevelop.com/
-

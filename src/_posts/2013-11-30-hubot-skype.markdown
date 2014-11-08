@@ -3,6 +3,8 @@ layout: post
 pubdate: "2013-11-30T23:59:59+09:00"
 title: HUBOTとSkypeとを連携させる
 tags: [javascript ]
+minutes: 12
+pagetype: posts
 ---
 [HUBOT][github/hubot]とSkypeとを連携させる。連携以前にHUBOTを導入してさえないのだけれど。
 
@@ -22,4 +24,3 @@ HUBOTの運用について考えているのだけれど、実際問題Jenkins�
 
 [github/hubot]: https://github.com/github/hubot
 [netpro2k/hubot-skype]: https://github.com/netpro2k/hubot-skype
-
