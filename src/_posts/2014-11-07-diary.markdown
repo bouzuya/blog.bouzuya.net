@@ -1,0 +1,22 @@
+---
+layout: post
+pubdate: "2014-11-07T23:59:59+09:00"
+title: hubot-pr-fc をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[hubot-pr-fc][gh:bouzuya/hubot-pr-fc] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 116 日目。
+
+hubot-pr-fc は GitHub の PR をリスト / マージする Hubot スクリプト。ぼくが [2014-08-12][] につくった [hubot-pr][gh:bouzuya/hubot-pr] をフォークした。
+
+FaithCreates Inc. 向けに Backlog の課題キーに対応している。同じリポジトリでやるのも違う気がしたのでフォークした。課題キーに対応したことで入力が楽になると思う。 FaithCreates Inc. ではチケット管理として Backlog を使っているのだけど、課題キーと GitHub の Issue No とでマージ時によく混乱しているので、できるかぎり Issue No 使わなくて済むように、という配慮。fgb コマンドもそうだけど、小さい配慮でずいぶんストレスが低減される。
+
+ちなみに hubot-pr は業務で使われている Hubot スクリプトで、正直なくなると PR をマージできなくなるので、開発もそうだけど、デプロイもできなくなるし、かなり致命的なことになる。それを置き換えるので意外と勇気が居る。勇気。
+
+また月曜日からためしていく。
+
+[2014-08-12]: http://blog.bouzuya.net/2014/08/12/
+[gh:bouzuya/hubot-pr]: https://github.com/bouzuya/hubot-pr
+[gh:bouzuya/hubot-pr-fc]: https://github.com/bouzuya/hubot-pr-fc
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
