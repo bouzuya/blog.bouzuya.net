@@ -3,7 +3,7 @@ layout: post
 pubdate: "2014-06-15T23:59:59+09:00"
 title: 今週のふりかえり(24)
 tags: ['looking back']
-minutes:
+minutes: 25
 pagetype: posts
 ---
 今週のふりかえり。2014-06-02/2014-06-08 の一週間をふりかえる。

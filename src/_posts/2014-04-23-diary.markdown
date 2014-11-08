@@ -3,8 +3,7 @@ layout: post
 pubdate: "2014-04-23T23:59:59+09:00"
 title: 無題
 tags: [misc]
-minutes: 
+minutes: 1
 pagetype: posts
 ---
 ひどくつかれている。既に借金のある人から保証人になってくれと頼まれて困っている、そんなことを相談されて、論外だ、と一蹴した。
-

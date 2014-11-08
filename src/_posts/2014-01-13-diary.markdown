@@ -3,7 +3,7 @@ layout: post
 pubdate: "2014-01-13T23:40:57+09:00"
 title: SPA-with-Backboneをためした
 tags: [javascript, backbone.js]
-minutes: 
+minutes: 10
 pagetype: posts
 ---
 [SPA-with-Backbone](https://github.com/mitsuruog/SPA-with-Backbone)をためした。これはBackbone.jsでSPA:Single-Page Applicationをつくるチュートリアル。[http://mawatari.jp/archives/roadmap-for-backbonejs-beginners](http://mawatari.jp/archives/roadmap-for-backbonejs-beginners)経由で知り、Backbone.jsの学習のために取り組むことにした。
@@ -17,4 +17,3 @@ pagetype: posts
 予想より時間がかかってしまって、本来やりたいところまでいけなかったけど、まあ仕方ないか。
 
 今日で連休も終わりか。明日から一週間がんばろう。
-

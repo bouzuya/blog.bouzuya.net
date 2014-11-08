@@ -3,7 +3,7 @@ layout: post
 pubdate: "2014-04-06T22:29:46+09:00"
 title: 今週のふりかえり(14)
 tags: ['looking back']
-minutes: 
+minutes: 17
 pagetype: posts
 ---
 今週のふりかえり。2014-03-31/2014-04-06の一週間をふりかえる。
@@ -30,4 +30,3 @@ GitHubでの運用フローをいろいろためしてみて、いまはBacklog�
   - 週頭にhubot-scripts/料理を片づける
   - bwilike.meの新バージョンを公開する
   - 年目標のてこ入れを考える
-

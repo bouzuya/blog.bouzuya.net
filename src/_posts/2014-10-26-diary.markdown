@@ -3,7 +3,7 @@ layout: post
 pubdate: "2014-10-26T23:59:59+09:00"
 title: 今週のふりかえり(43) & hubot-bouzuya をつくった
 tags: ['looking back', 'hubot', 'hubot-adapters', 'hubot-script-per-day']
-minutes:
+minutes: 20
 pagetype: posts
 ---
 今週のふりかえり。2014-10-19/2014-10-25 の一週間をふりかえる。あとは [1 日 1 Hubot スクリプト][hubot-script-per-day]の 105 日目の [hubot-bouzuya][gh:bouzuya/hubot-bouzuya] について書く。
