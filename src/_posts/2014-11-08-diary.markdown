@@ -1,0 +1,82 @@
+---
+layout: post
+pubdate: "2014-11-08T14:41:42+09:00"
+title: 今週のふりかえり(45) & hubot-min-per-day をつくった
+tags: ['looking back', 'hubot', 'hubot-adapters', 'hubot-script-per-day']
+minutes: 40
+pagetype: posts
+---
+今週のふりかえり。2014-11-01/2014-11-07 の一週間をふりかえる。今週は 5 週ごとのふりかえりもする。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 117 日目の [hubot-min-per-day][gh:bouzuya/hubot-min-per-day] について書く。
+
+- [2014-11-07 hubot-pr-fc をつくった][2014-11-07]
+- [2014-11-06 hubot-github-notifications をつくった][2014-11-06]
+- [2014-11-05 hubot-oreilly をつくった][2014-11-05]
+- [2014-11-04 hubot-github-issues をつくった][2014-11-04]
+- [2014-11-03 『だまし絵 II』にいった & hubot-my-fav-features をつくった][2014-11-03]
+- [2014-11-02 グラタンをつくった & hubot-umiharakawase をつくった][2014-11-02]
+- [2014-11-01 今週のふりかえり(44) & hubot-cookpad をつくった][2014-11-01]
+
+土曜日ふりかえりの 2 回目。個人的には日曜日より良さそう。このまま続けていく。
+
+月曜日が文化の日で祝日だった。それにしては体がつらい。腰が痛いのと、頭が痛いので、どうにもならない。寒さのせいかな。つらいので早く寝るようにつとめたのだけど、朝はほとんど起きれず、結局、朝活時間に出れたのは 4 日中 1 日だけ、おまけに前日の Hubot スクリプトとブログを書くというありさまだった。
+
+朝活習慣を来週は取り戻すことを大切にしたい。そのためにも、その日の Hubot スクリプトとブログとはその日のうちに終わらせておくこと、早く寝ることを意識したい。
+
+書いていないけれど、昨日 2014-11-07 は、豚汁・野菜炒めをつくったので、そのことを追記しておく。
+
+週途中で決めたことがほとんど実践できなかった。明日できるかなあ……。
+
+- [x] fgb コマンドの FaithCreates Inc. 内へのリリース
+- [x] ガウディ本 (CTMCP) の読書会をはじめる
+- [ ] Qiita contribution の cars プラグインリリース
+- [ ] Hubot スクリプトのまとめページのリリース(0.1.0 で良い)
+- [ ] reveal.js で Hubot 関連のスライドをひとつつくる
+
+- K
+  - 週のふりかえり (土曜日) をかきつづける。
+  - Hubot スクリプトをつくりつづける。
+  - ガウディ本 (CTMCP) の読書会をはじめる。
+  - つくった ( 料理 ) をつづける(まだ書けていないが)。
+- P
+  - bubot & hubot-b & atom-hubot-b を更新できなかった。
+  - はやねはやおきができなかった。
+  - ひとり読書会『[Ruby on Rails Guides][hitoridokusho/books/railsguides]』をつづけられていない。
+  - Arduino Tutorial をつづけられていない。
+  - Hubot スクリプトのまとめページをつくれていない。
+  - Hubot で何を話すか考えていない。
+  - hubot-gistlog をつくれていない。
+  - Raspberry Pi をためせていない。
+  - TypeScript リファレンスをよめていない。 (Ruby on Rails Guides の後に読んでいく)
+  - 英文法の学習が遅れている。(24/104)
+- T
+  - Hubot スクリプトのまとめページをつくる。
+  - atom-hubot-b を公開する。
+  - トレーニングを再開する。
+
+5 週ごとのふりかえり。前回が [2014-10-19][] なので、厳密には 5 週ごとではないけれど、ふりかえり(N) の N が 5 で割り切れたところでやっておかないと分からなくなりそうなので、今日ふりかえりをする。
+
+https://gist.github.com/bouzuya/c6a5dee52f169d853a59 に 2014-10 月分を追記した。思ったように動けていない感じがある。新しいことをはじめられていないし、既存のことをつづけられていない。体調を崩しているせいもあるかと思う。体がまた弱くなっている。鍛えよう。
+
+今年の目標への取り組みが止まっている。
+
+よんだについては、ガウディ本の読書会スタートが前向きで良い。
+
+つくったでは Web サービス / Android アプリケーションをつくれていないのだけど、このペースで Hubot スクリプトをつくっているので仕方ない感じもある。どこかで Hubot をやめてそちらにスイッチしたほうがいい気はする。今年いっぱいで切ってしまおうか。
+
+よし。目の前のことからやっていこう。
+
+<ins>追記: このあと、blog.bouzuya.net の API を hubot-min-per-day のために修正したところで調子が悪くなって倒れた。</ins>
+
+hubot-min-per-day は blog.bouzuya.net (旧タイトル 15 min/d) の書くのにかかった時間を表示する Hubot スクリプト。いま調べたら 12 min/d だった。思ったより短い。あともうすぐ 1000 日になる。
+
+[2014-10-19]: http://blog.bouzuya.net/2014/10/19/
+[2014-11-07]: http://blog.bouzuya.net/2014/11/07/
+[2014-11-06]: http://blog.bouzuya.net/2014/11/06/
+[2014-11-05]: http://blog.bouzuya.net/2014/11/05/
+[2014-11-04]: http://blog.bouzuya.net/2014/11/04/
+[2014-11-03]: http://blog.bouzuya.net/2014/11/03/
+[2014-11-02]: http://blog.bouzuya.net/2014/11/02/
+[2014-11-01]: http://blog.bouzuya.net/2014/11/01/
+[hitoridokusho/books/railsguides]: http://guides.rubyonrails.org/
+[gh:bouzuya/hubot-min-per-day]: https://github.com/bouzuya/hubot-cookpad
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
