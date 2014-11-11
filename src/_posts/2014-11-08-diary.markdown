@@ -78,5 +78,5 @@ hubot-min-per-day は blog.bouzuya.net (旧タイトル 15 min/d) の書くの�
 [2014-11-02]: http://blog.bouzuya.net/2014/11/02/
 [2014-11-01]: http://blog.bouzuya.net/2014/11/01/
 [hitoridokusho/books/railsguides]: http://guides.rubyonrails.org/
-[gh:bouzuya/hubot-min-per-day]: https://github.com/bouzuya/hubot-cookpad
+[gh:bouzuya/hubot-min-per-day]: https://github.com/bouzuya/hubot-min-per-day
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
