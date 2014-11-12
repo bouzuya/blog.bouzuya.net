@@ -1,0 +1,16 @@
+---
+layout: post
+pubdate: "2014-11-09T23:59:59+09:00"
+title: hubot-search-bbn-by-min をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 3
+pagetype: posts
+---
+風邪でダウン 1 日目。
+
+あとからだけど [hubot-search-bbn-by-min][gh:bouzuya/hubot-search-bbn-by-min] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 118 日目。
+
+hubotsearch-bbn-by-min は blog.bouzuya.net から min で検索する Hubot スクリプト。使えるものは使おう。
+
+[gh:bouzuya/hubot-search-bbn-by-min]: https://github.com/bouzuya/hubot-search-bbn-by-min
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
