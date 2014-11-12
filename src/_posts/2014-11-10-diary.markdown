@@ -1,0 +1,28 @@
+---
+layout: post
+pubdate: "2014-11-10T23:59:59+09:00"
+title: hubot-bbn-min-graph をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+風邪でダウン 2 日目。
+
+あとから更新。
+
+せっかくの日曜日に風邪で倒れて、今日、月曜も続けて休み。朝、熱を測ったら 39 ℃とかあって、体温計の故障を疑った。
+
+昨日も同じだけれど、症状は、せきやくしゃみはほとんどなく、のどの痛み、全身の倦怠感、悪寒、発熱だった。
+
+医者に行こうか迷ったのだけど「さすがに 2 日休めば治るだろう」とたかをくくって、いや、正しくはまともに身動きをとれない状態だった。「熱ってのは、熱くて苦しいわけじゃなくて、気温と体温とで比べると普段より体温が高いわけだから本人には相対的に普段より気温が低く感じる、だから寒くて苦しいんだ」とか、そんなことをぐるぐると考えながらガタガタと震えていた。
+
+あんまり薬を飲まないからか、ぼくにはどうやら市販の風邪薬がそこそこ効いていたように思う。薬を飲んでからしばらくすると、熱が 1 ℃ほど下がって、体もずいぶんと楽になった。きれるとつらくて、食事を(食後の薬のために)求めた。食欲があったのは良いことだった。
+
+1 日寝て治らない風邪というのは珍しいことで、母から「インフルエンザだったらどうするんだ、病院へ行け」とせっつかれてしまった。
+
+あとからだけど [hubot-bbn-min-graph][gh:bouzuya/hubot-bbn-min-graph] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 119 日目。
+
+hubot-bbn-min-graph は blog.bouzuya.net の min を棒グラフで表示で表示する Hubot スクリプト。
+
+[gh:bouzuya/hubot-bbn-min-graph]: https://github.com/bouzuya/hubot-bbn-min-graph
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
