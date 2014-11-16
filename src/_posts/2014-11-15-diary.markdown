@@ -1,0 +1,61 @@
+---
+layout: post
+pubdate: "2014-11-15T23:59:59+09:00"
+title: 今週のふりかえり(46) & hubot-taki をつくった
+tags: ['looking back', 'hubot', 'hubot-adapters', 'hubot-script-per-day']
+minutes: 30
+pagetype: posts
+---
+今週のふりかえり。2014-11-08/2014-11-15 の一週間をふりかえる。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 124 日目の [hubot-taki][gh:bouzuya/hubot-taki] について書く。
+
+- [2014-11-14 もやし鍋をつくった & hubot-aws-quiz をつくった][2014-11-14]
+- [2014-11-13 hubot-s3-size をつくった][2014-11-13]
+- [2014-11-12 hubot-role-table をつくった][2014-11-12]
+- [2014-11-11 病院と職場へいった & hubot-bbn-weekly-stats をつくった][2014-11-11]
+- [2014-11-10 hubot-bbn-min-graph をつくった][2014-11-10]
+- [2014-11-09 hubot-search-bbn-by-min をつくった][2014-11-09]
+- [2014-11-08 今週のふりかえり(45) & hubot-taki をつくった][2014-11-08]
+
+今週は日曜日・月曜日の 2 日間を丸々寝込んでいた。その前後も体調不良でふらふらしていた。結果として、やりたいことがあまり進んでいないし、はやねはやおきはグダグダだし、日記は書いたけど、 Hubot スクリプトが上がらないので更新できない、などなどの問題が山積み。
+
+先週の土曜日の時点で、blog.bouzuya.net に minutes データを付け加えたので、それを使った Hubot スクリプトをせこせこ書いた。
+
+あとは Qiita に書いたのだけど、Hubot の権限まわりを見なおした。 hubot-auth の現状とその使い方について簡単に書いた。[Hubot の標準的な権限管理 (hubot-auth)](http://qiita.com/bouzuya/items/76165b32705e82e2f7c4) 合わせて、[hubot-pr-fc][gh:bouzuya/hubot-pr-fc] にすこし手を入れて、権限チェックを加えた。
+
+ひとり読書会 (ガウディ本) も 2 回を実施。順調に進んでいる。
+
+毎週の料理はここ最近うまく習慣化できている。他人を巻き込むほうが習慣化しやすい気がする。
+
+- K
+  - 週のふりかえり (土曜日) をかきつづける。
+  - Hubot スクリプトをつくりつづける ( 1 日分遅れているけど )。
+  - ガウディ本 (CTMCP) の読書会をつづける。
+  - つくった ( 料理 ) をつづける。
+- P
+  - bubot & hubot-b & atom-hubot-b を更新できなかった。
+  - はやねはやおきができなかった。
+  - ひとり読書会『[Ruby on Rails Guides][hitoridokusho/books/railsguides]』をつづけられていない。
+  - Arduino Tutorial をつづけられていない。
+  - Hubot スクリプトのまとめページをつくれていない。
+  - Hubot で何を話すか考えていない。
+  - hubot-gistlog をつくれていない。
+  - Raspberry Pi をためせていない。
+  - TypeScript リファレンスをよめていない。 (Ruby on Rails Guides の後に読んでいく)
+  - 英文法の学習が遅れている。(24/104)
+- T
+  - Hubot x ChatOps 勉強会がんばる。
+  - atom-hubot-b を公開する。
+  - トレーニングを再開する
+
+hubot-taki は日本の滝百選からランダムにひとつを表示する Hubot スクリプト。画像サイズが小さいのが悲しい。しかし、滝は良いものだ。
+
+[2014-11-14]: http://blog.bouzuya.net/2014/11/14/
+[2014-11-13]: http://blog.bouzuya.net/2014/11/13/
+[2014-11-12]: http://blog.bouzuya.net/2014/11/12/
+[2014-11-11]: http://blog.bouzuya.net/2014/11/11/
+[2014-11-10]: http://blog.bouzuya.net/2014/11/10/
+[2014-11-09]: http://blog.bouzuya.net/2014/11/09/
+[2014-11-08]: http://blog.bouzuya.net/2014/11/08/
+[gh:bouzuya/hubot-pr-fc]: https://github.com/bouzuya/hubot-pr-fc
+[gh:bouzuya/hubot-taki]: https://github.com/bouzuya/hubot-taki
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
