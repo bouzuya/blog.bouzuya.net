@@ -1,0 +1,14 @@
+---
+layout: post
+pubdate: "2014-11-18T23:59:59+09:00"
+title: hubot-github-contributions をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 2
+pagetype: posts
+---
+頭が痛い。[hubot-github-contributions][gh:bouzuya/hubot-github-contributions] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 126 日目。
+
+Docker をさわっている。Docker が予想以上に良い。もう VirtualBox とか要らないな。
+
+[gh:bouzuya/hubot-github-contributions]: https://github.com/bouzuya/hubot-github-contributions
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
