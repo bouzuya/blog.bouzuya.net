@@ -1,0 +1,14 @@
+---
+layout: post
+pubdate: "2014-11-20T23:59:59+09:00"
+title: hubot-youtuber をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 3
+pagetype: posts
+---
+鼻水が止まらない。[hubot-youtuber][gh:bouzuya/hubot-youtuber] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 129 日目。
+
+YouTube の CM のユーチューバーの紹介にあわせて「好きなことで、生きていく」がじわじわくる。
+
+[gh:bouzuya/hubot-youtuber]: https://github.com/bouzuya/hubot-youtuber
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
