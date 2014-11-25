@@ -1,0 +1,59 @@
+---
+layout: post
+pubdate: "2014-11-22T23:59:59+09:00"
+title: 今週のふりかえり(47) & hubot-speakerdeck
+tags: ['looking back', 'hubot', 'hubot-adapters', 'hubot-script-per-day']
+minutes: 20
+pagetype: posts
+---
+今週のふりかえり。2014-11-16/2014-11-22 の一週間をふりかえる。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 131 日目の [hubot-speakerdeck][gh:bouzuya/hubot-speakerdeck] について書く。
+
+- [2014-11-21 病院へいった & hubot-nnh をつくった][2014-11-21]
+- [2014-11-20 hubot-youtuber をつくった][2014-11-20]
+- [2014-11-19 hubot-asaichi をつくった][2014-11-19]
+- [2014-11-18 hubot-github-contributions をつくった][2014-11-18]
+- [2014-11-17 hubot-baki をつくった][2014-11-17]
+- [2014-11-16 映画『プリズナーズ』をみた & hubot-kinro をつくった][2014-11-16]
+- [2014-11-15 今週のふりかえり(46) & hubot-speakerdeck をつくった][2014-11-15]
+
+今週は、頭痛からの鼻水、そしてせきで最後は病院というダメなコース。呼吸がつらい状態になっていて、ひどい。先週の熱をともなう風邪に続いて調子が悪い。
+
+そんな状態だけれども [第 1 回 Hubot x ChatOps 勉強会](http://connpass.com/event/9370/) の準備をなんとかした。本来やりたかった 1 日 1 Hubot スクリプトまとめページの作成とか、サイトデザイン刷新とか、スライドの作成慣れとか、できなかったことはあるけれど、ひとまず、形になったので良かった。
+
+「好きなことで、生きていく」という YouTube CM のフレーズを入れた「広告収入欲しさにユーチューバーが街を破壊しているんだ」という 1 コマをきっかけに、ちょぼらうにょぽみ『あいまいみー』に興味を持っている。それにしても、あの CM ヤバイね。というか、最近の TVCM は面白いの多いね。ていうか、そもそも、ユーチューバーってなんだよ。
+
+Docker の導入は一応できそう。VirtualBox とか Vagrant とか、Docker に慣れるとダメだな。カバーする領域は同一ではないので、まったく使いどころがないわけじゃないんだけど、ぼくにとってはほとんどの場面で Docker の方が良い、となりそう。あとは Docker 導入にともなう課題をどうクリアするかだよね。コンテナの管理が特に厳しそう。
+
+- K
+  - 週のふりかえり (土曜日) をかきつづける。
+  - Hubot スクリプトをつくりつづける。
+  - ガウディ本 (CTMCP) の読書会をつづける。
+  - 積極的に発表していく ( HubotxChatOps の発表資料できた ) 。
+- P
+  - 発表資料を bouzuya.net にまとめる。
+  - 体調が悪い。
+  - トレーニングを再開できなかった。
+  - atom-hubot-b を公開できなかった。
+  - つくった ( 料理 ) をできなかった。
+  - bubot & hubot-b & atom-hubot-b を更新できなかった。
+  - はやねはやおきができなかった。
+  - ひとり読書会『[Ruby on Rails Guides][hitoridokusho/books/railsguides]』をつづけられていない。
+  - Arduino Tutorial をつづけられていない。
+  - Hubot スクリプトのまとめページをつくれていない。
+  - hubot-gistlog をつくれていない。
+  - Raspberry Pi をためせていない。
+  - TypeScript リファレンスをよめていない。 (Ruby on Rails Guides の後に読んでいく)
+  - 英文法の学習が遅れている。(24/104)
+- T
+  - 体調を戻す。
+  - トレーニングを再開する。
+
+hubot-speakerdeck は SpeakerDeck から指定のユーザーのスライド一覧を表示する Hubot スクリプト。プレビューもあったほうが良かったとすこし後悔している。
+
+[2014-11-21]: http://blog.bouzuya.net/2014/11/21/
+[2014-11-20]: http://blog.bouzuya.net/2014/11/20/
+[2014-11-19]: http://blog.bouzuya.net/2014/11/19/
+[2014-11-18]: http://blog.bouzuya.net/2014/11/18/
+[2014-11-17]: http://blog.bouzuya.net/2014/11/17/
+[2014-11-16]: http://blog.bouzuya.net/2014/11/16/
+[2014-11-15]: http://blog.bouzuya.net/2014/11/15/
