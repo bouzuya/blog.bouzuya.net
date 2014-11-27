@@ -57,3 +57,6 @@ hubot-speakerdeck は SpeakerDeck から指定のユーザーのスライド一�
 [2014-11-17]: http://blog.bouzuya.net/2014/11/17/
 [2014-11-16]: http://blog.bouzuya.net/2014/11/16/
 [2014-11-15]: http://blog.bouzuya.net/2014/11/15/
+
+[gh:bouzuya/hubot-speakerdeck]: https://github.com/bouzuya/hubot-speakerdeck
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
