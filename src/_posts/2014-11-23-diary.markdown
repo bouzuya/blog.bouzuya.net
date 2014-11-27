@@ -175,3 +175,6 @@ pagetype: posts
 - Slack に情報共有用のチャンネルを設置し、Hubot で Qiita API を呼び出し情報を流す
 - CoffeeScript つらいので JavaScript で Hubot スクリプト書く
 - (CoffeeScript はバージョン古い 1.6.3 がデフォルトなので、JavaScript でよいかと)
+
+[gh:bouzuya/hubot-slideshare]: https://github.com/bouzuya/hubot-slideshare
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
