@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2014-11-26T23:59:59+09:00"
-title: CoreOS + Vulcand をためした & hubot-atsumeigen
+title: CoreOS + Vulcand をためした & hubot-atsumeigen をつくった
 tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 15
 pagetype: posts
