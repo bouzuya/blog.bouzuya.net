@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2014-11-28T23:59:59+09:00"
+title: 映画『インターステラー』をみた & hubot-adventar をつくった
+tags: [cinema, hubot, hubot-scripts, hubot-script-per-day]
+minutes: 25
+pagetype: posts
+---
+映画『インターステラー』をみた。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 136 日目の [hubot-adventar][gh:bouzuya/hubot-adventar] をつくった。
+
+せっかく映画を見たので盛大にネタバレしようと思って、20 分ほどかけて、すべての驚きがなくなるようなネタバレリストをつくったが、さすがに人としてどうかと思ったので、消した。
+
+hubot-adventar は Adventar のエントリーリストを返す Hubot スクリプト。
+
+何も準備していない。
+
+[gh:bouzuya/hubot-adventar]: https://github.com/bouzuya/hubot-adventar
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
