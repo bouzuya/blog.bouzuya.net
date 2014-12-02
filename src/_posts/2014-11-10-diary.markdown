@@ -20,7 +20,7 @@ pagetype: posts
 
 1 日寝て治らない風邪というのは珍しいことで、母から「インフルエンザだったらどうするんだ、病院へ行け」とせっつかれてしまった。
 
-あとからだけど [hubot-bbn-min-graph][gh:bouzuya/hubot-bbn-min-graph] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 119 日目。
+あとからだけど [hubot-bbn-min-graph][gh:bouzuya/hubot-bbn-min-graph] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 120 日目。
 
 hubot-bbn-min-graph は blog.bouzuya.net の min を棒グラフで表示で表示する Hubot スクリプト。
 

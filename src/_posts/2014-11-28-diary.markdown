@@ -6,7 +6,7 @@ tags: [cinema, hubot, hubot-scripts, hubot-script-per-day]
 minutes: 25
 pagetype: posts
 ---
-映画『インターステラー』をみた。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 136 日目の [hubot-adventar][gh:bouzuya/hubot-adventar] をつくった。
+映画『インターステラー』をみた。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 138 日目の [hubot-adventar][gh:bouzuya/hubot-adventar] をつくった。
 
 せっかく映画を見たので盛大にネタバレしようと思って、20 分ほどかけて、すべての驚きがなくなるようなネタバレリストをつくったが、さすがに人としてどうかと思ったので、消した。
 

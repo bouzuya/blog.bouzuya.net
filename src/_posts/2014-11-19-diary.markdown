@@ -12,7 +12,7 @@ pagetype: posts
 
 いや、それよりも発表資料だよ。進んでないよ。
 
-[hubot-asaichi][gh:bouzuya/hubot-asaichi] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 128 日目。
+[hubot-asaichi][gh:bouzuya/hubot-asaichi] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 129 日目。
 
 [gh:bouzuya/hubot-asaichi]: https://github.com/bouzuya/hubot-asaichi
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day

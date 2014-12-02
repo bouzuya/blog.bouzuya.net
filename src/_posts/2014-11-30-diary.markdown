@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 5
 pagetype: posts
 ---
-[宇宙 zsh][uchuzsh#1] にいった。[hubot-kobe-nightview][gh:bouzuya/hubot-kobe-nightview] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 139 日目。
+[宇宙 zsh][uchuzsh#1] にいった。[hubot-kobe-nightview][gh:bouzuya/hubot-kobe-nightview] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 140 日目。
 
 zsh の勉強会ってあんまり聞かないので、参加。実質、同僚の @mollifier の独演会だった。
 

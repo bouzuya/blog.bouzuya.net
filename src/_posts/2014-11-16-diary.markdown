@@ -6,7 +6,7 @@ tags: [movie, hubot, hubot-scripts, hubot-script-per-day]
 minutes: 10
 pagetype: posts
 ---
-映画『プリズナーズ』をみた。[hubot-kinro][gh:bouzuya/hubot-kinro] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 125 日目。
+映画『プリズナーズ』をみた。[hubot-kinro][gh:bouzuya/hubot-kinro] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 126 日目。
 
 映画『プリズナーズ』が新作レンタル DVD で提供されていたのでレンタルして見た。サスペンスしているね。サスペンスってよく分からないふわっとしたジャンルだけど、これはたぶんサスペンスだなって分かる感じの映画。あと長い。150 分とか長い。
 

@@ -6,7 +6,7 @@ tags: ['cooking', 'hubot', 'hubot-scripts', 'hubot-script-per-day']
 minutes: 20
 pagetype: posts
 ---
-金曜日にグラタンをつくった話と、今日つくった Hubot スクリプトの話。 [hubot-umiharakawase][gh:bouzuya/hubot-umiharakawase] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 111 日目。
+金曜日にグラタンをつくった話と、今日つくった Hubot スクリプトの話。 [hubot-umiharakawase][gh:bouzuya/hubot-umiharakawase] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 112 日目。
 
 ひさびさに料理をつくった。
 

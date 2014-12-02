@@ -36,7 +36,7 @@ pagetype: posts
 
 ろくでもない。
 
-あとからだけど [hubot-bbn-min-weekly-stats][gh:bouzuya/hubot-bbn-min-weekly-stats] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 120 日目。
+あとからだけど [hubot-bbn-min-weekly-stats][gh:bouzuya/hubot-bbn-min-weekly-stats] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 121 日目。
 
 hubot-bbn-min-weekly-stats は blog.bouzuya.net の min の先週からの変化を表示する Hubot スクリプト。
 

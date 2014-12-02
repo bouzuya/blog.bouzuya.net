@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 15
 pagetype: posts
 ---
-[hubot-github-issues][gh:bouzuya/hubot-github-issues] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 113 日目。
+[hubot-github-issues][gh:bouzuya/hubot-github-issues] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 114 日目。
 
 週明け。連休明け。個人的には月曜日休みよりは金曜日休みのほうがいいし、金曜日休みよりは水曜日休みのほうがいい。連休だとどうしてもだれてしまうし、土日の終わりにテレビの録画を処理するのだけど、いつもと番組ラインナップが違って違和感があるので。
 

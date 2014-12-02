@@ -6,7 +6,7 @@ tags: ['looking back', 'hubot', 'hubot-scripts', 'hubot-script-per-day']
 minutes: 30
 pagetype: posts
 ---
-今週のふりかえり。2014-11-08/2014-11-15 の一週間をふりかえる。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 124 日目の [hubot-taki][gh:bouzuya/hubot-taki] について書く。
+今週のふりかえり。2014-11-08/2014-11-15 の一週間をふりかえる。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 125 日目の [hubot-taki][gh:bouzuya/hubot-taki] について書く。
 
 - [2014-11-14 もやし鍋をつくった & hubot-aws-quiz をつくった][2014-11-14]
 - [2014-11-13 hubot-s3-size をつくった][2014-11-13]

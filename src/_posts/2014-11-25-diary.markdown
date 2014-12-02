@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 10
 pagetype: posts
 ---
-[1 日 1 Hubot スクリプト][hubot-script-per-day]の 134 日目の [hubot-anchor-count][gh:bouzuya/hubot-anchor-count] をつくった。
+[1 日 1 Hubot スクリプト][hubot-script-per-day]の 135 日目の [hubot-anchor-count][gh:bouzuya/hubot-anchor-count] をつくった。
 
 指定した URL の a 要素の数をカウントする Hubot スクリプト。何に使うということはないけど、たまになんかこのページリンク何個あるんだろ、って疑問に思うんで、カウントできるようにした。
 

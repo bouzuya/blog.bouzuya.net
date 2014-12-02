@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 5
 pagetype: posts
 ---
-[hubot-oreilly][gh:bouzuya/hubot-oreilly] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 114 日目。
+[hubot-oreilly][gh:bouzuya/hubot-oreilly] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 115 日目。
 
 hubot-oreilly は oreilly から本をランダムで一冊返す Hubot スクリプト。
 

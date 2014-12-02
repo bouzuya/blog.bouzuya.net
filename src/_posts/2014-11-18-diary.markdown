@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 2
 pagetype: posts
 ---
-頭が痛い。[hubot-github-contributions][gh:bouzuya/hubot-github-contributions] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 127 日目。
+頭が痛い。[hubot-github-contributions][gh:bouzuya/hubot-github-contributions] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 128 日目。
 
 Docker をさわっている。Docker が予想以上に良い。もう VirtualBox とか要らないな。
 

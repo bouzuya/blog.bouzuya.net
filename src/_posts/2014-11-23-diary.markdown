@@ -8,7 +8,7 @@ pagetype: posts
 ---
 『[第1回 HubotxChatOps 勉強会](http://connpass.com/event/9370/)』にいった。で、まとめた。
 
-その前に、[1 日 1 Hubot スクリプト][hubot-script-per-day]の 132 日目の [hubot-slideshare][gh:bouzuya/hubot-slideshare] 。名前のとおり、slideshare の指定したユーザーのスライドをとってくる Hubot スクリプト。うん。
+その前に、[1 日 1 Hubot スクリプト][hubot-script-per-day]の 133 日目の [hubot-slideshare][gh:bouzuya/hubot-slideshare] 。名前のとおり、slideshare の指定したユーザーのスライドをとってくる Hubot スクリプト。うん。
 
 以下、まとめ。
 

@@ -2,11 +2,11 @@
 layout: post
 pubdate: "2014-11-29T23:59:59+09:00"
 title: 今週のふりかえり(48) & hubot-kibidango をつくった
-tags: ['looking back', 'hubot', 'hubot-adapters', 'hubot-script-per-day']
+tags: ['looking back', 'hubot', 'hubot-scripts', 'hubot-script-per-day']
 minutes: 20
 pagetype: posts
 ---
-今週のふりかえり。2014-11-23/2014-11-29 の一週間をふりかえる。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 131 日目の [hubot-kibidango][gh:bouzuya/hubot-kibidango] について書く。
+今週のふりかえり。2014-11-23/2014-11-29 の一週間をふりかえる。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 139 日目の [hubot-kibidango][gh:bouzuya/hubot-kibidango] について書く。
 
 - [2014-11-28 映画『インターステラー』をみた & hubot-adventar][2014-11-28]
 - [2014-11-27 hubot-1041uuu をつくった][2014-11-27]

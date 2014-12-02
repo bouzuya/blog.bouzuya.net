@@ -8,7 +8,7 @@ pagetype: posts
 ---
 今日はぐっと気温が下がった。何℃かは調べていないけど、目が覚めた時、家を出た時、寒いと感じる。もう冬だ。
 
-あとからだけど [hubot-s3-size][gh:bouzuya/hubot-s3-size] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 122 日目。
+あとからだけど [hubot-s3-size][gh:bouzuya/hubot-s3-size] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 123 日目。
 
 hubot-s3-size は S3 の bucket のサイズを計算する Hubot スクリプト。
 

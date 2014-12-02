@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 5
 pagetype: posts
 ---
-[hubot-pr-fc][gh:bouzuya/hubot-pr-fc] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 116 日目。
+[hubot-pr-fc][gh:bouzuya/hubot-pr-fc] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 117 日目。
 
 hubot-pr-fc は GitHub の PR をリスト / マージする Hubot スクリプト。ぼくが [2014-08-12][] につくった [hubot-pr][gh:bouzuya/hubot-pr] をフォークした。
 

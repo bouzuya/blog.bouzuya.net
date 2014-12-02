@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 5
 pagetype: posts
 ---
-[hubot-github-notifications][gh:bouzuya/hubot-github-notifications] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 115 日目。
+[hubot-github-notifications][gh:bouzuya/hubot-github-notifications] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 116 日目。
 
 hubot-github-notifications は github の notifications を返す Hubot スクリプト。
 

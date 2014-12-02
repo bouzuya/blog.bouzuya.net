@@ -6,7 +6,7 @@ tags: ['looking back', 'hubot', 'hubot-scripts', 'hubot-script-per-day']
 minutes: 20
 pagetype: posts
 ---
-今週のふりかえり。2014-11-16/2014-11-22 の一週間をふりかえる。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 131 日目の [hubot-speakerdeck][gh:bouzuya/hubot-speakerdeck] について書く。
+今週のふりかえり。2014-11-16/2014-11-22 の一週間をふりかえる。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 132 日目の [hubot-speakerdeck][gh:bouzuya/hubot-speakerdeck] について書く。
 
 - [2014-11-21 病院へいった & hubot-nnh をつくった][2014-11-21]
 - [2014-11-20 hubot-youtuber をつくった][2014-11-20]

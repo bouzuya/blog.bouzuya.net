@@ -18,7 +18,7 @@ CoreOS (Docker + etcd + fleet) + Vulcand という構成で、とりあえず今
 
 体調。せきはあまりマシになっていないが、薬の一部を飲みきったことで薬の量が減ったので、気持ちは回復している。
 
-[1 日 1 Hubot スクリプト][hubot-script-per-day]の 135 日目の [hubot-atsumeigen][gh:bouzuya/hubot-atsumeigen] をつくった。
+[1 日 1 Hubot スクリプト][hubot-script-per-day]の 136 日目の [hubot-atsumeigen][gh:bouzuya/hubot-atsumeigen] をつくった。
 
 atsume.goo.ne.jp の偉人の名言 100 からランダムでひとつを返す。
 

@@ -6,7 +6,7 @@ tags: [misc, hubot, hubot-scripts, hubot-script-per-day]
 minutes: 15
 pagetype: posts
 ---
-土曜日に『だまし絵 II』にいった話と、今日つくった Hubot スクリプトの話。 [hubot-my-fav-features][gh:bouzuya/hubot-my-fav-features] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 112 日目。
+土曜日に『だまし絵 II』にいった話と、今日つくった Hubot スクリプトの話。 [hubot-my-fav-features][gh:bouzuya/hubot-my-fav-features] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 113 日目。
 
 昨日のグラタンと言い、実際の日付とズレているのだけど、今日は『だまし絵 II 』のことを書く。
 

@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 10
 pagetype: posts
 ---
-[1 日 1 Hubot スクリプト][hubot-script-per-day]の 136 日目の [hubot-1041uuu][gh:bouzuya/hubot-1041uuu] をつくった。
+[1 日 1 Hubot スクリプト][hubot-script-per-day]の 137 日目の [hubot-1041uuu][gh:bouzuya/hubot-1041uuu] をつくった。
 
 1041uuu さんのアニメーション GIF をまとめている tumblr から画像をランダムで返す Hubot スクリプト。なごむ。
 

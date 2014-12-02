@@ -6,7 +6,7 @@ tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 1
 pagetype: posts
 ---
-頭が痛い。[hubot-baki][gh:bouzuya/hubot-baki] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 126 日目。
+頭が痛い。[hubot-baki][gh:bouzuya/hubot-baki] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 127 日目。
 
 [gh:bouzuya/hubot-baki]: https://github.com/bouzuya/hubot-baki
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day

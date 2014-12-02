@@ -14,7 +14,7 @@ pagetype: posts
 
 ちなみに今日の金曜ロードショーは『千と千尋の神隠し』。小さい女の子がお風呂で働かされる話だよね、確か。
 
-[hubot-nnh][gh:bouzuya/hubot-nnh] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 130 日目。
+[hubot-nnh][gh:bouzuya/hubot-nnh] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 131 日目。
 
 今日は何の日かを返す。明日は良い夫婦の日、とかね。
 

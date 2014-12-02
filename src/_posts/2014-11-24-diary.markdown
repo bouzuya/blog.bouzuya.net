@@ -8,7 +8,7 @@ pagetype: posts
 ---
 せっかくの三連休だというのに何もしなかった。本当は minami.rb に行くつもりだった。カレンダーにも入れていたのだけど、肝心のイベント申し込みを忘れていて……。悲しみにふけっているうちに、日もくれ……、せきも止まらない。
 
-[1 日 1 Hubot スクリプト][hubot-script-per-day]の 133 日目の [hubot-theater][gh:bouzuya/hubot-theater] をつくった。
+[1 日 1 Hubot スクリプト][hubot-script-per-day]の 134 日目の [hubot-theater][gh:bouzuya/hubot-theater] をつくった。
 
 Yahoo!映画から指定した映画館の今日のスケジュールを返す Hubot スクリプト。
 
