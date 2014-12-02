@@ -1,0 +1,17 @@
+---
+layout: post
+pubdate: "2014-11-30T23:59:59+09:00"
+title: 宇宙zsh にいった & hubot-kobe-nightview をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[宇宙 zsh][uchuzsh#1] にいった。[hubot-kobe-nightview][gh:bouzuya/hubot-kobe-nightview] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 139 日目。
+
+zsh の勉強会ってあんまり聞かないので、参加。実質、同僚の @mollifier の独演会だった。
+
+宇宙 zsh から学ぶことは、勉強会はまずスピーカーを集めることが大切なんだなということ。会場ももちろん重要だけど、ひとりがしゃべり続けると、テーマによるけど、ほかの人が話しはじめるのが難しくなるのが分かった。
+
+[uchuzsh#1]: http://uchuzsh1.peatix.com/
+[gh:bouzuya/hubot-kobe-nightview]: https://github.com/bouzuya/hubot-kobe-nightview
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
