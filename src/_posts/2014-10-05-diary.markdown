@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-10-05T23:59:59+09:00"
 title: 今週のふりかえり(40) & Arduino Micro をためした & hubot-startup をつくった
-tags: ['looking back', 'arduino', 'hubot', 'hubot-adapters', 'hubot-script-per-day']
+tags: ['looking back', 'arduino', 'hubot', 'hubot-scripts', 'hubot-script-per-day']
 minutes: 20
 pagetype: posts
 ---

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-11-01T23:59:59+09:00"
 title: 今週のふりかえり(44) & hubot-cookpad をつくった
-tags: ['looking back', 'hubot', 'hubot-adapters', 'hubot-script-per-day']
+tags: ['looking back', 'hubot', 'hubot-scripts', 'hubot-script-per-day']
 minutes: 40
 pagetype: posts
 ---

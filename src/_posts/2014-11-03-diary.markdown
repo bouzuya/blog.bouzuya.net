@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-11-03T23:59:59+09:00"
 title: 『だまし絵 II』にいった & hubot-my-fav-features をつくった
-tags: [misc, hubot, hubot-adapters, hubot-script-per-day]
+tags: [misc, hubot, hubot-scripts, hubot-script-per-day]
 minutes: 15
 pagetype: posts
 ---
