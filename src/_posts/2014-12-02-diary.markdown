@@ -1,0 +1,24 @@
+---
+layout: post
+pubdate: "2014-12-02T23:59:59+09:00"
+title: Hubot Advent Calendar 2014 の 2 日目をかいた & hubot-hello-world
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 7
+pagetype: posts
+---
+Hubot Advent Calendar 2014 の 2 日目をかいた。[hubot-hello-world][gh:bouzuya/hubot-hello-world] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 142 日目。
+
+[Hubot Advent Calendar 2014][hubot-adventar-2014] の 2 日目として『 [Hubot のインストール][hubot-adventar-2014-2]』をかいた。
+
+導入記事は数が多いんだけど、当然のようにそこから尻すぼみなんだよね。この連載 (もうすでに Advent Calendar と趣旨が違う) は、それよりは長く続けて、ある程度はまとまった形にしたいなあ。書きためとかしてないので、内容にはまとまりなさそうだけど……。
+
+hubot-hello-world は Hubot Advent Calendar 2014 向けに用意したスクリプト。Hello, World! するだけのアレ。
+
+新しい要素としては [github/generator-hubot][gh:github/generator-hubot] をつかっている点。で、さっそくだけど、あれ `npm test` が依存関係かけてて動かないのな。たぶん、これ誰も使ってないんだろ……最低だわ。しかも、それを紹介するって。どうなんだ。
+
+[hubot-adventar-2014]: http://www.adventar.org/calendars/384
+[hubot-adventar-2014-1]: http://qiita.com/bouzuya/items/c7d0ad80c357aab6b696
+[hubot-adventar-2014-2]: http://qiita.com/bouzuya/items/11c0c6da2b3ad54b827f
+[gh:bouzuya/hubot-hello-world]: https://github.com/bouzuya/hubot-hello-world
+[gh:github/generator-hubot]: https://github.com/github/generator-hubot
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
