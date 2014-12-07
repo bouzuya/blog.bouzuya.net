@@ -1,0 +1,29 @@
+---
+layout: post
+pubdate: "2014-12-03T23:59:59+09:00"
+title: Hubot Advent Calendar 2014 の 3 日目をかいた & hubot-oden をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+Hubot Advent Calendar 2014 の 3 日目をかいた。[hubot-oden][gh:bouzuya/hubot-oden] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 143 日目。
+
+[Hubot Advent Calendar 2014][hubot-adventar-2014] の 3 日目として『 [Hubot を Heroku で動かして Slack から話す][hubot-adventar-2014-3]』をかいた。
+
+導入記事は飽きたのでさっさとスクリプトの Tips などに入りたい。そうすれば、話の流れなどをあんまり考えなくて済むはずだし……。
+
+Hubot スクリプト。
+
+hubot-oden は Hubot Advent Calendar 2014 向けに用意したスクリプト。「─□○△」を返すだけのアレ。
+
+業務。
+
+先週後半から今週にかけて、またフロントエンドの開発に着手している。この間かいたとおりの構成で CoffeeScript + AngularJS な感じ。たまにバックエンドのバグが見つかる。そちらは Ruby on Rails な感じなので、修正作業に入ろうとすると、頭の切り替えに時間がかかるから困る。
+
+[hubot-adventar-2014]: http://www.adventar.org/calendars/384
+[hubot-adventar-2014-1]: http://qiita.com/bouzuya/items/c7d0ad80c357aab6b696
+[hubot-adventar-2014-2]: http://qiita.com/bouzuya/items/11c0c6da2b3ad54b827f
+[hubot-adventar-2014-3]: http://qiita.com/bouzuya/items/2a200c9e8a45e2478bc2
+[gh:bouzuya/hubot-oden]: https://github.com/bouzuya/hubot-oden
+[gh:github/generator-hubot]: https://github.com/github/generator-hubot
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
