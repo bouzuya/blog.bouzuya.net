@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2014-12-07T23:59:59+09:00"
-title: 関西関数型道場 第02回にいった & Hubot Advent Calendar 2014 の 7 日目をかいた & hubot-eto
+title: 関西関数型道場 第02回にいった & Hubot Advent Calendar 2014 の 7 日目をかいた & hubot-eto をつくった
 tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 7
 pagetype: posts
