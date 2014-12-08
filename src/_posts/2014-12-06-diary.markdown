@@ -1,0 +1,73 @@
+---
+layout: post
+pubdate: "2014-12-06T23:59:59+09:00"
+title: 今週のふりかえり(49) & Hubot Advent Calendar 2014 の 6 日目をかいた & hubot-palindrome をつくった
+tags: ['looking back', hubot, hubot-scripts, hubot-script-per-day]
+minutes: 20
+pagetype: posts
+---
+今週のふりかえり。2014-11-29/2014-12-05 の一週間をふりかえる。また Hubot Advent Calendar 2014 の 6 日目をかいたこと、[1 日 1 Hubot スクリプト][hubot-script-per-day]の 146 日目の [hubot-palindrome][gh:bouzuya/hubot-palindrome] のことについて書く。
+
+- [2014-12-05 ぼうしをかった & hubot-choice をつくった][2014-12-05]
+- [2014-12-04 Hubot Advent Calendar 2014 の 4 日目をかいた & hubot-kirinashiuta をつくった][2014-12-04]
+- [2014-12-03 Hubot Advent Calendar 2014 の 3 日目をかいた & hubot-oden をつくった][2014-12-03]
+- [2014-12-02 Hubot Advent Calendar 2014 の 2 日目をかいた & hubot-hello-world をつくった][2014-12-02]
+- [2014-12-01 Hubot Advent Calendar 2014 の 1 日目をかいた & hubot-squeal をつくった][2014-12-01]
+- [2014-11-30 宇宙zsh にいった & hubot-kobe-nightview をつくった][2014-11-30]
+- [2014-11-29 今週のふりかえり(48) & hubot-kibidango をつくった][2014-11-29]
+
+日曜日には『宇宙 zsh 』に参加した。スピーカー確保ができない限り、第 2 回はなさそう。
+
+月〜木曜日は Hubot、 Hubot、 Hubot。 「 [Hubot Advent Calendar 2014][hubot-adventar] をはじめておいて 3 / 25 なんて埋まり方じゃいけない」と、自分で空きは埋めようと思うので、いっぱいいっぱい。いまさらながらの Hubot 紹介記事を書いている。Hubot スクリプト自体は Hubot Advent Calendar 向けのものが多い。`generator-hubot` を使っているので、いままでとはすこし違う構成になっている。あと、そろそろ、1 日 1 Hubot 終了後の方針について、考えないといけないと思っている。年末は 1 日 1 Hubot スクリプトをやめるチャンスかな、と。
+
+業務では先週つくった JavaScript 環境 ( CoffeeScript + AngularJS ) をつかった開発に入っている。JavaScript さわるたびに力不足を感じる。実務で考えるなら JavaScript 力もっとつけないとダメだなあ。
+
+また、今週からゲーム『新・世界樹の迷宮 2』をはじめている。詳しくは書いていないけどね。
+
+あとは漫画『あいまいみー』を最新 5 巻まで買ってしまった。これも詳しくは書いていないけど。そこそこ狂ってて好きだ。
+
+急激に気温がさがったので、暖かそうなニット帽を買い、かぶっている。冬場の風にぼうずは弱いのだ。
+
+今日は関西関数型道場に参加するので、ガウディ本読書会は日曜日にシフト。
+
+hubot-palindrome は回文かをチェックするくだらない Hubot スクリプト。うん。
+
+- K
+  - Hubot Advent Calendar 書きつづける。
+  - 週のふりかえり (土曜日) をかきつづける。
+  - Hubot スクリプトをつくりつづける。
+  - ガウディ本 (CTMCP) の読書会をつづける。
+- P
+  - Hubot スクリプトが更新されるまで、日記がアップロードされない
+  - トレーニングを再開できていない。
+  - 発表資料を bouzuya.net にまとめる。
+  - トレーニングを再開できなかった。
+  - atom-hubot-b を公開できなかった。
+  - つくった ( 料理 ) をできなかった。
+  - はやねはやおきができなかった。
+  - ひとり読書会『[Ruby on Rails Guides][hitoridokusho/books/railsguides]』をつづけられていない。
+  - Arduino Tutorial をつづけられていない。
+  - Hubot スクリプトのまとめページをつくれていない。
+  - hubot-gistlog をつくれていない。
+  - Raspberry Pi をためせていない。
+  - TypeScript リファレンスをよめていない。 (Ruby on Rails Guides の後に読んでいく)
+  - 英文法の学習が遅れている。(24/104)
+  - Docker / CoreOS もっとためしたい。
+- T
+  - Hubot スクリプトが更新されるまで、日記がアップロードされない状況を打開する
+
+[gh:bouzuya/hubot-palindrome]: https://github.com/bouzuya/hubot-palindrome
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[hubot-adventar-2014]: http://www.adventar.org/calendars/384
+[hubot-adventar-2014-1]: http://qiita.com/bouzuya/items/c7d0ad80c357aab6b696
+[hubot-adventar-2014-2]: http://qiita.com/bouzuya/items/11c0c6da2b3ad54b827f
+[hubot-adventar-2014-3]: http://qiita.com/bouzuya/items/2a200c9e8a45e2478bc2
+[hubot-adventar-2014-4]: http://qiita.com/bouzuya/items/4c0206d72ff22ade9339
+[2014-12-05]: http://blog.bouzuya.net/2014/12/05/
+[2014-12-04]: http://blog.bouzuya.net/2014/12/04/
+[2014-12-03]: http://blog.bouzuya.net/2014/12/03/
+[2014-12-02]: http://blog.bouzuya.net/2014/12/02/
+[2014-12-01]: http://blog.bouzuya.net/2014/12/01/
+[2014-11-30]: http://blog.bouzuya.net/2014/11/30/
+[2014-11-29]: http://blog.bouzuya.net/2014/11/29/
+[hitoridokusho/books/railsguides]: http://guides.rubyonrails.org/
