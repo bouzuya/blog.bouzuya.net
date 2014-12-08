@@ -1,0 +1,31 @@
+---
+layout: post
+pubdate: "2014-12-07T23:59:59+09:00"
+title: 関西関数型道場 第02回にいった & Hubot Advent Calendar 2014 の 7 日目をかいた & hubot-eto
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 7
+pagetype: posts
+---
+[関西関数型道場 - 第02回][kansaifp-2]にいった。また [Hubot Advent Calendar 2014 の 7 日目][hubot-adventar-2014-7]を書き、ほかに [hubot-eto][gh:bouzuya/hubot-eto] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 147 日目。
+
+関西関数型道場にいった。ちなみに昨日の話。今日は家でだらだらしていた。話の内容にまったくついていけなくて、自分はだめだなってなった。
+
+Hubot Advent Calendar。`generator-hubot` でスクリプトを生成する記事を書いた。スクリプトをどう書くかって意外と話に上がらなくて、いまだに古いスタイル (ファイルを `scripts` などに置く方法) でつくろうとする人が多いような気がしたので、意味のある記事だとは思う。
+
+Hubot スクリプト。hubot-eto は干支 (えと) を返す Hubot スクリプト。干支について詳しくなった。干支って「かんし」とも読んで、十干 (じっかん)、十二支 (じゅうにし) の組み合わせからなるらしい。一般に干支っていうと十二支を指すけど、正しくは干支の名前の通り、十干、十二支を組み合わせた 60 通りからなるらしい。
+
+    bouzuya> hubot eto
+    hubot> 甲午 (きのえうま)
+    bouzuya> hubot eto 2015
+    hubot> 乙未 (きのとひつじ)
+
+[hubot-adventar-2014]: http://www.adventar.org/calendars/384
+[hubot-adventar-2014-1]: http://qiita.com/bouzuya/items/c7d0ad80c357aab6b696
+[hubot-adventar-2014-2]: http://qiita.com/bouzuya/items/11c0c6da2b3ad54b827f
+[hubot-adventar-2014-3]: http://qiita.com/bouzuya/items/2a200c9e8a45e2478bc2
+[hubot-adventar-2014-4]: http://qiita.com/bouzuya/items/4c0206d72ff22ade9339
+[hubot-adventar-2014-6]: http://qiita.com/bouzuya/items/4e051f68f8d68a2944b0
+[hubot-adventar-2014-7]: http://qiita.com/bouzuya/items/2e935c99647b93d8ee1d
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[gh:bouzuya/hubot-eto]: https://github.com/bouzuya/hubot-eto
+[kansaifp-2]: http://kansaifp.doorkeeper.jp/events/17206
