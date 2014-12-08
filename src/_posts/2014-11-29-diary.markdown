@@ -55,3 +55,4 @@ pagetype: posts
 [2014-11-22]: http://blog.bouzuya.net/2014/11/22/
 [gh:bouzuya/hubot-kibidango]: https://github.com/bouzuya/hubot-kibidango
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[hitoridokusho/books/railsguides]: http://guides.rubyonrails.org/

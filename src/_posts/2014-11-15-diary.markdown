@@ -59,3 +59,4 @@ hubot-taki は日本の滝百選からランダムにひとつを表示する Hu
 [gh:bouzuya/hubot-pr-fc]: https://github.com/bouzuya/hubot-pr-fc
 [gh:bouzuya/hubot-taki]: https://github.com/bouzuya/hubot-taki
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[hitoridokusho/books/railsguides]: http://guides.rubyonrails.org/
