@@ -1,0 +1,31 @@
+---
+layout: post
+pubdate: "2014-12-11T23:59:59+09:00"
+title: Hubot Advent Calendar 2014 の 11 日目をかいた & hubot-vote をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+[Hubot Advent Calendar 2014 の 11 日目][hubot-adventar-2014-10]を書き、ほかに [hubot-vote][gh:bouzuya/hubot-vote] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 151 日目。
+
+Hubot Advent Calendar 2014 は Hubot の起動処理をコードリーディングするというポエムを書いた。ソースコードにコメントをつけるための仕組みがほしいとはじめて思った。そういえば、以前そういうサービスためしたことあるなあ。あの時は要らないと思ったけど、みんなでコードを読むという文化ができれば、要るのかも……。
+
+あと今日 Left4Dead をひさしぶりにやったけど、銃で何かをバンバンやるのは気持ちが疲れる。疲れる。
+
+[wonderport]: http://www.wonderport.net/
+[2013-09-01]: http://blog.bouzuya.net/2013/09/01/
+[2013-12-30]: http://blog.bouzuya.net/2013/12/30/
+[2014-07-06]: http://blog.bouzuya.net/2014/07/06/
+[2014-07-14]: http://blog.bouzuya.net/2014/07/14/
+[hubot-adventar-2014]: http://www.adventar.org/calendars/384
+[hubot-adventar-2014-1]: http://qiita.com/bouzuya/items/c7d0ad80c357aab6b696
+[hubot-adventar-2014-2]: http://qiita.com/bouzuya/items/11c0c6da2b3ad54b827f
+[hubot-adventar-2014-3]: http://qiita.com/bouzuya/items/2a200c9e8a45e2478bc2
+[hubot-adventar-2014-4]: http://qiita.com/bouzuya/items/4c0206d72ff22ade9339
+[hubot-adventar-2014-6]: http://qiita.com/bouzuya/items/4e051f68f8d68a2944b0
+[hubot-adventar-2014-7]: http://qiita.com/bouzuya/items/2e935c99647b93d8ee1d
+[hubot-adventar-2014-9]: http://qiita.com/bouzuya/items/587c4e920151342e6f1d
+[hubot-adventar-2014-10]: http://qiita.com/bouzuya/items/8e8ee8e2e8f83513ad35
+[hubot-adventar-2014-11]: http://qiita.com/bouzuya/items/3e239bc530e7c2c3a26c
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[gh:bouzuya/hubot-vote]: https://github.com/bouzuya/hubot-vote
