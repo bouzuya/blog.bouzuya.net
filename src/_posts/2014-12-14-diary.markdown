@@ -1,0 +1,18 @@
+---
+layout: post
+pubdate: "2014-12-14T23:59:59+09:00"
+title: 『Web API: The Good Parts』をよんだ & hubot-reverse をつくった
+tags: [reading, hubot, hubot-scripts, hubot-script-per-day]
+minutes: 5
+pagetype: posts
+---
+『Web API: The Good Parts』をよんだ。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 154 日目の [hubot-reverse][gh:bouzuya/hubot-reverse] をつくった。
+
+『Web API: The Good Parts』は Web API の現状をふかんできる。浅く広く。良いのでは。API サーバーをつくったことがないってひとは Web 系ではほとんど居ないと思うのだけど、自分でつくる前には一度読んでみてもいいかも。
+
+この本を読んだのは実は土曜日で、今日は『ハッカソンをハックする会』に参加した。それはまた明日書く。
+
+hubot-reverse は一定確立で発言を逆順にしたものを返す Hubot スクリプト。「しんぶんし」とかには効き目がないね。
+
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[gh:bouzuya/hubot-reverse]: https://github.com/bouzuya/hubot-reverse
