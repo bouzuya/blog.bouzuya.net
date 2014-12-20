@@ -18,5 +18,8 @@ pagetype: posts
 
 できるできないはどうしようもないし、前向きにやるしかない。ぞい。
 
+[2014-07-06]: http://blog.bouzuya.net/2014/07/06/
+[2014-10-31]: http://blog.bouzuya.net/2014/10/31/
+[2014-12-09]: http://blog.bouzuya.net/2014/12/09/
 [hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
 [gh:bouzuya/hubot-ifconfig]: https://github.com/bouzuya/hubot-ifconfig
