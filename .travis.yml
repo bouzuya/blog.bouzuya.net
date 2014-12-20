@@ -1,11 +1,6 @@
 language: node_js
 node_js:
 - '0.10'
-env:
-  global:
-  - secure: Mmn4OWuXqJD2Mc3A1BCU7OuEkgWsMckyujBBa24P0KY5UJaY4p73xlze2dENO1gTGypRygZu4zs+Fuw0bCxhq/mCkLDgHcwMS45WxH66PYStoDwJEF/TGjDydubRcoLkUkH3f1VEIoGygmBNRP7fAbJwRAcSiyFIrbzMHNnyGw4=
-  - secure: SbfZ4MgEMr07jMuCueEiH5eXNPbAlv/NI5z/tTtiXKmomWNCM/NreUcL0XX89Q0nk+dtiqWO0n0p83hs+QUFWqhENaiQACwTNR+vDe8IQqWs5b995/SPYoI9pxtThQnRKIwg3bLJM/aYBREdzfiOj9zwhejLteswNKo6mQj28e4=
-  - secure: aJZN1ThA0uLZ0cagnYGSobbnMEc+4tDX1arDe6YNtZ2G2hIV3cQOV6rTpT9acsM3nLggCSHINwdvulWyGpVvwjIoAfC/7bIM6jXv0n0UDmt6ad28GEPcuS24KtvoqNnWvFx2bGRqpGi3l9KYktYvz0B1nvGzUTxkeTTS8OQEOPU=
 install:
 - npm install
 - "$(npm bin)/bower --version"
