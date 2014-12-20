@@ -1,14 +1,14 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
 env:
   global:
-    - secure: "A1ATdfV5E4K8aw2miX9Pm6t71sHYib6fW1SKnHR3jFL0DyWFEMm3cY1uzs0J+Fn2slzuA9BG5MIG+bOkngGsWEEmN8VJNnkdzAWUSCrGdPWE+vUeBsUCv5kT8fkHHG1xXUvMVpnd1twzw6P0A9qcFCcId01sP9022vaVu0MLaMU="
-    - secure: "U9XkopIf2gO0mT8ilIv5lQuMSE4J2c0o1HGB//z+XikNQzKJ8KTsMJSSi9BFyG/1AoQtX+oiePNKFkk2d9ONhMkQ+m+Cf50WE4iVxJtOuSjr1v2HouRpC+bWLnYRF4k8DFpH9M6J71p224I2Qk+DgGhi31RC5iLjQTX2pMAylsw="
+  - secure: Mmn4OWuXqJD2Mc3A1BCU7OuEkgWsMckyujBBa24P0KY5UJaY4p73xlze2dENO1gTGypRygZu4zs+Fuw0bCxhq/mCkLDgHcwMS45WxH66PYStoDwJEF/TGjDydubRcoLkUkH3f1VEIoGygmBNRP7fAbJwRAcSiyFIrbzMHNnyGw4=
+  - secure: SbfZ4MgEMr07jMuCueEiH5eXNPbAlv/NI5z/tTtiXKmomWNCM/NreUcL0XX89Q0nk+dtiqWO0n0p83hs+QUFWqhENaiQACwTNR+vDe8IQqWs5b995/SPYoI9pxtThQnRKIwg3bLJM/aYBREdzfiOj9zwhejLteswNKo6mQj28e4=
 install:
-  - npm install
-  - $(npm bin)/bower --version
-  - $(npm bin)/bower install
+- npm install
+- "$(npm bin)/bower --version"
+- "$(npm bin)/bower install"
 script:
-  - npm start
-  - $(npm bin)/grunt tentacles
+- npm start
+- "$(npm bin)/grunt tentacles"
