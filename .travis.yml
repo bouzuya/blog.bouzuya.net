@@ -3,9 +3,8 @@ node_js:
   - "0.10"
 env:
   global:
-    - secure: "IUcXD8Bh+ypzsMZ2XScWb2Yd6Gg9Ko8B5hSKVDr9cfGtfw4fYCV2tcAlG9/lF/S3krmM5G3v5J0BI61vjuWk/xM0LUcH2yNpe0Xfba2959q+97MD5YJ6Fh+KLzRprmY4L3ChVwRPA6Gm+pv8mnWzBLUD0dcXjilva3miTpPkzF4="
-    - secure: "NEnBnkuvncpFdTx+6H2oo9RuVrc38iEtFGm0cUfwnWLQkuJEekSF99Rrl8xdDlmtQiBB/hDBLh/zO2GTRUXLMrrKgoPM/QIVlC6VokSb5uKQFRsWJkirAaoAPxWhrQznzvSED4J/+Q8csaf3IOyk61GrSSFPZzvs/3VOeheBjqU="
-    - secure: "Ha7SrQfDWRd1VKnwnwiqfFut4y8I5NoRmzR6jg4udWs+/dWV9sWzWzc/iZjPL5UlM0tcBXTgi74EldoCW/OAkukcmzH5PyiQ7yPaJfLwxmzGTkQuXiE6d9UH+ORIWOfQu23pVUBhSnWtl3MUVLGJN0gy3/qbTCL4nyb+oQL1nmw="
+    - secure: "A1ATdfV5E4K8aw2miX9Pm6t71sHYib6fW1SKnHR3jFL0DyWFEMm3cY1uzs0J+Fn2slzuA9BG5MIG+bOkngGsWEEmN8VJNnkdzAWUSCrGdPWE+vUeBsUCv5kT8fkHHG1xXUvMVpnd1twzw6P0A9qcFCcId01sP9022vaVu0MLaMU="
+    - secure: "U9XkopIf2gO0mT8ilIv5lQuMSE4J2c0o1HGB//z+XikNQzKJ8KTsMJSSi9BFyG/1AoQtX+oiePNKFkk2d9ONhMkQ+m+Cf50WE4iVxJtOuSjr1v2HouRpC+bWLnYRF4k8DFpH9M6J71p224I2Qk+DgGhi31RC5iLjQTX2pMAylsw="
 install:
   - npm install
   - $(npm bin)/bower --version

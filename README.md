@@ -60,6 +60,11 @@ minutes: に書くのにかけた時間をつける。
 - [ ] 「ためした(Arduino / Raspberry Pi)」を週1回以上書く
 - [ ] 「週のふりかえり」を週1回日曜日に書く
 
+# Deployment
+
+- process.env.AWS_ACCESS_KEY_ID
+- process.env.AWS_SECRET_ACCESS_KEY
+
 # Note
 
 - [joyent/node][]
