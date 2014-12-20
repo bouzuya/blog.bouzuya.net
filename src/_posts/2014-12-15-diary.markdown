@@ -1,0 +1,22 @@
+---
+layout: post
+pubdate: "2014-12-15T23:59:59+09:00"
+title: 『ハッカソンをハックする会』にいった & hubot-ifconfig をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 15
+pagetype: posts
+---
+『ハッカソンをハックする会』にいった。また [hubot-ifconfig][gh:bouzuya/hubot-ifconfig] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 158 日目。
+
+[2014-10-31][] に書いた『FaithCreates Inc. 寿司会』のときに話題にあがった『ハッカソンの問題点』な話の延長戦みたいな感じだった。メンバーはぜんぜん違っていたけれど。
+
+ぼくはハッカソンに参加したことがない (昔 Android どうこうというのに参加したけれど、ノーカンで良いよね) ので、ハッカソン慣れしている人を見てすごい人たちなのだと尊敬する。何度か書いている (例えば [2014-07-06][]) のだけど、「思ったことをすぐかたちにできる」が、いまのぼくのなりたいすがたなので、それを実現できている人たちを尊敬するというのは当然だろう。
+
+すくなくともぼくの感覚として、ぼくの手は遅いし、ダメだ。それを常日頃から感じているから「実践的なことをやろう」と [2014-12-09][] のようなことをもくろむわけだ。「できないひとは嫌がられる」と聞いて、「そうだよね」と冷静に理解しつつ、参加してみたい好奇心と嫌がられるのだろうなと不安に思った。
+
+会自体はそういうレベルの話ではなかったので、ぼくには場違いな感じもした。
+
+できるできないはどうしようもないし、前向きにやるしかない。ぞい。
+
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[gh:bouzuya/hubot-ifconfig]: https://github.com/bouzuya/hubot-ifconfig
