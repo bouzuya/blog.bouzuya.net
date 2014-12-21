@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2014-12-13T23:59:59+09:00"
-title: Hubot Advent Calendar 2014 の 13 日目をかいた & hubot-brainfxxk をつくった
+title: 今週のふりかえり(50) & Hubot Advent Calendar 2014 の 13 日目をかいた & hubot-brainfxxk をつくった
 tags: [hubot, hubot-scripts, hubot-script-per-day]
 minutes: 10
 pagetype: posts
