@@ -1,0 +1,64 @@
+---
+layout: post
+pubdate: "2014-12-20T23:59:59+09:00"
+title: 今週のふりかえり(51) & hubot-robo-doll をつくった
+tags: ['looking back', hubot, hubot-scripts, hubot-script-per-day]
+minutes: 20
+pagetype: posts
+---
+今週のふりかえり。2014-12-13/2014-12-20 の一週間をふりかえる。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 160 日目の [hubot-robo-doll][gh:bouzuya/hubot-robo-doll] のことについて書く。
+
+- [2014-12-19 Hubot Advent Calendar 2014 の 19 日目をかいた & hubot-file-brain をつくった][2014-12-19]
+- [2014-12-18 Hubot Advent Calendar 2014 の 18 日目をかいた & hubot-7days-later をつくった][2014-12-18]
+- [2014-12-17 hubot-siritori をつくった][2014-12-17]
+- [2014-12-16 Hubot Advent Calendar 2014 の 16 日目をかいた & hubot-role-loader をつくった][2014-12-16]
+- [2014-12-15 『ハッカソンをハックする会』にいった & hubot-ifconfig をつくった][2014-12-15]
+- [2014-12-14 『Web API: The Good Parts』をよんだ & hubot-reverse をつくった][2014-12-14]
+- [2014-12-13 Hubot Advent Calendar 2014 の 13 日目をかいた & hubot-brainfxxk をつくった][2014-12-13]
+
+ダメだ。ほとんど一週間分を一気に書いてるような状態。原因は先週にも書いた Hubot スクリプトの遅延。
+
+Hubot スクリプトに真剣に向かい合ってないので。そもそも真剣に向かい合うようなものなのかという……。家がゴタゴタしている状態がまだ続いているのもあって、全然ダメだ。Hubot スクリプトはろくなのをつくってない。Hubot Advent Calendar 2014 は書いてないトピックを書くだけなので、負荷は知れてるんだけど。
+
+ひさしぶりに「よんだ」エントリーがある。結局ことしは何冊読んだのだろう。来週が最終週なので来週確認しよう。ひとり読書会は継続できている。一応ね。ガウディ本の 3.4 から。
+
+hubot-robo-doll は「まいてはいけないローゼンメイデン」からやりとりをひっぱってきたもの。ちょぼらうにょぽみ先生はさすがです。さすがですよ。
+
+Hubot Advent Calendar 2014 のリンクを markdown でまとめてくれるスクリプトを書いた。 [https://gist.github.com/bouzuya/6d1771b5d7dfa636a6f1](https://gist.github.com/bouzuya/6d1771b5d7dfa636a6f1)
+
+Travis CI が Node.js 0.10.34 のバグの影響を受けていて、Amazon S3 へのアップロードが `CERT_UNTRUSTED` が出てしまう状態になっていて。原因さがしも兼ねて [grunt-tentacles][gh:bouzuya/grunt-tentacles] をバージョンアップした。
+
+- K
+  - Hubot Advent Calendar 書きつづける。
+  - Hubot スクリプトをつくりつづける。
+  - ガウディ本 (CTMCP) の読書会をつづける。
+- P
+  - Arduino Tutorial をつづけられていない。
+  - atom-hubot-b を公開できなかった。
+  - Docker / CoreOS ためせていない。
+  - Hubot スクリプトが更新されるまで、日記がアップロードされない。
+  - Hubot スクリプトのまとめページをつくれていない。
+  - hubot-gistlog をつくれていない。
+  - Raspberry Pi をためせていない。
+  - TypeScript リファレンスをよめていない。 (Ruby on Rails Guides の後に読んでいく)
+  - つくった ( 料理 ) をできなかった。
+  - トレーニングを再開できなかった。
+  - はやねはやおきができなかった。
+  - ひとり読書会『[Ruby on Rails Guides][hitoridokusho/books/railsguides]』をつづけられていない。
+  - 英文法の学習が遅れている。(24/104)
+  - 週のふりかえり (土曜日) をその日にかけていない。
+  - 発表資料を bouzuya.net にまとめる。
+- T
+  - その週のニュース(世間的な)とか書いたら面白いんじゃないか。
+
+[2014-12-19]: http://blog.bouzuya.net/2014/12/19/
+[2014-12-18]: http://blog.bouzuya.net/2014/12/18/
+[2014-12-17]: http://blog.bouzuya.net/2014/12/17/
+[2014-12-16]: http://blog.bouzuya.net/2014/12/16/
+[2014-12-15]: http://blog.bouzuya.net/2014/12/15/
+[2014-12-14]: http://blog.bouzuya.net/2014/12/14/
+[2014-12-13]: http://blog.bouzuya.net/2014/12/13/
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[gh:bouzuya/robo-doll]: https://github.com/bouzuya/hubot-robo-doll
+[gh:bouzuya/grunt-tentacles]: https://github.com/bouzuya/grunt-tentacles
+[hitoridokusho/books/railsguides]: http://guides.rubyonrails.org/
