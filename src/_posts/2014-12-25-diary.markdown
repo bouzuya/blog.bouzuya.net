@@ -1,0 +1,80 @@
+---
+layout: post
+pubdate: "2014-12-25T23:59:59+09:00"
+title: Hubot Advent Calendar 2014 の 25 日目をかいた & hubot-github-issue-watch をつくった
+tags: [hubot, hubot-scripts, hubot-script-per-day]
+minutes: 20
+pagetype: posts
+---
+[Hubot Advent Calendar 2014][hubot-adventar-2014] の[ 25 日目 (最終日) ][hubot-adventar-2014-25]を書き、ほかに [hubot-github-issue-watch][gh:bouzuya/hubot-github-issue-watch] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 165 日目。
+
+その前に、すこしだけ仕事の話。
+
+会社でひさしぶりにお客さんとの打ち合わせに参加した。転職してからソースコードに近づいた分、お客さんから遠ざかっていて、能力でも上がっている部分や下がっている部分があると感じている。実際、お金を稼ぐという観点では、プログラミングスキルよりお客さんとやりとりできるほうが良いのは確かなので、正直、複雑な気持ちではある。というわけで、わがままを言って、打ち合わせに参加した。緊張した。
+
+[Hubot Advent Calendar 2014][hubot-adventar-2014] の[ 25 日目 (最終日)][hubot-adventar-2014-25] を書いた。今日は [@bouzuya の Hubot 連載をふりかえってみた][hubot-adventar-2014-25] ということで、ぼくの連載のふりかえりをした。邪道感はあるけど、終わりがはっきりしていたほうがいいかな、と。
+
+そして、以下が Hubot Advent Calendar 2014 の一覧。Adventar が消えると困るので、バックアップとしてここに書いておく。
+
+- 12/01 (@bouzuya) [Hubot / ChatOps とは][hubot-adventar-2014-01]
+- 12/02 (@bouzuya) [Hubot のインストール][hubot-adventar-2014-02]
+- 12/03 (@bouzuya) [Hubot を Heroku で動かして Slack から話す][hubot-adventar-2014-03]
+- 12/04 (@bouzuya) [Hubot スクリプトを追加インストールしよう & 自分だけの Hubot スクリプトをつくろう][hubot-adventar-2014-04]
+- 12/05 [Hubot で docomo 「雑談対話」API を使う — “敬称”を Hubot コマンドに | 半月記][hubot-adventar-2014-05]
+- 12/06 (@bouzuya) [簡単な Hubot スクリプトをゼロからつくろう][hubot-adventar-2014-06]
+- 12/07 (@bouzuya) [簡単な Hubot スクリプトをもっとつくろう (おみくじ系)][hubot-adventar-2014-07]
+- 12/08 [carrierモジュールで雑にHubotからコマンドを打つ - killed_by?(Charity)][hubot-adventar-2014-08]
+- 12/09 (@bouzuya) [スクレイピングする Hubot スクリプトをつくろう][hubot-adventar-2014-09]
+- 12/10 (@bouzuya) [Hubot でホームページをつくろう][hubot-adventar-2014-10]
+- 12/11 (@bouzuya) [Hubot スクリプトの読み込み処理を読んでみよう][hubot-adventar-2014-11]
+- 12/12 [研究室でHubot使ってる話][hubot-adventar-2014-12]
+- 12/13 [hubot-slack アダプタ v2 から v3 へ | 半月記][hubot-adventar-2014-13]
+- 12/14 [Slack と Qiita:Team を使って気楽に日報 #qiita_hackathon - ja.ngs.io][hubot-adventar-2014-14]
+- 12/15 [我が家を支えるChatOps - 恥知らずのウェブエンジニア][hubot-adventar-2014-15]
+- 12/16 (@bouzuya) [設定を読み込む Hubot スクリプトをつくろう][hubot-adventar-2014-16]
+- 12/17 [Hubotで「どのコマンドにも一致しない」ときの処理][hubot-adventar-2014-17]
+- 12/18 (@bouzuya) [robot.brain を使った Hubot スクリプトをつくろう][hubot-adventar-2014-18]
+- 12/19 (@bouzuya) [robot.brain を永続化する Hubot スクリプトをつくろう][hubot-adventar-2014-19]
+- 12/20 [Hubotと二人暮らし（構想編） - ぼちぼちぼっちな日常][hubot-adventar-2014-20]
+- 12/21 (@bouzuya) [いまさらだけど Hubot のドキュメントを読んでみよう][hubot-adventar-2014-21]
+- 12/22 (@bouzuya) [Hubot スクリプトのテストやその環境を知ろう][hubot-adventar-2014-22]
+- 12/23 (@bouzuya) [Hubot 標準同梱の Shell アダプターを読んでみよう][hubot-adventar-2014-23]
+- 12/24 (@bouzuya) [使えない Hubot アダプターをつくろう][hubot-adventar-2014-24]
+- 12/25 (@bouzuya) [@bouzuya の Hubot 連載をふりかえってみた][hubot-adventar-2014-25]
+
+「(@bouzuya)」をつけた記事がぼくの書いたもの。25 日のうち 17 日をぼくが書いた。当初は 23 日を書く想定だったので、途中からでも参加してくれた人のおかげで、少なくなって助かった。
+
+無計画な連載だったので、情報のムラや順序の悪さなどが見られたことや、入門記事のシリーズとして適当なラベルをつけていれば、もっと多くの人に読んでもらえたかもしれない、とか思ったり。
+
+今年 (2014) いっぱいは 1 日 1 Hubot スクリプトをつくるけど、それが終われば[週ぶり (shuburi)](http://shuburi.org)にシフトするので、「 2014 は Hubot の年にできた」という Hubot の思い出づくりには良かった。あとすこし、来年のことも考えつつ、やりきりたい。
+
+あ、hubot-github-issue-watch は GitHub の Issue にコメントがついたら通知をくれる Hubot スクリプト。前々回の  Google Sheet API のアレをまた使っている。ただ、これ設定の準備が面倒なんだよね。
+
+[hubot-adventar-2014]: http://www.adventar.org/calendars/384
+[hubot-adventar-2014-01]: http://qiita.com/bouzuya/items/c7d0ad80c357aab6b696
+[hubot-adventar-2014-02]: http://qiita.com/bouzuya/items/11c0c6da2b3ad54b827f
+[hubot-adventar-2014-03]: http://qiita.com/bouzuya/items/2a200c9e8a45e2478bc2
+[hubot-adventar-2014-04]: http://qiita.com/bouzuya/items/4c0206d72ff22ade9339
+[hubot-adventar-2014-05]: http://pasero.net/~mako/blog/s/685
+[hubot-adventar-2014-06]: http://qiita.com/bouzuya/items/4e051f68f8d68a2944b0
+[hubot-adventar-2014-07]: http://qiita.com/bouzuya/items/2e935c99647b93d8ee1d
+[hubot-adventar-2014-08]: http://udzura.hatenablog.jp/entry/2014/12/08/182744
+[hubot-adventar-2014-09]: http://qiita.com/bouzuya/items/587c4e920151342e6f1d
+[hubot-adventar-2014-10]: http://qiita.com/bouzuya/items/8e8ee8e2e8f83513ad35
+[hubot-adventar-2014-11]: http://qiita.com/bouzuya/items/3e239bc530e7c2c3a26c
+[hubot-adventar-2014-12]: http://qiita.com/hiconyan/items/3e5481a61657890624dc
+[hubot-adventar-2014-13]: http://pasero.net/~mako/blog/s/689
+[hubot-adventar-2014-14]: http://ja.ngs.io/2014/12/14/hubot-qiita/
+[hubot-adventar-2014-15]: http://youngforever.hatenablog.com/entry/2014/12/15/113236
+[hubot-adventar-2014-16]: http://qiita.com/bouzuya/items/d65a394cac9e76b56d3d
+[hubot-adventar-2014-17]: http://qiita.com/hiconyan/items/baf6ac56129a26d8ac0c
+[hubot-adventar-2014-18]: http://qiita.com/bouzuya/items/d5fd0ef9a8cb100933f4
+[hubot-adventar-2014-19]: http://qiita.com/bouzuya/items/ae1cb5610a64794bc522
+[hubot-adventar-2014-20]: http://bochibochibocchi0095.hatenablog.com/entry/2014/12/21/000710
+[hubot-adventar-2014-21]: http://qiita.com/bouzuya/items/ca69548c813e87c2845a
+[hubot-adventar-2014-22]: http://qiita.com/bouzuya/items/e23426ecf039154bed7b
+[hubot-adventar-2014-23]: http://qiita.com/bouzuya/items/4a6bad68b4b02c17079e
+[hubot-adventar-2014-24]: http://qiita.com/bouzuya/items/3664e82984117ceb7ff9
+[hubot-adventar-2014-25]: http://qiita.com/bouzuya/items/7d44aa798a0c113d2dde
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[gh:bouzuya/hubot-github-issue-watch]: https://github.com/bouzuya/hubot-github-issue-watch
