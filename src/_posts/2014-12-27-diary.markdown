@@ -1,0 +1,142 @@
+---
+layout: post
+pubdate: "2014-12-27T23:59:59+09:00"
+title: 今週のふりかえり(52) & hubot-github-repo-summary をつくった
+tags: ['looking back', hubot, hubot-scripts, hubot-script-per-day]
+minutes: 40
+pagetype: posts
+---
+今週のふりかえり。2014-12-21/2014-12-26 の一週間をふりかえる。また [1 日 1 Hubot スクリプト][hubot-script-per-day]の 167 日目の [hubot-github-repo-summary][gh:bouzuya/hubot-github-repo-summary] のことについて書く。
+
+これが 2014 年の最後のふりかえり。実は 50 週目 ([2014-12-13][]) に 5 週ごとのふりかえりがなかったのだけど、もう年単位でふりかえりたい。
+
+今週のふりかえり。
+
+- [2014-12-26 忘年会にいった & hubot-auto-lgtm をつくった][2014-12-26]
+- [2014-12-25 Hubot Advent Calendar 2014 の 25 日目をかいた & hubot-github-issue-watch をつくった][2014-12-25]
+- [2014-12-24 映画『ベイ・マックス』をみた & Hubot Advent Calendar 2014 の 24 日目をかいた & hubot-omikuji-sheet をつくった][2014-12-24]
+- [2014-12-23 Hubot Advent Calendar 2014 の 23 日目をかいた & hubot-google-spreadsheet-items をつくった][2014-12-23]
+- [2014-12-22 Hubot Advent Calendar 2014 の 22 日目をかいた & 面談があった & hubot-t_wada をつくった][2014-12-22]
+- [2014-12-21 Hubot Advent Calendar 2014 の 21 日目をかいた & hubot-create-github-repos をつくった][2014-12-21]
+- [2014-12-20 今週のふりかえり(51) & hubot-robo-doll をつくった][2014-12-20]
+
+Hubot Advent Calendar 2014。
+
+Hubot Advent Calendar 2014 をなんとか終えました。[2014-12-25][] にも感想を書いたので、割愛する。Advent Calendar は 12 月がバタバタした要因のひとつと言っていい。
+
+日記の遅れ。
+
+今週もまた一週間分を一気に書いている状態。原因は先週と変わらず、Hubot スクリプト。来週からはその問題は解決する予定。そもそも Hubot スクリプトをつくらなくなるので。かわりにはじめる [週ぶり (shuburi) ][shuburi] の影響はどう出るか分からない。一日単位では出さないので、特に問題にならないだろうと信じている。
+
+1 日 1 Hubot スクリプト。
+
+[Google Sheets API version 3.0][google-sheets-api] を使ったものを連続して使っている。Hubot スクリプトに限らず、Google Sheets を使う事例って多そうなので、 Node.js からちゃらっと使えるようにしておくと便利かなって。
+
+認証情報の設定が面倒なので、そこが問題なんだよね。
+
+その他。
+
+会社面談や打ち合わせ参加や忘年会といった会社イベントや、クリスマス・イブに映画に行ったりといったプライベートなイベントがあったので、忙しかった。
+
+今週はこんなとこか。
+
+# 今年 (2014) のふりかえり。
+
+過去に何度かふりかえっては居るけれど、今回はまとめてみたい。
+
+## 目標達成の度合い
+
+目標達成の度合いを見てみる。
+
+- [ ] 毎日ブログエントリーを書く(361/365)
+- [ ] 毎日 Hubot スクリプトをつくる(167/171)
+- [x] 毎週ふりかえりを書く(52/52)
+- [ ] 2個のAndroidアプリをつくる(0/2)
+- [ ] 6個のWebサービスをつくる(0/6)
+- [x] GitHubリポジトリ数を12個増やす(246/12 64->310)
+- [x] Gist数を25個増やす(16/25 72->121)
+- [ ] よんだエントリーを25個書く (積まれ続けているSICPを読む) (13/25)
+  - メタプログラミング Ruby
+  - WEB+DB PRESS Vol.78
+  - アイデアのつくり方
+  - JavaScript: The Good Parts
+  - 強いチームはオフィスを捨てる
+  - Backbone.js アプリケーション開発ガイド
+  - Everyday Rails - RSpec による Rails テスト入門
+  - シングルページ Web アプリケーション
+  - 青い花
+  - AngularJS アプリケーション開発ガイド
+  - Arduino をはじめよう
+  - Arduino で電子工作をはじめよう
+  - モダン Web
+  - Web API: The Good Parts
+- [ ] 筋トレ 体重58kg 体脂肪率16% (??? 50kg 17%)
+- [x] はてなブックマーク1000個増やす(1711/1000 1540->3251)
+- [ ] ゲーム Skyrim のストーリーをクリアする
+- [ ] ゲーム スーパーストリートファイター4でPP2500 (途中からウル4になる) PP1000-
+
+日単位の分はまだ終わっていないので無視する。ものをつくる系はどちらもダメ。GitHub リポジトリや Gist については 1 日 1 Hubot スクリプトや Qiita への投稿もあってクリア。よんだエントリーは半分程度、筋トレもさぼっているし、ゲームもダメ。
+
+トータルの数字だけでみれば 6/12 (毎日分は見込み) というスコア。50 点というところ。
+
+週の目標はどうかな。
+
+- [x] 「つくった(プログラミング)」を週1回以上書く
+- [x] 「つくった(hubot-script)」を週1回以上書く
+- [ ] 「つくった(料理)」を週1回以上書く
+- [ ] 「ためした(Arduino / Raspberry Pi)」を週1回以上書く
+- [x] 「週のふりかえり」を週1回日曜日に書く
+
+検証しづらいけど、1 日 1 Hubot スクリプト分で上2つは問題なさそう。 IoT 関連は手をつけられていないし、料理もサボっている。
+
+トータルでは 3/5 。どうかな。これも 50 点といったところ。
+
+## 来年の案
+
+上記の結果をふまえて来年したいこと。
+
+### 取り組みたいこと
+
+- ものづくりとその訓練 …… 週ぶり (shuburi)
+- 読書 …… ひとり読書会 (hitoridokusho)
+- 料理 …… 自立しよう
+- 運動 …… からだが資本
+- 英語 …… 今年は続けられなかったので
+
+週ぶり (shuburi) を実践しつつ、1 日 1 Hubot スクリプトのように定期的にものを出していく習慣をつけたい。このへんの構想とかは [2014-12-09][] やら [2014-12-22][] やらで書いたはず。
+
+### 具体的な目標
+
+- 365 個の記事をかく
+- 52 個のふりかえりの記事をかく
+- 50 個の週ぶり (shuburi) 報告の記事をかく
+- 50 個の料理報告の記事をかく
+- 50 個の GitHub リポジトリをつくる
+- 50 個の Qiita 記事をかく
+- 25 個のよんだ記事をかく (WEB+DB PRESS * 6, Software Design * 12 を含む)
+- 24 個の勉強会にでた記事をかく
+- 12 個の体重報告の記事をかく
+
+なるべく数値目標に。計測しやすい形にしたいな、って。
+
+# 総括
+
+1 日 1 Hubot スクリプトの取り組みの数値への影響が大きかった。基礎になるような筋トレや料理が良くないのはまずい。
+
+としては大きい。ここに出てこない部分として、今後加えたいものは「ひとり読書会」のことや各種勉強会への参加を加えたい。
+
+やまほどある TODO はいちどリセットしよう。
+
+[google-sheets-api]: https://developers.google.com/google-apps/spreadsheets/
+[shuburi]: http://shuburi.org
+[2014-12-09]: http://blog.bouzuya.net/2014/12/09/
+[2014-12-13]: http://blog.bouzuya.net/2014/12/13/
+[2014-12-26]: http://blog.bouzuya.net/2014/12/26/
+[2014-12-25]: http://blog.bouzuya.net/2014/12/25/
+[2014-12-24]: http://blog.bouzuya.net/2014/12/24/
+[2014-12-23]: http://blog.bouzuya.net/2014/12/23/
+[2014-12-22]: http://blog.bouzuya.net/2014/12/22/
+[2014-12-21]: http://blog.bouzuya.net/2014/12/21/
+[2014-12-20]: http://blog.bouzuya.net/2014/12/20/
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[gh:bouzuya/hubot-github-repo-summary]: https://github.com/bouzuya/hubot-github-repo-summary
