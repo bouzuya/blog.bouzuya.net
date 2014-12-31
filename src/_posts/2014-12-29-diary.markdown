@@ -1,0 +1,32 @@
+---
+layout: post
+pubdate: "2014-12-29T23:59:59+09:00"
+title: ひげそりをかっ(てもらっ)た & hubot-google-spreadsheet-delete をつくった
+tags: [misc, hubot, hubot-scripts, hubot-script-per-day]
+minutes: 15
+pagetype: posts
+---
+ひげそりをかってもらった。また [hubot-google-spreadsheet-delete][gh:bouzuya/hubot-google-spreadsheet-delete] をつくった。[1 日 1 Hubot スクリプト][hubot-script-per-day]の 169 日目。
+
+Hubot スクリプトがいまだに追いついてこない。もう無視してアップロードしたいな。
+
+今日はクリスマスプレゼントを買いにおでかけ。ひげそりを買ってもらった。前は初任給で買ったので 2009 年、かな。 5 年くらい使っていたので、そろそろ新しくしたかった。切れ味は良くなったのかよくわからないけれど、ひげをそったときの音が心地よい。ゼアイズサンクスオンリー。
+
+彼女にストリートファイターを教える。
+
+ぼくは教えられるほどストリートファイターがうまくないのだけど、彼女は「波動拳コマンドが出せないよ」ってレベルだったので、なんとかなった。ずいぶんうまくなっていて、とりあえず波動拳コマンドは出るようになった。ただ、できれば深夜までやるのはやめてほしいな。
+
+1 日 1 Hubot スクリプト。
+
+一応 12/25 分まで Hubot スクリプトをつくった。あと 26, 27, 28, 29, 30, 31 。さっさと shuburi に入らないとまずいんだよね。
+
+ちなみに今日の hubot-google-spreadsheet-delete は最近の Google Sheets API つくろうの総まとめに入りつつあるもの。`google-sheet.coffee` をライブラリ化しようとしている。
+
+週ぶり (shuburi) 。
+
+未着手。ヤバイ。
+
+[hubot-script-per-day]: http://blog.bouzuya.net/posts?tags=hubot-script-per-day
+[shuburi]: http://shuburi.org
+[gh:bouzuya/hubot-config]: https://github.com/bouzuya/hubot-config
+[gh:bouzuya/hubot-google-spreadsheet-delete]: https://github.com/bouzuya/hubot-google-spreadsheet-delete
