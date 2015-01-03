@@ -6,7 +6,7 @@ tags: [shuburi]
 minutes: 15
 pagetype: posts
 ---
-[週ぶり (shuburi)][shuburi] 2015-W01 (1)  。
+[週ぶり (shuburi)][shuburi] 2015-W01 (2)  。
 
 [bouzuya/hspd-api][] の続き。今日は HubotScriptsController を追加。
 
