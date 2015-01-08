@@ -1,0 +1,31 @@
+---
+layout: post
+pubdate: "2015-01-08T23:59:59+09:00"
+title: gulp-karma をためした
+tags: [shuburi]
+minutes: 12
+pagetype: posts
+---
+[週ぶり (shuburi)][shuburi] 2015-W02 (5) 。
+
+[bouzuya/hspd-app][] の続き。今日は karma でテストするように変えた。[2015-01-08][] に気づいた間違いを正した形である。
+
+具体的には gulp-mocha を使っていた箇所を gulp-karma にし、karma 向けの plugin ? である karma-mocha / karma-phantomjs-launcher / karma-webpack を使った。 PhantomJS で webpack でビルドされたソースを mocha と power-assert でテストしている。
+
+gulp-karma は stream を扱えていないし、本来つくるべきでないプラグインだろうけど、 karma の実装がひどくて process.exit されてしまうので、その対応を真面目に書くと面倒なので使っている。
+
+あとエラー時に gulp-karma が死んでしまうので `.on 'error', (e) -> @emit('end')` のようにして、エラーで異常終了しないように工夫している。
+
+準備ばかりで本体が進んでいないという……。
+
+会社。
+
+CoreOS + Vulcand な構成を組んだのだけど、どうも、パフォーマンスが悪い気がする。ただ、構成自体はスマートで良いと思う。
+
+その他。
+
+来週プレゼンしないといけなくなったので、その準備をしなくてはいけない。
+
+[2015-01-08]: http://blog.bouzuya.net/2015/01/08/
+[shuburi]: http://shuburi.org
+[bouzuya/hspd-app]: https://github.com/bouzuya/hspd-app
