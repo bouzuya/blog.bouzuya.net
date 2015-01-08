@@ -1,0 +1,27 @@
+---
+layout: post
+pubdate: "2015-01-07T23:04:57+09:00"
+title: bouzuya/shuburi-report をつくった
+tags: [misc]
+minutes: 10
+pagetype: posts
+---
+[bouzuya/shuburi-report][] をつくった。
+
+昨日 ([2015-01-06][]) も書いたけど、shuburi の進捗を自動ツイートするためのアプリ。例によって Heroku Button つきのアプリにした。といっても現状だと cron 的な動きしかないので、個別に Heroku Scheduler を設定しないといけないので、あんまり恩恵はないかも。
+
+[週ぶり (shuburi)][shuburi] 2015-W02 (4) 。
+
+[bouzuya/hspd-app][] の続き。今日も進展なし。上記の bouzuya/shuburi-report をつくっていた。
+
+会社。
+
+CoreOS をためしている。前から何度か書いているけど、CoreOS 良い。無駄がない。必要十分。
+
+その他。
+
+あと、筋肉痛が治らない。
+
+[shuburi]: http://shuburi.org
+[bouzuya/hspd-app]: https://github.com/bouzuya/hspd-app
+[bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report
