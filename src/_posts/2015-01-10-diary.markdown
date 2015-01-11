@@ -35,7 +35,7 @@ TypeScript + AngularJS 向けの環境設定 (主に gulp) に時間がかかっ
 coreos + vulcand の構成はとりあえずできた。vulcand v0.8.0 は alpha なので様子を見つつ、バージョンアップに対応しないといけない。正式版のリリースはまだかな。もうずっと新しいことばかりで、使いこむのが減ってしまっているので、 CoreOS は使いこなせるようにしていきたい。シンプルだし、きっと理解も早いはず。
 
 [shuburi]: http://shuburi.org
-[bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report]
+[bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report
 [bouzuya/hspd-app]: https://github.com/bouzuya/hspd-app
 [bouzuya/hspd-api]: https://github.com/bouzuya/hspd-api
 [2015-01-09]: http://blog.bouzuya.net/2015/01/09/
