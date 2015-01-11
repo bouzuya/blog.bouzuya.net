@@ -1,0 +1,47 @@
+---
+layout: post
+pubdate: "2015-01-11T23:47:42+09:00"
+title: 映画『スコア』・『スティング』をみた & Gitter をためした
+tags: [movie]
+minutes: 23
+pagetype: posts
+---
+映画『スコア』。
+
+ロバート・デ・ニーロが金庫破りを演じるもの。潜入し見つかるかもしれないスリルは心臓に悪い。
+
+映画『スティング』。
+
+どんでん返しが……という紹介を読んで Xbox Video で観た。回線の調子が悪く、途中で何度も切られた。最低の視聴体験だ。
+
+どんでん返しというほどすごいものでもない。いや、当時はすごかったのかもしれないが。これまたイカサマというか詐欺がバレるかもしれないというスリルがある。いや、そうでもないか。スコアのほうがどきどきしたし、最後にどんでん返しもあった。
+
+エンターテイナーだったか、あれが流れると人が死んでいても楽しい雰囲気になる。
+
+[週ぶり (shuburi)][shuburi] 2015-W03 。
+
+[bouzuya/hspd-bootstrap][] をつくりはじめた。今週は先週に続き hspd-api 向けのクライアントをつくる。
+
+今週は見た目を改善しようと思う。主に以下の変更を行う。
+
+- LESS の採用
+- Bootstrap の採用
+- レスポンシブデザイン
+- 開発フローの変更 (Issue & Pull Request)
+
+スマートフォンやウィンドウサイズを問わずに見れるものにし、 CSS のメンテナンスについても考えたい。
+
+フローの変更は具体的には `git push` でなく Issue と Pull Request とを使って開発を進めていくつもりだ。外部から開発状況や方針を見えやすくするためや、開発に参加してもらえる可能性を高めるための工夫だ。
+
+すごいものはできないだろうけど、こうやってすこしずつ良いものにしたい。
+
+週ぶりに関してもう一点。
+
+公式サイト [shuburi.org][shuburi] を更新した。Wiki や Twitter アカウントや Hashtag や Gitter へのリンクを追加した。 Wiki や Gitter については今回のために追加した。
+
+特に Gitter は個人的にははじめて使ったのだけど、可もなく不可もなくといった無難なつくりで、リポジトリ (OSSプロジェクト) 向けのフリーのチャットルームとして使うにはちょうど良い気がした。開発者は GitHub アカウントを持っているものだしね。
+
+[shuburi]: http://shuburi.org
+[bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report
+[bouzuya/hspd-bootstrap]: https://github.com/bouzuya/hspd-bootstrap
+[bouzuya/hspd-api]: https://github.com/bouzuya/hspd-api
