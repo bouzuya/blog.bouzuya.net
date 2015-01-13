@@ -1,0 +1,28 @@
+---
+layout: post
+pubdate: "2015-01-13T23:59:59+09:00"
+title: 映画『ロードオブザリング』を観た
+tags: [cinema]
+minutes:
+pagetype: posts
+---
+映画『ロードオブザリング』。
+
+Google Play ですこし前に無料で配信されていた映画だ。連休終わりだったからか寝付けなかったので観た。過去に1度は見ているはず。思ったより映像がきれいだったのと、尺が長かった。驚くほどに。
+
+[週ぶり (shuburi)][shuburi] 2015-W03 (3) 。
+
+[bouzuya/hspd-bootstrap][] は今日は進捗なし。後述の発表資料のせい。
+
+よもやまばなし。
+
+今日は [Jelly Bean (Android 4.3) とそれ以前の WebView に対するセキュリティパッチの提供がなくなるという話](https://community.rapid7.com/community/metasploit/blog/2015/01/11/google-no-longer-provides-patches-for-webview-jelly-bean-and-prior)が印象に残った。新しいものを作る会社からすれば、古いものをサポートし続けるメリットってほとんどないだろうからね。ものによるだろうけど、Android の WebView なんかは害悪でしかない。直しようがないというか、もう乗り換えるべきなんだよね、どう考えても。
+
+その他。
+
+昨日の晩つくりかけていたスライドをつくった、のだけど、15 分しか持ち時間がないのに、枚数が 42 枚もある。時間を伸ばしてもらうか、明日の朝削るか、話すときに飛ばすか、かなあと。枚数の割に密度は高くないので、適当に流して話せば間に合うような。うーん。
+
+今回も reveal.js を使った。前回より慣れてきて短時間でできた。また、資料自体もすこし落ち着いた感じに仕上がった。
+
+[shuburi]: http://shuburi.org
+[bouzuya/hspd-bootstrap]: https://github.com/bouzuya/hspd-bootstrap
