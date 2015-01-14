@@ -1,0 +1,24 @@
+---
+layout: post
+pubdate: "2015-01-14T23:59:59+09:00"
+title: FaithCreates Inc. 寿司会にさんかした
+tags: [misc]
+minutes: 5
+pagetype: posts
+---
+[週ぶり (shuburi)][shuburi] 2015-W03 (4) 。
+
+[bouzuya/hspd-bootstrap][] は今日も進捗なし。発表したからね。明日はひとり読書会だし、明後日から旅行か。ダメだな。
+
+よもやまばなし。
+
+今日は『[「食べグロ」って言うメシマズ投稿サイトを作りたい](http://anond.hatelabo.jp/20150113112949)』。
+
+世間話でもなんでもないんだけど、週ぶり (shuburi) をしているのは、こういうのを数日でポンと出せるようになるためなので……機会損失ってことで、メモ。
+
+その他。
+
+FaithCreates Inc. 寿司会にでた。発表した。いま会社でつくっているサービスと、それに使っている技術ほかについて。
+
+[shuburi]: http://shuburi.org
+[bouzuya/hspd-bootstrap]: https://github.com/bouzuya/hspd-bootstrap
