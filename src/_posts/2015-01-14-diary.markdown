@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2015-01-14T23:59:59+09:00"
-title: FaithCreates Inc. 寿司会にさんかした
+title: FaithCreates Inc. 寿司会にでた
 tags: [misc]
 minutes: 5
 pagetype: posts
