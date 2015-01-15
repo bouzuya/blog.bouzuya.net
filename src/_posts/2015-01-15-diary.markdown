@@ -1,0 +1,28 @@
+---
+layout: post
+pubdate: "2015-01-15T21:40:56+09:00"
+title: 無題
+tags: [misc]
+minutes: 7
+pagetype: posts
+---
+[週ぶり (shuburi)][shuburi] 2015-W03 (5) 。
+
+[bouzuya/hspd-bootstrap][] は今日も進捗なし。取り込み中。毎朝きちんと [bouzuya/shuburi-report][] がなっているので、焦りを感じる。
+
+昨日([2015-01-14][])、「明日はひとり読書会だし」とか書いたけど、明日 (昨日から見れば明後日) だった。旅行は明後日の土曜日からね。
+
+よもやまばなし。
+
+今日はこれといって気になるニュースはなかったのだけど、昼ごろかな、緊急速報が飛んできた。訓練だったけど。いつも鳴らない音が強制的になるので驚いた。
+
+その他。
+
+昔のコードを見ると、今のベストプラクティスを適用したくなるが、昔のコードは昔のベストプラクティスだったんだよなあ。
+
+あと、[README](https://raw.githubusercontent.com/bouzuya/blog.bouzuya.net/master/README.md) の「今年の目標」の欄を更新した。これつくりたいなあ。プログレスバー出して 15/365 みたいの。せっかく定量的な目標にしているわけだし。
+
+[shuburi]: http://shuburi.org
+[2015-01-14]: http://blog.bouzuya.net/2015/01/14/
+[bouzuya/hspd-bootstrap]: https://github.com/bouzuya/hspd-bootstrap
+[bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report
