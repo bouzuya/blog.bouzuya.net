@@ -1,0 +1,52 @@
+---
+layout: post
+pubdate: "2015-01-19T23:50:15+09:00"
+title: 映画『ブラザーズ・グリム』をみた & 雑誌『Software Design 2015 2』をよんだ
+tags: [movie, book]
+minutes: 40
+pagetype: posts
+---
+[週ぶり (shuburi)][shuburi] 2015-W04 。
+
+[bouzuya/hspd-search][] をつくりはじめた。
+
+当初の方針に従い、3 本目のフロントエンドをつくる。今度は検索・ページャを追加し、ディレクティブなどをためしていきたい。前回の最後の分はローディングの動きがいまいちになっていた(デグレった)ので、そこもできれば直したい。
+
+映画『ブラザーズ・グリム』。
+
+観なくてよかった。
+
+雑誌『Software Design 2015 2』。
+
+systemd 特集。fujisan.co.jp からの封をあけて、systemd の文字が出た途端、あまりのタイムリーさにツイートしてしまった。
+
+<blockquote class="twitter-tweet"><p>今月 systemd やん！ <a href="http://t.co/8XfUvom47a">pic.twitter.com/8XfUvom47a</a></p>&mdash; bouzuya (@bouzuya) <a href="https://twitter.com/bouzuya/status/556701343566413824">January 18, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+なぜタイムリーなのか。
+
+過去、何度か記事を書いているのだけど、このところ CoreOS を使っている。CoreOS を構成する数少ない要素のひとつが systemd だからだ。
+
+CoreOS と言えば docker / etcd / fleet が有名 ([公式サイトにバージョン記載されているソフトウェアだ](https://coreos.com/)) なのだけど、CoreOS 利用の典型的な形としては etcd でクラスタを組んだ CoreOS に対して fleet 経由で docker を使うよう記述された unit を配置するものである。で、この fleet はいわばクラスタにおける systemd (init) であり、クラスタのどこかで unit を動かすための仕組みである。そしてこの unit は systemd の unit を拡張したものにほかならない。要するに systemd の unit について理解することは、CoreOS の理解に直結するのだ。fleet を使うと嫌でも systemd を使うことになる、ということだ。
+
+CoreOS を使っていて、fleet を使っていて、systemd を使っている。だから、タイムリーなのだ。
+
+トレーニング。
+
+今日は二の腕を中心に。
+
+よもやまばなし。
+
+キラキラネームの話。
+
+<blockquote class="twitter-tweet"><p>名前を首相と書いてキャプテン(首相は誤字ではない)と読ませる名前だった子どもが改名した話を見ていて、親に対して、精神的苦痛を理由に賠償を求めるとか出来るのかなって疑問に思った。</p>&mdash; bouzuya (@bouzuya) <a href="https://twitter.com/bouzuya/status/557134639928573954">January 19, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+子どもは親を選べないし、親も子どもを選べない。ただ、親は子どもの名前を選べる。親につけられてしまったいかにも頭の悪い名前によって子どもは様々な害を被る可能性がある。そして、子どもに名前は選べない。
+
+その他。
+
+トラブルがあって、ゴタゴタしていた。月曜から。月曜だから、か。
+
+[shuburi]: http://shuburi.org
+[bouzuya/hspd-search]: https://github.com/bouzuya/hspd-search
