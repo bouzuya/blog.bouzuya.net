@@ -3,7 +3,7 @@ layout: post
 pubdate: "2015-01-20T23:26:31+09:00"
 title: 『「代表的プロダクト」について』のこととか
 tags: [misc]
-minutes:
+minutes: 15
 pagetype: posts
 ---
 [週ぶり (shuburi)][shuburi] 2015-W04 。
