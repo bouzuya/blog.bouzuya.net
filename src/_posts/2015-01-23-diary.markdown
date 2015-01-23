@@ -1,0 +1,29 @@
+---
+layout: post
+pubdate: "2015-01-23T23:43:10+09:00"
+title: 『AngularJS リファレンス』をよんだ
+tags: [book]
+minutes: 17
+pagetype: posts
+---
+[週ぶり (shuburi)][shuburi] 2015-W04 。
+
+[bouzuya/hspd-search][] をつくっている。[Demo][hspd-search]。進んでいない。
+
+『AngularJS リファレンス』をよんだ。
+
+『[AngularJSリファレンス][http://www.amazon.co.jp/dp/4844336681]』をよんだ。とりあえず一周。リファレンスの名前の通り API をふかんする感じ。当たり前っちゃ当たり前なんだけど、ディレクティブやモジュール (プロバイダなど) や DI あたりには比較的多めにページが割かれているし、分かりやすいと思う。
+
+週ぶり (shuburi) でも、その他でも AngularJS を使っているので、活かせるといいな。
+
+ちなみに個人的には `factory` は使ってなくて、`service` を使っているなあ。あと `provider` で `config` フェーズで、ってのは現状使ってなくて、設定が必要な場合は `constant` で構成情報を設定しておいて、それを `service` に inject している。たぶん、もっと動的な設定にならない限りは問題ないんじゃないかな。分からないけど。もっと使い込むべきだなあ。
+
+書籍では AngularJS の 2.0 への言及が多いんだけど、どうなるんだろうね。差が大きいから、簡単には移行できないはずだけど……。そもそも、差が大きくなりすぎて、とんざしたりしないのかな。
+
+よもやまばなし。
+
+ガラホのニュースがあった。会社で、ガラケーとスマホの悪いところを足したみたい、などとバカにしていた。もうガラケー OS のノウハウは失われたんじゃ、と予想。Android OS でガラケーつくろうよって、そういうことなのかなって。スマホを期待するとダメだろうね。
+
+[shuburi]: http://shuburi.org
+[bouzuya/hspd-search]: https://github.com/bouzuya/hspd-search
+[hspd-search]: https://hspd-search.herokuapp.com/
