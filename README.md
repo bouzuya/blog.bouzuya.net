@@ -21,15 +21,16 @@ minutes: に書くのにかけた時間をつける。
 - XXXにいった         ... 旅行・勉強会など
 - 今週のふりかえり(n) ... ふりかえり(nは回)
 
-### 色・フォント
+## Color / Font
 
-#### 色
+### Color
 
 See [bouzuya colors](https://github.com/bouzuya/bouzuya.net)
 
-#### フォント
+### Font
 
 - Fredoka One
+- Open Sans
 
 ### 目標(2014-03-30)
 
