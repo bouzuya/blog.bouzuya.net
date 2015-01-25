@@ -8,7 +8,7 @@ bouzuya's blog.
 
 minutes: に書くのにかけた時間をつける。
 
-## エントリーの種類
+## Entry Titles
 
 - XXXをつくった       ... プログラミング
 - XXX@YYYをつくった   ... プログラミング(バージョンアップ)
@@ -20,19 +20,42 @@ minutes: に書くのにかけた時間をつける。
 - XXXにでた           ... 勉強会など
 - XXXにいった         ... 旅行・勉強会など
 - 今週のふりかえり(n) ... ふりかえり(nは回)
+- 無題                ... その他
 
-## Color / Font
+## Template
 
-### Color
+- 今週のふりかえり
+- つくった
+  - [週ぶり (shuburi)][shuburi] 2015-Wnn
+- よもやまばなし
+- からだづくり
+  - 体重
+  - 体脂肪率
+- みた
+  - アニメ
+  - テレビ
+  - 映画
+- よんだ
+  - 雑誌
+  - 書籍
+  - ひとり読書会
+- その他
+- KPT
+
+[shuburi]: http://shuburi.org
+
+# Color / Font
+
+## Color
 
 See [bouzuya colors](https://github.com/bouzuya/bouzuya.net)
 
-### Font
+## Font
 
 - Fredoka One
 - Open Sans
 
-## Goals
+# Goals
 
 - 365 個の記事をかく
 - 52 個のふりかえりの記事をかく
