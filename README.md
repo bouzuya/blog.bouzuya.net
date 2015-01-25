@@ -32,9 +32,7 @@ See [bouzuya colors](https://github.com/bouzuya/bouzuya.net)
 - Fredoka One
 - Open Sans
 
-### 目標(2014-03-30)
-
-#### 年目標
+## Goals
 
 - 365 個の記事をかく
 - 52 個のふりかえりの記事をかく
