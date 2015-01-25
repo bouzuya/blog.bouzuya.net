@@ -25,12 +25,7 @@ minutes: に書くのにかけた時間をつける。
 
 #### 色
 
-- bouzuya green
-  - `#4e6a41`
-  - `rgb(78, 106, 65)`
-  - `hsl(101, 24%, 34%)`
-- bouzuya white
-  - `hsl(101, 24%, 94%)`
+See [bouzuya colors](https://github.com/bouzuya/bouzuya.net)
 
 #### フォント
 
