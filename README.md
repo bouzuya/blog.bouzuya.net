@@ -2,13 +2,13 @@
 
 bouzuya's blog.
 
-## 書きかたメモ
+# Writing
 
-### N min.
+## N min.
 
 minutes: に書くのにかけた時間をつける。
 
-### エントリーの種類
+## エントリーの種類
 
 - XXXをつくった       ... プログラミング
 - XXX@YYYをつくった   ... プログラミング(バージョンアップ)
@@ -44,12 +44,12 @@ See [bouzuya colors](https://github.com/bouzuya/bouzuya.net)
 - 24 個の勉強会にでた記事をかく
 - 12 個の体重報告の記事をかく
 
-# Deployment
+# Configuration
 
 - process.env.AWS_ACCESS_KEY_ID
 - process.env.AWS_SECRET_ACCESS_KEY
 
-# Note
+# Libraries
 
 - [joyent/node][]
 - [gruntjs/grunt][]
