@@ -1,0 +1,33 @@
+---
+layout: post
+pubdate: "2015-01-29T23:30:51+09:00"
+title: 名刺をつくった
+tags: [misc]
+minutes: 20
+pagetype: posts
+---
+[週ぶり (shuburi)][shuburi] 2015-W05
+
+進んでいない。週ぶりでの gulp の知識・経験が業務に活きていて、良い。
+
+よもやまばなし
+
+Android TV 端末である Nexus Player が日本でも発売されるらしい。……というわけで、知ったかぶりをしているのだけど、Android TV が何なのかわからないし、海外で出ていたことも知らなかったし、まったく興味がなかったから調べていなかったのだけど、2 万円しないし、買ってみても良いかも。値段の割には性能悪い気もするので、適当にベアボーン買うほうが得な気もするけど。
+
+その他
+
+その他と言いつつ、今日のメイン。
+
+名刺が届いた。
+
+<blockquote class="twitter-tweet" lang="en"><p>名刺とどいた <a href="http://t.co/dVRVVO2AXC">pic.twitter.com/dVRVVO2AXC</a></p>&mdash; bouzuya (@bouzuya) <a href="https://twitter.com/bouzuya/status/560774619724926976">January 29, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+元データは GitHub に置いている。Inkscape でせこせこ描いて、[プリントライ](http://www.printry.jp/) で印刷した。
+
+印刷の条件は、オンデマンド印刷で用紙はホワイト 180kg 両面カラーの日本の名刺サイズ (55.0x91.0mm) 。
+
+色ムラ (?) があって安価に印刷しました感があるのはすこし残念だし、おためしということで 30 枚 1,500 円と割高感はあるけれど、それでも以前から欲しかった個人名刺だし、Inkscape で自分の思い通りにつくれたし、良しとしよう。
+
+
+[shuburi]: http://shuburi.org
