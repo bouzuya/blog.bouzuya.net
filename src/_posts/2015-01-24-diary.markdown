@@ -18,7 +18,7 @@ pagetype: posts
 
 [週ぶり (shuburi)][shuburi] 2015-W04 。
 
-[bouzuya/hspd-search][] をつくった。デモは [hspd-search.herokuapp.com](hspd-search.herokuapp.com) から。
+[bouzuya/hspd-search][] をつくった。デモは [hspd-search.herokuapp.com](https://hspd-search.herokuapp.com) から。
 
 先週の bouzuya/hspd-bootstrap に検索機能をつけたもの。増分なら同じリポジトリで良いと思うのだけど、別アプリケーションとしてデプロイしているし、良しとしよう。
 
