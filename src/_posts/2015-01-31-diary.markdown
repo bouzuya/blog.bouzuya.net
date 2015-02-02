@@ -101,8 +101,11 @@ T
 [2015-01-25]: http://blog.bouzuya.net/2015/01/25/
 [2015-01-24]: http://blog.bouzuya.net/2015/01/24/
 [shuburi]: http://shuburi.org
-[bouzuya/hspd-plus]: https://github.com/bouzuya/hspd-plus
 [bouzuya/hspd-api]: https://github.com/bouzuya/hspd-api
+[bouzuya/hspd-app]: https://github.com/bouzuya/hspd-app
+[bouzuya/hspd-bootstrap]: https://github.com/bouzuya/hspd-bootstrap
+[bouzuya/hspd-search]: https://github.com/bouzuya/hspd-search
+[bouzuya/hspd-plus]: https://github.com/bouzuya/hspd-plus
 [graph-weight-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=weight&startdate=2015-01-01&enddate=2015-01-31
 [graph-weight-url]: http://graph.hatena.ne.jp/bouzuya/weight/?startdate=2015-01-01&enddate=2015-01-31
 [graph-percent-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=percent&startdate=2015-01-01&enddate=2015-01-31
