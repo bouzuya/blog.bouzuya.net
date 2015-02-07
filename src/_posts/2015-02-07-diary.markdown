@@ -1,0 +1,100 @@
+---
+layout: post
+pubdate: "2015-02-07T22:30:20+09:00"
+title: 2015-W06 今週のふりかえり & 週ぶり (shuburi) で bouzuya/peggie-app をつくった
+tags: ['looking back', shuburi, training]
+minutes: 55
+pagetype: posts
+---
+# 今週のふりかえり
+
+- [2015-02-06 Chromecast をためした][2015-02-06]
+- [2015-02-05 無題][2015-02-05]
+- [2015-02-04 無題][2015-02-04]
+- [2015-02-03 『カルカソンヌ』であそんだ][2015-02-03]
+- [2015-02-02 『Web エンジニアが知っておきたいインフラの基本』をよんだ][2015-02-02]
+- [2015-02-01 映画『ミリオンダラー・ベイビー』をみた & Code for Kobe もくもく会にでた & etcd / fleet のドキュメントをよんだ][2015-02-01]
+- [2015-01-31 2015-W05 今週のふりかえり & 週ぶり (shuburi) で bouzuya/hspd-plus をつくった][2015-01-31]
+
+忙しかったのかなあ。残業は先週より減っているはずなのだけれど……あまり覚えていない。
+
+映画に本 & ドキュメントにゲームにガジェット。色どり豊かではあるのだけれどパッとしない。
+
+# [週ぶり (shuburi)][shuburi] 2015-W06
+
+[bouzuya/peggie-app][] をつくった。デモは [peggie-app.herokuapp.com](https://peggie-app.herokuapp.com) から。
+
+[事前にツイートしていた](http://togetter.com/li/779942)り[去年の春に gist に書いていた](https://gist.github.com/bouzuya/10569152)りしたコンセプトを仮実装した。
+
+peggie のコンセプトは「まず所持金を入力し、前回入力した金額から不明金を計算し、不明金を埋めるように使用した金額を入力する」というもの。要するに UI の話。
+
+現状では機能が全然足りていなくて、とりあえずコンセプトを見えるところまで持っていっただけ。不足機能は大きいところで以下の通り。
+
+- 項目の分類
+- 月別の集計
+- データの保存・読み込み
+- 項目の編集
+- スマホ対応
+
+本来は 1 週目は API 週なのだけど、今回のは API は比較的どうでも良くて、最悪 JSON を画面に表示してファイル保存を促すので十分だと思っている。データ量が増えても画面表示を削ればなんとかなるんじゃないかな。
+
+日毎のコミットを見れるようにという [bouzuya/shuburi-report][] の更新はまだできていない。手動対応。
+
+日         | week           | day
+-----------|----------------|-----------------
+2015-02-01 | X (0 commits)  | X (+0 commits)
+2015-02-02 | X (4 commits)  | X (+4 commits)
+2015-02-03 | O (17 commits) | O (+13 commits)
+2015-02-04 | O (23 commits) | O (+5 commits)
+2015-02-05 | O (33 commits) | O (+10 commits)
+2015-02-06 | O (38 commits) | O (+5 commits)
+2015-02-07 | O (68 commits) | O (+30 commits)
+
+# からだづくり
+
+完全にサボっている。
+
+体重
+
+[![体重のグラフ][graph-weight-img]][graph-weight-url]
+
+体脂肪率
+
+[![体脂肪率のグラフ][graph-percent-img]][graph-percent-url]
+
+# よもやまばなし
+
+[Node.js v0.12.0 (stable)](http://b.hatena.ne.jp/entry/241111163/comment/bouzuya) 。ようやくリリースされた。詳しくは知らないけど、これがなかなか出ないような進め方をしているから io.js とか出てきてしまったんだよね、たぶん。
+
+# KPT
+
+K
+
+- 週ぶり (shuburi) 。
+- よもやまばなし。
+
+P
+
+- からだづくり (体重測定) 。
+- 今年の目標を確認しづらい。
+- shuburi の成果を確認しづらい。
+
+T
+
+- 今年の目標を可視化する。
+- shuburi-report を改良する
+
+[2015-02-06]: http://blog.bouzuya.net/2015/02/06/
+[2015-02-05]: http://blog.bouzuya.net/2015/02/05/
+[2015-02-04]: http://blog.bouzuya.net/2015/02/04/
+[2015-02-03]: http://blog.bouzuya.net/2015/02/03/
+[2015-02-02]: http://blog.bouzuya.net/2015/02/02/
+[2015-02-01]: http://blog.bouzuya.net/2015/02/01/
+[2015-01-31]: http://blog.bouzuya.net/2015/01/31/
+[shuburi]: http://shuburi.org
+[bouzuya/peggie-app]: https://github.com/bouzuya/peggie-app
+[bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report
+[graph-weight-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=weight&startdate=2015-01-01&enddate=2015-02-07
+[graph-weight-url]: http://graph.hatena.ne.jp/bouzuya/weight/?startdate=2015-01-01&enddate=2015-02-07
+[graph-percent-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=percent&startdate=2015-01-01&enddate=2015-02-07
+[graph-percent-url]: http://graph.hatena.ne.jp/bouzuya/percent/?startdate=2015-01-01&enddate=2015-02-07
