@@ -1,0 +1,41 @@
+---
+layout: post
+pubdate: "2015-02-09T20:47:05+09:00"
+title: bouzuya/cars@0.2.1 をつくった
+tags: [misc]
+minutes: 34
+pagetype: posts
+---
+# bouzuya/cars@0.2.1
+
+[bouzuya/cars][] をバージョンアップした。昨日・一昨日と書きそびれていた。
+
+cars は counters and reporters 。任意のデータをカウントして任意の形でレポートする。そんなにつくりこんでい>ない。去年のいまごろに書いた小さなプログラムである。
+
+バージョンアップのきっかけは EC2 のインスタンスの整理。EC2 の Reserved Instance の契約が切れて On Demand >になった。これだと費用が高くなるので、不要なインスタンスを整理し、削除することにした。常時立ち上がるインスタンスのほかに定期的に立ち上がるインスタンスがあった。その理由が Jenkins で cars を動かしているからだった>。この程度の処理なら EC2 を使わなくても Heroku と Heroku Scheduler を使えば、無料枠で対応できるので、そち>らで動かせるように直すことにした。
+
+もともと CLI なので、そこはそのままに Web API 部分だけを追加した。Web API 経由からも呼び出せるようにして、 Web アプリケーションとして Heroku にデプロイできるようにする。
+
+機能の追加としては大したことないのだけど、環境やそこへのデプロイなどのフローを明確にしたことで格段に良くなった。環境とデプロイというのは Heroku と Heroku Button やそのまわりの手順のことだ。Fork して `npm install` で自分の `counters` / `reporters` を追加し、Heroku Button を押すという明確な流れを定義し、README に記載した (こう書くと、まるで Hubot だ) 。数コミットで README に追記した程度だけど、ぼく以外の人に使ってもらえる>可能性は高まったし、格段に良くなったと思う。
+
+cars からすこし離れたことを書く。
+
+この Hubot や cars のようなスタイルは、「サービス」を提供するのではなく「サービスを提供するソフトウェア」>を提供するのであれば、現状のベストプラクティスだと思う。GitHub に OSS License で開発されたソフトウェアを Fork してそれぞれが Hack し、Heroku という環境に Heroku Button でデプロイする。最近は Docker を使えば使うだけの人あるいは、それぞれでホストしたいサービスをほしい人には、もっとうまく提供できるだろう。
+
+ぼくは自動車よりも自動車工場がほしいし、サービスよりもサービスを提供するソフトウェアがほしい。サービスの形にしばられるのが嫌だ。自分で変える自由がほしい。Hack する権利が、できる可能性が。
+
+# [週ぶり (shuburi)][shuburi] 2015-W07
+
+何を作るのかも決めていない。[bouzuya/peggie-app][] をもうすこし続けたい。その流れで api ができると良い。
+
+date       | week           | day
+-----------|----------------|-----------------
+2015-02-08 | X (0 commits)  | X (+0 commits)
+2015-02-09 | X (0 commits)  | X (+0 commits)
+
+# よもやまばなし
+
+[CircleCIをpublic reposに使うときに気をつけること | 實松アウトプット](http://b.hatena.ne.jp/entry/241205385/comment/bouzuya) 。こわいねー
+
+[shuburi]: http://shuburi.org
+[bouzuya/cars]: https://github.com/bouzuya/cars
