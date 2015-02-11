@@ -1,0 +1,52 @@
+---
+layout: post
+pubdate: "2015-02-11T20:45:23+09:00"
+title: '~/.atom/init.coffee をためした'
+tags: [misc]
+minutes: 8
+pagetype: posts
+---
+# [週ぶり (shuburi)][shuburi] 2015-W07
+
+休みだというのに。[bouzuya/peggie-app][] の続きをする予定だが、まったく手を付けられていない。もうずっとだ。
+
+date       | week           | day
+-----------|----------------|-----------------
+2015-02-08 | X (0 commits)  | X (+0 commits)
+2015-02-09 | X (0 commits)  | X (+0 commits)
+2015-02-10 | X (0 commits)  | X (+0 commits)
+2015-02-11 | X (0 commits)  | X (+0 commits)
+
+# よもやまばなし
+
+ニュース見てない。
+
+# その他
+
+Atom editor をすこしでも使いやすくしようと思い、調べたが難しい。API が大幅に変わっている。1.0.0 に向けて API の整備が進んでいるらしく deprecated なものが多い。
+
+`~/.atom/init.coffee` にまずは短いコードを書いて、まとまったところで package にするのが良いような気がする。Vim ではよくやっていた `.vimrc` にとりあえず関数やらコマンドやらを追加しておいて、まとまったらプラグイン化するのと同じで。
+
+ちなみに今日 `~/.atom/init.coffee` に追加したものの一部。
+
+「`[bouzuya/peggie-app][]`」のようなテキストを含む行で、`user:insert-github-url` コマンドを実行すると、バッファの末尾に `[bouzuya/peggie-app]: https://github.com/bouzuya/peggie-app` の形で行を追加する。
+
+```
+atom.commands.add 'atom-text-editor',
+  'user:insert-github-url': (event) ->
+    editor = atom.workspace.getActiveTextEditor()
+    point = editor.getCursorBufferPosition()
+    line = editor.lineTextForBufferRow point.row
+    pattern = /\[([-\w]+\/[-\w]+)\]\[\]/g
+    while match = pattern.exec line
+      editor.moveToBottom()
+      editor.insertNewline()
+      text = "[#{match[1]}]: https://github.com/#{match[1]}"
+      editor.insertText text
+      editor.setCursorBufferPosition point
+```
+
+[shuburi]: http://shuburi.org
+[bouzuya/peggie-app]: https://github.com/bouzuya/peggie-app
+[bouzuya/hubot-elb]: https://github.com/bouzuya/hubot-elb
+[bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report
