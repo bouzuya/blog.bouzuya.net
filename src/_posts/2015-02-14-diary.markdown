@@ -1,0 +1,90 @@
+---
+layout: post
+pubdate: "2015-02-14T23:59:59+09:00"
+title: 今週のふりかえり & shuburi でなにもつくれなかった
+tags: ['looking back', shuburi, training]
+minutes: 15
+pagetype: posts
+---
+# 今週のふりかえり
+
+- [2015-02-13 無題][2015-02-13]
+- [2015-02-12 無題][2015-02-12]
+- [2015-02-11 '~/.atom/init.coffee をためした'][2015-02-11]
+- [2015-02-10 bouzuya/hubot-elb をつくった][2015-02-10]
+- [2015-02-09 bouzuya/cars@0.2.1 をつくった][2015-02-09]
+- [2015-02-08 shuburi-report@0.5.0 をつくった & ダイ・ハード/ラストデイをみた][2015-02-08]
+- [2015-02-07 2015-W06 今週のふりかえり & 週ぶり (shuburi) で bouzuya/peggie-app をつくった][2015-02-07]
+
+今週は週ぶり (shuburi) が全然進まなかった。代わりにいくつかの Hubot スクリプトをバージョンアップしていたり、Amazon EC2 のインスタンスを整理していたり、Atom の設定を変更したりしている。記事にあんまり出てきていないのが残念だ。
+
+# [週ぶり (shuburi)][shuburi] 2015-W07
+
+まったくといっていいほど進んでいない。一応サイクルを 2 週間にしたので、今週で終わりなのだけど、まったくできていないので、来週も継続して [bouzuya/peggie-app][] をつくっていきたい。不足機能を以下に再掲。
+
+- 項目の分類
+- 月別の集計
+- データの保存・読み込み
+- 項目の編集
+- スマホ対応
+
+shuburi-report が更新されたこともあって、毎日 +0 commits が通知されてつらい。
+
+date       | week           | day
+-----------|----------------|-----------------
+2015-02-08 | X (0 commits)  | X (+0 commits)
+2015-02-09 | X (0 commits)  | X (+0 commits)
+2015-02-10 | X (0 commits)  | X (+0 commits)
+2015-02-11 | X (0 commits)  | X (+0 commits)
+2015-02-12 | X (1 commits)  | X (+1 commits)
+2015-02-13 | X (1 commits)  | X (+0 commits)
+2015-02-14 | X (7 commits)  | O (+6 commits)
+
+# からだづくり
+
+サボっている。
+
+体重
+
+[![体重のグラフ][graph-weight-img]][graph-weight-url]
+
+体脂肪率
+
+[![体脂肪率のグラフ][graph-percent-img]][graph-percent-url]
+
+# よもやまばなし
+
+[NHKがイスラム国→IS](http://b.hatena.ne.jp/entry/241637663/comment/bouzuya) とか。名前は大事。
+
+# KPT
+
+K
+
+- よもやまばなし。
+- shuburi-report を改良して週ぶり (shuburi) の成果を確認できるようになってつらい、が見える度合いが増したので K。
+
+P
+
+- 週ぶり (shuburi) 。
+- からだづくり (体重測定) 。
+- 今年の目標を確認しづらい。
+
+T
+
+- 今年の目標を可視化する。
+- 週ぶり (shuburi) 終わらせる。
+
+[2015-02-13]: http://blog.bouzuya.net/2015/02/13/
+[2015-02-12]: http://blog.bouzuya.net/2015/02/12/
+[2015-02-11]: http://blog.bouzuya.net/2015/02/11/
+[2015-02-10]: http://blog.bouzuya.net/2015/02/10/
+[2015-02-09]: http://blog.bouzuya.net/2015/02/09/
+[2015-02-08]: http://blog.bouzuya.net/2015/02/08/
+[2015-02-07]: http://blog.bouzuya.net/2015/02/07/
+[shuburi]: http://shuburi.org
+[bouzuya/peggie-app]: https://github.com/bouzuya/peggie-app
+[bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report
+[graph-weight-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=weight&startdate=2015-01-01&enddate=2015-02-14
+[graph-weight-url]: http://graph.hatena.ne.jp/bouzuya/weight/?startdate=2015-01-01&enddate=2015-02-14
+[graph-percent-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=percent&startdate=2015-01-01&enddate=2015-02-14
+[graph-percent-url]: http://graph.hatena.ne.jp/bouzuya/percent/?startdate=2015-01-01&enddate=2015-02-14
