@@ -6,7 +6,7 @@ tags: [movie]
 minutes: 35
 pagetype: posts
 ---
-# [週ぶり (shuburi)][shuburi] 2015-W07
+# [週ぶり (shuburi)][shuburi] 2015-W08
 
 リファクタリング。9 commits ほどあったので、日付が昨日だったので、ノーカウント。悲しい。
 
