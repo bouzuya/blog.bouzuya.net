@@ -1,0 +1,54 @@
+---
+layout: post
+pubdate: "2015-02-18T23:47:20+09:00"
+title: faithcreates-tuesday/hubot-party-play をつくった
+tags: [hubot, hubot-scripts]
+minutes: 40
+pagetype: posts
+---
+# [週ぶり (shuburi)][shuburi] 2015-W08
+
+[bouzuya/peggie-app][]。進捗なし。ホントはすこしつくっていたのだけど、これじゃないな、ってなって `git checkout -- :/` 。
+
+date       | week           | day
+-----------|----------------|-----------------
+2015-02-15 | X (0 commits)  | X (+0 commits)
+2015-02-16 | X (5 commits)  | O (+5 commits)
+2015-02-17 | X (5 commits)  | X (+0 commits)
+2015-02-18 | X (5 commits)  | X (+0 commits)
+
+# slackhq/hubot-slack に PR
+
+[slackhq/hubot-slack][] に PR ([slackhq/hubot-slack#156][]) 。ていうか空文字列を送っただけで死ぬって弱すぎるだろ……。テストもないコミットだったので、ざっくり直されてテスト付きになってた。そろそろ、hubot-slack のバージョンあげたいな。
+
+# bouzuya/hubot-script-scripts をためしている
+
+[bouzuya/hubot-script-scripts][] をつくった。ためしている。
+
+前々から gulp / grunt などで devDependencies を埋め尽くすのが嫌で、できれば外に出したいと考えていた。で、ためしてみた。[bouzuya/hubot-script-boilerplate][] に埋め込んである gulp 関連のあれこれをくくりだして外部パッケージ ([bouzuya/hubot-script-scripts][]) にして、コマンドを露出させておく。これで `devDependencies` をひとつに圧縮できた。使い勝手や問題点については、こういう形に直してから一度も [bouzuya/hubot-script-boilerplate][] を使っていないので、なんとも。
+
+ここ最近 Hubot スクリプトをよく書いているので、
+
+# faithcreates-tuesday/hubot-party-play をつくった
+
+[faithcreates-tuesday/hubot-party-play][] をつくった。[codefirst/party-play][] のための Hubot スクリプト。
+
+昨日、書きそびれていたので。
+
+# よもやまばなし
+
+[夫婦別姓・女性の再婚禁止期間の規定、初の憲法判断へ：朝日新聞デジタル](http://b.hatena.ne.jp/entry/242028122/comment/bouzuya)
+
+夫婦別姓はいい加減できても良いと思うんだけど。「別姓にしなければならない」ではなく、あくまで選択制でしょ？家族の絆がどうとか言ってる人は同姓にすればいい。そんなものを押し付けるな、と。別姓にしたい人はすればいい、したくない人はしなければいい。
+
+ちなみに [Wikipedia の 夫婦別姓の項](http://ja.wikipedia.org/wiki/%E5%A4%AB%E5%A9%A6%E5%88%A5%E5%A7%93) を見ても、圧倒的に賛成派のほうが説得力があるように感じる。多様な価値観を許容すべきだし、特に家庭内にゆがみがどうこうとかの記述については、それは各家庭で考えれば良いし、法律によって押し付けられるべきでないと思う。
+
+あと、反対意見側に入っているし、相当にズレている感じはするけれど、夫婦創姓ってのも面白いとは思う。キラキラファミリーネームの時代とか来ないかな。
+
+
+[bouzuya/hubot-script-boilerplate]: https://github.com/bouzuya/hubot-script-boilerplate
+[bouzuya/hubot-script-scripts]: https://github.com/bouzuya/hubot-script-scripts
+[codefirst/party-play]: https://github.com/codefirst/party-play
+[faithcreates-tuesday/hubot-party-play]: https://github.com/faithcreates-tuesday/hubot-party-play
+[slackhq/hubot-slack]: https://github.com/slackhq/hubot-slack
+[slackhq/hubot-slack#156]: https://github.com/slackhq/hubot-slack/pull/156
