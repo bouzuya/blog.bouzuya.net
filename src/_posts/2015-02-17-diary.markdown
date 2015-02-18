@@ -3,7 +3,7 @@ layout: post
 pubdate: "2015-02-17T22:27:05+09:00"
 title: bouzuya/hubot-datadog-graph@2.0.0 をつくった
 tags: [hubot, hubot-scripts]
-minutes: 
+minutes: 15
 pagetype: posts
 ---
 # [週ぶり (shuburi)][shuburi] 2015-W08
@@ -34,4 +34,3 @@ CoreOS は個人的には気に入ってる。Rocket も考えかたは良いと
 [bouzuya/peggie-app]: https://github.com/bouzuya/peggie-app
 [bouzuya/hubot-datadog-graph]: https://github.com/bouzuya/hubot-datadog-graph
 [faithcreates/sushi#59]: https://github.com/faithcreates/sushi/pull/59
-
