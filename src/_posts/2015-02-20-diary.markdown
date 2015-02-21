@@ -52,4 +52,4 @@ Software Design は扱っている範囲が広い。興味ない話題にも目�
 [shuburi]: http://shuburi.org
 [bouzuya/peggie-app]: https://github.com/bouzuya/peggie-app
 [bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report
-[2015-08-11]: http://blog.bouzuya.net/2013/08/11/
+[2013-08-11]: http://blog.bouzuya.net/2013/08/11/
