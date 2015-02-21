@@ -1,0 +1,103 @@
+---
+layout: post
+pubdate: "2015-02-21T23:44:48+09:00"
+title: 今週のふりかえり & shuburi でなにもつくれなかった
+tags: ['looking back', 'shuburi', 'training']
+minutes: 30
+pagetype: posts
+---
+# 今週のふりかえり
+
+- [2015-02-20 雑誌『Software Design 2015 03』をよんだ & 『風立ちぬ』をみた][2015-02-20]
+- [2015-02-19 映画『セブン』をみた][2015-02-19]
+- [2015-02-18 faithcreates-tuesday/hubot-party-play をつくった][2015-02-18]
+- [2015-02-17 bouzuya/hubot-datadog-graph@2.0.0 をつくった][2015-02-17]
+- [2015-02-16 bouzuya/hubot-datadog-graph をつくった][2015-02-16]
+- [2015-02-15 映画『GODZILLA』をみた][2015-02-15]
+- [2015-02-14 今週のふりかえり & shuburi でなにもつくれなかった][2015-02-14]
+
+今週は充実していなかったような気がしたのだけど、日記を読んでみると、そうでもなかった。
+
+- [bouzuya/hubot-datadog-graph][]
+- [faithcreates-tuesday/hubot-party-play][]
+
+充実していないと感じるのは週ぶり (shuburi) のせいだけど、とりあえず何かつくっているので良しとしよう。GitHub の contribution を見ても、極端に少ないわけでもない。
+
+残業がすこし多いのと、Atom editor のカスタマイズに時間を取られている。映画を観ていて暇みたいに見えるけど、残業のあと何もやる気が起きないという状態。
+
+# [週ぶり (shuburi)][shuburi] 2015-W08
+
+[bouzuya/peggie-app][]。ダメだった。時間を割けなかった。モチベーションが下がってしまっている。次週は Atom editor の package にする。また再開するかもしれないけど、連続でこうダメだとひとまず離れたほうが良い。
+
+Atom editor については、いまいろいろと環境がごたついているので、それを整理する意味合いをこめて。
+
+残業を結構しているので、それも良くない。どうしようもないのだけれど……。
+
+date       | week           | day
+-----------|----------------|-----------------
+2015-02-15 | X (0 commits)  | X (+0 commits)
+2015-02-16 | X (5 commits)  | O (+5 commits)
+2015-02-17 | X (5 commits)  | X (+0 commits)
+2015-02-18 | X (5 commits)  | X (+0 commits)
+2015-02-19 | X (7 commits)  | X (+2 commits)
+2015-02-20 | X (8 commits)  | X (+1 commits)
+2015-02-21 | X (8 commits)  | X (+0 commits)
+
+# からだづくり
+
+週の頭にトレーニングしたあと何もせず、週末である今日トレーニングした。回復はしたほうが良いのだけど、休みすぎている。あと計測を怠っているのも NG 。
+
+体重
+
+[![体重のグラフ][graph-weight-img]][graph-weight-url]
+
+体脂肪率
+
+[![体脂肪率のグラフ][graph-percent-img]][graph-percent-url]
+
+# よもやまばなし
+
+[ソフトバンク、ヒト型ロボ「Pepper」を開発者向けに発売--2月27日から300台 - CNET Japan](http://b.hatena.ne.jp/entry/242225292/comment/bouzuya)
+
+社内に置きたいという話があるけど、どうなんだろうね。
+
+# その他
+
+先週忘れていたひとり読書会を今週は実施。来週はトレーニングや英語学習も再開しよう。気合を入れよう。2月ももう最終週だ。
+
+# KPT
+
+K
+
+- ひとり読書会を再開。
+- よもやまばなし。
+- 何かしらつくっている。
+
+P
+
+- 週ぶり (shuburi) 。
+- shuburi-report 壊れている。
+- からだづくり (体重測定) 。
+- 今年の目標を確認しづらい。
+
+T
+
+- 週ぶり (shuburi) 再開する。
+- shuburi-report 直す。
+- 今年の目標を可視化する。
+
+[shuburi]: http://shuburi.org
+[2015-02-20]: http://blog.bouzuya.net/2015/02/20/
+[2015-02-19]: http://blog.bouzuya.net/2015/02/19/
+[2015-02-18]: http://blog.bouzuya.net/2015/02/18/
+[2015-02-17]: http://blog.bouzuya.net/2015/02/17/
+[2015-02-16]: http://blog.bouzuya.net/2015/02/16/
+[2015-02-15]: http://blog.bouzuya.net/2015/02/15/
+[2015-02-14]: http://blog.bouzuya.net/2015/02/14/
+[bouzuya/hubot-datadog-graph]: https://github.com/bouzuya/hubot-datadog-graph
+[bouzuya/peggie-app]: https://github.com/bouzuya/peggie-app
+[faithcreates-tuesday/hubot-party-play]: https://github.com/faithcreates-tuesday/hubot-party-play
+[graph-weight-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=weight&startdate=2015-01-01&enddate=2015-02-21
+[graph-weight-url]: http://graph.hatena.ne.jp/bouzuya/weight/?startdate=2015-01-01&enddate=2015-02-21
+[graph-percent-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=percent&startdate=2015-01-01&enddate=2015-02-21
+[graph-percent-url]: http://graph.hatena.ne.jp/bouzuya/percent/?startdate=2015-01-01&enddate=2015-02-21
