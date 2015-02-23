@@ -1,0 +1,31 @@
+---
+layout: post
+pubdate: "2015-02-23T23:06:20+09:00"
+title: bouzuya/dotfiles に init.coffee 用スクリプトをつくった
+tags: ['shuburi', 'atom']
+minutes: 20
+pagetype: posts
+---
+# [週ぶり (shuburi)][shuburi] 2015-W09
+
+これといったものをつくったわけではないけれど、 [bouzuya/dotfiles][] に Atom の設定を部分的に追加している。 init-scripts というディレクトリをつくり、そこに `init.coffee` で `require` するスクリプトを置いている。
+
+date       | week            | day
+-----------|-----------------|-----------------
+2015-02-22 | O (32 commits)  | O (+32 commits)
+2015-02-23 | O (38 commits)  | O (+6 commits)
+
+# よもやまばなし
+
+[マジックテープ財布、社会人はNG？ | web R25](http://b.hatena.ne.jp/entry/242283298/comment/bouzuya)
+
+ひどくどうでもいい話題。増田への言及。学生時代にこんな話してたなあ、って。
+
+ぼくはあまのじゃくなので、それを嫌がる人が居たら、あえて調達してバリバリやりたいと思ってしまう。
+
+# その他
+
+WEB+DB PRESS 電子書籍に変更したのに、紙の本が届いた。
+
+[shuburi]: http://shuburi.org
+[bouzuya/dotfiles]: https://github.com/bouzuya/dotfiles
