@@ -1,0 +1,57 @@
+---
+layout: post
+pubdate: "2015-03-03T23:59:59+09:00"
+title: twada/gulp-espower の CONTRIBUTORS にくわわった
+tags: [misc]
+minutes: 12
+pagetype: posts
+---
+# [週ぶり (shuburi)][shuburi] 2015-W10
+
+[bouzuya/node-hatena-bookmark-api][] の続き。以下 yak shaving 。
+
+TDD でつくろうと思い、テストを書こうとしたが、勝手を忘れてしまっていた。以前の [bouzuya/node-hatena-blog-api][] や [bouzuya/node-hatena-fotolife-api][] を見ればいいだけだったのかもしれないけど、思いつかなかった。良さそうなライブラリを求めて [pgte/nock][] をためした。
+
+[pgte/nock][] をためした結果として、[pgte/nock][] にふたつの問題点があるとわかった。ひとつはリクエストした内容をうまく取れない (spy として動かない) こと、もうひとつは [mochajs/mocha][] の `watch` (`mocha --watch`) でうまく動かないことだ。
+
+リクエストした内容を記録する機能はあるのだけど、それを使うと stub として動かなくなるという欠陥ぷり。ぼくは個人的には mock (spy + stub + expectation) は好きではない。spy + stub が好きだ。expectation をつけるのではなく情報をためておいて、それをあとから取得して検証するほうがテストの書きかたとして統一できる気がするからだ。
+
+`mocha --watch` のかわりに [gulpjs/gulp][] を導入した。どこで見たか忘れたけど、mocha の元々の作者である TJ も `--watch` は問題を引き起こしやすいので削除したがっていたくらいなので、使わない方が良いのだろう。それにあわせて [azu/intelli-espower-loader][] のかわりに [twada/gulp-espower][] を導入した。[azu/intelli-espower-loader][] は [twada/espower-loader][] を楽に書くためのものなので、`gulp` を使うなら不要だからだ。
+
+`gulp-espower` が文法エラーのあるファイルを読んだ場合に `.on('error', ...)` ではなく `throw Error` で動作するために、`gulp` が何度も終了したので、[`try catch` するように変えて PR した](https://github.com/twada/gulp-espower/pull/3)。無事にとりこまれたらしく `0.10.1` にバージョンアップされていた。README に CONTRIBUTORS として記録されてうれしい。
+
+本体がまったく進まないまま、調査とツールとに時間を費やしたというわけ。
+
+結局 `sinon` を使って [request/request][] の `request.Request` を stub する方法に落ち着きそう。また安定したらまとめておきたいな。
+
+最終的には `gulp` & `gulp-mocha` & `power-assert` & `gulp-espower` & `sinon` という構成になった。
+
+そもそも [bouzuya/atom-hatena-bookmark][] の機能拡張の前に、はてなブックマーク API の呼び出し部分を npm パッケージに切り出すために [bouzuya/node-hatena-bookmark-api][] をつくっているだけなのだけど、そのためのツールに PR を送ってちゃ、いつまで経っても終わらない。しかも、JavaScript を書いているうちに ES6 で書いてみたくなりはじめるから怖い。
+
+date       | week            | day
+-----------|-----------------|-----------------
+2015-03-01 | O (43 commits)  | O (+43 commits)
+2015-03-02 | O (52 commits)  | O (+9 commits)
+2015-03-03 | O (58 commits)  | O (+6 commits)
+
+# よもやまばなし
+
+[【悲報】NHK の『おかあさんといっしょ』が残酷な格差社会の現実を描写！ - この世の果てブログ](http://konoyono.hateblo.jp/entry/2015/03/02/160435)
+
+まわる寿司とまわらない寿司と寿司食べたことないという格差。
+
+ちなみに今日はひな祭りだけど、ぼくの周囲では特にそれを取り上げる習慣はない。
+
+[shuburi]: http://shuburi.org
+[azu/intelli-espower-loader]: https://github.com/azu/intelli-espower-loader
+[bouzuya/atom-hatena-bookmark]: https://github.com/bouzuya/atom-hatena-bookmark
+[bouzuya/node-hatena-blog-api]: https://github.com/bouzuya/node-hatena-blog-api
+[bouzuya/node-hatena-bookmark-api]: https://github.com/bouzuya/node-hatena-bookmark-api
+[bouzuya/node-hatena-fotolife-api]: https://github.com/bouzuya/node-hatena-fotolife-api
+[cjohansen/Sinon.JS]: https://github.com/cjohansen/Sinon.JS
+[gulpjs/gulp]: https://github.com/gulpjs/gulp
+[mochajs/mocha]: https://github.com/mochajs/mocha
+[pgte/nock]: https://github.com/pgte/nock
+[request/request]: https://github.com/request/request
+[twada/espower-loader]: https://github.com/twada/espower-loader
+[twada/gulp-espower]: https://github.com/twada/gulp-espower
