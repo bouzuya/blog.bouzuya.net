@@ -1,0 +1,40 @@
+---
+layout: post
+pubdate: "2015-03-05T23:37:12+09:00"
+title: bouzuya/node-hatena-bookmark-api をためした
+tags: [shuburi]
+minutes: 20
+pagetype: posts
+---
+# [週ぶり (shuburi)][shuburi] 2015-W10
+
+[bouzuya/atom-hatena-bookmark][] の続き。
+
+昨日つくった [bouzuya/node-hatena-bookmark-api][] を適用し CSS を修正したところまで。とりあえず、動くことは確認できた。`options` が必須になっていて、使いづらい気がする。あとで直しておこう。
+
+次は、ページングを実装し、最後に検索をつけて 1.0.0 かな。編集やタグ検索はあったとして 2.0.0 以降。
+
+date       | week            | day
+-----------|-----------------|-----------------
+2015-03-01 | O (43 commits)  | O (+43 commits)
+2015-03-02 | O (52 commits)  | O (+9 commits)
+2015-03-03 | O (58 commits)  | O (+6 commits)
+2015-03-04 | O (63 commits)  | O (+15 commits)
+2015-03-05 | O (70 commits)  | O (+7 commits)
+
+# よもやまばなし
+
+[npm で依存もタスクも一元化する - Qiita](http://qiita.com/Jxck_/items/efaff21b977ddc782971)
+
+書かれたのが去年の 12 月のようなので、すこし古い記事なのだけど、綺麗にまとまっているので紹介したい。
+
+`npm` は `npm run ...` の形式で `package.json` の `scripts` に書かれたスクリプトを実行できる。これを使って `gulp` や `grunt` などのコマンドをラップしておこうという話。
+
+ぼくはこれを採用していて、去年の『 1 日 1 Hubot スクリプト』のひな形である [bouzuya/hubot-script-boilerplate][] でもそれを見ることができる。たとえば `npm run robot` でテスト用の Hubot を動かすのは大変便利だ。
+
+上記の記事ではスクリプトを直接かかずに `gulp` などにに切り出せと書かれているが、ぼくは賛成しない。正確には必須ではないと考えている。たとえば gulp などを導入するのが面倒なので `npm run` で済ませることもある。わざわざ分散させる理由もないので統一できるならしたほうが良いとは思うが、そこは割とどうでもいいと感じる。ぼくは `npm run` というインタフェースにまとめるだけで十分だと思っている。`gulp` や `grunt` などの使いかたを知らなくても `npm run` で登録されているスクリプトだけ見れば良いという状況をつくれると良い。
+
+[shuburi]: http://shuburi.org
+[bouzuya/atom-hatena-bookmark]: https://github.com/bouzuya/atom-hatena-bookmark
+[bouzuya/hubot-script-boilerplate]: https://github.com/bouzuya/hubot-script-boilerplate
+[bouzuya/node-hatena-bookmark-api]: https://github.com/bouzuya/node-hatena-bookmark-api
