@@ -14,7 +14,7 @@ hubot-slack は 3.x からメッセージの送受信には WebSocket を使っ�
 
 そういうことがあって予定通りは進まなかった。[コンセプトをメモし](https://gist.github.com/bouzuya/48e44c43ae554e3039e0)、[リポジトリの初期化][bouzuya/sinchoku-api] はしたけど、それだけ。実作業は明日以降になる。
 
-リポジトリ名から分かるとおり、名前は sinchoku にした。今週は [bouzuya/sinchoku-api][] をつくる。
+リポジトリ名から分かるとおり、名前は <del>sinchoku</del> synchoku にした。今週は <del>[bouzuya/sinchoku-api][]</del> [bouzuya/synchoku-api][] をつくる。
 
 date       | week            | day
 -----------|-----------------|-----------------
@@ -36,3 +36,4 @@ date       | week            | day
 [bouzuya/sinchoku-api]: https://github.com/bouzuya/sinchoku-api
 [faithcreates-tuesday/hubot-fgb]: https://github.com/faithcreates-tuesday/hubot-fgb
 [slackhq/hubot-slack]: https://github.com/slackhq/hubot-slack
+[bouzuya/synchoku-api]: https://github.com/bouzuya/synchoku-api
