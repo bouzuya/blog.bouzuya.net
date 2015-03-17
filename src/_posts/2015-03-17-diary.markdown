@@ -1,0 +1,31 @@
+---
+layout: post
+pubdate: "2015-03-17T22:08:23+09:00"
+title: faithcreates-tuesday/party-play-android をつくった
+tags: [misc]
+minutes: 8
+pagetype: posts
+---
+# [週ぶり (shuburi)][shuburi] 2015-W12
+
+今週も synchoku 。[bouzuya/synchoku-api][] はまだ認証処理をつくっている。7 割 8 割かなあ。
+
+今日は Bitcoin やその派生技術などについて調べていたので、あまり進められていない。次世代の技術という感じがして良い。
+
+そのほかに [faithcreates-tuesday/party-play-android][] をつくった。ひとまず最低限の機能は備えることができたはず。
+
+date       | week            | day
+-----------|-----------------|-----------------
+2015-03-15 | O (10 commits)  | O (+10 commits)
+2015-03-16 | O (25 commits)  | O (+15 commits)
+2015-03-17 | O (30 commits)  | O (+5 commits)
+
+# よもやまばなし
+
+[日本の若者は人生に絶望していて自信もやる気もなく将来も真っ暗。政治家、路上チューしてる場合じゃない | More Access! More Fun!](http://www.landerblue.co.jp/blog/?p=18467)
+
+ぼくには何ができるだろうか。
+
+[shuburi]: http://shuburi.org
+[bouzuya/synchoku-api]: https://github.com/bouzuya/synchoku-api
+[faithcreates-tuesday/party-play-android]: https://github.com/faithcreates-tuesday/party-play-android
