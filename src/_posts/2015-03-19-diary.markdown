@@ -1,0 +1,39 @@
+---
+layout: post
+pubdate: "2015-03-19T21:39:34+09:00"
+title: bouzuya/hubot-idcf-vm
+tags: ['hubot', 'hubot-scripts']
+minutes: 8
+pagetype: posts
+---
+# [週ぶり (shuburi)][shuburi] 2015-W12
+
+今週も synchoku 。[bouzuya/synchoku-api][] からクライアントサイドに移る予定だったけど、今日は作業ができなかった。かわりに [bouzuya/hubot-idcf-vm][] をつくった。
+
+[bouzuya/hubot-idcf-vm][] は IDCF クラウドの Virtual Machine を一覧・停止・開始する Hubot スクリプト。[IDCF クラウドの API のサンプルが Python で書かれているのだけど、ひどく読みづらい](http://www.idcf.jp/cloud/docs/Developer's%20Guide)。
+
+date       | week            | day
+-----------|-----------------|-----------------
+2015-03-15 | O (10 commits)  | O (+10 commits)
+2015-03-16 | O (25 commits)  | O (+15 commits)
+2015-03-17 | O (30 commits)  | O (+5 commits)
+2015-03-18 | O (36 commits)  | O (+6 commits)
+2015-03-19 | O (38 commits)  | X (+2 commits)
+
+# よもやまばなし
+
+[ユーザーのコメント一覧が閲覧可能になりました - Qiita Blog](http://blog.qiita.com/post/114017651319/comments-on-my-page)
+
+記事の内容ではないけど、Qiita:Team が大幅にデザイン変更された。
+
+[MSBuild Engine is now Open Source on GitHub - MSDN Blogs](http://blogs.msdn.com/b/dotnet/archive/2015/03/18/msbuild-engine-is-now-open-source-on-github.aspx)
+
+MSBuild が GitHub で OSS として公開された。
+
+[安倍晋三首相 国会質疑で民主党の大久保勉議員にハメられる - ライブドアニュース](http://news.livedoor.com/article/detail/9904278/)
+
+Twitter は無料だの Facebook は無料だののツイートが流れていたのはきっとこのせいだろうな。
+
+[shuburi]: http://shuburi.org
+[bouzuya/hubot-idcf-vm]: https://github.com/bouzuya/hubot-idcf-vm
+[bouzuya/synchoku-api]: https://github.com/bouzuya/synchoku-api
