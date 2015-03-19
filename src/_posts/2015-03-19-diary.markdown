@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2015-03-19T21:39:34+09:00"
-title: bouzuya/hubot-idcf-vm
+title: bouzuya/hubot-idcf-vm をつくった
 tags: ['hubot', 'hubot-scripts']
 minutes: 8
 pagetype: posts
