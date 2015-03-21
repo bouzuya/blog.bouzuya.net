@@ -4,7 +4,8 @@
   "description": "bouzuya's blog.",
   "main": "index.js",
   "scripts": {
-    "start": "grunt"
+    "start": "grunt",
+    "watch": "grunt server"
   },
   "author": "bouzuya",
   "license": "MIT",
