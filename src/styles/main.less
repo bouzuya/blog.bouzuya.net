@@ -60,3 +60,56 @@ a {
     background: linear-gradient(to bottom, transparent 70%, @color1 70%);
   }
 }
+
+@media screen and (min-width: 480px) {// and (max-width: 960px) {
+  :root {
+    font-size: 6 * @unit;
+
+    a {
+      text-decoration: underline;
+    }
+
+    .box-width() {
+      width: 90%;
+      max-width: 960px;
+    }
+
+    .header {
+      .box-width();
+      nav {
+        .menu-button {
+          border: none;
+          box-shadow: none;
+          &:hover {
+            color: @color1;
+            background-color: @color4;
+            text-shadow: 2px 2px @color2;
+          }
+        }
+      }
+    }
+
+    .body-region > .post-detail {
+      .post {
+        .box-width();
+        .content {
+          p {
+            margin: 1.5rem 0;
+          }
+        }
+      }
+
+      nav {
+        .box-width();
+      }
+    }
+
+    .body-region > .posts-page {
+      .box-width();
+    }
+
+    .body-region > .tags-page {
+      .box-width();
+    }
+  }
+}
