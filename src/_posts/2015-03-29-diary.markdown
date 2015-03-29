@@ -1,0 +1,131 @@
+---
+layout: post
+pubdate: "2015-03-29T23:59:59+09:00"
+title: '今週のふりかえり & mockmock.dev #1 にさんかした'
+tags: ['looking back']
+minutes: 20
+pagetype: posts
+---
+# 今週のふりかえり
+
+- [2015-03-28 おでかけした & 出産に立ち会った][2015-03-28]
+- [2015-03-27 codeforkobe/sakura360 の build を改善][2015-03-27]
+- [2015-03-26 婚約した][2015-03-26]
+- [2015-03-25 codeforkobe/sakura360 の deploy 機能をつくった][2015-03-25]
+- [2015-03-24 faithcreates-tuesday/party-play-api をつくりはじめた][2015-03-24]
+- [2015-03-23 雑誌『Software Design 2015 04』をよんだ & hexo をためした][2015-03-23]
+- [2015-03-22 bouzuya/cookie-storage をつくった][2015-03-22]
+- [2015-03-21 今週のふりかえり][2015-03-21]
+
+昨日 ([2015-03-28][]) も書いたとおり、今週から日曜日にふりかえる。理由としては土日に作業の追い込みをすることが多く、土曜日の午前中を区切りとすると中途半端になることが多いからだ。
+
+今週の大きいニュースは婚約の件だと思うけれど、それ以外では sakura360 の gulpfile を書いたり、 [bouzuya/cookie-storage][] で Babel を試したり、という感じかなあ。全体的に細々としている。
+
+# [週ぶり (shuburi)][shuburi] 2015-W13
+
+今週は [codeforkobe/sakura360][] をメインにいろいろと。
+
+- [bouzuya/cookie-storage][]
+- hexo の検証
+- metalsmith の検証
+- おでかけ (RICOH THETA の試用)
+
+など。
+
+コミットを確認すると、週目標は達成しているが、日別の目標は未達成である。GitHub の contribution を見ると、何かしらの作業はしているのだと思う。
+
+date       | week           | day
+-----------|----------------|-----------------
+2015-03-22 | O (33 commits) | O (+33 commits)
+2015-03-23 | O (33 commits) | X (+0 commits)
+2015-03-24 | O (37 commits) | X (+4 commits)
+2015-03-25 | O (42 commits) | O (+5 commits)
+2015-03-26 | O (48 commits) | O (+6 commits)
+2015-03-26 | O (42 commits) | X (+0 commits)
+2015-03-27 | O (48 commits) | O (+6 commits)
+2015-03-28 | O (48 commits) | X (+0 commits)
+
+来週は [codeforkobe/sakura360][] を継続する。それは半分くらいにして、他のことをしたいとも考えている。いろいろあったはずだけど、思い浮かぶのは以下。
+
+- party-play-{api,android} の実装・デプロイ
+- synchoku-app の実装・デプロイ
+- tdict (仮) の実装
+
+# からだづくり
+
+継続してサボっている。記録はできている。
+
+体重
+
+[![体重のグラフ][graph-weight-img]][graph-weight-url]
+
+体脂肪率
+
+[![体脂肪率のグラフ][graph-percent-img]][graph-percent-url]
+
+# よもやまばなし
+
+[安倍晋三首相が花粉症撲滅を宣言 花粉の少ない森林への転換進める - ライブドアニュース](http://news.livedoor.com/article/detail/9939568/)
+
+よいのでは。
+
+# 語学
+
+iKnow! を継続中。
+
+[http://iknow.jp/users/bouzuya](http://iknow.jp/users/bouzuya)
+
+# ひとり読書会
+
+今週はひとり読書会は中止。出産の立ち会いのため。
+
+# その他
+
+今日は [mockmock.dev#1](http://mockmock.connpass.com/event/13293/) に参加した。オンラインもくもく会。[faithcreates-tuesday/party-play-api][] に再生機能をつけた。[週ぶり (shuburi)][shuburi] の一部として活用したい。
+
+# KPT
+
+K
+
+- 語学。
+- ひとり読書会。
+- よもやまばなし。
+- 週ぶり (shuburi)。
+
+P
+
+- shuburi-report 壊れている。
+- からだづくり (体重測定) 。
+- 今年の目標を確認しづらい。
+
+T
+
+- shuburi-report 直す。
+- 今年の目標を可視化する。→「プログレス (仮) 」で対応したい。
+- Node.js の static site generator のことを書く
+- gratipay で Bitcoin 寄付できるようにする
+- Scratch をためしたことを書く
+- npm パッケージとして IDCF クラウド API wrapper をつくる
+- npm パッケージとして Hubot の会話補助ライブラリをつくる
+- 『スクラム実践入門』を読む
+- サイトのデザイン変更のことを書く
+- party-play-android をなおす
+- Tasks のことを書く
+
+
+[2015-03-21]: http://blog.bouzuya.net/2015/03/21/
+[2015-03-22]: http://blog.bouzuya.net/2015/03/22/
+[2015-03-23]: http://blog.bouzuya.net/2015/03/23/
+[2015-03-24]: http://blog.bouzuya.net/2015/03/24/
+[2015-03-25]: http://blog.bouzuya.net/2015/03/25/
+[2015-03-26]: http://blog.bouzuya.net/2015/03/26/
+[2015-03-27]: http://blog.bouzuya.net/2015/03/27/
+[2015-03-28]: http://blog.bouzuya.net/2015/03/28/
+[graph-percent-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=percent&startdate=2015-01-01&enddate=2015-03-29
+[graph-percent-url]: http://graph.hatena.ne.jp/bouzuya/percent/?startdate=2015-01-01&enddate=2015-03-29
+[graph-weight-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=weight&startdate=2015-01-01&enddate=2015-03-29
+[graph-weight-url]: http://graph.hatena.ne.jp/bouzuya/weight/?startdate=2015-01-01&enddate=2015-03-29
+[shuburi]: http://shuburi.org
+[bouzuya/cookie-storage]: https://github.com/bouzuya/cookie-storage
+[codeforkobe/sakura360]: https://github.com/codeforkobe/sakura360
+[faithcreates-tuesday/party-play-api]: https://github.com/faithcreates-tuesday/party-play-api
