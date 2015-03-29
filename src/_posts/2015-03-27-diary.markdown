@@ -20,7 +20,8 @@ date       | week           | day
 2015-03-23 | O (33 commits) | X (+0 commits)
 2015-03-24 | O (37 commits) | X (+4 commits)
 2015-03-25 | O (42 commits) | O (+5 commits)
-2015-03-26 | O (48 commits) | O (+6 commits)
+2015-03-26 | O (42 commits) | X (+0 commits)
+2015-03-27 | O (48 commits) | O (+6 commits)
 
 # よもやまばなし
 
