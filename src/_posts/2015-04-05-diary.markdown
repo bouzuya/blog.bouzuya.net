@@ -1,0 +1,130 @@
+---
+layout: post
+pubdate: "2015-04-05T22:43:12+09:00"
+title: '今週のふりかえり & mockmock.dev #2 にさんかした'
+tags: ['looking back']
+minutes: 22
+pagetype: posts
+---
+# 今週のふりかえり
+
+- [2015-04-04 王子動物園の夜桜通り抜けにいった][2015-04-04]
+- [2015-04-03 bouzuya/google-sheets-api をつくった][2015-04-03]
+- [2015-04-02 codeforkobe/sakura360 のデプロイをためした][2015-04-02]
+- [2015-04-01 codeforkobe/sakura360 の Google Sheets API 利用部分をつくった][2015-04-01]
+- [2015-03-31 meowziq-api と meowbot と hubot-meowziq とをつくった][2015-03-31]
+- [2015-03-30 mockmock.dev 向けの Hubot と hubot-redirect をつくった][2015-03-30]
+- [2015-03-29 '今週のふりかえり & mockmock.dev #1 にさんかした'][2015-03-29]
+
+予定どおり雑多な感じ。
+
+- [bouzuya/google-sheets-api][]
+- [bouzuya/hubot-meowziq][]
+- [bouzuya/hubot-redirect][]
+- [codeforkobe/sakura360][]
+- [faithcreates-tuesday/meowbot][]
+- [faithcreates-tuesday/meowziq-api][]
+- [mockmock/hubot][]
+
+リポジトリやコミットはないけれど、次の Android アプリの検証をしている。
+
+あとは夜桜の通り抜けとか言っててリア充っぽい。
+
+# [週ぶり (shuburi)][shuburi] 2015-W14
+
+今週はいろいろ雑多なことをするつもり。[2015-03-29][] から再掲すると、以下の通り。
+
+- [x] party-play-{api,android} の実装・デプロイ
+- [x] [codeforkobe/sakura360][] の実装
+- [x] tdict (仮) の実装
+- [ ] synchoku-app の実装・デプロイ
+- [ ] [bouzuya/shuburi-report][] の修正
+
+今日は tdict (仮) の技術検証を。Android で MediaPlayer や MediaExtractor や MediaCodec などをためした。ぼくの Java の知識が 1.6 で止まっているのを感じる。
+
+date       | week           | day              | repos
+-----------|----------------|------------------|----------------------
+2015-03-30 | O (5 commits)  | O (+5 commits )  | hubot + hubot-redirect
+2015-03-31 | O (19 commits) | O (+14 commits ) | meowziq-android + meowziq-api + hubot-meowziq + meowbot
+2015-04-01 | O (31 commits) | O (+12 commits ) | sakura360
+2015-04-02 | O (54 commits) | O (+23 commits ) | sakura360 + google-sheets-api
+2015-04-03 | O (71 commits) | O (+17 commits ) | sakura360 + google-sheets-api
+2015-04-04 | O (74 commits) | X (+3 commits )  | hubot-meowziq
+2015-04-05 | O (75 commits) | X (+1 commits )  | -
+
+来週は tdict (仮) をする。ひさしぶりにものをつくるモードに戻す。今回は他の人と協力してできるのではと期待している。
+
+# からだづくり
+
+継続してサボっている。記録はできている。
+
+体重
+
+[![体重のグラフ][graph-weight-img]][graph-weight-url]
+
+体脂肪率
+
+[![体脂肪率のグラフ][graph-percent-img]][graph-percent-url]
+
+# よもやまばなし
+
+[詳解 フェンリル採用面接 - 意識高い系エンジニアのベストプラクティス](http://www.fenrir-inc.com/jp/0401/2015.html)
+
+気づいてなかったけど、クオリティ高い。
+
+# 語学
+
+iKnow! を継続中。
+
+[http://iknow.jp/users/bouzuya](http://iknow.jp/users/bouzuya)
+
+# ひとり読書会
+
+今週はひとり読書会を実施した。昨日だけど。来週以降は mockmock.dev のあとに実施する。
+
+7 章に入った。
+
+# その他
+
+今日は [mockmock.dev#2](http://mockmock.connpass.com/event/13542/) に参加した。オンラインもくもく会。上記の tdict (仮) の検証を実施した。この調子で [週ぶり (shuburi)][shuburi] の一部として活用したい。
+
+# KPT
+
+K
+
+- 語学。
+- ひとり読書会。
+- よもやまばなし。
+- 週ぶり (shuburi)。
+
+P
+
+- shuburi-report 壊れている。
+- からだづくり (体重測定) 。
+- 今年の目標を確認しづらい。
+
+T
+
+- Tasks のことを書く
+
+[2015-03-29]: http://blog.bouzuya.net/2015/03/29/
+[2015-03-29]: http://blog.bouzuya.net/2015/03/29/
+[2015-03-30]: http://blog.bouzuya.net/2015/03/30/
+[2015-03-31]: http://blog.bouzuya.net/2015/03/31/
+[2015-04-01]: http://blog.bouzuya.net/2015/04/01/
+[2015-04-02]: http://blog.bouzuya.net/2015/04/02/
+[2015-04-03]: http://blog.bouzuya.net/2015/04/03/
+[2015-04-04]: http://blog.bouzuya.net/2015/04/04/
+[bouzuya/google-sheets-api]: https://github.com/bouzuya/google-sheets-api
+[bouzuya/hubot-meowziq]: https://github.com/bouzuya/hubot-meowziq
+[bouzuya/hubot-redirect]: https://github.com/bouzuya/hubot-redirect
+[bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report
+[codeforkobe/sakura360]: https://github.com/codeforkobe/sakura360
+[faithcreates-tuesday/meowbot]: https://github.com/faithcreates-tuesday/meowbot
+[faithcreates-tuesday/meowziq-api]: https://github.com/faithcreates-tuesday/meowziq-api
+[graph-percent-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=percent&startdate=2015-01-01&enddate=2015-04-05
+[graph-percent-url]: http://graph.hatena.ne.jp/bouzuya/percent/?startdate=2015-01-01&enddate=2015-04-05
+[graph-weight-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=weight&startdate=2015-01-01&enddate=2015-04-05
+[graph-weight-url]: http://graph.hatena.ne.jp/bouzuya/weight/?startdate=2015-01-01&enddate=2015-04-05
+[mockmock/hubot]: https://github.com/mockmock/hubot
+[shuburi]: http://shuburi.org
