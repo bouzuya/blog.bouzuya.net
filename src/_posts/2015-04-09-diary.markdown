@@ -1,0 +1,41 @@
+---
+layout: post
+pubdate: "2015-04-09T23:03:58+09:00"
+title: 映画『塔の上のラプンツェル』をみた
+tags: [movie]
+minutes: 7
+pagetype: posts
+---
+# [週ぶり (shuburi)][shuburi] 2015-W15
+
+[bouzuya/torzder][] 進まず。
+
+date       | week           | day              | repos
+-----------|----------------|------------------|----------------------
+2015-04-06 | X (2 commits)  | X (+2 commits )  | hubot-idcf-vm-auto-stop
+2015-04-07 | X (2 commits)  | X (+0 commits )  | -
+2015-04-08 | X (3 commits)  | X (+1 commits )  | torzder
+2015-04-09 | X (3 commits)  | X (+0 commits )  | -
+
+# よもやまばなし
+
+[tokuhirom/toydi · GitHub](https://github.com/tokuhirom/toydi)
+
+DI は依存関係を切り離して、外部から注入できることが重要なんだけど……。
+
+[安倍首相、国会答弁で「粛々」＝早くも踏み外す―辺野古移設 （時事通信） - Yahoo!ニュース](http://headlines.yahoo.co.jp/hl?a=20150408-00000103-jij-pol)
+
+言葉遊びではあるけれど、この短期間でやると、挑発しているとしか思えない。
+
+# 映画『塔の上のラプンツェル』
+
+ミュージカルっぽいアニメを見るとディズニー感ある。最後のアレが死なないのもいかにもディズニー。
+
+# その他
+
+アニメの開始時期なので録画がえらいことになっている。
+
+お腹がいたい？吐き気がした？ので、午前中は会社を休んで家で寝ていた。午後にはすこしマシになったので出勤したけれど。
+
+[shuburi]: http://shuburi.org
+[bouzuya/torzder]: https://github.com/bouzuya/torzder
