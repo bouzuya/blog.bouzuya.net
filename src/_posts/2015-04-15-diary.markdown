@@ -1,0 +1,40 @@
+---
+layout: post
+pubdate: "2015-04-15T23:59:59+09:00"
+title: Tasks をためした
+tags: [misc]
+minutes: 25
+pagetype: posts
+---
+# Tasks
+
+このところ [Tasks](https://play.google.com/store/apps/details?id=ch.teamtasks.tasks.paid&hl=ja) という Android アプリを使っている。これは [Google tasks](https://mail.google.com/tasks/) のクライアントである。
+
+きっかけは TODO が散りがちだったことにある。このブログをはじめ、あちらこちらにメモが散っていて、これは良くないと思い、Tasks 経由で Google tasks にまとめることにした。最近 KPT の T が減ったのは記載した後に Tasks に移すようにしたためだ。
+
+Google tasks は Gmail / Calendar あたりに付随している TODO 機能のことで、シンプルな TODO サービスである。Gmail / Calendar にまたがって存在している時点で相当良いポジションに居るはずなのだけど、あまり注目されていない。個人的には Google Tasks の公式 Web サイトのテキストエディタっぽいインタフェースは面白いと思うのだけど、PC でブラウザを使って TODO 管理というのもあまりないので、使っていない。
+
+Tasks は特に言うこともない TODO 管理アプリである。Google tasks を素朴に使うためのクライアントだろう。ひょっとすると Android の公式アプリにあるのかもしれないけれど、パッと見つからなかったので、これを使っている。
+
+TODO というと JavaScript フレームワークの入門みたいだけど、その割には Google tasks と連携するものなどは見かけない。入門はそこだけど、そこを掘り下げようとする人は少ないのかもしれない。
+
+# [週ぶり (shuburi)][shuburi] 2015-W16
+
+[bouzuya/torzder][] の 2 週目。今日は HTML の parse 。面倒なので正規表現で。あまり進んでいない。
+
+date       | week           | day              | repos
+-----------|----------------|------------------|----------------------
+2015-04-13 | O (7 commits)  | O (+7 commits)   | torzder
+2015-04-14 | O (13 commits) | O (+6 commits)   | thetabot, hubot-theta
+2015-04-15 | O (16 commits) | X (+3 commits)   | torzder
+
+# よもやまばなし
+
+ブックマークはなし。今日というわけではないのだけど、4 月からはじまったアニメ『ダンジョンに出会いを求めるのは間違っているだろうか』(通称: ダンまち) のヘスティアというキャラクターの身につけている紐が流行っている。例の紐とか呼ばれている。
+
+紐が体のラインを強調するといった内容のツイートが流れていた。
+
+ひと工夫が効くこともあるのだろうな。
+
+[shuburi]: http://shuburi.org
+[bouzuya/torzder]: https://github.com/bouzuya/torzder
