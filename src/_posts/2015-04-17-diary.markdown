@@ -1,0 +1,31 @@
+---
+layout: post
+pubdate: "2015-04-17T23:59:59+09:00"
+title: 無題
+tags: [misc]
+minutes: 5
+pagetype: posts
+---
+# [週ぶり (shuburi)][shuburi] 2015-W16
+
+[bouzuya/torzder][] の 2 週目。今日は進捗なし。
+
+[codeforkobe/sakura360][] のスクリプトをすこし修正。
+
+date       | week           | day              | repos
+-----------|----------------|------------------|----------------------
+2015-04-13 | O (7 commits)  | O (+7 commits)   | torzder
+2015-04-14 | O (13 commits) | O (+6 commits)   | thetabot, hubot-theta
+2015-04-15 | O (16 commits) | X (+3 commits)   | torzder
+2015-04-16 | O (23 commits) | O (+7 commits)   | sakura360
+2015-04-17 | O (26 commits) | X (+3 commits)   | sakura360
+
+# よもやまばなし
+
+[F-35が最後の有人戦闘機に──米海軍長官　ランチャーから射出する“群れる”ドローンも公開 - ITmedia ニュース](http://www.itmedia.co.jp/news/articles/1504/17/news153.html)
+
+人を載せるだけで制限増えるもんなあ。むしろ、いままで人を載せ続けていたほうが不思議だ。
+
+[shuburi]: http://shuburi.org
+[bouzuya/torzder]: https://github.com/bouzuya/torzder
+[codeforkobe/sakura360]: https://github.com/codeforkobe/sakura360
