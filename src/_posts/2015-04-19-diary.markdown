@@ -22,8 +22,11 @@ pagetype: posts
 
 斑鳩のイージーをワンコイン(ノーコンティニュー)でクリアした。
 
-コンティニューあたりのミス数を 5 にしているのでゆるいのだけど、ついにクリアということで喜んでいる。
+[2015-04-11][] に書いた続きである。Xbox Live Arcade の斑鳩。アーケードモード。難易度 EASY 。5 ミスで エクステンド 2 (初回300万点、以降500万点ごと) 。条件はエクステンドを除いて限界までゆるめているのだけど、ぼくみたいなユーザーにはそれでもなかなか厳しい。
 
+今日はついにクリアということで喜んでいる。
+
+動画についてはまた公開するつもり。うまくないので、そんなに面白いものでもないけど。
 
 # [週ぶり (shuburi)][shuburi] 2015-W16
 
@@ -41,6 +44,13 @@ pagetype: posts
 
 date       | week           | day              | repos
 -----------|----------------|------------------|----------------------
+2015-04-13 | O (7 commits)  | O (+7 commits)   | torzder
+2015-04-14 | O (13 commits) | O (+6 commits)   | thetabot, hubot-theta
+2015-04-15 | O (16 commits) | X (+3 commits)   | torzder
+2015-04-16 | O (23 commits) | O (+7 commits)   | sakura360
+2015-04-17 | O (26 commits) | X (+3 commits)   | sakura360
+2015-04-18 | X (26 commits) | X (+0 commits)   | -
+2015-04-19 | X (26 commits) | X (+0 commits)   | -
 
 先週からの TODO
 
@@ -113,3 +123,4 @@ T
 [2015-04-12]: http://blog.bouzuya.net/2015/04/12/
 [bouzuya/shuburi-report]: https://github.com/bouzuya/shuburi-report
 [bouzuya/torzder]: https://github.com/bouzuya/torzder
+[2015-04-11]: http://blog.bouzuya.net/2015/04/11/
