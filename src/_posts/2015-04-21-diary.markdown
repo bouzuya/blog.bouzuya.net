@@ -1,0 +1,48 @@
+---
+layout: post
+pubdate: "2015-04-21T23:59:59+09:00"
+title: 『Web Designing 2015 05』をよんだ
+tags: [book]
+minutes: 15
+pagetype: posts
+---
+# 『Web Designing 2015 05』
+
+『[Web Designing 2015 05](http://www.amazon.co.jp/dp/B00W53IN54/)』を読んだ。
+
+Web Designing は読むよりは観るという色が強い。Web Designing が良いと思ったサイト。Web デザイン寄りの人が良いと思ったものを見ておこうという目的で読んでいる。
+
+ちなみに上記の目的だけで言えば、雑誌を買うよりも[月別アーカイブにあるリンク](http://book.mynavi.jp/wd/archive/)を見れば良いようにも思う。 [http://book.mynavi.jp/wd/archive/](http://book.mynavi.jp/wd/archive/)
+
+# シューティングゲーム日記 虫姫さま
+
+Xbox360 の虫姫さまをプレイしている。オリジナルのデフォルト設定。
+
+昨日からプレイしている。
+
+昨日は 1 つめの機体。斑鳩慣れのせいもあってボムの使い忘れとショット時の動作の変化がひどかった。それでも初見で 2 コンティニューでクリアできたので難易度としては低そう。
+
+今日は 2 つめの機体。昨日の反省を踏まえてボムはなるべく使いきってからミスするようにした。1 回は抱え落ちしているけど、それ以外は実践できた……はず。それでラスボスまでノーコンティニュー。その後 2 ミス。一部の弾幕だけ抑えれば大丈夫っぽい。昨日の機体のほうが動かしやすかったような。
+
+今週でオリジナルモードはノーコンティニュークリアできそうな気がする。
+
+予定では、虫姫さまのオリジナル→マニアックとクリアしたら斑鳩のノーマルに挑戦するつもり。
+
+# [週ぶり (shuburi)][shuburi] 2015-W17
+
+今週は整理。だけど、まだ何もしていない。
+
+[faithcreates-tuesday/telack][] をつくっている。とりあえず初期バージョン。最低限の機能を実装。IP 電話の情報を Slack に転送するという Android アプリ。
+
+# よもやまばなし
+
+[FacebookがオープンソースにしたReact Nativeでモバイルアプリの開発が大きく変わる | TechCrunch Japan](http://jp.techcrunch.com/2015/04/21/20150420how-facebooks-react-native-will-change-mobile-apps/)
+
+期待していない。
+
+[WEB+DB PRESS vol.86 で Docker の特集を書かせて頂きました - Qiita](http://qiita.com/spesnova/items/044b85ff1c63518030f5)
+
+期待している。
+
+[shuburi]: http://shuburi.org
+[faithcreates-tuesday/telack]: https://github.com/faithcreates-tuesday/telack
