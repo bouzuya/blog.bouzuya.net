@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2015-01-13T23:59:59+09:00"
 title: 映画『ロードオブザリング』をみた
-tags: [cinema]
+tags: [movie]
 minutes: 10
 pagetype: posts
 ---

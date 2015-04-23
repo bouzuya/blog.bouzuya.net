@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-05-07T14:03:02+09:00"
 title: 映画『ゼロ・グラビティ』をみた
-tags: [cinema]
+tags: [movie]
 minutes: 15
 pagetype: posts
 ---

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-12-24T23:59:59+09:00"
 title: 映画『ベイ・マックス』をみた & Hubot Advent Calendar 2014 の 24 日目をかいた & hubot-omikuji-sheet をつくった
-tags: [cinema, hubot, hubot-scripts, hubot-script-per-day]
+tags: [movie, hubot, hubot-scripts, hubot-script-per-day]
 minutes: 10
 pagetype: posts
 ---

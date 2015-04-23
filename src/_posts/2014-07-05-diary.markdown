@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-07-05T23:59:59+09:00"
 title: 映画『攻殻機動隊 ARISE border:3 Ghost Tears』をみた
-tags: [cinema]
+tags: [movie]
 minutes: 20
 pagetype: posts
 ---

@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2014-05-24T23:59:59+09:00"
 title: 映画『エルム街の悪夢(2010)』をみた
-tags: [cinema]
+tags: [movie]
 minutes: 4
 pagetype: posts
 ---
