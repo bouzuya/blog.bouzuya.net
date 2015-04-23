@@ -1,0 +1,46 @@
+---
+layout: post
+pubdate: "2015-04-22T23:59:59+09:00"
+title: Softbank を解約した
+tags: [misc]
+minutes: 15
+pagetype: posts
+---
+# Softbank の解約
+
+ほとんど使っていないので Softbank (iPhone) を解約した。いつだったかは忘れたけど EMOBILE あらため Y!mobile (GL10P) も解約したので、いまの携帯関連の契約状況は docomo (Xperia Z2) と IIJmio (SIM) だけになった。これで通信料はかなり削減されるはずだ。どちらの解約も更新月以外だし、機種代金も一部残っていた。残債を一括返済するようにしたので、来月は恐ろしい請求が来るはずだ。
+
+docomo も更新月になったら解約したいな。Xperia Z2 がイマイチだし、料金も高い。その頃にはきっと Nexus の次の機種が出ているはずだし、それに変更できるとうれしいな。
+
+# シューティングゲーム日記 虫姫さま
+
+Xbox360 の虫姫さまのプレイ日記。今日はプレイしていない。
+
+かわりに [2015-04-19][] に書いたとおり、[斑鳩のリプレイを公開](https://www.youtube.com/watch?v=QzMY7QbgWYs)した。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QzMY7QbgWYs" frameborder="0" allowfullscreen></iframe>
+
+録画は、斑鳩のリプレイ機能で保存したものを [ER130](http://www.avermedia.co.jp/product_swap/er130.html) でキャプチャすることでおこなった。
+
+本来ならキャプチャーボードを買いたいのだけど、Linux (Ubuntu) しか PC を持っていなくて、それに対応しているものを探すのはなかなか骨が折れそうなので、ER130 から外付け HDD に保存し、それを使うことにした。 動画を細かく編集したいわけでもないので、これで十分だろう。
+
+# [週ぶり (shuburi)][shuburi] 2015-W17
+
+今週は整理。だけど、まだ何もしていない。
+
+# よもやまばなし
+
+[速報： MozillaがPocket（旧Read It Later）をFirefox本体に統合 - Mozilla Flux](http://rockridge.hatenablog.com/entry/2015/04/21/231112)
+
+気づいたら Firefox が Mozilla に戻っていそう。
+
+[Amazon Web Services ブログ: 【AWS発表】AWS マネージメントコンソールの日本語対応](http://aws.typepad.com/aws_japan/2015/04/mgmt-console-japanese.html)
+
+会社でログインしたら変わっていて驚いた。違和感がある。
+
+# その他
+
+春・夏向けに衣類を注文した。例によってユニクロで 2 枚ずつ注文といういい加減な感じ。
+
+[shuburi]: http://shuburi.org
+[2015-04-19]: http://blog.bouzuya.net/2015/04/19/
