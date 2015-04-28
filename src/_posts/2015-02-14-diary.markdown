@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2015-02-14T23:59:59+09:00"
-title: 今週のふりかえり & shuburi でなにもつくれなかった
+title: 2015-W07 今週のふりかえり & shuburi でなにもつくれなかった
 tags: ['looking back', shuburi, training]
 minutes: 15
 pagetype: posts

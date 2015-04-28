@@ -1,7 +1,7 @@
 ---
 layout: post
 pubdate: "2015-03-14T23:59:59+09:00"
-title: 今週のふりかえり & shuburi で bouzuya/synchoku-api をつくった (途中)
+title: 2015-W11 今週のふりかえり & shuburi で bouzuya/synchoku-api をつくった (途中)
 tags: ['looking back', 'shuburi']
 minutes: 30
 pagetype: posts
