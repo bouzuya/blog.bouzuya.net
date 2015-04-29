@@ -24,7 +24,7 @@ pagetype: posts
 
 追加した機能としてはページングがある。ただ UI を追加していないのと、安定感がないことが問題である。
 
-はてなブックマーク API の呼び出し部分は別 npm パッケージであるに [bouzuya/hatena-bookmark-api][] に切り出した。こちらも中途半端な状態である。取得の部分だけができている。追加・更新・削除ができないので、パッケージとしては機能不足に感じる。良かった点としては [request/request][] を [cjohansen/Sinon.JS][] で mock する方法を再確認したこと。そのうち Qiita に書いておこうかと思う。
+はてなブックマーク API の呼び出し部分は別 npm パッケージであるに [bouzuya/node-hatena-bookmark-api][] に切り出した。こちらも中途半端な状態である。取得の部分だけができている。追加・更新・削除ができないので、パッケージとしては機能不足に感じる。良かった点としては [request/request][] を [cjohansen/Sinon.JS][] で mock する方法を再確認したこと。そのうち Qiita に書いておこうかと思う。
 
 今日は [faithcreates-tuesday/hubot-fgb][] をつくっている。まだ作業中だけど。Backlog API v2 の呼び出し部分を切り出したほうが良いような……。
 
@@ -97,7 +97,7 @@ T
 [2015-02-28]: http://blog.bouzuya.net/2015/02/28/
 [shuburi]: http://shuburi.org
 [bouzuya/atom-hatena-bookmark]: https://github.com/bouzuya/atom-hatena-bookmark
-[bouzuya/hatena-bookmark-api]: https://github.com/bouzuya/hatena-bookmark-api
+[bouzuya/node-hatena-bookmark-api]: https://github.com/bouzuya/node-hatena-bookmark-api
 [faithcreates-tuesday/hubot-fgb]: https://github.com/faithcreates-tuesday/hubot-fgb
 [request/request]: https://github.com/request/request
 [twada/gulp-espower]: https://github.com/twada/gulp-espower
