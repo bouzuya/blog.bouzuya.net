@@ -12,9 +12,9 @@ pagetype: posts
 
 hubot-slack は 3.x からメッセージの送受信には WebSocket を使っているようなのだけど、どうもそれを使ってメッセージを送ったときはユーザー名が `@` の有無にかかわらず mention 扱いになってしまうようで、従来の Web API だと起きないが RTM API だと起きるので、たぶん、これが原因だろう。3.x を使う以上どうしようもないので、諦めた次第。
 
-そういうことがあって予定通りは進まなかった。[コンセプトをメモし](https://gist.github.com/bouzuya/48e44c43ae554e3039e0)、[リポジトリの初期化][bouzuya/sinchoku-api] はしたけど、それだけ。実作業は明日以降になる。
+そういうことがあって予定通りは進まなかった。[コンセプトをメモし](https://gist.github.com/bouzuya/48e44c43ae554e3039e0)、[リポジトリの初期化][bouzuya/synchoku-api] はしたけど、それだけ。実作業は明日以降になる。
 
-リポジトリ名から分かるとおり、名前は <del>sinchoku</del> synchoku にした。今週は <del>[bouzuya/sinchoku-api][]</del> [bouzuya/synchoku-api][] をつくる。
+リポジトリ名から分かるとおり、名前は <del>sinchoku</del> synchoku にした。今週は <del>bouzuya/sinchoku-api</del> [bouzuya/synchoku-api][] をつくる。
 
 date       | week            | day
 -----------|-----------------|-----------------
@@ -33,7 +33,7 @@ date       | week            | day
 パフォーマンスを測定すると予想とすこしずつ違っていて面白い。いや、面倒なんだけれども。
 
 [shuburi]: http://shuburi.org
-[bouzuya/sinchoku-api]: https://github.com/bouzuya/sinchoku-api
+[bouzuya/synchoku-api]: https://github.com/bouzuya/synchoku-api
 [faithcreates-tuesday/hubot-fgb]: https://github.com/faithcreates-tuesday/hubot-fgb
 [slackhq/hubot-slack]: https://github.com/slackhq/hubot-slack
 [bouzuya/synchoku-api]: https://github.com/bouzuya/synchoku-api
