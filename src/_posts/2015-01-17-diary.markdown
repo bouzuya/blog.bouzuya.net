@@ -72,8 +72,9 @@ T 。
 [2015-01-11]: http://blog.bouzuya.net/2015/01/11/
 [2015-01-10]: http://blog.bouzuya.net/2015/01/10/
 [shuburi]: http://shuburi.org
-[bouzuya/hspd-bootstrap]: https://github.com/bouzuya/hspd-bootstrap
 [graph-weight-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=weight&startdate=2015-01-01&enddate=2015-01-17
 [graph-weight-url]: http://graph.hatena.ne.jp/bouzuya/weight/?startdate=2015-01-01&enddate=2015-01-17
 [graph-percent-img]: http://graph.hatena.ne.jp/bouzuya/graph?graphname=percent&startdate=2015-01-01&enddate=2015-01-17
 [graph-percent-url]: http://graph.hatena.ne.jp/bouzuya/percent/?startdate=2015-01-01&enddate=2015-01-17
+[bouzuya/hspd-app]: https://github.com/bouzuya/hspd-app
+[bouzuya/hspd-bootstrap]: https://github.com/bouzuya/hspd-bootstrap
