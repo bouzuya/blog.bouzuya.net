@@ -1,0 +1,35 @@
+---
+layout: post
+pubdate: "2015-04-30T23:46:50+09:00"
+title: 虫姫さま ノービスクリア
+tags: ['game']
+minutes: 16
+pagetype: posts
+---
+# 虫姫さま ノービス オリジナル ノーコンティニュークリア
+
+日曜日 ([2015-04-26][]) に書こうとしたのだけど、虫姫さまのノービスのオリジナルをノーコンティニュークリアした。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CMO3MGfhsc0" frameborder="0" allowfullscreen></iframe>
+
+何か簡単だと思ったら、ノービスは通常のものより難易度が低いモードらしい。
+
+Xbox 360 版の虫姫さまは、最初に『ノービス』『Xbox 360』『アレンジ』から選ばされたあと、さらに『オリジナル』『マニアック』『ウルトラ』を選ばされる。一番左端のノービスがノーマルなのかと思って選んだのだけど、どうやらが違ったらしい。『Xbox 360』がアーケードと同等のものらしいので、次は『Xbox 360』のオリジナルのノーコンティニュークリアを目指すつもりだ。
+
+ただ、昨日 ([2015-04-29][]) 書いたとおり、左目がけいれんしていておかしいので、それが治るまでは控えるつもり。
+
+# その他
+
+[faithcreates-tuesday/meowziq-api][] が本格的に稼働しはじめた。
+
+機能不足で苦情がすごい。Issue を登録する予定だけど、以下のことが気づいた範囲にある。もっとあったはずだけど、失念してしまった。
+
+- API 再生済みファイルの削除が動いていない
+- API シャッフル再生がほしい
+- Android アルバムで選びたい
+- Android ジャンルで選びたい
+- Android 転送キューを確認したい
+
+[faithcreates-tuesday/meowziq-api]: https://github.com/faithcreates-tuesday/meowziq-api
+[2015-04-26]: http://blog.bouzuya.net/2015/04/26/
+[2015-04-29]: http://blog.bouzuya.net/2015/04/29/
