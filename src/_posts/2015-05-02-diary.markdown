@@ -1,0 +1,37 @@
+---
+layout: post
+pubdate: "2015-05-02T23:59:59+09:00"
+title: '『 WEB+DB PRESS Vol.86 』をよんだ & bouzuya/google-sheets-api@0.1.1 をつくった'
+tags: ['book', 'misc']
+minutes: 15
+pagetype: posts
+---
+# [bouzuya/google-sheets-api][]@0.1.1
+
+[bouzuya/google-sheets-api][]@0.1.1 を公開した。
+
+[bouzuya/google-sheets-api][] は Google Shees API を呼び出すための API ラッパー。
+
+すべてのセルが空のとき Error を投げる問題を修正した。
+
+# 『 WEB+DB PRESS Vol.86 』
+
+定期購読している雑誌のひとつ『 WEB+DB PRESS Vol.86 』を読んだ。
+
+今回の特集の Atom & Docker はよく使っているので気になっているもの。ちなみに特集は次の通り。
+
+- 特集 1 チーム開発 6 つの心得
+- 特集 2 実践 Atom
+- 特集 3 Docker 実戦投入
+
+実際に読んだ感想としてはあまり面白くなかった。
+
+Atom も Docker もさほど面白い内容はなかった。普段から使っているものの場合には既に知っている情報が増えてしまうからだろう。雑誌には自分の知らない範囲を含めた広く浅くを求めるほうが良さそうだ。
+
+面白かった……というより実用的だったのは連載の Emerging Web Technology 研究室の『 React によるフロントエンド開発の変革』と『 Service Worker で実現するオフライン Web アプリケーション』だった。あとでためす。
+
+# その他
+
+ゴールデンウィークの初日だ。それなのに何やらぼんやりしているうちに終ってしまった。一部の報道ではゴールデンウィークの後半とかほざいているようだけど「何を言ってるんだ」って感じだ。
+
+[bouzuya/google-sheets-api]: https://github.com/bouzuya/google-sheets-api
