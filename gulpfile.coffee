@@ -54,11 +54,11 @@ gulp.task 'build-script-browserify', ->
   .pipe gulp.dest './dist/scripts/'
 
 gulp.task 'build-script-browserify-dev', ->
-  bundled = ignoreError browserify
+  bundled = browserify
     debug: true
   .add './.tmp/src/scripts/index.js'
   .bundle()
-  bundled
+  ignoreError bundled
   .pipe source 'main.js'
   .pipe buffer()
   .pipe gulp.dest './dist/scripts/'
@@ -140,7 +140,7 @@ gulp.task 'watch', ['build-dev'], ->
     './test/**/*.coffee'
   ], ['watch-script']
 
-  gulp.task 'watch-style', ['build-style'], ->
+  gulp.task 'watch-style', ['build-style-dev'], ->
     browserSync.reload()
   gulp.watch [
     './src/styles/**/*.less'
