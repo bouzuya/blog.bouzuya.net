@@ -1,0 +1,35 @@
+---
+layout: post
+pubdate: "2015-05-05T23:59:59+09:00"
+title: また『インターステラー』をみた
+tags: [movie]
+minutes: 25
+pagetype: posts
+---
+# インターステラー
+
+Google Play で映画 1 本をレンタルできるキャンペーンを実施している。それを使って『インターステラー』をみた。映画館でもみたので「また」みた形だ。
+
+<blockquote class="twitter-tweet" lang="en"><p lang="ja" dir="ltr">移動時間も、映画を観ながらなら、楽しく過ごせる。今なら、Google Playの映画が1本でもらえるプロモコードを配布中。アバウト・タイムを観ながら、旅の移動を楽しもう。 <a href="https://t.co/0DoctGZEbt">https://t.co/0DoctGZEbt</a></p>&mdash; Google Play (@GooglePlay) <a href="https://twitter.com/GooglePlay/status/591537877789446144">April 24, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+家族でみたのだけど難しい映画扱いなのね。よく分からんを連呼された。
+
+# パソコンをもらった
+
+昨日 ([2015-05-04][]) 書いた通り家のパソコンが壊れた。Surface Pro 3 やタブレットを検討していたときに友人に相談したところ古いパソコンを譲ってもらえることになった。
+
+車で受け取りに行った。行きは良かったのだけど帰りはUターンラッシュでひどく混んでいた。
+
+無事に設置し動いた。テレビを見るだけには明らかに過剰なスペックのパソコンが手に入った。ありがたい。
+
+# flux と arda
+
+[facebook/flux][] のサンプルおよび実装を読んだ。おおよそ理解した。正直なところ React のような驚きはない。この形の必然性が分からない。Store から Dispatcher への依存関係の部分などがいまひとつしっくりこない。
+
+[mizchi/arda][] の実装をざっと読んだ。 Action Creators / Dispatcher ではなく EventEmitter になっている。React の使いかたをより限定している点や画面遷移を Router と Context とで制御している点なども面白い。
+
+もうしばらく Flux / React を触って自分の中で整理ができたら blog.bouzuya.net の書き換えをしようと思う。
+
+[facebook/flux]: https://github.com/facebook/flux
+[mizchi/arda]: https://github.com/mizchi/arda
+[2015-05-04]: http://blog.bouzuya.net/2015/05/04/
