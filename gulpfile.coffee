@@ -13,6 +13,7 @@ mocha = require 'gulp-mocha'
 run = require 'run-sequence'
 source = require 'vinyl-source-stream'
 sourcemaps = require 'gulp-sourcemaps'
+uglify = require 'gulp-uglify'
 
 ignoreError = (stream) ->
   stream.on 'error', (e) ->
@@ -51,6 +52,7 @@ gulp.task 'build-script-browserify', ->
   bundled
   .pipe source 'main.js'
   .pipe buffer()
+  .pipe uglify()
   .pipe gulp.dest './dist/scripts/'
 
 gulp.task 'build-script-browserify-dev', ->
