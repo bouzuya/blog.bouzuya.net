@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/bouzuya/bbn-react/issues"
   },
+  "dependencies": {
+    "react": "^0.13.2"
+  },
   "devDependencies": {
     "browser-sync": "^2.7.1",
     "browserify": "^10.1.0",
