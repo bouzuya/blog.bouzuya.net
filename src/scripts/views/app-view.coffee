@@ -5,6 +5,6 @@ class AppView extends React.Component
     super props
 
   render: ->
-    React.createElement 'div', className: 'app'
+    React.createElement 'div', id: 'app'
 
 module.exports.AppView = AppView
