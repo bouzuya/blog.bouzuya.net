@@ -10,7 +10,7 @@ class AppView extends React.Component
   render: ->
     React.createElement 'div', id: 'app',
       React.createElement(HeaderView),
-      React.createElement(ContentView),
+      React.createElement(ContentView, entries: @props.entries),
       React.createElement(FooterView)
 
 module.exports.AppView = AppView
