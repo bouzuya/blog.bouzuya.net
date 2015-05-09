@@ -3,7 +3,7 @@ layout: post
 pubdate: "2015-05-08T23:59:59+09:00"
 title: 『スクラム実践入門』をよんだ
 tags: [book]
-minutes:
+minutes: 25
 pagetype: posts
 ---
 # 『スクラム実践入門』
