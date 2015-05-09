@@ -9,10 +9,12 @@ class EntryDetailView extends React.Component
     super props
 
   render: ->
-    return null unless @props.entry?
-    React.createElement 'div', { className: 'entry-detail' },
-      React.createElement EntryView,
-        entry: @props.entry
-        isOpen: true
+    if @props.entry?
+      React.createElement 'div', { className: 'entry-detail is-open' },
+        React.createElement EntryView,
+          entry: @props.entry
+          isOpen: true
+    else
+      React.createElement 'div', { className: 'entry-detail' }
 
 module.exports.EntryDetailView = EntryDetailView

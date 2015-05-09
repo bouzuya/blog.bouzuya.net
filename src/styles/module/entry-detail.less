@@ -1,9 +1,14 @@
 .entry-detail {
   position: fixed;
-  top: 44px;
+  top: 100%;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: #bdbdbd;
   z-index: 3;
+  transition: all 0.3s;
+
+  &.is-open {
+    top: 44px;
+  }
 }
