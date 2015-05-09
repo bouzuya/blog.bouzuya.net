@@ -1,6 +1,6 @@
 React = require 'react'
-{EntryListView} = require './entry-list-view'
-{EntryDetailView} = require './entry-detail-view'
+{EntryDetailView} = require '../views/entry-detail-view'
+{EntryListView} = require '../views/entry-list-view'
 
 class ContentView extends React.Component
   @propTypes:

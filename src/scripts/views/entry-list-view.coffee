@@ -1,5 +1,5 @@
 React = require 'react'
-{EntryListItemView} = require './entry-list-item-view'
+{EntryListItemView} = require '../views/entry-list-item-view'
 
 class EntryListView extends React.Component
   @propTypes:

@@ -1,9 +1,9 @@
 React = require 'react'
 getEntryService = require '../services/entry-service'
 getEntryViewer = require '../viewers/entry-viewer'
-{HeaderView} = require './header-view'
-{ContentView} = require './content-view'
-{FooterView} = require './footer-view'
+{ContentView} = require '../views/content-view'
+{FooterView} = require '../views/footer-view'
+{HeaderView} = require '../views/header-view'
 
 class AppView extends React.Component
   @propTypes: {}
