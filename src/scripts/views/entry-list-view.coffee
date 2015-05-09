@@ -4,13 +4,6 @@ React = require 'react'
 class EntryListView extends React.Component
   constructor: (props) ->
     super props
-    @state = openedEntryDate: null
-
-  onOpen: (entry) ->
-    @setState openedEntryDate: entry.date
-
-  onClose: ->
-    @setState openedEntryDate: null
 
   render: ->
     React.createElement 'ul', { className: 'entry-list' },
@@ -18,8 +11,8 @@ class EntryListView extends React.Component
         React.createElement EntryListItemView,
           entry: i
           index: index
-          isOpen: (i.date is @state.openedEntryDate)
-          onOpen: @onOpen.bind(@)
-          onClose: @onClose.bind(@)
+          isOpen: i is @props.entry
+          onOpen: @props.onOpen
+          onClose: @props.onClose
 
 module.exports.EntryListView = EntryListView

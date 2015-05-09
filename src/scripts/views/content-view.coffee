@@ -8,6 +8,10 @@ class ContentView extends React.Component
   render: ->
     React.createElement 'div', id: 'content-container',
       React.createElement 'div', id: 'content',
-        React.createElement EntryListView, entries: @props.entries
+        React.createElement EntryListView,
+          entries: @props.entries
+          entry: @props.entry
+          onOpen: @props.onOpen
+          onClose: @props.onClose
 
 module.exports.ContentView = ContentView
