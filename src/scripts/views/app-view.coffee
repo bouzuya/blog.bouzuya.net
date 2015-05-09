@@ -1,5 +1,5 @@
 React = require 'react'
-{Entry} = require '../models/entry'
+{EntryEvent} = require '../events/entry-event'
 {EntryService} = require '../services/entry-service'
 {HeaderView} = require './header-view'
 {ContentView} = require './content-view'
@@ -16,11 +16,11 @@ class AppView extends React.Component
       entry: null
 
   componentDidMount: ->
-    Entry.events.addListener 'changed', @onEntriesChanged
+    EntryEvent.addListener 'changed', @onEntriesChanged
     EntryService.fetch()
 
   componentWillUnmount: ->
-    Entry.events.removeListener 'changed', @onEntriesChanged
+    EntryEvent.removeListener 'changed', @onEntriesChanged
 
   onEntriesChanged: (entries) ->
     @setState { entries: entries, entry: null }

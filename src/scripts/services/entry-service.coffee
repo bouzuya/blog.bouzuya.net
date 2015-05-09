@@ -1,4 +1,4 @@
-{Entry} = require '../models/entry'
+{EntryEvent} = require '../viewers/entry-event'
 
 class EntryService
   @fetch: ->
@@ -8,6 +8,6 @@ class EntryService
       content: [1...i].map((j) ->
         '<p>あいうえおかきくけこさしすせそたちつてとなにぬねの</p>'
       ).join '\n'
-    Entry.events.emit 'changed', entries
+    EntryEvent.emit 'changed', entries
 
 module.exports.EntryService = EntryService
