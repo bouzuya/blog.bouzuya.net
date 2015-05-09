@@ -5,7 +5,6 @@ class EntryView extends React.Component
   @propTypes:
     entries: React.PropTypes.array
     entry: React.PropTypes.object
-    onClose: React.PropTypes.func
     onOpen: React.PropTypes.func
 
   constructor: (props) ->

@@ -5,7 +5,6 @@ class EntryListView extends React.Component
   @propTypes:
     entries: React.PropTypes.array
     entry: React.PropTypes.object
-    onClose: React.PropTypes.func
     onOpen: React.PropTypes.func
 
   constructor: (props) ->
@@ -20,6 +19,5 @@ class EntryListView extends React.Component
           key: i.date
           isOpen: i is @props.entry
           onOpen: @props.onOpen
-          onClose: @props.onClose
 
 module.exports.EntryListView = EntryListView

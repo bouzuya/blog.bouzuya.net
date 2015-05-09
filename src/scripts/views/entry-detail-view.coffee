@@ -4,7 +4,6 @@ React = require 'react'
 class EntryDetailView extends React.Component
   @propTypes:
     entry: React.PropTypes.object
-    onClose: React.PropTypes.func
 
   constructor: (props) ->
     super props
@@ -15,6 +14,5 @@ class EntryDetailView extends React.Component
       React.createElement EntryView,
         entry: @props.entry
         isOpen: true
-        onHeaderClick: @props.onClose
 
 module.exports.EntryDetailView = EntryDetailView
