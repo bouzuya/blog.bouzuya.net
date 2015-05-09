@@ -1,6 +1,9 @@
 getEntry = require '../models/entry'
 
 class EntryService
+  close: ->
+    getEntry().select null
+
   fetch: ->
     entries = [1..30].map (i) ->
       date: '2015-04-' + (if i < 10 then '0' + i else i) + ''

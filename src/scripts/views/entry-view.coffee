@@ -1,4 +1,5 @@
 React = require 'react'
+getEntryService = require '../services/entry-service'
 
 class EntryView extends React.Component
   @propTypes:
@@ -11,7 +12,7 @@ class EntryView extends React.Component
     super props
 
   onClick: ->
-    @props.onHeaderClick()
+    getEntryService().close()
 
   render: ->
     React.createElement 'div', {

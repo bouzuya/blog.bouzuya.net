@@ -9,6 +9,7 @@ class Entry
 
   constructor: ->
     @_entries = []
+    @_entry = null
     @_emitter = new EventEmitter()
 
   getAll: ->
@@ -20,6 +21,10 @@ class Entry
   save: (entries) ->
     @_entries = entries
     @_emitter.emit 'changed', @_entries
+
+  select: (entry) ->
+    @_entry = entry
+    @_emitter.emit 'selected', @_entry
 
 module.exports = ->
   Entry.getInstance()
