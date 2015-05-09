@@ -8,6 +8,6 @@ class EntryService
       content: [1...i].map((j) ->
         '<p>あいうえおかきくけこさしすせそたちつてとなにぬねの</p>'
       ).join '\n'
-    Entry.save entries
+    Entry.events.emit 'changed', entries
 
 module.exports.EntryService = EntryService

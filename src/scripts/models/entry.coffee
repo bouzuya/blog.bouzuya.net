@@ -1,8 +1,6 @@
-{EventService} = require '../services/event-service'
+{EventEmitter} = require 'events'
 
 class Entry
-  @save: (entries) ->
-    events = EventService.getInstance()
-    events.emit 'entries-changed', entries
+  @events: new EventEmitter()
 
 module.exports.Entry = Entry
