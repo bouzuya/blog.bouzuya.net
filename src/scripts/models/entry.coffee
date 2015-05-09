@@ -18,6 +18,9 @@ class Entry
   getEventEmitter: ->
     @_emitter
 
+  getSelectedEntry: ->
+    @_entry
+
   save: (entries) ->
     @_entries = entries
     @_emitter.emit 'changed', @_entries

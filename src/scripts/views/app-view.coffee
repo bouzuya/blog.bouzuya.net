@@ -14,7 +14,7 @@ class AppView extends React.Component
     @onEntrySelected = @onEntrySelected.bind @
     @state =
       entries: getEntryViewer().getAll()
-      entry: null
+      entry: getEntryViewer().getSelectedEntry()
 
   componentDidMount: ->
     emitter = getEntryViewer().getEventEmitter()
