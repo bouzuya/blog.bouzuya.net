@@ -1,13 +1,13 @@
-{EntryEvent} = require '../viewers/entry-event'
+{Entry} = require '../models/entry'
 
 class EntryService
-  @fetch: ->
+  fetch: ->
     entries = [1..30].map (i) ->
       date: '2015-04-' + (if i < 10 then '0' + i else i) + ''
       title: 'entry ' + i
       content: [1...i].map((j) ->
         '<p>あいうえおかきくけこさしすせそたちつてとなにぬねの</p>'
       ).join '\n'
-    EntryEvent.emit 'changed', entries
+    Entry.save entries
 
-module.exports.EntryService = EntryService
+module.exports.EntryService = new EntryService
