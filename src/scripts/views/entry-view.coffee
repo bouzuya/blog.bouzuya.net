@@ -8,9 +8,6 @@ class EntryView extends React.Component
   constructor: (props) ->
     super props
 
-  onClick: ->
-    getEntryService().close()
-
   render: ->
     React.createElement 'div', {
       className: 'entry' + (isOpen ? ' is-open' : '')
@@ -18,12 +15,16 @@ class EntryView extends React.Component
     React.createElement('div', { className: 'entry-date' }, @props.entry.date),
     React.createElement('div', {
       className: 'entry-title'
-      onClick: @onClick.bind(@)
+      onClick: @_onClick.bind(@)
     }, @props.entry.title),
     React.createElement('div',
       className: 'entry-content'
       dangerouslySetInnerHTML:
         __html: @props.entry.content || ''
     )
+
+  _onClick: ->
+    getEntryService().close()
+
 
 module.exports.EntryView = EntryView

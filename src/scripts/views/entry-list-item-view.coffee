@@ -7,17 +7,17 @@ class EntryListItemView extends React.Component
     entry: React.PropTypes.object
     isOpen: React.PropTypes.bool
 
-  onClick: ->
-    return if @props.isOpen
-    getEntryService().open @props.entry
-
   render: ->
     React.createElement 'li', {
       className: 'entry-list-item' + (if @props.isOpen then ' is-open' else '')
-      onClick: @onClick.bind(@)
+      onClick: @_onClick.bind(@)
     },
     React.createElement EntryView,
       entry: @props.entry
       isOpen: false
+
+  _onClick: ->
+    return if @props.isOpen
+    getEntryService().open @props.entry
 
 module.exports.EntryListItemView = EntryListItemView

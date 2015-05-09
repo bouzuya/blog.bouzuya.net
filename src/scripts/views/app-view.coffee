@@ -10,28 +10,22 @@ class AppView extends React.Component
 
   constructor: (props) ->
     super props
-    @onEntriesChanged = @onEntriesChanged.bind @
-    @onEntrySelected = @onEntrySelected.bind @
+    @_onEntriesChanged = @_onEntriesChanged.bind @
+    @_onEntrySelected = @_onEntrySelected.bind @
     @state =
       entries: getEntryViewer().getAll()
       entry: getEntryViewer().getSelectedEntry()
 
   componentDidMount: ->
     emitter = getEntryViewer().getEventEmitter()
-    emitter.addListener 'changed', @onEntriesChanged
-    emitter.addListener 'selected', @onEntrySelected
+    emitter.addListener 'changed', @_onEntriesChanged
+    emitter.addListener 'selected', @_onEntrySelected
     getEntryService().fetch()
 
   componentWillUnmount: ->
     emitter = getEntryViewer().getEventEmitter()
-    emitter.removeListener 'changed', @onEntriesChanged
-    emitter.removeListener 'selected', @onEntrySelected
-
-  onEntriesChanged: (entries) ->
-    @setState { entries, entry: null }
-
-  onEntrySelected: (entry) ->
-    @setState { entries: @state.entries, entry }
+    emitter.removeListener 'changed', @_onEntriesChanged
+    emitter.removeListener 'selected', @_onEntrySelected
 
   render: ->
     React.createElement 'div', id: 'app',
@@ -41,5 +35,12 @@ class AppView extends React.Component
         entry: @state.entry
       ),
       React.createElement(FooterView)
+
+  _onEntriesChanged: (entries) ->
+    @setState { entries, entry: null }
+
+  _onEntrySelected: (entry) ->
+    @setState { entries: @state.entries, entry }
+
 
 module.exports.AppView = AppView
