@@ -14,6 +14,7 @@ run = require 'run-sequence'
 source = require 'vinyl-source-stream'
 sourcemaps = require 'gulp-sourcemaps'
 uglify = require 'gulp-uglify'
+watch = require 'gulp-watch'
 
 ignoreError = (stream) ->
   stream.on 'error', (e) ->
@@ -129,21 +130,29 @@ gulp.task 'watch', ['build-dev'], ->
     server:
       baseDir: './dist/'
 
-  gulp.task 'watch-resource', ['build-resource'], ->
-    browserSync.reload()
-  gulp.watch [
-    './src/index.html'
-  ], ['watch-resource']
+  watch './src/index.html', ->
+    run.apply run, [
+      'build-resource'
+      ->
+        browserSync.reload()
+    ]
 
-  gulp.task 'watch-script', ['build-dev', 'test-dev'], ->
-    browserSync.reload()
-  gulp.watch [
+  watch [
     './src/**/*.coffee'
     './test/**/*.coffee'
-  ], ['watch-script']
+  ], ->
+    run.apply run, [
+      'build-dev'
+      'test-dev'
+      ->
+        browserSync.reload()
+    ]
 
-  gulp.task 'watch-style', ['build-style-dev'], ->
-    browserSync.reload()
-  gulp.watch [
+  watch [
     './src/styles/**/*.less'
-  ], ['watch-style']
+  ], ->
+    run.apply run, [
+      'build-style-dev'
+      ->
+        browserSync.reload()
+    ]
