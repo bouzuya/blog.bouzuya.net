@@ -3,6 +3,6 @@
 class Entry
   @save: (entries) ->
     events = EventService.getInstance()
-    events.emit 'changed', entries
+    events.emit 'entries-changed', entries
 
 module.exports.Entry = Entry

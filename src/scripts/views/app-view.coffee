@@ -11,19 +11,19 @@ class AppView extends React.Component
   constructor: (props) ->
     super props
     @events = EventService.getInstance()
-    @onChanged = @onChanged.bind @
+    @onEntriesChanged = @onEntriesChanged.bind @
     @state =
       entries: []
       entry: null
 
   componentDidMount: ->
-    @events.addListener 'changed', @onChanged
+    @events.addListener 'entries-changed', @onEntriesChanged
     EntryService.fetch()
 
   componentWillUnmount: ->
-    @events.removeListener 'changed', @onChanged
+    @events.removeListener 'entries-changed', @onEntriesChanged
 
-  onChanged: (entries) ->
+  onEntriesChanged: (entries) ->
     @setState { entries: entries, entry: null }
 
   onOpen: (entry) ->
