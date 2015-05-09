@@ -1,4 +1,6 @@
-{App} = require './app'
+React = require 'react'
+{AppView} = require './views/app-view'
 
 window.addEventListener 'DOMContentLoaded', ->
-  new App()
+  rootElement = React.createElement AppView
+  React.render rootElement, document.body
