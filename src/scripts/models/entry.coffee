@@ -1,4 +1,4 @@
-getEntryEvent = require '../events/entry-event'
+{EventEmitter} = require 'events'
 
 class Entry
   @_instance: null
@@ -9,13 +9,17 @@ class Entry
 
   constructor: ->
     @_entries = []
+    @_emitter = new EventEmitter()
 
   getAll: ->
     @_entries
 
+  getEventEmitter: ->
+    @_emitter
+
   save: (entries) ->
     @_entries = entries
-    getEntryEvent().emit 'changed', @_entries
+    @_emitter.emit 'changed', @_entries
 
 module.exports = ->
   Entry.getInstance()

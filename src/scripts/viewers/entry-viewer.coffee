@@ -7,6 +7,9 @@ class EntryViewer
   getAll: ->
     @_store.getAll()
 
+  getEventEmitter: ->
+    @_store.getEventEmitter()
+
 module.exports = ->
   instance = getEntry()
   new EntryViewer(instance)
