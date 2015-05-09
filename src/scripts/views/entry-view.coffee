@@ -25,6 +25,6 @@ class EntryView extends React.Component
 
   _onClick: ->
     getEntryService().close()
-
+    null
 
 module.exports.EntryView = EntryView

@@ -19,5 +19,6 @@ class EntryListItemView extends React.Component
   _onClick: ->
     return if @props.isOpen
     getEntryService().open @props.entry
+    null
 
 module.exports.EntryListItemView = EntryListItemView
