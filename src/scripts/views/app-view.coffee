@@ -4,6 +4,8 @@ React = require 'react'
 {FooterView} = require './footer-view'
 
 class AppView extends React.Component
+  @propTypes: {}
+
   constructor: (props) ->
     super props
     @state =
