@@ -17,6 +17,7 @@ class EntryListView extends React.Component
         React.createElement EntryListItemView,
           entry: i
           index: index
+          key: i.date
           isOpen: i is @props.entry
           onOpen: @props.onOpen
           onClose: @props.onClose
