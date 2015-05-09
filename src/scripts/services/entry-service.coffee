@@ -1,4 +1,4 @@
-{Entry} = require '../models/entry'
+getEntry = require '../models/entry'
 
 class EntryService
   fetch: ->
@@ -8,6 +8,9 @@ class EntryService
       content: [1...i].map((j) ->
         '<p>あいうえおかきくけこさしすせそたちつてとなにぬねの</p>'
       ).join '\n'
-    Entry.save entries
+    getEntry().save entries
 
-module.exports.EntryService = new EntryService
+module.exports = ->
+  new EntryService()
+
+module.exports.EntryService = EntryService

@@ -1,7 +1,7 @@
 React = require 'react'
-{EntryEvent} = require '../events/entry-event'
-{EntryService} = require '../services/entry-service'
-{EntryViewer} = require '../viewers/entry-viewer'
+getEntryEvent = require '../events/entry-event'
+getEntryService = require '../services/entry-service'
+getEntryViewer = require '../viewers/entry-viewer'
 {HeaderView} = require './header-view'
 {ContentView} = require './content-view'
 {FooterView} = require './footer-view'
@@ -13,15 +13,15 @@ class AppView extends React.Component
     super props
     @onEntriesChanged = @onEntriesChanged.bind @
     @state =
-      entries: EntryViewer.getAll()
+      entries: getEntryViewer().getAll()
       entry: null
 
   componentDidMount: ->
-    EntryEvent.addListener 'changed', @onEntriesChanged
-    EntryService.fetch()
+    getEntryEvent().addListener 'changed', @onEntriesChanged
+    getEntryService().fetch()
 
   componentWillUnmount: ->
-    EntryEvent.removeListener 'changed', @onEntriesChanged
+    getEntryEvent().removeListener 'changed', @onEntriesChanged
 
   onEntriesChanged: (entries) ->
     @setState { entries: entries, entry: null }

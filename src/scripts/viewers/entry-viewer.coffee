@@ -1,7 +1,14 @@
-{Entry} = require '../models/entry'
+getEntry = require '../models/entry'
 
 class EntryViewer
-  getAll: ->
-    Entry.getAll()
+  constructor: (store) ->
+    @_store = store
 
-module.exports.EntryViewer = new EntryViewer()
+  getAll: ->
+    @_store.getAll()
+
+module.exports = ->
+  instance = getEntry()
+  new EntryViewer(instance)
+
+module.exports.EntryViewer = EntryViewer

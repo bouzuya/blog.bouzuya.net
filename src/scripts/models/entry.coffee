@@ -1,6 +1,12 @@
-{EntryEvent} = require '../events/entry-event'
+getEntryEvent = require '../events/entry-event'
 
 class Entry
+  @_instance: null
+
+  @getInstance: ->
+    @_instance = new Entry() unless @_instance?
+    @_instance
+
   constructor: ->
     @_entries = []
 
@@ -9,6 +15,9 @@ class Entry
 
   save: (entries) ->
     @_entries = entries
-    EntryEvent.emit 'changed', @_entries
+    getEntryEvent().emit 'changed', @_entries
 
-module.exports.Entry = new Entry
+module.exports = ->
+  Entry.getInstance()
+
+module.exports.Entry = Entry
