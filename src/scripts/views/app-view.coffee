@@ -1,4 +1,6 @@
 React = require 'react'
+{EntryService} = require '../services/entry-service'
+{EventService} = require '../services/event-service'
 {HeaderView} = require './header-view'
 {ContentView} = require './content-view'
 {FooterView} = require './footer-view'
@@ -8,14 +10,21 @@ class AppView extends React.Component
 
   constructor: (props) ->
     super props
+    @events = EventService.getInstance()
+    @onChanged = @onChanged.bind @
     @state =
-      entries: [1..30].map (i) ->
-        date: '2015-04-' + (if i < 10 then '0' + i else i) + ''
-        title: 'entry ' + i
-        content: [1...i].map((j) ->
-          '<p>あいうえおかきくけこさしすせそたちつてとなにぬねの</p>'
-        ).join '\n'
+      entries: []
       entry: null
+
+  componentDidMount: ->
+    @events.addListener 'changed', @onChanged
+    EntryService.fetch()
+
+  componentWillUnmount: ->
+    @events.removeListener 'changed', @onChanged
+
+  onChanged: (entries) ->
+    @setState { entries: entries, entry: null }
 
   onOpen: (entry) ->
     @setState { entries: @state.entries, entry }
