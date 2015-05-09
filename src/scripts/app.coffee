@@ -4,31 +4,12 @@ React = require 'react'
 class App
   constructor: ->
     data =
-      entries: [
-        date: '2015-04-01'
-        title: 'entry 1'
-      ,
-        date: '2015-04-02'
-        title: 'entry 2'
-        content: '''
-        <p>fooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        <p>fooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        <p>fooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        <p>fooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        <p>fooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        <p>fooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        <p>fooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        <p>fooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        <p>fooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        <p>fooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        '''
-      ,
-        date: '2015-04-03'
-        title: 'entry 3'
-      ,
-        date: '2015-04-04'
-        title: 'entry 4'
-    ]
+      entries: [1..30].map (i) ->
+        date: '2015-04-' + (if i < 10 then '0' + i else i) + ''
+        title: 'entry ' + i
+        content: [1...i].map((j) ->
+          '<p>あいうえおかきくけこさしすせそたちつてとなにぬねの</p>'
+        ).join '\n'
 
     rootElement = React.createElement AppView, data
     React.render rootElement, document.body

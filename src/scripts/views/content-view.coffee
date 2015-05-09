@@ -6,7 +6,8 @@ class ContentView extends React.Component
     super props
 
   render: ->
-    React.createElement 'div', id: 'content',
-      React.createElement EntryListView, entries: @props.entries
+    React.createElement 'div', id: 'content-container',
+      React.createElement 'div', id: 'content',
+        React.createElement EntryListView, entries: @props.entries
 
 module.exports.ContentView = ContentView
