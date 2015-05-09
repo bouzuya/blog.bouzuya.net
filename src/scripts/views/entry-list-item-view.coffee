@@ -13,13 +13,11 @@ class EntryListItemView extends React.Component
   render: ->
     React.createElement 'li', {
       className: 'entry-list-item' + (if @props.isOpen then ' is-open' else '')
-      style:
-        top: (if @props.isOpen then 44 else @props.index * 72) + 'px'
       onClick: @onClick.bind(@)
     },
     React.createElement EntryView,
       entry: @props.entry
-      isOpen: @props.isOpen
+      isOpen: false
       onHeaderClick: @onHeaderClick.bind(@)
 
 module.exports.EntryListItemView = EntryListItemView
