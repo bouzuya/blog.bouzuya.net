@@ -6,7 +6,6 @@ class ContentView extends React.Component
   @propTypes:
     entries: React.PropTypes.array
     entry: React.PropTypes.object
-    onOpen: React.PropTypes.func
 
   constructor: (props) ->
     super props
@@ -17,7 +16,6 @@ class ContentView extends React.Component
         React.createElement(EntryListView,
           entries: @props.entries
           entry: @props.entry
-          onOpen: @props.onOpen
         ),
         React.createElement EntryDetailView, entry: @props.entry
 

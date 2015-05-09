@@ -5,7 +5,6 @@ class EntryListView extends React.Component
   @propTypes:
     entries: React.PropTypes.array
     entry: React.PropTypes.object
-    onOpen: React.PropTypes.func
 
   constructor: (props) ->
     super props
@@ -18,6 +17,5 @@ class EntryListView extends React.Component
           index: index
           key: i.date
           isOpen: i is @props.entry
-          onOpen: @props.onOpen
 
 module.exports.EntryListView = EntryListView

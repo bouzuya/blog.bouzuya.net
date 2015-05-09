@@ -1,15 +1,15 @@
 React = require 'react'
-{EntryView} = require './entry-view'
+getEntryService = require '../services/entry-service'
+{EntryView} = require '../views/entry-view'
 
 class EntryListItemView extends React.Component
   @propTypes:
     entry: React.PropTypes.object
     isOpen: React.PropTypes.bool
-    onOpen: React.PropTypes.func
 
   onClick: ->
     return if @props.isOpen
-    @props.onOpen @props.entry
+    getEntryService().open @props.entry
 
   render: ->
     React.createElement 'li', {

@@ -33,16 +33,12 @@ class AppView extends React.Component
   onEntrySelected: (entry) ->
     @setState { entries: @state.entries, entry }
 
-  onOpen: (entry) ->
-    @setState { entries: @state.entries, entry }
-
   render: ->
     React.createElement 'div', id: 'app',
       React.createElement(HeaderView),
       React.createElement(ContentView,
         entries: @state.entries
         entry: @state.entry
-        onOpen: @onOpen.bind(@)
       ),
       React.createElement(FooterView)
 

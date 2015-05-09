@@ -13,6 +13,9 @@ class EntryService
       ).join '\n'
     getEntry().save entries
 
+  open: (entry) ->
+    getEntry().select entry
+
 module.exports = ->
   new EntryService()
 
