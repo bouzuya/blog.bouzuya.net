@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2015-02-18T23:47:20+09:00"
 title: faithcreates-tuesday/hubot-party-play をつくった
-tags: [hubot, hubot-scripts]
+tags: ['hubot', 'hubot-scripts', 'meowziq']
 minutes: 40
 pagetype: posts
 ---

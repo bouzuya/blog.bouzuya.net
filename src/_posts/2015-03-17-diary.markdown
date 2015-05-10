@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2015-03-17T22:08:23+09:00"
 title: faithcreates-tuesday/party-play-android をつくった
-tags: [misc]
+tags: ['misc', 'meowziq']
 minutes: 8
 pagetype: posts
 ---

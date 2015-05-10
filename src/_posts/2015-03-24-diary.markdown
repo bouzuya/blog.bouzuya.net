@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2015-03-24T23:40:15+09:00"
 title: faithcreates-tuesday/party-play-api をつくりはじめた
-tags: [misc]
+tags: ['misc', 'meowziq']
 minutes: 20
 pagetype: posts
 ---

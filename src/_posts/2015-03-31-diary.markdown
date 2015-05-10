@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2015-03-31T23:59:59+09:00"
 title: meowziq-api と meowbot と hubot-meowziq とをつくった
-tags: ['hubot', 'hubot-scripts']
+tags: ['meowziq', 'hubot', 'hubot-scripts']
 minutes: 17
 pagetype: posts
 ---

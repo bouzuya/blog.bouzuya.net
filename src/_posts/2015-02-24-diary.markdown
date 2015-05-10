@@ -2,7 +2,7 @@
 layout: post
 pubdate: "2015-02-24T23:41:22+09:00"
 title: bouzuya/dotfiles に two-panes-commands をつくった
-tags: ['shuburi', 'atom']
+tags: ['shuburi', 'atom', 'meowziq']
 minutes: 9
 pagetype: posts
 ---
