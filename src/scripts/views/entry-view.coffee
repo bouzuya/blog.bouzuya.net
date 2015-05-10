@@ -13,7 +13,7 @@ class EntryView extends React.Component
     return unless @props.isOpen
     return if @props.entry.content?
     setTimeout =>
-      getEntryService().fetchEntry(@props.entry)
+      getEntryService().fetchOne(@props.entry)
     , 300
 
   render: ->

@@ -21,16 +21,16 @@ class Entry
   getSelectedEntry: ->
     @_entry
 
-  save: (entries) ->
+  saveAll: (entries) ->
     @_entries = entries
-    @_emitter.emit 'changed', @_entries
+    @_emitter.emit 'entries-changed', @_entries
 
-  saveEntry: (entry) ->
+  saveOne: (entry) ->
     filtered = @_entries.filter((i) -> i.date is entry.date)[0]
     return unless filtered?
     filtered.title = entry.title
     filtered.content = entry.content
-    @_emitter.emit 'loaded', filtered
+    @_emitter.emit 'entry-changed', filtered
 
   select: (entry) ->
     @_entry = entry

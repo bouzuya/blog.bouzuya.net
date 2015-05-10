@@ -5,25 +5,27 @@ class EntryService
   close: ->
     getEntry().select null
 
-  fetch: ->
+  fetchAll: ->
     request
       url: 'http://blog.bouzuya.net/posts.json'
       json: true
       withCredentials: false
     , (err, res) ->
       entries = res.body
-      getEntry().save entries
+      getEntry().saveAll entries
 
-  fetchEntry: (entry) ->
+  fetchOne: (entry) ->
     date = entry.date
     request
       url: 'http://blog.bouzuya.net/posts/' + entry.date + '.json'
       json: true
       withCredentials: false
     , (err, res) ->
-      loaded = res.body
-      loaded.content = loaded.html
-      getEntry().saveEntry loaded
+      fetched = res.body
+      getEntry().saveOne
+        date: fetched.date
+        title: fetched.title
+        content: fetched.html
 
   open: (entry) ->
     getEntry().select entry
