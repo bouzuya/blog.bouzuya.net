@@ -10,4 +10,70 @@
   height: 100%;
   padding: @entry-list-item-height 16px 16px 16px;
   z-index: @entry-content-z-index;
+
+  h1, h2, h3, h4, h5, h6 {
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+    border-left: 1rem solid @content-color;
+  }
+
+  p {
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: @bouzuya-gray;
+    text-decoration: none;
+  }
+
+  blockquote {
+    border-left: 0.25rem solid @content-color;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: @bouzuya-gray;
+    background-color: @content-background-color;
+    font-family: monospace;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  pre {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    overflow: auto;
+    color: @content-color;
+    background-color: darken(@bouzuya-white, 50%);
+    border-radius: 0.5rem;
+    font-family: monospace;
+  }
+
+  ul {
+    box-sizing: border-box;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    margin: 0.5rem;
+    list-style-type: disc;
+  }
+
+  ol {
+    box-sizing: border-box;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    margin: 0.5rem;
+    list-style-type: decimal;
+  }
+
+  code {
+    padding: 0 0.25rem;
+    margin: 0 0.25rem;
+    background-color: darken(@bouzuya-white, 50%);
+    border-radius: 0.25rem;
+  }
+
+  em, strong {
+    font-weight: bold;
+  }
 }
