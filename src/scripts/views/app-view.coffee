@@ -11,6 +11,7 @@ class AppView extends React.Component
   constructor: (props) ->
     super props
     @_onEntriesChanged = @_onEntriesChanged.bind @
+    @_onEntryLoaded = @_onEntryLoaded.bind @
     @_onEntrySelected = @_onEntrySelected.bind @
     @state =
       entries: getEntryViewer().getAll()
@@ -19,12 +20,14 @@ class AppView extends React.Component
   componentDidMount: ->
     emitter = getEntryViewer().getEventEmitter()
     emitter.addListener 'changed', @_onEntriesChanged
+    emitter.addListener 'loaded', @_onEntryLoaded
     emitter.addListener 'selected', @_onEntrySelected
     getEntryService().fetch()
 
   componentWillUnmount: ->
     emitter = getEntryViewer().getEventEmitter()
     emitter.removeListener 'changed', @_onEntriesChanged
+    emitter.removeListener 'loaded', @_onEntryLoaded
     emitter.removeListener 'selected', @_onEntrySelected
 
   render: ->
@@ -39,8 +42,10 @@ class AppView extends React.Component
   _onEntriesChanged: (entries) ->
     @setState { entries, entry: null }
 
-  _onEntrySelected: (entry) ->
+  _onEntryLoaded: (entry) ->
     @setState { entries: @state.entries, entry }
 
+  _onEntrySelected: (entry) ->
+    @setState { entries: @state.entries, entry }
 
 module.exports.AppView = AppView

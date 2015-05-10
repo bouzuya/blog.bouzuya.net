@@ -25,6 +25,13 @@ class Entry
     @_entries = entries
     @_emitter.emit 'changed', @_entries
 
+  saveEntry: (entry) ->
+    filtered = @_entries.filter((i) -> i.date is entry.date)[0]
+    return unless filtered?
+    filtered.title = entry.title
+    filtered.content = entry.content
+    @_emitter.emit 'loaded', filtered
+
   select: (entry) ->
     @_entry = entry
     @_emitter.emit 'selected', @_entry

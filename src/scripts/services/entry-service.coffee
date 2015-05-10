@@ -1,3 +1,4 @@
+request = require 'request'
 getEntry = require '../models/entry'
 
 class EntryService
@@ -5,22 +6,24 @@ class EntryService
     getEntry().select null
 
   fetch: ->
-    entries = [1..30].map (i) ->
-      date: '2015-04-' + (if i < 10 then '0' + i else i) + ''
-      title: 'entry ' + i
-      content: [1...i].map((j) ->
-        '''
-        <p>あいうえお</p>
-        <p>かきくけこ</p>
-        <p>さしすせそ</p>
-        <p>たちつてと</p>
-        <p>なにぬねの</p>
-        <p>はひふへほ</p>
-        <p>まみむめも</p>
-        <p>やゆよ</p>
-        '''
-      ).join '\n'
-    getEntry().save entries
+    request
+      url: 'http://blog.bouzuya.net/posts.json'
+      json: true
+      withCredentials: false
+    , (err, res) ->
+      entries = res.body
+      getEntry().save entries
+
+  fetchEntry: (entry) ->
+    date = entry.date
+    request
+      url: 'http://blog.bouzuya.net/posts/' + entry.date + '.json'
+      json: true
+      withCredentials: false
+    , (err, res) ->
+      loaded = res.body
+      loaded.content = loaded.html
+      getEntry().saveEntry loaded
 
   open: (entry) ->
     getEntry().select entry
