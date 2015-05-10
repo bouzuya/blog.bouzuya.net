@@ -4,13 +4,14 @@ getEntryService = require '../services/entry-service'
 class EntryView extends React.Component
   @propTypes:
     entry: React.PropTypes.object
+    isOpen: React.PropTypes.bool
 
   constructor: (props) ->
     super props
 
   render: ->
     React.createElement 'div', {
-      className: 'entry' + (isOpen ? ' is-open' : '')
+      className: 'entry' + (if @props.isOpen then ' is-open' else '')
     },
     React.createElement('div', { className: 'entry-date' }, @props.entry.date),
     React.createElement('div', {
