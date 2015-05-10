@@ -12,7 +12,7 @@ class EntryService
       withCredentials: false
     , (err, res) ->
       entries = res.body
-      getEntry().saveAll entries
+      getEntry().saveAll entries.reverse()
 
   fetchOne: (entry) ->
     date = entry.date
