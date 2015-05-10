@@ -11,10 +11,9 @@ class EntryListView extends React.Component
 
   render: ->
     React.createElement 'ul', { className: 'entry-list' },
-      @props.entries.map (i, index) =>
+      @props.entries.filter((_, index) -> index < 30).map (i) =>
         React.createElement EntryListItemView,
           entry: i
-          index: index
           key: i.date
           isOpen: i is @props.entry
 
