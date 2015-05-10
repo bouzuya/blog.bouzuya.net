@@ -5,6 +5,8 @@ class HeaderView extends React.Component
     super props
 
   render: ->
-    React.createElement 'div', id: 'header'
+    React.createElement 'div', id: 'header',
+      React.createElement 'a', { className: 'title', href: '/' },
+        'blog.bouzuya.net'
 
 module.exports.HeaderView = HeaderView
