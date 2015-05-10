@@ -1,0 +1,32 @@
+---
+layout: post
+pubdate: "2015-05-09T23:59:59+09:00"
+title: faithcreates-tuesday/meowziq-api の shuffle 機能をつくった
+tags: ['meowziq', 'movie']
+minutes: 15
+pagetype: posts
+---
+# meowziq-api の shuffle 機能
+
+[faithcreates-tuesday/meowziq-api][] に shuffle 機能をつくった。厳密には Pull Request を送っただけでマージはされていない。つくっただけでついていない。
+
+再生時に次の曲をランダムで選ぶだけ。コミット数が多いのはリファクタリングのためのコミットが混じっているから。
+
+https://github.com/faithcreates-tuesday/meowziq-api/pull/8
+
+毎週すこしずつでも機能を追加しないといつまでも不便なままなので。
+
+上記とは関係ないけれど [faithcreates-tuesday/telackbot][] にも BOT 名の誤りを修正する Pull Request を送っている。
+
+https://github.com/faithcreates-tuesday/telackbot/pull/1
+
+# 『トータル・リコール』
+
+なんだろう。物足りない。悪くはない……のかなあ。面白いところが特になかった。
+
+# 『メン・イン・ブラック 3 』
+
+こちらは意外と面白かった。たぶんタイムパラドックス何それみたいな話が好きなだけだと思う。名前を忘れたけど未来が見えてる人が怖くて良い。
+
+[faithcreates-tuesday/meowziq-api]: https://github.com/faithcreates-tuesday/meowziq-api
+[faithcreates-tuesday/telackbot]: https://github.com/faithcreates-tuesday/telackbot
