@@ -3,7 +3,13 @@
 .entry-title {
   position: absolute;
   top: 16px;
-  left: 72px;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 16px 0 72px;
+  width: 100%;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
 
   font-size: 1.25rem;
   z-index: @entry-title-z-index;
