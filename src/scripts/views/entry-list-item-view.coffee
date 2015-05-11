@@ -1,5 +1,5 @@
 React = require 'react'
-getEntryService = require '../services/entry-service'
+getRouteService = require '../services/route-service'
 {EntryView} = require '../views/entry-view'
 
 class EntryListItemView extends React.Component
@@ -18,7 +18,7 @@ class EntryListItemView extends React.Component
 
   _onClick: ->
     return if @props.isOpen
-    getEntryService().open @props.entry
+    getRouteService().go '/' + @props.entry.date
     null
 
 module.exports.EntryListItemView = EntryListItemView

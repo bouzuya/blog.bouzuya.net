@@ -1,5 +1,6 @@
 React = require 'react'
 getEntryService = require '../services/entry-service'
+getRouteService = require '../services/route-service'
 
 class EntryView extends React.Component
   @propTypes:
@@ -32,8 +33,9 @@ class EntryView extends React.Component
           __html: @props.entry.content || ''
       )
 
-  _onClick: ->
-    getEntryService().close()
+  _onClick: (e) ->
+    return unless @props.isOpen
+    getRouteService().back()
     null
 
 module.exports.EntryView = EntryView
