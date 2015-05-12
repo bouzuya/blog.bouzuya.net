@@ -28,7 +28,13 @@ class RouteService
         @_browserBack path
       else
         @_browserForward path
-    @_forward window.location.pathname
+    hashPath = window.location.hash.substring 1
+    @_histories.push '/'
+    window.history.replaceState { path: '/' }, '', '/'
+    if hashPath.length > 0
+      @_forward hashPath
+    else
+      @_forward window.location.pathname
 
   _action: (path = '/') ->
     # console.log "action : #{path}"
@@ -58,6 +64,11 @@ class RouteService
   _isBack: (path) ->
     prev = @_histories[@_histories.length - 2]
     path is prev
+
+  _replace: (path) ->
+    @_histories.push path
+    window.history.replaceState { path }, '', path
+    @_action path
 
 module.exports = ->
   RouteService.getInstance()
