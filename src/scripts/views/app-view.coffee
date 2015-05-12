@@ -15,6 +15,7 @@ class AppView extends React.Component
     @state =
       entries: getEntryViewer().getAll()
       entry: getEntryViewer().getSelectedEntry()
+      hasNext: false
 
   componentDidMount: ->
     emitter = getEntryViewer().getEventEmitter()
@@ -35,13 +36,14 @@ class AppView extends React.Component
       React.createElement(ContentView,
         entries: @state.entries
         entry: @state.entry
+        hasNext: @state.hasNext
       ),
       React.createElement(FooterView)
 
-  _onEntriesChanged: (entries) ->
-    @setState { entries, entry: null }
+  _onEntriesChanged: ({ entries, hasNext }) ->
+    @setState { entries, entry: null, hasNext }
 
   _onEntryChanged: (entry) ->
-    @setState { entries: @state.entries, entry }
+    @setState { entries: @state.entries, entry, hasNext: @state.hasNext }
 
 module.exports.AppView = AppView

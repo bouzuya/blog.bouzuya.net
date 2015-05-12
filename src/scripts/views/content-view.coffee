@@ -16,6 +16,7 @@ class ContentView extends React.Component
         React.createElement(EntryListView,
           entries: @props.entries
           entry: @props.entry
+          hasNext: @props.hasNext
         ),
         React.createElement EntryDetailView, entry: @props.entry
 

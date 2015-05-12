@@ -10,20 +10,42 @@ class Entry
   constructor: ->
     @_entries = []
     @_entry = null
+    @_start = 0
+    @_end = 30
     @_emitter = new EventEmitter()
 
   getAll: ->
-    @_entries
+    @_entries.filter (_, index) =>
+      @_start <= index and index <= @_end
 
   getEventEmitter: ->
     @_emitter
+
+  getLimit: ->
+    start: @_start
+    end: @_end
 
   getSelectedEntry: ->
     @_entry
 
   saveAll: (entries) ->
+    @_start = 0
+    @_end = 30
     @_entries = entries
-    @_emitter.emit 'entries-changed', @_entries
+    filtered = @_entries.filter (_, index) =>
+      @_start <= index and index <= @_end
+    @_emitter.emit 'entries-changed',
+      entries: filtered
+      hasNext: @_entries.length > @_end - @_start
+
+  saveLimit: (start, end) ->
+    @_start = start
+    @_end = end
+    filtered = @_entries.filter (_, index) =>
+      @_start <= index and index <= @_end
+    @_emitter.emit 'entries-changed',
+      entries: filtered
+      hasNext: @_entries.length > @_end - @_start
 
   saveOne: (entry) ->
     filtered = @_entries.filter((i) -> i.date is entry.date)[0]

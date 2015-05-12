@@ -30,6 +30,10 @@ class EntryService
   open: (entry) ->
     getEntry().select entry
 
+  nextPage: ->
+    { start, end } = getEntry().getLimit()
+    getEntry().saveLimit start, end + 30
+
 module.exports = ->
   new EntryService()
 
