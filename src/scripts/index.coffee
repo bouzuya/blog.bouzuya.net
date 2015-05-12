@@ -6,9 +6,9 @@ getRouteService = require './services/route-service'
 window.addEventListener 'DOMContentLoaded', ->
   router = getRouteService()
   router.config [
-    path: '^/(\\d{4}-\\d{2}-\\d{2})$'
-    action: ([_, date]) ->
-      getEntryService().fetchOne date: date
+    path: '^/(\\d{4})/(\\d{2})/(\\d{2})/$'
+    action: ([_, year, month, date]) ->
+      getEntryService().fetchOne date: "#{year}-#{month}-#{date}"
   ,
     path: '^/$'
     action: ->

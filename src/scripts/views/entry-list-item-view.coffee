@@ -16,9 +16,12 @@ class EntryListItemView extends React.Component
       entry: @props.entry
       isOpen: false
 
+  _getEntryPath: (entry) ->
+    '/' + entry.date.replace(/-/g, '/') + '/'
+
   _onClick: ->
     return if @props.isOpen
-    getRouteService().go '/' + @props.entry.date
+    getRouteService().go @_getEntryPath @props.entry
     null
 
 module.exports.EntryListItemView = EntryListItemView
