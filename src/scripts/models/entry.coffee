@@ -29,8 +29,6 @@ class Entry
     @_entry
 
   saveAll: (entries) ->
-    @_start = 0
-    @_end = 30
     @_entries = entries
     filtered = @_entries.filter (_, index) =>
       @_start <= index and index <= @_end
