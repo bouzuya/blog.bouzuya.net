@@ -91,3 +91,4 @@ T
 [2015-05-04]: http://blog.bouzuya.net/2015/05/04/
 [2015-05-03]: http://blog.bouzuya.net/2015/05/03/
 [bouzuya/bbn-react]: https://github.com/bouzuya/bbn-react
+[bouzuya/blog.bouzuya.net]: https://github.com/bouzuya/blog.bouzuya.net
