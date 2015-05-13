@@ -25,9 +25,21 @@ gulp.task 'build', ['build-resource', 'build-script', 'build-style']
 
 gulp.task 'build-dev', ['build-resource', 'build-script-dev', 'build-style-dev']
 
-gulp.task 'build-resource', ->
+gulp.task 'build-font', ->
+  gulp.src [
+    './node_modules/font-awesome/fonts/*-webfont*'
+  ]
+  .pipe gulp.dest './dist/fonts/'
+
+gulp.task 'build-html', ->
   gulp.src './src/index.html'
   .pipe gulp.dest './dist/'
+
+gulp.task 'build-resource', ['build-font', 'build-html'], ->
+  gulp.src [
+    './node_modules/font-awesome/css/font-awesome.min.css'
+  ]
+  .pipe gulp.dest './dist/styles/'
 
 gulp.task 'build-script', (done) ->
   run.apply run, [
