@@ -10,6 +10,9 @@ class EntryViewer
   getEventEmitter: ->
     @_store.getEventEmitter()
 
+  getSearchText: ->
+    @_store.getSearchText()
+
   getSelectedEntry: ->
     @_store.getSelectedEntry()
 
