@@ -34,6 +34,9 @@ class EntryService
     { start, end } = getEntry().getLimit()
     getEntry().saveLimit start, end + 30
 
+  search: (s) ->
+    getEntry().saveSearchText s
+
 module.exports = ->
   new EntryService()
 
