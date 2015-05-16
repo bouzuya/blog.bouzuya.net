@@ -13,6 +13,9 @@ class EntryViewer
   getSearchText: ->
     @_store.getSearchText()
 
+  getSearchVisible: ->
+    @_store.getSearchVisible()
+
   getSelectedEntry: ->
     @_store.getSelectedEntry()
 

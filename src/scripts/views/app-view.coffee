@@ -12,16 +12,20 @@ class AppView extends React.Component
     super props
     @_onEntriesChanged = @_onEntriesChanged.bind @
     @_onEntryChanged = @_onEntryChanged.bind @
+    @_onSearchVisibleChanged = @_onSearchVisibleChanged.bind @
     @state =
       entries: getEntryViewer().getAll()
       entry: getEntryViewer().getSelectedEntry()
       hasNext: false
+      searchText: getEntryViewer().getSearchText()
+      searchVisible: getEntryViewer().getSearchVisible()
 
   componentDidMount: ->
     emitter = getEntryViewer().getEventEmitter()
     emitter.addListener 'entries-changed', @_onEntriesChanged
     emitter.addListener 'entry-changed', @_onEntryChanged
     emitter.addListener 'selected', @_onEntryChanged
+    emitter.addListener 'search-visible-changed', @_onSearchVisibleChanged
     getEntryService().fetchAll()
 
   componentWillUnmount: ->
@@ -29,10 +33,14 @@ class AppView extends React.Component
     emitter.removeListener 'entries-changed', @_onEntriesChanged
     emitter.removeListener 'entry-changed', @_onEntryChanged
     emitter.removeListener 'selected', @_onEntryChanged
+    emitter.removeListener 'search-visible-changed', @_onSearchVisibleChanged
 
   render: ->
     React.createElement 'div', id: 'app',
-      React.createElement(HeaderView),
+      React.createElement(HeaderView,
+        searchText: @state.searchText
+        visible: @state.searchVisible
+      ),
       React.createElement(ContentView,
         entries: @state.entries
         entry: @state.entry
@@ -41,9 +49,27 @@ class AppView extends React.Component
       React.createElement(FooterView)
 
   _onEntriesChanged: ({ entries, hasNext }) ->
-    @setState { entries, entry: null, hasNext }
+    @setState
+      entries: entries
+      entry: null
+      hasNext: hasNext
+      searchText: @state.searchText
+      searchVisible: @state.searchVisible
 
   _onEntryChanged: (entry) ->
-    @setState { entries: @state.entries, entry, hasNext: @state.hasNext }
+    @setState
+      entries: @state.entries
+      entry: entry
+      hasNext: @state.hasNext
+      searchText: @state.searchText
+      searchVisible: @state.searchVisible
+
+  _onSearchVisibleChanged: (isVisible) ->
+    @setState
+      entries: @state.entries
+      entry: @state.entry
+      hasNext: @state.hasNext
+      searchText: @state.searchText
+      searchVisible: isVisible
 
 module.exports.AppView = AppView

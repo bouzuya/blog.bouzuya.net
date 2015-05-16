@@ -37,6 +37,9 @@ class EntryService
   search: (s) ->
     getEntry().saveSearchText s
 
+  setSearchVisible: (isVisible) ->
+    getEntry().saveSearchVisible isVisible
+
 module.exports = ->
   new EntryService()
 

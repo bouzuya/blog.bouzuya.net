@@ -14,6 +14,7 @@ class Entry
     @_end = 30
     @_emitter = new EventEmitter()
     @_searchText = ''
+    @_searchVisible = false
 
   getAll: ->
     { entries } = @_getFilteredEntries()
@@ -28,6 +29,9 @@ class Entry
 
   getSearchText: ->
     @_searchText
+
+  getSearchVisible: ->
+    @_searchVisible
 
   getSelectedEntry: ->
     @_entry
@@ -51,6 +55,10 @@ class Entry
   saveSearchText: (text) ->
     @_searchText = text
     @_emitFilteredEntries()
+
+  saveSearchVisible: (isVisible) ->
+    @_searchVisible = isVisible
+    @_emitter.emit 'search-visible-changed', isVisible
 
   select: (entry) ->
     @_entry = entry
