@@ -66,7 +66,9 @@ class Entry
 
   _getFilteredEntries: ->
     searched = @_entries.filter (i) =>
-      i.title.match @_searchText
+      i.title.match(@_searchText) or
+      i.tags.some((i) => i.match(@_searchText)) or
+      i.date.match(@_searchText)
     paged = searched.filter (_, index) =>
       @_start <= index and index <= @_end
     entries: paged
