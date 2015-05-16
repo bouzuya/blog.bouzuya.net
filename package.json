@@ -1,7 +1,7 @@
 {
   "name": "bbn-react",
   "description": "blog.bouzuya.net in React",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "bouzuya",
   "bugs": {
     "url": "https://github.com/bouzuya/bbn-react/issues"
