@@ -4,6 +4,7 @@
   "description": "bouzuya's blog.",
   "main": "index.js",
   "scripts": {
+    "postinstall": "bower --version && bower install",
     "start": "grunt",
     "watch": "grunt server"
   },

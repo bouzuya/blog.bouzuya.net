@@ -1,10 +1,6 @@
 language: node_js
 node_js:
 - '0.10.33'
-install:
-- npm install
-- "$(npm bin)/bower --version"
-- "$(npm bin)/bower install"
 script:
 - npm start
 - "$(npm bin)/grunt tentacles"
