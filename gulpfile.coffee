@@ -21,6 +21,65 @@ ignoreError = (stream) ->
     gutil.log e
     @emit 'end'
 
+gulp.task 'prerender', ->
+  React = require 'react'
+  {AppView} = require './src/scripts/views/app-view'
+  prerender = (file, entry) ->
+    props =
+      entries: [entry].filter (i) -> i
+      entry: entry
+      hasNext: false
+      searchText: null # entry?.date ? null
+      searchVisible: false # entry?
+    title = (if entry? then entry.title + ' - ' else '') + 'blog.bouzuya.net'
+    doctype = '<!DOCTYPE html>'
+    html = React.renderToStaticMarkup React.DOM.html null,
+      React.DOM.head null,
+        React.DOM.meta(charSet: 'UTF-8')
+        React.DOM.meta(name: 'viewport', content: [
+          'width=device-width'
+          'initial-scale=1.0'
+          'minimum-scale=1.0'
+          'maximum-scale=1.0'
+          'user-scalable=no'
+        ].join ',')
+        React.DOM.title(null, title)
+        React.DOM.link(rel: 'stylesheet', href: '/styles/main.css')
+        React.DOM.link(rel: 'stylesheet', href: '/styles/font-awesome.min.css')
+        React.DOM.script(
+          dangerouslySetInnerHTML:
+            __html: 'var INITIAL_PROPS=' + JSON.stringify(props) + ';'
+        )
+        React.DOM.script(src: '/scripts/main.js')
+      React.DOM.body null,
+        React.DOM.div
+          id: 'app-container'
+          dangerouslySetInnerHTML:
+            __html: React.renderToString(React.createFactory(AppView)(props))
+    fse = require 'fs-extra'
+    fse.outputFileSync file, doctype + html
+
+  baseDir = './dist/'
+  # TODO
+  prerender(baseDir + path, entry) for { path, entry } in [
+    path: '2015/05/01/index.html'
+    entry:
+      date: '2015-05-01'
+      tags: []
+      title: 'ふがー'
+      content: 'ほげー'
+  ,
+    path: '2015/05/02/index.html'
+    entry:
+      date: '2015-05-02'
+      tags: []
+      title: 'ふがふがー'
+      content: 'ほげほげー'
+  ].concat [
+    path: 'index.html'
+    entry: null
+  ]
+
 gulp.task 'build', ['build-resource', 'build-script', 'build-style']
 
 gulp.task 'build-dev', ['build-resource', 'build-script-dev', 'build-style-dev']
