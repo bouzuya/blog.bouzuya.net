@@ -31,7 +31,6 @@ class AppView extends React.Component
     emitter.addListener 'entry-changed', @_onEntryChanged
     emitter.addListener 'selected', @_onEntryChanged
     emitter.addListener 'search-visible-changed', @_onSearchVisibleChanged
-    getEntryService().fetchAll()
 
   componentWillUnmount: ->
     emitter = getEntryViewer().getEventEmitter()
