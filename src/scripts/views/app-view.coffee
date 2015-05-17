@@ -6,7 +6,12 @@ getEntryViewer = require '../viewers/entry-viewer'
 {HeaderView} = require '../views/header-view'
 
 class AppView extends React.Component
-  @propTypes: {}
+  @propTypes:
+    entries: React.PropTypes.array
+    entry: React.PropTypes.object
+    hasNext: React.PropTypes.bool
+    searchText: React.PropTypes.string
+    searchVisible: React.PropTypes.bool
 
   constructor: (props) ->
     super props
@@ -14,11 +19,11 @@ class AppView extends React.Component
     @_onEntryChanged = @_onEntryChanged.bind @
     @_onSearchVisibleChanged = @_onSearchVisibleChanged.bind @
     @state =
-      entries: getEntryViewer().getAll()
-      entry: getEntryViewer().getSelectedEntry()
-      hasNext: false
-      searchText: getEntryViewer().getSearchText()
-      searchVisible: getEntryViewer().getSearchVisible()
+      entries: props.entries ? getEntryViewer().getAll()
+      entry: props.entry ? getEntryViewer().getSelectedEntry()
+      hasNext: props.hasNext ? false
+      searchText: props.searchText ? getEntryViewer().getSearchText()
+      searchVisible: props.searchVisible ? getEntryViewer().getSearchVisible()
 
   componentDidMount: ->
     emitter = getEntryViewer().getEventEmitter()
