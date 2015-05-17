@@ -14,7 +14,8 @@ window.addEventListener 'DOMContentLoaded', ->
     action: ->
       getEntryService().fetchAll()
   ]
-  rootElement = React.createElement AppView
+  props = window.INITIAL_PROPS ? {}
+  rootElement = React.createFactory(AppView)(props)
   React.render rootElement, document.body
   router.start()
   setTimeout ->
