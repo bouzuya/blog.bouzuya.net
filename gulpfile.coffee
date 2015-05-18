@@ -85,15 +85,19 @@ ignoreError = (stream) ->
     gutil.log e
     @emit 'end'
 
-gulp.task 'prerender', ->
-  baseDir = './dist/'
-  loadEntries().forEach ({ paths, entry }) ->
-    paths.forEach (path) ->
-      prerender(baseDir + path, entry)
+gulp.task 'build', [
+  'build-html'
+  'build-resource'
+  'build-script'
+  'build-style'
+]
 
-gulp.task 'build', ['build-resource', 'build-script', 'build-style']
-
-gulp.task 'build-dev', ['build-resource', 'build-script-dev', 'build-style-dev']
+gulp.task 'build-dev', [
+  'build-html'
+  'build-resource'
+  'build-script-dev'
+  'build-style-dev'
+]
 
 gulp.task 'build-font', ->
   gulp.src [
@@ -102,10 +106,12 @@ gulp.task 'build-font', ->
   .pipe gulp.dest './dist/fonts/'
 
 gulp.task 'build-html', ->
-  gulp.src './src/index.html'
-  .pipe gulp.dest './dist/'
+  baseDir = './dist/'
+  loadEntries().forEach ({ paths, entry }) ->
+    paths.forEach (path) ->
+      prerender(baseDir + path, entry)
 
-gulp.task 'build-resource', ['build-font', 'build-html'], ->
+gulp.task 'build-resource', ['build-font'], ->
   gulp.src [
     './node_modules/font-awesome/css/font-awesome.min.css'
   ]
