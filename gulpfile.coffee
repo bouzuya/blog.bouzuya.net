@@ -32,6 +32,7 @@ loadEntries = ->
       minutes: entry.minutes
       pubdate: entry.pubdate
       tags: entry.tags
+      title: entry.title
       titleKey: titleKey
     paths: [
       dir + '/' + titleKey + '/index.html'
