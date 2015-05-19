@@ -18,11 +18,11 @@ sourcemaps = require 'gulp-sourcemaps'
 uglify = require 'gulp-uglify'
 watch = require 'gulp-watch'
 
-loadEntries = ->
+loadEntries = (src) ->
   myjekyll = require 'myjekyll'
   moment = require 'moment'
   marked = require 'marked'
-  site = myjekyll './data/**/*.md', {}
+  site = myjekyll src, {}
   site.entries().map (entry) ->
     date = moment entry.pubdate
     dir = date.format 'YYYY/MM/DD'
@@ -96,7 +96,7 @@ gulp.task 'build', [
 ]
 
 gulp.task 'build-dev', [
-  'build-html'
+  'build-html-dev'
   'build-resource'
   'build-script-dev'
   'build-style-dev'
@@ -110,7 +110,13 @@ gulp.task 'build-font', ->
 
 gulp.task 'build-html', ->
   baseDir = './dist/'
-  loadEntries().forEach ({ paths, entry }) ->
+  loadEntries('./data/**/*.md').forEach ({ paths, entry }) ->
+    paths.forEach (path) ->
+      prerender(baseDir + path, entry)
+
+gulp.task 'build-html-dev', ->
+  baseDir = './dist/'
+  loadEntries('./data/nofile.md').forEach ({ paths, entry }) ->
     paths.forEach (path) ->
       prerender(baseDir + path, entry)
 
