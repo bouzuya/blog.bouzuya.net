@@ -1,3 +1,6 @@
-build
+.envrc
+.tmp
+*.log
+coverage
+dist
 node_modules
-src/scripts/vendor

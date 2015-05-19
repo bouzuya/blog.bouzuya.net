@@ -1,0 +1,21 @@
+@import "../variables";
+
+.entry-detail-container {
+  position: fixed;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: @entry-detail-z-index;
+  transition: all 0.3s;
+  overflow: auto;
+  padding: @header-height 0 @footer-height 0;
+  box-sizing: border-box;
+
+  color: @entry-detail-color;
+  background-color: @entry-detail-background-color;
+
+  &.is-open {
+    top: 0;
+  }
+}

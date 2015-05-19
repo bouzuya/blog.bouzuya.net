@@ -88,14 +88,6 @@ See [bouzuya colors](https://github.com/bouzuya/bouzuya.net)
 [marionettejs/backbone.marionette]: https://github.com/marionettejs/backbone.marionette
 [jrburke/requirejs]: https://github.com/jrburke/requirejs
 
-# License
-
-MIT
-
-# Badges
-
-[![Build Status](https://travis-ci.org/bouzuya/blog.bouzuya.net.svg)](https://travis-ci.org/bouzuya/blog.bouzuya.net)
-
 # 3.x
 
 CoffeeScript / React / gulp / GitHub Pages
@@ -123,3 +115,19 @@ See [bouzuya/bouzuya.github.com][] commits.
 
 - final commit https://github.com/bouzuya/bouzuya.github.com/commit/f049945a2df4ef7e7043914b3503fc4a877f83ac
 - initial commit https://github.com/bouzuya/bouzuya.github.com/commit/fc02ed9660ae93e69c8f1bef78e46ef8b04d956a
+
+## License
+
+[MIT](LICENSE)
+
+# Badges
+
+[![Build Status](https://travis-ci.org/bouzuya/blog.bouzuya.net.svg)](https://travis-ci.org/bouzuya/blog.bouzuya.net)
+
+## Author
+
+[bouzuya][user] &lt;[m@bouzuya.net][email]&gt; ([http://bouzuya.net][url])
+
+[user]: https://github.com/bouzuya
+[email]: mailto:m@bouzuya.net
+[url]: http://bouzuya.net
