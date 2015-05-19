@@ -1,7 +1,0 @@
-sudo: false
-language: node_js
-node_js:
-- '0.10.33'
-script:
-- npm start
-- "$(npm bin)/grunt tentacles"

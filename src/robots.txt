@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: http://blog.bouzuya.net/sitemap.xml
