@@ -1,3 +1,5 @@
+{Promise} = require 'es6-promise'
+borage = require 'borage'
 browserify = require 'browserify'
 browserSync = require 'browser-sync'
 buffer = require 'vinyl-buffer'
@@ -205,6 +207,21 @@ gulp.task 'clean', (done) ->
   null
 
 gulp.task 'default', ['clean', 'build']
+
+gulp.task 'deploy', ->
+  borage
+    build: ->
+      new Promise (resolve) ->
+        run 'build', resolve
+    configs: [
+      name: 'user.name'
+      value: 'bouzuya'
+    ,
+      name: 'user.email'
+      value: 'm@bouzuya.net'
+    ]
+    directory: 'dist'
+    repository: 'https://github.com/bouzuya/bbn-react'
 
 gulp.task 'test', ['build-test'], ->
   gulp.src './.tmp/test/**/*.js'
