@@ -131,3 +131,4 @@ See [bouzuya/bouzuya.github.com][] commits.
 [user]: https://github.com/bouzuya
 [email]: mailto:m@bouzuya.net
 [url]: http://bouzuya.net
+[bouzuya/bouzuya.github.com]: https://github.com/bouzuya/bouzuya.github.com
