@@ -1,0 +1,37 @@
+---
+layout: post
+pubdate: "2015-05-19T23:59:59+09:00"
+title: bouzuya/bbn-react を bouzuya/blog.bouzuya.net にマージした
+tags: ['shuburi', 'bbn']
+minutes: 15
+pagetype: posts
+---
+# [週ぶり (shuburi)][shuburi] 2015-W21
+
+今日も昨日 ([2015-05-18][]) に引き続き blog.bouzuya.net の React 対応。
+
+1. [bouzuya/bbn-react][] を GitHub Pages としてデプロイしてみた。[react.bouzuya.net](http://react.bouzuya.net) (削除予定)
+2. [bouzuya/bbn-react][] を [bouzuya/blog.bouzuya.net][] の 3.x ブランチにマージした。
+
+1 で昨日つくった [bouzuya/borage][] のテストをした。gh-pages ブランチをつくり gulpfile に borage 向けのデプロイ設定を追加した。
+
+削除予定ではあるが [react.bouzuya.net](http://react.bouzuya.net) から確認できる。
+
+一部ハマったのは GitHub Pages の Project の場合のカスタムドメイン対応だ。
+
+ User や Organization なら `<user>.github.io` への CNAME とリポジトリルートへの CNAME ファイルを配置で対応できる。しかし Project の場合は `<user>.github.io/<project>` になってしまう。
+
+解決策としては GitHub 指定の A レコード (`192.30.252.153` `192.30.252.154`) を追加してリポジトリルートへの CNAME ファイルを配置する。推奨された方法ではないし警告のメールも届く。ただこれなら User / Organization の GitHub Pages とは別ドメインの Project の GitHub Pages をつくることができる。ちなみに推奨された方法では User / Organization のカスタムドメインは可能だが Project のカスタムドメインは User / Organization と同じにしかできない。詳細は [https://help.github.com/articles/about-custom-domains-for-github-pages-sites/](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/) や  [https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/) あたりを参照。
+
+
+2 で [bouzuya/bbn-react][] を [bouzuya/blog.bouzuya.net][] の 3.x ブランチにマージした。これで [bouzuya/bbn-react][] は DEPRECATED にできる。今後は [bouzuya/blog.bouzuya.net][] のブランチで開発を進めていくつもりだ。
+
+# その他
+
+疲れがとれない。先週から薬を飲んでいたせいか朝もつらい。
+
+[shuburi]: http://shuburi.org
+[bouzuya/bbn-react]: https://github.com/bouzuya/bbn-react
+[bouzuya/blog.bouzuya.net]: https://github.com/bouzuya/blog.bouzuya.net
+[bouzuya/borage]: https://github.com/bouzuya/borage
+[2015-05-18]: http://blog.bouzuya.net/2015/05/18/
