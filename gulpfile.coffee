@@ -1,3 +1,4 @@
+{exec} = require 'child_process'
 {Promise} = require 'es6-promise'
 borage = require 'borage'
 browserify = require 'browserify'
@@ -89,6 +90,7 @@ ignoreError = (stream) ->
     @emit 'end'
 
 gulp.task 'build', [
+  'build-json'
   'build-html'
   'build-resource'
   'build-script'
@@ -119,6 +121,13 @@ gulp.task 'build-html-dev', ->
   loadEntries('./data/nofile.md').forEach ({ paths, entry }) ->
     paths.forEach (path) ->
       prerender(baseDir + path, entry)
+
+gulp.task 'build-json', (done) ->
+  exec '$(npm bin)/kraken', (err, stdout, stderr) ->
+    return done(err) if err?
+    console.log stdout if stdout?.length > 0
+    console.error stderr if stderr?.length > 0
+    done()
 
 gulp.task 'build-resource', ['build-font'], ->
   gulp.src [
