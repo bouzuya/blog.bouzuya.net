@@ -1,3 +1,4 @@
+moment = require 'moment'
 request = require 'request'
 getEntry = require '../models/entry'
 
@@ -6,8 +7,9 @@ class EntryService
     getEntry().select null
 
   fetchAll: ->
+    baseUrl = location.protocol + '//' + location.host
     request
-      url: 'http://blog.bouzuya.net/posts.json'
+      url: baseUrl + '/posts.json'
       json: true
       withCredentials: false
     , (err, res) ->
@@ -15,9 +17,11 @@ class EntryService
       getEntry().saveAll entries.reverse()
 
   fetchOne: (entry) ->
+    baseUrl = location.protocol + '//' + location.host
     date = entry.date
+    d = moment date
     request
-      url: 'http://blog.bouzuya.net/posts/' + entry.date + '.json'
+      url: baseUrl + '/' + d.format('YYYY/MM/DD') + '/index.json'
       json: true
       withCredentials: false
     , (err, res) ->
