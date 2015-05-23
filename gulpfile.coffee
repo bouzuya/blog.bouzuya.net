@@ -89,13 +89,17 @@ ignoreError = (stream) ->
     gutil.log e
     @emit 'end'
 
-gulp.task 'build', [
-  'build-json'
-  'build-html'
-  'build-resource'
-  'build-script'
-  'build-style'
-]
+gulp.task 'build', (done) ->
+  run.apply run, [
+    'build-json'
+    [
+      'build-html'
+      'build-resource'
+      'build-script'
+      'build-style'
+    ]
+    done
+  ]
 
 gulp.task 'build-dev', [
   'build-html-dev'
