@@ -40,7 +40,7 @@ class AppView extends React.Component
     emitter.removeListener 'search-visible-changed', @_onSearchVisibleChanged
 
   render: ->
-    React.createElement 'div', id: 'app',
+    React.createElement 'div', className: 'app-layout',
       React.createElement(HeaderView,
         searchText: @state.searchText
         visible: @state.searchVisible
