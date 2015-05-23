@@ -16,7 +16,7 @@ class HeaderView extends React.Component
 
   render: ->
     isVisible = (if @props.visible then ' is-visible' else '')
-    React.createElement 'div', id: 'header',
+    React.createElement 'div', className: 'header-layout',
       React.createElement('a', { className: 'title', href: '/' },
         'blog.bouzuya.net'),
       React.createElement 'div', { className: 'search-header' },
