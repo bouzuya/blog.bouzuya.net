@@ -5,6 +5,6 @@ class FooterView extends React.Component
     super props
 
   render: ->
-    React.createElement 'div', id: 'footer'
+    React.createElement 'div', className: 'footer-layout'
 
 module.exports.FooterView = FooterView
