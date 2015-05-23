@@ -244,7 +244,7 @@ gulp.task 'deploy', ->
       value: 'm@bouzuya.net'
     ]
     directory: 'dist'
-    repository: 'https://github.com/bouzuya/bbn-react'
+    repository: 'https://github.com/bouzuya/blog.bouzuya.net'
 
 gulp.task 'test', ['build-test'], ->
   gulp.src './.tmp/test/**/*.js'
