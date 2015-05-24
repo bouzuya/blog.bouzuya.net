@@ -66,6 +66,7 @@ prerender = (file, entry) ->
   html = React.renderToStaticMarkup React.DOM.html null,
     React.DOM.head null,
       React.DOM.meta(charSet: 'UTF-8')
+      React.DOM.meta(name: 'robots', content: 'index, follow')
       React.DOM.meta(name: 'viewport', content: [
         'width=device-width'
         'initial-scale=1.0'
@@ -74,8 +75,25 @@ prerender = (file, entry) ->
         'user-scalable=no'
       ].join ',')
       React.DOM.title(null, title)
+      React.DOM.link(
+        rel: 'icon'
+        href: '/images/favicon.png'
+        type: 'image/png'
+      )
       React.DOM.link(rel: 'stylesheet', href: '/styles/main.css')
       React.DOM.link(rel: 'stylesheet', href: '/styles/font-awesome.min.css')
+      React.DOM.script(
+        dangerouslySetInnerHTML:
+          __html: '''
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-42111132-2', 'bouzuya.net');
+ga('send', 'pageview');
+          '''
+      )
       React.DOM.script(
         dangerouslySetInnerHTML:
           __html: 'var INITIAL_PROPS=' + JSON.stringify(props) + ';'
@@ -130,6 +148,10 @@ gulp.task 'build-html-dev', ->
     paths.forEach (path) ->
       prerender(baseDir + path, entry)
 
+gulp.task 'build-images', ->
+  gulp.src './src/images/*'
+  .pipe gulp.dest './dist/images'
+
 gulp.task 'build-json', (done) ->
   exec '$(npm bin)/kraken', (err, stdout, stderr) ->
     return done(err) if err?
@@ -137,7 +159,11 @@ gulp.task 'build-json', (done) ->
     console.error stderr if stderr?.length > 0
     done()
 
-gulp.task 'build-resource', ['build-robots-txt', 'build-font'], ->
+gulp.task 'build-resource', [
+  'build-font'
+  'build-images'
+  'build-robots-txt'
+], ->
   gulp.src [
     './node_modules/font-awesome/css/font-awesome.min.css'
   ]
