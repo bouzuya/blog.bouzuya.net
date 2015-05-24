@@ -105,10 +105,6 @@ gulp.task 'build', (done) ->
     done
   ]
 
-gulp.task 'build-cname', ->
-  gulp.src './src/CNAME'
-  .pipe gulp.dest './dist/'
-
 gulp.task 'build-dev', [
   'build-html-dev'
   'build-resource'
@@ -141,7 +137,7 @@ gulp.task 'build-json', (done) ->
     console.error stderr if stderr?.length > 0
     done()
 
-gulp.task 'build-resource', ['build-cname', 'build-font'], ->
+gulp.task 'build-resource', ['build-font'], ->
   gulp.src [
     './node_modules/font-awesome/css/font-awesome.min.css'
   ]
