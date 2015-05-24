@@ -69,7 +69,7 @@ See [bouzuya colors](https://github.com/bouzuya/bouzuya.net)
 
 # 3.x
 
-CoffeeScript / React / gulp / GitHub Pages
+CoffeeScript / React / gulp / <del>GitHub Pages</del> Amazon S3
 
 # 2.x ( 0.x )
 
