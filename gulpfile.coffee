@@ -264,7 +264,7 @@ gulp.task 'default', ['clean', 'build']
 gulp.task 'deploy', ['build'], ->
   borage './dist/**/*',
     root: './dist'
-    bucketName: 'react.bouzuya.net'
+    bucketName: 'blog.bouzuya.net'
     verbose: true
 
 gulp.task 'test', ['build-test'], ->
