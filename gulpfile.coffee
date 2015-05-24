@@ -137,11 +137,15 @@ gulp.task 'build-json', (done) ->
     console.error stderr if stderr?.length > 0
     done()
 
-gulp.task 'build-resource', ['build-font'], ->
+gulp.task 'build-resource', ['build-robots-txt', 'build-font'], ->
   gulp.src [
     './node_modules/font-awesome/css/font-awesome.min.css'
   ]
   .pipe gulp.dest './dist/styles/'
+
+gulp.task 'build-robots-txt', ->
+  gulp.src './src/robots.txt'
+  .pipe gulp.dest './dist/'
 
 gulp.task 'build-script', (done) ->
   run.apply run, [
