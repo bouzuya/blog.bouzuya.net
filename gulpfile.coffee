@@ -49,6 +49,10 @@ loadEntries = (src) ->
 
 prerender = (file, entry) ->
   fse = require 'fs-extra'
+  # hack for generating same react id
+  ServerReactRootIndex = require 'react/lib/ServerReactRootIndex'
+  ServerReactRootIndex.createReactRootIndex = ->
+    0
   React = require 'react'
   {AppView} = require './src/scripts/views/app-view'
   props =
@@ -231,20 +235,11 @@ gulp.task 'clean', (done) ->
 
 gulp.task 'default', ['clean', 'build']
 
-gulp.task 'deploy', ->
-  borage
-    build: ->
-      new Promise (resolve) ->
-        run 'build', resolve
-    configs: [
-      name: 'user.name'
-      value: 'bouzuya'
-    ,
-      name: 'user.email'
-      value: 'm@bouzuya.net'
-    ]
-    directory: 'dist'
-    repository: 'https://github.com/bouzuya/blog.bouzuya.net'
+gulp.task 'deploy', ['build'], ->
+  borage './dist/**/*',
+    root: './dist'
+    bucketName: 'react.bouzuya.net'
+    verbose: true
 
 gulp.task 'test', ['build-test'], ->
   gulp.src './.tmp/test/**/*.js'

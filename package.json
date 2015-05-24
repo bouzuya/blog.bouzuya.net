@@ -12,7 +12,7 @@
     "request": "^2.55.0"
   },
   "devDependencies": {
-    "borage": "https://github.com/bouzuya/borage/archive/0.2.1.tar.gz",
+    "borage": "https://github.com/bouzuya/borage/archive/3.1.2.tar.gz",
     "browser-sync": "^2.7.1",
     "browserify": "^10.1.0",
     "coffee-script": "^1.9.2",
