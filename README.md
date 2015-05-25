@@ -14,7 +14,7 @@ See [docs/css-rules.md](docs/css-rules.md).
 
 See [docs/history.md](docs/history.md).
 
-# Related Projects
+## Related Projects
 
 - [bouzuya/bbn][] ... A command-line tool for blog.bouzuya.net
 - [bouzuya/borage][] ... A deployer for blog.bouzuya.net
