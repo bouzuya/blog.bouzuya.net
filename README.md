@@ -95,6 +95,14 @@ See [bouzuya/bouzuya.github.com][] commits.
 - final commit https://github.com/bouzuya/bouzuya.github.com/commit/f049945a2df4ef7e7043914b3503fc4a877f83ac
 - initial commit https://github.com/bouzuya/bouzuya.github.com/commit/fc02ed9660ae93e69c8f1bef78e46ef8b04d956a
 
+# Related Projects
+
+- [bouzuya/bbn][] ... A command-line tool for blog.bouzuya.net
+- [bouzuya/borage][] ... A deployer for blog.bouzuya.net
+- [bouzuya/bouzuya.github.com][] ... Old version
+- [bouzuya/grunt-tentacles][] ... A deployer for blog.bouzuya.net using Grunt.
+- [bouzuya/kraken][] ... A blog data generator for blog.bouzuya.net
+
 ## License
 
 [MIT](LICENSE)
@@ -110,4 +118,8 @@ See [bouzuya/bouzuya.github.com][] commits.
 [user]: https://github.com/bouzuya
 [email]: mailto:m@bouzuya.net
 [url]: http://bouzuya.net
+[bouzuya/bbn]: https://github.com/bouzuya/bbn
+[bouzuya/borage]: https://github.com/bouzuya/borage
 [bouzuya/bouzuya.github.com]: https://github.com/bouzuya/bouzuya.github.com
+[bouzuya/grunt-tentacles]: https://github.com/bouzuya/grunt-tentacles
+[bouzuya/kraken]: https://github.com/bouzuya/kraken
