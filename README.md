@@ -4,18 +4,11 @@ bouzuya's blog.
 
 ## Writing
 
-See [docs/writing.md](docs/writing.md)
+See [docs/writing.md](docs/writing.md).
 
-# Color / Font
+## CSS Rules
 
-## Color
-
-See [bouzuya colors](https://github.com/bouzuya/bouzuya.net)
-
-## Font
-
-- Fredoka One
-- Open Sans
+See [docs/css-rules.md](docs/css-rules.md).
 
 # Goals
 
