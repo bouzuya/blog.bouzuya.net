@@ -71,6 +71,11 @@ See [bouzuya colors](https://github.com/bouzuya/bouzuya.net)
 
 CoffeeScript / React / gulp / <del>GitHub Pages</del> Amazon S3
 
+See following tags.
+
+- [bouzuya/blog.bouzuya.net@3.0.1](https://github.com/bouzuya/blog.bouzuya.net/releases/tag/3.0.1)
+- [bouzuya/blog.bouzuya.net@3.0.0](https://github.com/bouzuya/blog.bouzuya.net/releases/tag/3.0.0)
+
 # 2.x ( 0.x )
 
 JavaScript / Marionette (Backbone) / grunt / Amazon S3
