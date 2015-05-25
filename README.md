@@ -97,8 +97,8 @@ Ruby / Jekyll / GitHub Pages
 
 See [bouzuya/bouzuya.github.com][] commits.
 
-- final commit https://github.com/bouzuya/bouzuya.github.com/commit/f049945a2df4ef7e7043914b3503fc4a877f83ac
-- initial commit https://github.com/bouzuya/bouzuya.github.com/commit/fc02ed9660ae93e69c8f1bef78e46ef8b04d956a
+- last commit [f049945a2df4ef7e7043914b3503fc4a877f83ac]( https://github.com/bouzuya/bouzuya.github.com/commit/f049945a2df4ef7e7043914b3503fc4a877f83ac)
+- initial commit [fc02ed9660ae93e69c8f1bef78e46ef8b04d956a]( https://github.com/bouzuya/bouzuya.github.com/commit/fc02ed9660ae93e69c8f1bef78e46ef8b04d956a)
 
 # Related Projects
 
