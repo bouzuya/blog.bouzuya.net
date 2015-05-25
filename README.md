@@ -10,18 +10,6 @@ See [docs/writing.md](docs/writing.md).
 
 See [docs/css-rules.md](docs/css-rules.md).
 
-# Goals
-
-- 365 個の記事をかく
-- 52 個のふりかえりの記事をかく
-- 50 個の週ぶり (shuburi) 報告の記事をかく
-- 50 個の料理報告の記事をかく
-- 50 個の GitHub リポジトリをつくる
-- 50 個の Qiita 記事をかく
-- 25 個のよんだ記事をかく (WEB+DB PRESS * 6, Software Design * 12 を含む)
-- 24 個の勉強会にでた記事をかく
-- 12 個の体重報告の記事をかく
-
 # 3.x
 
 CoffeeScript / React / gulp / <del>GitHub Pages</del> Amazon S3
