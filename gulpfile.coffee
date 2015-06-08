@@ -81,7 +81,6 @@ prerender = (file, entry) ->
         type: 'image/png'
       )
       React.DOM.link(rel: 'stylesheet', href: '/styles/main.css')
-      React.DOM.link(rel: 'stylesheet', href: '/styles/font-awesome.min.css')
       React.DOM.script(
         dangerouslySetInnerHTML:
           __html: '''
@@ -163,11 +162,7 @@ gulp.task 'build-resource', [
   'build-font'
   'build-images'
   'build-robots-txt'
-], ->
-  gulp.src [
-    './node_modules/font-awesome/css/font-awesome.min.css'
-  ]
-  .pipe gulp.dest './dist/styles/'
+]
 
 gulp.task 'build-robots-txt', ->
   gulp.src './src/robots.txt'
@@ -223,7 +218,10 @@ gulp.task 'build-script-coffee-dev', ->
   .pipe gulp.dest './.tmp/src/scripts/'
 
 gulp.task 'build-style', ->
-  gulp.src './src/styles/**/*.less'
+  gulp.src [
+    './src/styles/**/*.less'
+    './node_modules/font-awesome/css/font-awesome.min.css'
+  ]
   .pipe less()
   .pipe concat 'main.css'
   .pipe minifyCss()
