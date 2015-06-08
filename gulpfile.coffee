@@ -97,12 +97,12 @@ ga('send', 'pageview');
         dangerouslySetInnerHTML:
           __html: 'var INITIAL_PROPS=' + JSON.stringify(props) + ';'
       )
-      React.DOM.script(src: '/scripts/main.js')
     React.DOM.body null,
       React.DOM.div
         id: 'app-container'
         dangerouslySetInnerHTML:
           __html: React.renderToString(React.createFactory(AppView)(props))
+      React.DOM.script(src: '/scripts/main.js')
   fse.outputFileSync file, doctype + html
 
 ignoreError = (stream) ->
