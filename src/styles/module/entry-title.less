@@ -1,17 +1,16 @@
 @import "../variables";
 
 .entry-title {
-  box-sizing: border-box;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  z-index: @entry-title-z-index;
+  overflow: hidden;
+  box-sizing: border-box;
   padding: 20px 16px 8px 72px;
+  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
-  cursor: pointer;
-
   font-size: 1.25rem;
-  z-index: @entry-title-z-index;
+  cursor: pointer;
 }

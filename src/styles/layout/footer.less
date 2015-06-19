@@ -2,12 +2,11 @@
 
 .footer-layout {
   position: fixed;
-  left: 0;
   bottom: 0;
+  left: 0;
+  z-index: @footer-z-index;
+  overflow: hidden;
   width: 100%;
   height: @footer-height;
-  overflow: hidden;
-  z-index: @footer-z-index;
-
   background-color: @footer-background-color;
 }
