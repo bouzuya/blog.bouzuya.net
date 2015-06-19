@@ -228,7 +228,10 @@ gulp.task 'build-style', ->
   .pipe gulp.dest './dist/styles/'
 
 gulp.task 'build-style-dev', ->
-  gulp.src './src/styles/**/*.less'
+  gulp.src [
+    './src/styles/**/*.less'
+    './node_modules/font-awesome/css/font-awesome.min.css'
+  ]
   .pipe ignoreError less()
   .pipe concat 'main.css'
   .pipe minifyCss()
