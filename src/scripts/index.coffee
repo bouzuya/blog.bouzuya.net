@@ -10,9 +10,11 @@ window.addEventListener 'DOMContentLoaded', ->
     action: ([_, year, month, date]) ->
       getEntryService().fetchOne date: "#{year}-#{month}-#{date}"
   ,
-    path: '^/$'
-    action: ->
-      getEntryService().fetchAll()
+    path: '^/(?:\\?q=(.*))?$'
+    action: ([_, query]) ->
+      entryService = getEntryService()
+      entryService.fetchAll()
+      entryService.search(query) if query?.length > 0
   ]
   props = window.INITIAL_PROPS ? {}
   rootElement = React.createFactory(AppView)(props)

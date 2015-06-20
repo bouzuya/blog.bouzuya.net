@@ -28,14 +28,15 @@ class RouteService
         @_browserBack path
       else
         @_browserForward path
-    path = window.location.pathname
     hashPath = window.location.hash.substring 1
+    path = window.location.pathname
+    search = window.location.search
     @_histories.push '/'
     window.history.replaceState { path: '/' }, '', '/'
     if hashPath.length > 0
       @_forward hashPath
     else
-      @_forward path
+      @_forward path + search
 
   _action: (path = '/') ->
     # console.log "action : #{path}"
