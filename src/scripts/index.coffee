@@ -10,6 +10,11 @@ window.addEventListener 'DOMContentLoaded', ->
     action: ([_, year, month, date]) ->
       getEntryService().fetchOne date: "#{year}-#{month}-#{date}"
   ,
+    path: '^/posts(?:\\?tags=(.*))?$'
+    action: ([_, tagsString]) ->
+      baseUrl = location.protocol + '//' + location.host
+      location.href = baseUrl + '/?q=' + (tagsString ? '')
+  ,
     path: '^/(?:\\?q=(.*))?$'
     action: ([_, query]) ->
       entryService = getEntryService()
