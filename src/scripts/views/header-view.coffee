@@ -44,6 +44,9 @@ class HeaderView extends React.Component
 
   _onClick: ->
     getEntryService().setSearchVisible not @props.visible
+    setTimeout =>
+      @refs.input.getDOMNode().focus() if @props.visible
+    , 100
     null
 
   _onKeyDown: (e) ->
