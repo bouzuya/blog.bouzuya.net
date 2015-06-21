@@ -54,6 +54,7 @@ class Entry
 
   saveQuery: (text) ->
     @_query = text
+    @saveSearchVisible(false) if text.length is 0
     @_emitter.emit 'query-changed', text
     @_emitFilteredEntries()
 
