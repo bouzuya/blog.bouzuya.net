@@ -39,7 +39,7 @@ class EntryService
     getEntry().saveLimit start, end + 30
 
   search: (s) ->
-    getEntry().saveSearchText s
+    getEntry().saveQuery s
 
   setSearchVisible: (isVisible) ->
     getEntry().saveSearchVisible isVisible

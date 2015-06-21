@@ -3,20 +3,20 @@ getEntryService = require '../services/entry-service'
 
 class HeaderView extends React.Component
   @propTypes:
-    searchText: React.PropTypes.string
+    query: React.PropTypes.string
     visible: React.PropTypes.bool
 
   constructor: (props) ->
     super props
     @state =
-      value: props.searchText
+      value: props.query
     @_onChange = @_onChange.bind @
     @_onClick = @_onClick.bind @
     @_onKeyDown = @_onKeyDown.bind @
 
   componentWillReceiveProps: (props) ->
     @setState
-      value: props.searchText
+      value: props.query
 
   render: ->
     isVisible = (if @props.visible then ' is-visible' else '')
@@ -26,7 +26,7 @@ class HeaderView extends React.Component
       React.createElement 'div', { className: 'search-header' },
         React.createElement('input',
           ref: 'input'
-          className: 'search-text' + isVisible
+          className: 'query' + isVisible
           type: 'text'
           value: @state.value
           onChange: @_onChange

@@ -13,7 +13,7 @@ class Entry
     @_start = 0
     @_end = 30
     @_emitter = new EventEmitter()
-    @_searchText = ''
+    @_query = ''
     @_searchVisible = false
 
   getAll: ->
@@ -27,8 +27,8 @@ class Entry
     start: @_start
     end: @_end
 
-  getSearchText: ->
-    @_searchText
+  getQuery: ->
+    @_query
 
   getSearchVisible: ->
     @_searchVisible
@@ -52,9 +52,9 @@ class Entry
     filtered.content = entry.content
     @_emitter.emit 'entry-changed', filtered
 
-  saveSearchText: (text) ->
-    @_searchText = text
-    @_emitter.emit 'search-text-changed', text
+  saveQuery: (text) ->
+    @_query = text
+    @_emitter.emit 'query-changed', text
     @_emitFilteredEntries()
 
   saveSearchVisible: (isVisible) ->
@@ -67,9 +67,9 @@ class Entry
 
   _getFilteredEntries: ->
     searched = @_entries.filter (i) =>
-      i.title.match(@_searchText) or
-      i.tags.some((i) => i.match(@_searchText)) or
-      i.date.match(@_searchText)
+      i.title.match(@_query) or
+      i.tags.some((i) => i.match(@_query)) or
+      i.date.match(@_query)
     paged = searched.filter (_, index) =>
       @_start <= index and index <= @_end
     entries: paged

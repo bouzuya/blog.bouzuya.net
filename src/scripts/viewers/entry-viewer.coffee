@@ -10,8 +10,8 @@ class EntryViewer
   getEventEmitter: ->
     @_store.getEventEmitter()
 
-  getSearchText: ->
-    @_store.getSearchText()
+  getQuery: ->
+    @_store.getQuery()
 
   getSearchVisible: ->
     @_store.getSearchVisible()

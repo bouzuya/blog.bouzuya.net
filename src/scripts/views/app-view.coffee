@@ -10,20 +10,20 @@ class AppView extends React.Component
     entries: React.PropTypes.array
     entry: React.PropTypes.object
     hasNext: React.PropTypes.bool
-    searchText: React.PropTypes.string
+    query: React.PropTypes.string
     searchVisible: React.PropTypes.bool
 
   constructor: (props) ->
     super props
     @_onEntriesChanged = @_onEntriesChanged.bind @
     @_onEntryChanged = @_onEntryChanged.bind @
-    @_onSearchTextChanged = @_onSearchTextChanged.bind @
+    @_onQueryChanged = @_onQueryChanged.bind @
     @_onSearchVisibleChanged = @_onSearchVisibleChanged.bind @
     @state =
       entries: props.entries ? getEntryViewer().getAll()
       entry: props.entry ? getEntryViewer().getSelectedEntry()
       hasNext: props.hasNext ? false
-      searchText: props.searchText ? getEntryViewer().getSearchText()
+      query: props.query ? getEntryViewer().getQuery()
       searchVisible: props.searchVisible ? getEntryViewer().getSearchVisible()
 
   componentDidMount: ->
@@ -31,7 +31,7 @@ class AppView extends React.Component
     emitter.addListener 'entries-changed', @_onEntriesChanged
     emitter.addListener 'entry-changed', @_onEntryChanged
     emitter.addListener 'selected', @_onEntryChanged
-    emitter.addListener 'search-text-changed', @_onSearchTextChanged
+    emitter.addListener 'query-changed', @_onQueryChanged
     emitter.addListener 'search-visible-changed', @_onSearchVisibleChanged
 
   componentWillUnmount: ->
@@ -39,13 +39,13 @@ class AppView extends React.Component
     emitter.removeListener 'entries-changed', @_onEntriesChanged
     emitter.removeListener 'entry-changed', @_onEntryChanged
     emitter.removeListener 'selected', @_onEntryChanged
-    emitter.removeListener 'search-text-changed', @_onSearchTextChanged
+    emitter.removeListener 'query-changed', @_onQueryChanged
     emitter.removeListener 'search-visible-changed', @_onSearchVisibleChanged
 
   render: ->
     React.createElement 'div', className: 'app-layout',
       React.createElement(HeaderView,
-        searchText: @state.searchText
+        query: @state.query
         visible: @state.searchVisible
       ),
       React.createElement(ContentView,
@@ -69,8 +69,8 @@ class AppView extends React.Component
     @setState
       searchVisible: isVisible
 
-  _onSearchTextChanged: (searchText) ->
+  _onQueryChanged: (query) ->
     @setState
-      searchText: searchText
+      query: query
 
 module.exports.AppView = AppView
