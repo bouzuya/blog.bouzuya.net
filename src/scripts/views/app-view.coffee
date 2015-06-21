@@ -17,6 +17,7 @@ class AppView extends React.Component
     super props
     @_onEntriesChanged = @_onEntriesChanged.bind @
     @_onEntryChanged = @_onEntryChanged.bind @
+    @_onSearchTextChanged = @_onSearchTextChanged.bind @
     @_onSearchVisibleChanged = @_onSearchVisibleChanged.bind @
     @state =
       entries: props.entries ? getEntryViewer().getAll()
@@ -30,6 +31,7 @@ class AppView extends React.Component
     emitter.addListener 'entries-changed', @_onEntriesChanged
     emitter.addListener 'entry-changed', @_onEntryChanged
     emitter.addListener 'selected', @_onEntryChanged
+    emitter.addListener 'search-text-changed', @_onSearchTextChanged
     emitter.addListener 'search-visible-changed', @_onSearchVisibleChanged
 
   componentWillUnmount: ->
@@ -37,6 +39,7 @@ class AppView extends React.Component
     emitter.removeListener 'entries-changed', @_onEntriesChanged
     emitter.removeListener 'entry-changed', @_onEntryChanged
     emitter.removeListener 'selected', @_onEntryChanged
+    emitter.removeListener 'search-text-changed', @_onSearchTextChanged
     emitter.removeListener 'search-visible-changed', @_onSearchVisibleChanged
 
   render: ->
@@ -57,23 +60,17 @@ class AppView extends React.Component
       entries: entries
       entry: null
       hasNext: hasNext
-      searchText: @state.searchText
-      searchVisible: @state.searchVisible
 
   _onEntryChanged: (entry) ->
     @setState
-      entries: @state.entries
       entry: entry
-      hasNext: @state.hasNext
-      searchText: @state.searchText
-      searchVisible: @state.searchVisible
 
   _onSearchVisibleChanged: (isVisible) ->
     @setState
-      entries: @state.entries
-      entry: @state.entry
-      hasNext: @state.hasNext
-      searchText: @state.searchText
       searchVisible: isVisible
+
+  _onSearchTextChanged: (searchText) ->
+    @setState
+      searchText: searchText
 
 module.exports.AppView = AppView

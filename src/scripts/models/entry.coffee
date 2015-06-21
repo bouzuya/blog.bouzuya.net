@@ -54,6 +54,7 @@ class Entry
 
   saveSearchText: (text) ->
     @_searchText = text
+    @_emitter.emit 'search-text-changed', text
     @_emitFilteredEntries()
 
   saveSearchVisible: (isVisible) ->

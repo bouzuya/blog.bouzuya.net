@@ -14,6 +14,10 @@ class HeaderView extends React.Component
     @_onClick = @_onClick.bind @
     @_onKeyDown = @_onKeyDown.bind @
 
+  componentWillReceiveProps: (props) ->
+    @setState
+      value: props.searchText
+
   render: ->
     isVisible = (if @props.visible then ' is-visible' else '')
     React.createElement 'div', className: 'header-layout',
