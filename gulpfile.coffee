@@ -13,6 +13,7 @@ gutil = require 'gulp-util'
 less = require 'gulp-less'
 minifyCss = require 'gulp-minify-css'
 mocha = require 'gulp-mocha'
+moment = require 'moment'
 run = require 'run-sequence'
 source = require 'vinyl-source-stream'
 sourcemaps = require 'gulp-sourcemaps'
@@ -61,7 +62,12 @@ prerender = (file, entry) ->
     hasNext: false
     searchText: null # entry?.date ? null
     searchVisible: false # entry?
-  title = (if entry? then entry.title + ' - ' else '') + 'blog.bouzuya.net'
+  titlePrefix = if entry?
+    date = moment(entry.pubdate).format 'YYYY-MM-DD'
+    date + ' ' + entry.title + ' - '
+  else
+    ''
+  title = titlePrefix + 'blog.bouzuya.net'
   doctype = '<!DOCTYPE html>'
   html = React.renderToStaticMarkup React.DOM.html null,
     React.DOM.head null,
