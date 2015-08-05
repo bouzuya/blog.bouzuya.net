@@ -101,7 +101,7 @@ ga('send', 'pageview');
       )
       React.DOM.script(
         dangerouslySetInnerHTML:
-          __html: 'var INITIAL_PROPS=' + JSON.stringify(props) + ';'
+          __html: '//<!--\nvar INITIAL_PROPS=' + JSON.stringify(props) + ';\n//-->'
       )
     React.DOM.body null,
       React.DOM.div
