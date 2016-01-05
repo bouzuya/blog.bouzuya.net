@@ -20,7 +20,13 @@ minutes: に書くのにかけた時間をつける。
 
 ## Tags
 
+- book ... 読書
 - diary ... 雑多な日記
+- event ... 勉強会
+- monthly report ... 月次のふりかえり
+- movie ... 映画
+- slide ... スライド
+- weekly report ... 週次のふりかえり
 
 ## Template
 
@@ -69,11 +75,11 @@ minutes: に書くのにかけた時間をつける。
 - 毎日 blog 記事を書く
 - 52 個の週次のふりかえりの記事を書く
 - 12 個の月次のふりかえりの記事を書く
-- 50 個の Qiita 記事を書く
-- 12 個のよんだ記事を書く
+- 50 個以上の Qiita 記事を書く
+- 12 個以上のよんだ記事を書く
 - 26 個未満のみた記事を書く
-- 24 個の勉強会にでた記事を書く (mockmock.dev を除く)
-- 12 個の slide を公開する
+- 24 個以上の勉強会にでた記事を書く (mockmock.dev を除く)
+- 12 個以上の slide を公開する
 - 毎日 6:00 に起きる
 - blog の [weekly page views](http://graph.hatena.ne.jp/bouzuya/weekly-pageviews/)  が 700 を超える
 - TOEIC で 550 を超える (CEFR B1 相当)
