@@ -35,12 +35,12 @@
 
 ## 2016 Goals
 
-### 目標
+### Goals
 
 - 「思ったことをすぐかたちのあるものにできる人」
 - 「かたちにしたものを高く評価される人」
 
-### 変更点
+### Changes
 
 - 無駄な労力を減らすため、ひとり読書会をやめる ([2015-12-21][]) 。
 - 無駄な労力を減らすため、週ぶり (shuburi) をやめる。
@@ -55,7 +55,7 @@
 - 影響力を高めるため、 blog.bouzuya.net を使いやすくし、利用者を増やす。
 - 影響力を高めるため、勉強会で発表する。
 
-### 数値目標
+### Metrics
 
 - 毎日 blog 記事を書く
 - 52 個の週次のふりかえりの記事を書く
@@ -68,7 +68,7 @@
 - 毎日 6:00 に起きる
 - blog の [weekly page views](http://graph.hatena.ne.jp/bouzuya/weekly-pageviews/)  が 700 を超える
 - TOEIC で 550 を超える (CEFR B1 相当)
-- 24 個の [GitHub リポジトリ](http://graph.hatena.ne.jp/bouzuya/GitHub%20Public%20Repos/) 395 〜 をつくる
+- 24 個の [GitHub リポジトリ](http://graph.hatena.ne.jp/bouzuya/GitHub%20Public%20Repos/) 395 → 419 をつくる
 - 50 stars の GitHub public repository をつくる
 
 ## 2015 Template
