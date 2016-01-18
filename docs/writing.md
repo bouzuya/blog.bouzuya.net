@@ -3,7 +3,7 @@
 ## Goals
 
 - [2016](./goals/2016.md)
-- [2015](./goals/2016.md)
+- [2015](./goals/2015.md)
 
 ## YAML Front-matter
 
