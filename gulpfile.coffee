@@ -20,6 +20,14 @@ sourcemaps = require 'gulp-sourcemaps'
 uglify = require 'gulp-uglify'
 watch = require 'gulp-watch'
 
+buildBody = (props) ->
+  React.DOM.body null,
+    React.DOM.div
+      id: 'app-container'
+      dangerouslySetInnerHTML:
+        __html: React.renderToString(React.createFactory(AppView)(props))
+    React.DOM.script(src: '/scripts/main.js')
+
 buildHead = (title, props) ->
   React.DOM.head null,
     React.DOM.meta(charSet: 'UTF-8')
@@ -109,12 +117,7 @@ prerender = (file, entry) ->
   doctype = '<!DOCTYPE html>'
   html = React.renderToStaticMarkup React.DOM.html null,
     buildHead(title, props),
-    React.DOM.body null,
-      React.DOM.div
-        id: 'app-container'
-        dangerouslySetInnerHTML:
-          __html: React.renderToString(React.createFactory(AppView)(props))
-      React.DOM.script(src: '/scripts/main.js')
+    buildBody(props)
   fse.outputFileSync file, doctype + html
 
 ignoreError = (stream) ->
