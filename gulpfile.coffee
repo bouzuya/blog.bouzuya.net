@@ -19,6 +19,8 @@ source = require 'vinyl-source-stream'
 sourcemaps = require 'gulp-sourcemaps'
 uglify = require 'gulp-uglify'
 watch = require 'gulp-watch'
+React = require 'react'
+{AppView} = require './src/scripts/views/app-view'
 
 buildBody = (props) ->
   React.DOM.body(
@@ -30,7 +32,14 @@ buildBody = (props) ->
     React.DOM.script(src: '/scripts/main.js')
   )
 
-buildHead = (title, props) ->
+buildHead = (props) ->
+  entry = props.entry
+  titlePrefix = if entry?
+    date = moment(entry.pubdate).format 'YYYY-MM-DD'
+    date + ' ' + entry.title + ' - '
+  else
+    ''
+  title = titlePrefix + 'blog.bouzuya.net'
   React.DOM.head(
     null
     React.DOM.meta(charSet: 'UTF-8')
@@ -67,20 +76,17 @@ ga('send', 'pageview');
     )
   )
 
-buildHtml = (title, props) ->
+buildHtml = (props) ->
   React.DOM.html(
     null
-    buildHead(title, props)
+    buildHead(props)
     buildBody(props)
   )
 
-buildTitle = (entry) ->
-  titlePrefix = if entry?
-    date = moment(entry.pubdate).format 'YYYY-MM-DD'
-    date + ' ' + entry.title + ' - '
-  else
-    ''
-  titlePrefix + 'blog.bouzuya.net'
+buildHtmlAsString = (props) ->
+  doctype = '<!DOCTYPE html>'
+  html = React.renderToStaticMarkup buildHtml(props)
+  doctype + html
 
 loadEntries = (src) ->
   myjekyll = require 'myjekyll'
@@ -116,18 +122,13 @@ prerender = (file, entry) ->
   ServerReactRootIndex = require 'react/lib/ServerReactRootIndex'
   ServerReactRootIndex.createReactRootIndex = ->
     0
-  React = require 'react'
-  {AppView} = require './src/scripts/views/app-view'
   props =
     entries: [entry].filter (i) -> i
     entry: entry
     hasNext: false
     searchText: null # entry?.date ? null
     searchVisible: false # entry?
-  title = buildTitle entry
-  doctype = '<!DOCTYPE html>'
-  html = React.renderToStaticMarkup buildHtml(title, props)
-  fse.outputFileSync file, doctype + html
+  fse.outputFileSync file, buildHtmlAsString(props)
 
 ignoreError = (stream) ->
   stream.on 'error', (e) ->
