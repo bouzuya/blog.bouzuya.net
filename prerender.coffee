@@ -37,7 +37,7 @@ buildHead = (props) ->
     '/' + moment(entry.pubdate).format('YYYY/MM/DD') + '/'
   else
     '/'
-  ogImageUrl = 'http://blog.bouzuya.net/favicon.png'
+  ogImageUrl = 'http://blog.bouzuya.net/images/favicon.png'
   ogDescription = if entry?
     entry.description
   else
