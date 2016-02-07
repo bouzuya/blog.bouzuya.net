@@ -1,12 +1,18 @@
-moment = require 'moment'
-React = require 'react'
-fse = require 'fs-extra'
 ServerReactRootIndex = require 'react/lib/ServerReactRootIndex'
-{AppView} = require './src/scripts/views/app-view'
 
 # hack for generating same react id
 ServerReactRootIndex.createReactRootIndex = ->
   0
+
+HTMLDOMPropertyConfig = require 'react/lib/HTMLDOMPropertyConfig'
+
+# hack for html.prefix attribute
+HTMLDOMPropertyConfig.Properties.prefix = null
+
+moment = require 'moment'
+React = require 'react'
+fse = require 'fs-extra'
+{AppView} = require './src/scripts/views/app-view'
 
 buildBody = (props) ->
   React.DOM.body(
@@ -64,7 +70,7 @@ ga('send', 'pageview');
 
 buildHtml = (props) ->
   React.DOM.html(
-    null
+    { prefix: 'og: http://ogp.me/ns#' }
     buildHead(props)
     buildBody(props)
   )
