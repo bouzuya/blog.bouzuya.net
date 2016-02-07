@@ -21,15 +21,18 @@ uglify = require 'gulp-uglify'
 watch = require 'gulp-watch'
 
 buildBody = (props) ->
-  React.DOM.body null,
+  React.DOM.body(
+    null
     React.DOM.div
       id: 'app-container'
       dangerouslySetInnerHTML:
         __html: React.renderToString(React.createFactory(AppView)(props))
     React.DOM.script(src: '/scripts/main.js')
+  )
 
 buildHead = (title, props) ->
-  React.DOM.head null,
+  React.DOM.head(
+    null
     React.DOM.meta(charSet: 'UTF-8')
     React.DOM.meta(name: 'robots', content: 'index, follow')
     React.DOM.meta(name: 'viewport', content: [
@@ -62,6 +65,14 @@ ga('send', 'pageview');
       dangerouslySetInnerHTML:
         __html: "//<!--\nvar INITIAL_PROPS=#{JSON.stringify(props)};\n//-->"
     )
+  )
+
+buildHtml = (title, props) ->
+  React.DOM.html(
+    null
+    buildHead(title, props)
+    buildBody(props)
+  )
 
 buildTitle = (entry) ->
   titlePrefix = if entry?
@@ -115,9 +126,7 @@ prerender = (file, entry) ->
     searchVisible: false # entry?
   title = buildTitle entry
   doctype = '<!DOCTYPE html>'
-  html = React.renderToStaticMarkup React.DOM.html null,
-    buildHead(title, props),
-    buildBody(props)
+  html = React.renderToStaticMarkup buildHtml(title, props)
   fse.outputFileSync file, doctype + html
 
 ignoreError = (stream) ->
