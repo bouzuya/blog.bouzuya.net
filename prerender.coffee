@@ -32,6 +32,12 @@ buildHead = (props) ->
   else
     ''
   title = titlePrefix + 'blog.bouzuya.net'
+  ogTitle = title
+  ogUrl = 'http://blog.bouzuya.net' + if entry?
+    '/' + moment(entry.pubdate).format('YYYY/MM/DD') + '/'
+  else
+    '/'
+  ogImageUrl = 'http://blog.bouzuya.net/favicon.png'
   React.DOM.head(
     null
     React.DOM.meta(charSet: 'UTF-8')
@@ -43,6 +49,10 @@ buildHead = (props) ->
       'maximum-scale=1.0'
       'user-scalable=no'
     ].join ',')
+    React.DOM.meta(property: 'og:title', content: ogTitle)
+    # React.DOM.meta(property: 'og:type', content: '')
+    React.DOM.meta(property: 'og:url', content: ogUrl)
+    React.DOM.meta(property: 'og:image', content: ogImageUrl)
     React.DOM.title(null, title)
     React.DOM.link(
       rel: 'icon'
