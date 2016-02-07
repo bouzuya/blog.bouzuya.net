@@ -32,6 +32,7 @@ loadEntries = (src) ->
     entry:
       content: marked entry.content
       date: date.format 'YYYY-MM-DD'
+      description: entry.content.substring(0, 100)
       file: entry.file
       minutes: entry.minutes
       pubdate: entry.pubdate

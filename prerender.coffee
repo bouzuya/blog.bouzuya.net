@@ -38,7 +38,10 @@ buildHead = (props) ->
   else
     '/'
   ogImageUrl = 'http://blog.bouzuya.net/favicon.png'
-  ogDescription = ''
+  ogDescription = if entry?
+    entry.description
+  else
+    'blog.bouzuya.net'
   React.DOM.head(
     null
     React.DOM.meta(charSet: 'UTF-8')
