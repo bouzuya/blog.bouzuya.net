@@ -20,6 +20,14 @@ sourcemaps = require 'gulp-sourcemaps'
 uglify = require 'gulp-uglify'
 watch = require 'gulp-watch'
 
+buildTitle = (entry) ->
+  titlePrefix = if entry?
+    date = moment(entry.pubdate).format 'YYYY-MM-DD'
+    date + ' ' + entry.title + ' - '
+  else
+    ''
+  titlePrefix + 'blog.bouzuya.net'
+
 loadEntries = (src) ->
   myjekyll = require 'myjekyll'
   moment = require 'moment'
@@ -62,12 +70,7 @@ prerender = (file, entry) ->
     hasNext: false
     searchText: null # entry?.date ? null
     searchVisible: false # entry?
-  titlePrefix = if entry?
-    date = moment(entry.pubdate).format 'YYYY-MM-DD'
-    date + ' ' + entry.title + ' - '
-  else
-    ''
-  title = titlePrefix + 'blog.bouzuya.net'
+  title = buildTitle entry
   doctype = '<!DOCTYPE html>'
   html = React.renderToStaticMarkup React.DOM.html null,
     React.DOM.head null,
