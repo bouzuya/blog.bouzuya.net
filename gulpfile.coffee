@@ -60,7 +60,7 @@ ga('send', 'pageview');
     )
     React.DOM.script(
       dangerouslySetInnerHTML:
-        __html: '//<!--\nvar INITIAL_PROPS=' + JSON.stringify(props) + ';\n//-->'
+        __html: "//<!--\nvar INITIAL_PROPS=#{JSON.stringify(props)};\n//-->"
     )
 
 buildTitle = (entry) ->
