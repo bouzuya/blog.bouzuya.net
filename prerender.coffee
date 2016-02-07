@@ -49,6 +49,9 @@ buildHead = (props) ->
       'maximum-scale=1.0'
       'user-scalable=no'
     ].join ',')
+    React.DOM.meta(property: 'twitter:card', content: 'summary')
+    React.DOM.meta(property: 'twitter:site', content: '@bouzuya')
+    React.DOM.meta(property: 'twitter:creator', content: '@bouzuya')
     React.DOM.meta(property: 'og:title', content: ogTitle)
     # React.DOM.meta(property: 'og:type', content: '')
     React.DOM.meta(property: 'og:url', content: ogUrl)
