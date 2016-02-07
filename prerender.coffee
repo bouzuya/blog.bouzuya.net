@@ -38,6 +38,7 @@ buildHead = (props) ->
   else
     '/'
   ogImageUrl = 'http://blog.bouzuya.net/favicon.png'
+  ogDescription = ''
   React.DOM.head(
     null
     React.DOM.meta(charSet: 'UTF-8')
@@ -56,6 +57,7 @@ buildHead = (props) ->
     # React.DOM.meta(property: 'og:type', content: '')
     React.DOM.meta(property: 'og:url', content: ogUrl)
     React.DOM.meta(property: 'og:image', content: ogImageUrl)
+    React.DOM.meta(property: 'og:description', content: ogDescription)
     React.DOM.title(null, title)
     React.DOM.link(
       rel: 'icon'
