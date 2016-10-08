@@ -55,11 +55,13 @@
     "url": "https://github.com/bouzuya/blog.bouzuya.net.git"
   },
   "scripts": {
-    "new": "bbn new",
-    "build": "gulp build",
+    "build": "npm-run-all -s 'build:json' 'build:gulp'",
+    "build:gulp": "gulp build",
+    "build:json": "gulp build-json",
     "clean": "rimraf '.tmp' 'dist'",
     "deploy": "npm-run-all -s 'build' 'deploy:gulp'",
     "deploy:gulp": "gulp deploy",
+    "new": "bbn new",
     "test": "gulp test"
   }
 }

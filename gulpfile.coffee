@@ -45,7 +45,6 @@ ignoreError = (stream) ->
 
 gulp.task 'build', (done) ->
   run.apply run, [
-    'build-json'
     [
       'build-html'
       'build-resource'
