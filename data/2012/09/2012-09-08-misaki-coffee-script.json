@@ -1,0 +1,10 @@
+{
+  "minutes": 20,
+  "pubdate": "2012-09-08T19:28:17+09:00",
+  "tags": [
+    "misaki",
+    "clojure",
+    "coffee-script"
+  ],
+  "title": "misakiのcompiler作ったった(CoffeeScript編)"
+}

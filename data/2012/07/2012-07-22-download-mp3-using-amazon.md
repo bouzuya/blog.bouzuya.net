@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-07-22T14:49:25+09:00"
-title: AmazonでMP3をダウンロードした
-tags: [misc]
-minutes: 60
-pagetype: posts
----
 [Amazon](http://amazon.co.jp)ではMP3のダウンロード販売をしているらしい。前から存在には気づいていたが利用したことはなかった。今日はそれを利用してみることにした。
 
 購入する曲はバンド『[zZz](http://www.myspace.com/zzz)』のアルバム『[Running with the Beast](http://amazon.jp/o/ASIN/B004MTOQZK/bouzuya-22)』に収録されている楽曲『[Grip](http://amazon.jp/o/ASIN/B004MTOR2M/bouzuya-22)』である。結構前から[この曲のPV](http://www.youtube.com/watch?v=gI04Nrz364M)は見ていた。気に入って何度も見ているし、対価を支払ってしかるべきだと感じた。そこで今回の購入の対象として選択した。

@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-07-29T23:07:55+09:00"
-title: WSH(2)〜WSFを書く〜
-tags: [wsh]
-minutes: 17
-pagetype: posts
----
 WSH(Windows Script Host)について調べている。今日はWSFについて書いておく。
 
 WSFはWindows Script Fileの略である。XML形式で書かれており、WSHスクリプトの動作を設定できる、らしい。

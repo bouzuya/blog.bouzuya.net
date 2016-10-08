@@ -1,0 +1,9 @@
+{
+  "minutes": 4,
+  "pubdate": "2012-08-24T23:41:39+09:00",
+  "tags": [
+    "clojure",
+    "javascript"
+  ],
+  "title": "ClojureでJavaScriptを扱う"
+}

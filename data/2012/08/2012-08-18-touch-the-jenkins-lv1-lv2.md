@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-08-18T23:59:59+09:00"
-title: Touch the Jenkins!Lv1/Lv2に参加した
-tags: [misc]
-minutes: 20
-pagetype: posts
----
 [Touch the Jenkins!Lv1/Lv2](http://connpass.com/event/791/)に参加した。ハンズオン形式でJenkinsの最初の一歩を助ける勉強会だった。
 
 環境はAWS-EC2環境を使った。ぼくは今回のためにアカウントを取得した。AWS自体にやや興味がいった。リソースの使用量に応じて課金されるらしい。Webベースのコンソールがある仮想マシン環境ぽい。ほかにも色々サービスがあるみたいだけれど、今回の本題でないため、スルー。

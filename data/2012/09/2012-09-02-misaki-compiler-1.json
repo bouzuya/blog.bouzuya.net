@@ -1,0 +1,9 @@
+{
+  "minutes": 10,
+  "pubdate": "2012-09-02T23:25:55+09:00",
+  "tags": [
+    "misaki",
+    "clojure"
+  ],
+  "title": "misakiのcompilerを作る"
+}

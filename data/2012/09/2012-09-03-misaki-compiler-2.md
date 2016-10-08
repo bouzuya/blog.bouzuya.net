@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-09-03T23:19:11+09:00"
-title: misakiのcompilerを作る(2)
-tags: [misaki, clojure]
-minutes: 16
-pagetype: posts
----
 [misaki](http://liquidz.github.com/misaki/)のcompilerを作っている。`.markdown->.html`するだけの動きを考えて作ったのだけれど、いまいちだ。
 
 なぜなら出力されるのが`template/posts/*.markdown`をparseしただけのHTMLファイルだからだ。h1要素からはじまるイケてないHTMLが出力される。

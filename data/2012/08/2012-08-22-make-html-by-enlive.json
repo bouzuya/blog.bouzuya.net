@@ -1,0 +1,8 @@
+{
+  "minutes": 20,
+  "pubdate": "2012-08-22T21:33:33+09:00",
+  "tags": [
+    "clojure"
+  ],
+  "title": "enliveでHTMLを生成する"
+}

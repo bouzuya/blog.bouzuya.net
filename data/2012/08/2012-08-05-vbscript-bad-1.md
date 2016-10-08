@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-08-05T23:01:56+09:00"
-title: 「VBScriptのダメなところ」を公開した
-tags: [wsh]
-minutes: 6
-pagetype: posts
----
 昨日に引き続き[slideshare](http://www.slideshare.net)で「[VBScriptのダメなところ](http://www.slideshare.net/bouzuya/vbscript-13877015)」を公開した。スライドの作り方をすこし直してみた。以下の点に注意した。
 
 - 自己紹介ページ入れる

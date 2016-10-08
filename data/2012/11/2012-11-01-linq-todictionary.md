@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-11-01T22:41:07+09:00"
-title: LINQ(ToDictionary)
-tags: [linq]
-minutes: 12
-pagetype: posts
----
 友人が唐突に`IDictionary<TKey,TValueA>`から`IDictionary<TKey,TValueB>`への変換はどうやるのが良いかたずねられた。なんでもそういうコードを考えたが良い方法が思いつかず、foreachで強引に詰め替え処理を書いたらしい。
 
 安全ではあるが面白くないやりかただったので、「`System.Linq.Enumerable.ToDictionary<TSource,TKey>`を使え」と教え、動作確認していない、次のようなC#のコードを示した。

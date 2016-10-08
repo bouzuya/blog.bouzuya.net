@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-06-23T23:38:56+09:00"
-title: Enliveでスクレイピング
-tags: [clojure]
-minutes: 20
-pagetype: posts
----
 ClojureでEnliveを用いたスクレイピングを試した。ソースコードは[bouzuya/clj-eklib](https://github.com/bouzuya/clj-eklib)を参照すること。現状では実用的な例ではなく、何ができるのかを確認するための例である。
 
 動作としては次のようになる。[clj-http](https://github.com/dakrone/clj-http)を用いてWebサイトからHTMLをダウンロードしてEnliveに食わせる。あとはEnliveのセレクタを活かして、ほしい情報を取り出す。Enliveはテンプレートエンジンであると同時に優秀なセレクタを持つHTMLパーサーであることを活かしている。

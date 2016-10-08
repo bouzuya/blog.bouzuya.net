@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-12-06T23:59:59+09:00"
-title: SubversionとOracle Databaseとの同期
-tags: [misc]
-minutes: 10
-pagetype: posts
----
 SubversionとOracle Databaseとの同期について考えている。バージョン管理システムはSubversion以外でも良いし、RDBMSもOracle Database以外でも良い。バージョン管理システムとRDBMSとの間で同期をとりたいのだ。
 
 動作自体はRDBMS単体で可能だが、複数人で複数のスキーマを相手にすると、すぐに破綻する。どのスキーマが正しいのか分からなくなる。

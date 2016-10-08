@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-07-07T23:42:15+09:00"
-title: CentOS 6をインストールした
-tags: [centos]
-minutes: 15
-pagetype: posts
----
 CentOS 6をインストールした。例のごとくVirtualBoxのゲストOSとしてである。
 
 CentOSはLinuxディストリビューションのひとつであり、Red Hat Enterprise Linuxのクローンのひとつである。RHELとの完全互換を目指しているそうだ。いま我が家ではWindows/Macを除いてすべてUbuntuである。RHELをろくに触ったことがないため、正直なところよく分からない。UbuntuはDebianをベースとしているディストリビューションであるため、違いをすこしでも知ることができればと考えている。 

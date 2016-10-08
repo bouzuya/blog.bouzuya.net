@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-06-06T22:00:39+09:00"
-title: 漫画『孤独のグルメ』を読む
-tags: [book]
-minutes: 14
-pagetype: posts
----
 漫画『[孤独のグルメ](http://amazon.jp/o/ASIN/459402856X/bouzuya-22)』を読む。
 
 以前からWebで画像を見かけることはあったが何という名前の作品かさえ知らなかった。たまたま調べてみて面白そうだったので買って読むことにした。

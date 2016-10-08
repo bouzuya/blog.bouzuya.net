@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-07-18T23:32:42+09:00"
-title: gitのマスターリポジトリの引越し
-tags: [misc]
-minutes: 20
-pagetype: posts
----
 gitのマスターリポジトリをSambaサーバー上の共有ディレクトリに移動し、それをマウントして、見せるようにした。
 
 `sudo apt-get install cifs-utils`でcifsをインストールして、`sudo mount -t cifs //samba/shared /mnt/smb/ -o user=user`で手動マウントするのも良いのだけれど、さすがにサーバーがそれだとまずいので`/etc/fstab`に記述した。

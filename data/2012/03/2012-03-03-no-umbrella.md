@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-03-03T11:18:20+09:00"
-title: 傘がない
-tags: [diary]
-minutes: 50
-pagetype: posts
----
 > 都会では自殺する若者が増えている  
 > 今朝見た新聞の片隅に書いていた  
 > だけども問題は今日の雨　傘がない  

@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-06-18T22:16:07+09:00"
-title: Enliveを試す
-tags: [clojure]
-minutes: 17
-pagetype: posts
----
 [Enlive](https://github.com/cgrand/enlive)を試した。[GitHubにリポジトリを公開した](https://github.com/bouzuya/clj-benlive)。
 
 EnliveはClojureで書かれたテンプレートエンジンである。まだすこし触っただけだが、なかなか良さそうだ。HTMLはそのままに独自のセレクタで要素を選び、操作する。Javaのテンプレートエンジンを使うよりClojureのテンプレートエンジンを使う方がやっぱり素直なんだと感じた。

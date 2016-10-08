@@ -1,0 +1,9 @@
+{
+  "minutes": 14,
+  "pubdate": "2012-08-21T23:27:42+09:00",
+  "tags": [
+    "jekyll",
+    "clojure"
+  ],
+  "title": "ClojureでJekyllのpostを解釈する"
+}

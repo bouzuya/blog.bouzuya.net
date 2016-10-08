@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-02-27T20:30:19+09:00"
-title: ':help script-local'
-tags: [vim]
-minutes: 42
-pagetype: posts
----
 Vimにおけるスクリプトローカルとは何かを調べた。
 
 きっかけは'statusline'を設定していて「%!」という記法を知ったことだ。`:help 'statusline'`によると%!は次のように使用する。

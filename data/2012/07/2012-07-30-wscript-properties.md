@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-07-30T21:34:47+09:00"
-title: WSH(3)〜WScriptのプロパティ〜
-tags: [wsh]
-minutes: 21
-pagetype: posts
----
 WSH(Windows Script Host)の第3回。今日は引数の扱いについて記録しておく。
 
 引数の処理にはWshArgumentsオブジェクトを使うのが基本である。Argumentsオブジェクトは名前付き名前なしに関係なく、指定した順番で引数を得られる。名前付き引数の処理にはWshNamedオブジェクトを、名前なし引数の処理にはWshUnnamedオブジェクトを使う。今回は前回定めた仕様に従い、名前付き引数を扱う。

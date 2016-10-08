@@ -1,0 +1,9 @@
+{
+  "minutes": 20,
+  "pubdate": "2012-06-28T23:53:37+09:00",
+  "tags": [
+    "clojure",
+    "vim"
+  ],
+  "title": "VimClojureでLeiningenの遅さを避ける"
+}

@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-03-26T22:36:16+09:00"
-title: Vimでprefixキーを持つkey mappingについて
-tags: [vim]
-minutes: 55
-pagetype: posts
----
 Vimでprefixキーを持つkey mappingについて書く。
 
 Vimではkey mappingという機能がある。この機能は入力キーの動作を変更できる。例えば既定の動作ではノーマルモードでiキーを押したとき挿入モードに移るが、この動作が気に食わないならoキーの動作に変更できる。キーを別のキーの動作にするだけではなく、一連のキー操作にすることもできる。iキーを押したときに:execute 'help' expand('<cword>')のようなコマンドを実行できる。この機能は決まりきった動作を簡略化する上で非常に重要な機能である。

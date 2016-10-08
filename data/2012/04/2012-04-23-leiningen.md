@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-04-23T22:52:10+09:00"
-title: とりあえずLeiningen〜5分ではじめるClojure REPL〜
-tags: [clojure]
-minutes: 15
-pagetype: posts
----
 間違いながら前進すべし。Clojureの勉強について書いていく。とりあえず、昨日の勉強会で聞いたLeiningenでClojureのREPL起動まで5分でやってみた。やり方はベストじゃないかもしれないけれど、ひとまず動いたのでぼくの勝ちだ。
 
 まずはGitHubからLeiningenをダウンロードする。ちなみに今回の手順で一番難しい箇所はGitHubのユーザー名technomancyを覚えておくことである。

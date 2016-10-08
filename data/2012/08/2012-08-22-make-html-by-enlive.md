@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-08-22T21:33:33+09:00"
-title: enliveでHTMLを生成する
-tags: [clojure]
-minutes: 20
-pagetype: posts
----
 [昨日はJekyllのpostを解釈し、Clojureのmapに変換した](http://bouzuya.github.com/2012/08/21/parse-jekyll-post-by-clojure.html)。今日はこのmapを使って、今度は独自のHTMLを生成する。
 
 テンプレートとなるHTMLを用意しておき、そこにmapから必要なデータを取得し埋めてやる。この動作にはClojure製テンプレートエンジンである[enlive](https://github.com/cgrand/enlive)を使う。enliveは[以前にも紹介したライブラリ](http://bouzuya.github.com/2012/06/18/try-enlive.html)である。

@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-07-16T21:49:56+09:00"
-title: ssh_configを活かす
-tags: [misc]
-minutes: 17
-pagetype: posts
----
 ぼくは普段からsshを使う。VirtualBox上で動いている我が家のUbuntuのほとんどはsshを使ってログインしているからだ。
 
 ポートを既定値から変えているサーバーがあったり、GitHubのようにそのための鍵を別途用意していたりする。こういう既定値では対応できない場合は、`ssh -p 666`のようにコマンドラインオプションで明示したり、`alias sshhoge='ssh -i ~/.ssh/id_rsa.hoge hoge.org'`のようにaliasを設定していたのだけれど、どうやらこのための設定ファイルがあるようだ。

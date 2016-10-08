@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-08-03T23:59:59+09:00"
-title: WSH(7)〜rotate-backup〜
-tags: [wsh]
-minutes: 14
-pagetype: posts
----
 バックデート。さて、飽きてきたので、そろそろ完結する。
 
 ファイルコピーと古いファイルを削除する機能を付けた。Copy/DeleteOldFiles関数がそれ。これで機能上はほぼ完成である。

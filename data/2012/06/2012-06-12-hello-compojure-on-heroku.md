@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-06-12T23:40:36+09:00"
-title: Hello, Compojure on Heroku
-tags: [clojure, compojure, heroku]
-minutes: 3
-pagetype: posts
----
 Hello, Compojure! on Heroku. こんにちはCompojure! こんにちはHeroku!
 
 [http://hello-compojure.herokuapp.com/](http://hello-compojure.herokuapp.com/)

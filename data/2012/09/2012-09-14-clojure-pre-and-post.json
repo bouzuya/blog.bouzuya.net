@@ -1,0 +1,8 @@
+{
+  "minutes": 20,
+  "pubdate": "2012-09-14T23:38:39+09:00",
+  "tags": [
+    "clojure"
+  ],
+  "title": "Clojureで事前条件/事後条件の表明(:pre/:post)"
+}

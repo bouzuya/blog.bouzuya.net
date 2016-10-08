@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-12-17T23:39:13+09:00"
-title: Backlog API for Clojure を作っている
-tags: [clojure]
-minutes: 12
-pagetype: posts
----
 Clojure 向けの Backlog API ライブラリを作っている([bouzuya/clj-backlog](https://github.com/bouzuya/clj-backlog))。0.2.0 に向けてしゅくしゅくと作っている。develop/0.2.0 ブランチを見れば進みが分かる。
 
 ひとまず手軽に作れるところはひととおり作った。あとは [brehaut/necessary-evil](https://github.com/brehaut/necessary-evil) の直しが要るところとか、管理者向けのところとか、マックスプランのみのところとか、引数が多くて大変なところとか、そんなところ。

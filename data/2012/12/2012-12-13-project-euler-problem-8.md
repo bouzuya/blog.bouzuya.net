@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-12-14T01:01:09+09:00"
-title: Project Euler #8 を解く
-tags: [clojure]
-minutes: 20
-pagetype: posts
----
 [#clojure 入門者向け勉強会 #mitori_clj](http://www.zusaar.com/event/455057)に参加している。これは[Clojure](http://clojure.org/)の勉強のために、みんなで[Project Euler](http://projecteuler.net/)の1から25を解くというイベントである。
 
 今週はぼくの担当として[8](http://projecteuler.net/problem=8)が割り当てられた。で、[その解答を投稿した](https://gist.github.com/4276901)。詳細はリンク先を参照。Clojureでこういう問題を解くのは楽しいね、パズルみたいで。

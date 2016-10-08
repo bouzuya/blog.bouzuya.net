@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-07-31T21:09:06+09:00"
-title: WSH(4)〜VBScriptにおけるDateTime〜
-tags: [wsh]
-minutes: 23
-pagetype: posts
----
 WSHの4回目。今日は日付の扱いと、命名規則をガイドラインに準拠させることについて記録しておく。どちらもWSHというよりはVBScriptの範囲である。
 
 まずは日付の扱いについて。VBScriptで、現在の日付を得るにはDate関数を使う。現在の時刻を得るにはNow関数を使う。その他にも日時を取り出す関数や差を得る関数などが用意されている。詳細は[VBScriptランゲージリファレンス](http://msdn.microsoft.com/ja-jp/library/cc392480)を参照すること。

@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-08-29T23:29:55+09:00"
-title: 2台目のJenkinsサーバー
-tags: [jenkins]
-minutes: 15
-pagetype: posts
----
 Jenkinsサーバーの二台目を置いた。
 
 二台目を置いた理由は、Windows上に置いてバッチスクリプトを動かしたかったからだ。以前書いたWSH:Windows Script Hostのバックアップスクリプトは当然だけれどWindowsでしか動かない。リモートで実行させるのも手だけれど、せっかくだから複数のJenkinsを連携させてみたかったのだ。

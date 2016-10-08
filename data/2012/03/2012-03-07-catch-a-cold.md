@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-03-07T20:03:32+09:00"
-title: 風邪をひいた
-tags: [diary]
-minutes: 8
-pagetype: posts
----
 どうやら風邪をひいたみたいだ。
 
 体調が悪い。[昨日はまふだがけいれんしていた](http://bouzuya.github.com/2012/03/06/twitch-eyelid.html)し、左のひじや背中などの皮膚が過敏になっている感じがしたので、早く寝たのだけど、だめだったようだ。寒気がするし、関節がギシギシする。

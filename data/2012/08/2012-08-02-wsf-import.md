@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-08-02T23:37:04+09:00"
-title: WSH(6)〜外部ファイルへの切り出し〜
-tags: [wsh]
-minutes: 12
-pagetype: posts
----
 昨日、外部ファイルへの切り出しについて書いたのだけれど、もっと良い方法を見つけてしまった。
 
 VBScriptだけで実現しようとするとExecuteGlobalステートメントを使うことになるが、あの方法だと毎回Importプロシージャを書かなくてはいけない。

@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-06-24T23:28:30+09:00"
-title: TDDBC大阪2.1パッチに参加した
-tags: [clojure]
-minutes: 30
-pagetype: posts
----
 今日は[TDDBC大阪2.1パッチ](http://atnd.org/events/30088)に参加した。TDDBC大阪の補足らしい。ぼくはTDDBC大阪に参加した友人に連れられて参加した。
 
 イベントの内容としては自習である。[TDDBC大阪2.0の課題](http://devtesting.jp/tddbc/?TDDBC%E5%A4%A7%E9%98%AA2.0%2F%E8%AA%B2%E9%A1%8C)の続きを各自が自由にすることになっていた。ペアプログラミングでも良し、ひとりでやるも良し、言語もテスティングフレームワークもしばらない。一応のタイムテーブルはあるけれど、その場の雰囲気で決める。そういう内容だった。

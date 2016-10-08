@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-06-02T23:19:37+09:00"
-title: サイトデザイン変更
-tags: [web]
-minutes: 28
-pagetype: posts
----
 『[bouzuya.github.com](http://bouzuya.github.com/)』のデザインを変更した。
 
 変更点としては大きく分けて2点。1点目は[Archive](http://bouzuya.github.com/blog-archive.html)を月別にまとめて表すようにしたこと、2点目は個別の記事ページにて前後のページに移動できるようにしたことだ。

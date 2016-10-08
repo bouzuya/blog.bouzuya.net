@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-10-13T22:20:32+09:00"
-title: misakiのコンパイラーの設定方法
-tags: [clojure, misaki]
-minutes: 20
-pagetype: posts
----
 [liquidz/misaki](https://github.com/liquidz/misaki)に複数コンパイラー対応機能が搭載される。まだmisakiのmasterにはmergeされていないけど、きっと数日のうちに対応されるだろう。
 
 実は2週間ほど前から機能はできていて、作者の[@uochan](https://twitter.com/uochan)に確認を依頼されていたにもかかわらず、忙しさにかまけて放置してしまっていた。昨日あたりせっつかれてしまい、謝りながら今日確認した次第だ。

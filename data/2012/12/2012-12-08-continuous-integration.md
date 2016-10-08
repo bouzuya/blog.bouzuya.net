@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-12-08T22:05:43+09:00"
-title: 『継続的インテグレーション入門』を読んだ
-tags: [book]
-minutes: 30
-pagetype: posts
----
 
 『[継続的インテグレーション入門 開発プロセスを自動化する47の作法](http://amazon.jp/o/ASIN/482228395X/bouzuya-22)』を読んだ。[以前](/2012/12/04/dinner/)にも[何度か](/2012/12/06/svn-and-oracle/)書いているけれど、読み終えたので改めてご報告。
 

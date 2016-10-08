@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-06-11T22:22:01+09:00"
-title: DHCPサーバーを立てた
-tags: [misc]
-minutes: 33
-pagetype: posts
----
 自宅のLANにDHCPサーバーを立てた。
 
 我が家のLANは固定IPアドレスにしている。DNSサーバーを立てて名前を設定しているとは言え、IPアドレスは固定の方が余計な問題を抱えなくて済むと考えているからだ。

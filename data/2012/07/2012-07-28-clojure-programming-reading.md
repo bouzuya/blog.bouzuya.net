@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2012-07-28T23:29:04+09:00"
-title: ClojureProgrammingお菓子会
-tags: [clojure]
-minutes: 25
-pagetype: posts
----
 『[ClojureProgrammingお菓子会](http://atnd.org/events/30330)』に参加した。600ページを超すうえ英語という『[Clojure Programming](http://amazon.jp/o/ASIN/1449394701/bouzuya-22)』をみんなで読みましょうという会だった。おかしOKのゆるふわ(?)な会だった。
 
 会場は[フリュー株式会社](http://www.furyu.jp/)。前回は会場にテーブルがなくてつらかったが、今回はテーブルがあって良かった。ところが今回は冷房がなく恐しい暑さだった。それでも会場が確保できただけでも良かった。[@Kuchitama](http://twitter.com/Kuchitama)さん、ありがとう!
