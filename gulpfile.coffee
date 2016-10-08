@@ -42,7 +42,7 @@ loadEntriesV3 = ->
 # for kraken@3.1.1
 loadEntriesV4 = ->
   inDir = './data'
-  kraken3.load(inDir).map (entry) ->
+  kraken.load(inDir).map (entry) ->
     content: entry.html
     date: entry.date
     description: entry.data.substring(0, 100)
