@@ -58,7 +58,8 @@
     "new": "bbn new",
     "build": "gulp build",
     "clean": "rimraf '.tmp' 'dist'",
-    "deploy": "gulp deploy",
+    "deploy": "npm-run-all -s 'build' 'deploy:gulp'",
+    "deploy:gulp": "gulp deploy",
     "test": "gulp test"
   }
 }

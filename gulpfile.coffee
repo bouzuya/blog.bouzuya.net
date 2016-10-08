@@ -128,7 +128,7 @@ gulp.task 'build-test', ->
   .pipe sourcemaps.write()
   .pipe gulp.dest './.tmp/test/'
 
-gulp.task 'deploy', ['build'], ->
+gulp.task 'deploy', ->
   borage './dist/**/*',
     root: './dist'
     bucketName: 'blog.bouzuya.net'
