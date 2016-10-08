@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-01-06T11:04:52+09:00"
-title: ツイート数をはてなグラフにポストする
-tags: [clojure]
-minutes: 30
-pagetype: posts
----
 ツイート数などの情報をグラフ化したくなった。結果として公開リポジトリに [Tweets Counter][github-tweets-counter] を加え、[GitHub -> Hatena::Graph][github-to-hatena-graph] を改めた。
 
 やりたいことの大まかな仕組みは、昨日の [GitHub Counter][github-github-counter] と同じである。まず情報を集め、CSV ファイルに書き込み、それをはてなグラフに送る。今回は情報の源が GitHub ではなく Twitter というだけだ。

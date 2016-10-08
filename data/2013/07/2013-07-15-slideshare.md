@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-07-15T19:59:49+09:00"
-title: Apache Archiva を試す
-tags: [java]
-minutes: 15
-pagetype: posts
----
 Apache Archiva を試した。Apache Archiva はリポジトリ管理ソフトウェアで、Maven などのリポジトリを管理できる。やりたいこととしてはビルド済みの成果物についても共有の箇所で管理し、外部ライブラリとして再利用したい、ということだ。
 
 詳細については SlideShare に『[Apache Archiva を試す][slideshare-apache-archiva]』としてスライドを公開したので、そちらを参照してほしい。

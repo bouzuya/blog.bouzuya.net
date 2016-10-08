@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-01-14T23:24:54+09:00"
-title: Clojure での省略可能引数の書きかた
-tags: [clojure]
-minutes: 12
-pagetype: posts
----
 Clojure での省略可能引数の書きかたについて考えてみた。
 
 [Backlog API for Clojure][backlog-api-for-clojure] を書いているときに気づいたことなのだけれど、ぼくは省略可能引数の書きかたが定まっていない。そこで今日はそれをひとつに決めるべく、試行錯誤してみた。

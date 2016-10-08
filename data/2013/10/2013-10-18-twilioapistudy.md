@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-10-18T23:59:59+09:00"
-title: Twilio API 勉強会@大阪に参加した
-tags: [ruby]
-minutes: 17
-pagetype: posts
----
 [Twilio API 勉強会@大阪](http://atnd.org/event/E0020002)に参加した。最近はここに書いているとおり Twilio を触っていて、それに関連しての参加という流れ。
 
 ハンズオンありで、雰囲気も良く、楽しかった。ハンズオンは PHP だったのだけれど、色々な事情から Ruby で参加した。結果は https://gist.github.com/bouzuya/7045058 。Sinatra 使ってみた。簡単なものだと Sinatra の手軽さが心地良い。Twilio のライブラリも出来が良くて使いやすい。電話かけれるのは楽しい。ついに Twilio で $20 を購入してしまったよ。楽しい。

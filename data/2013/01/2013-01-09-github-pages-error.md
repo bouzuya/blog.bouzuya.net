@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-01-09T23:01:04+09:00"
-title: GitHub Pages がビルドしてくれない
-tags: [misc]
-minutes: 3
-pagetype: posts
----
 GitHub Pages がビルドしてくれなくなった。
 
 どうやら原因は `_config.yml` の `include: ./_includes` を解釈してくれなくなったらしい。理由は分からないけど、解釈してくれない。でも、指定しなくても `./_includes` を見てくれるので、記述をコメントアウトして対応した。

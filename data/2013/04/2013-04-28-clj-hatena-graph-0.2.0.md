@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-04-28T22:24:31+09:00"
-title: Hatena::Graph API for Clojure 0.2.0
-tags: [clojure]
-minutes: 5
-pagetype: posts
----
 [Hatena::Graph API for Clojure 0.2.0][hatena-graph-0.2.0] を公開した。
 
 変更は 2 点。

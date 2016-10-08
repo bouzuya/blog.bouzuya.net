@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-01-01T23:10:09+09:00"
-title: NPOI.DataSetExtensions を公開した
-tags: [csharp, dotnet]
-minutes: 27
-pagetype: posts
----
 [GitHub][] に [bouzuya/NPOI.DataSetExtensions][] を公開した。
 
 アセンブリ `NPOI.DataSetExtensions` は `DataSet.WriteXls(fileName)`, `DataTable.WriteXls(fileName)` な拡張メソッドを提供する。`DataSet.WriteXml(fileName)` が XML ファイルに `DataSet` を書き出すのと同じように、XLS ファイルに `DataSet` を書き出すメソッドである。ヘッダー行や罫線などはなく、データを書き出す以上のことはしない。シンプルな機能にとどめている。

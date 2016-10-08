@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-01-22T23:59:59+09:00"
-title: Kuromoji とは
-tags: [misc]
-minutes: 19
-pagetype: posts
----
 そういえば、何度か [Kuromoji][kuromoji] を使った記事を書いているけれど、何をするものか書いていなかったので、改めて書いておく。
 
 Kuromoji は Java で書かれたオープンソースの日本語形態素解析器である。 Apache Software Foundation に寄付されており、Apache Lucene と Apache Solr の日本語サポートをしている、らしい。公式にそう書いてあるのだからそうなのだろう。

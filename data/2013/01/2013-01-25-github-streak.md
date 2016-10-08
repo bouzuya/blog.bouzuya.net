@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-01-25T23:59:59+09:00"
-title: Streak
-tags: [misc]
-minutes: 6
-pagetype: posts
----
 [GitHub][github] には Streak が表示されるようになった。いつ頃だったかは覚えていないけれど、比較的最近のデザイン変更で表示されるようになった。
 
 Streak は何日連続で push したか、である。それが今日途切れた。なんとなく悔しい。

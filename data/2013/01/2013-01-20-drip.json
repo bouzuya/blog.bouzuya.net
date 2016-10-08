@@ -1,0 +1,10 @@
+{
+  "minutes": 30,
+  "pubdate": "2013-01-20T16:26:14+09:00",
+  "tags": [
+    "drip",
+    "java",
+    "clojure"
+  ],
+  "title": "Java の起動を高速化する drip を使う"
+}

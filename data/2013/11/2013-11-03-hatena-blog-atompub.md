@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-11-03T23:59:59+09:00"
-title: はてなブログ AtomPub を使ってみた
-tags: [ruby]
-minutes: 30
-pagetype: posts
----
 はてなブログ AtomPub を使ってみた。Ruby のサンプルコードに従い動かしてみたところ、動かない。
 
 stacktrace を見ていくと atomutil gem は https に対応していないみたい。簡単に対応できそうだったので、[lyokato/ruby-atomutil][lyokato/ruby-atomutil] を fork して [pull request][lyokato/ruby-atomutil/pull/1] した。merge された。gem として更新されるかは分からないので、とりあえず以下のように記述して対応。

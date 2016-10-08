@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-08-01T21:36:11+09:00"
-title: Android 学習 (1)
-tags: [java, android]
-minutes: 12
-pagetype: posts
----
 Android 学習の 1 日目。とりあえず、実機と仮想マシンとで Hello World 的なものや電卓を動かす。意外ときちんと動いた。もっとハマりそうなものだけど ADT よくできてる。
 
 Nexus7 の場合の開発者オプションが初期表示されていなくって、Galaxy S2 だと普通に出ていたのでおかしいなと思って、検索したら意外な方法で表示できた。「Nexus7 開発者オプション」とかで検索すると良い。

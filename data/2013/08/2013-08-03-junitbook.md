@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-08-03T22:21:05+09:00"
-title: JUnit実践入門読書会
-tags: [java,junit]
-minutes: 10
-pagetype: posts
----
 [JUnit実践入門読書会 in 大阪 「DB、GUIのテストとコードカバレッジ」](http://junit-osaka.doorkeeper.jp/events/4932) に参加してきた。
 
 朝帰りからの読書会だった。数時間眠っていたにせよ、眠い。ちなみに他のメンバーについても朝までカラオケだったらしく、モチベーション低め。

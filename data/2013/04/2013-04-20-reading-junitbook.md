@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-04-20T23:59:59+09:00"
-title: 『JUnit実践入門読書会 in 大阪』に参加してきた
-tags: [junitbook]
-minutes: 15
-pagetype: posts
----
 [『JUnit実践入門読書会 in 大阪』][doorkeeper]に参加してきた。
 
 既に何度か実施されているようで、今日は 6 章から 8 章だった。少人数でミキヤコーヒーでのんびり読書会。良い休日である。

@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-02-08T23:24:51+09:00"
-title: Leiningen の template を書いてみた
-tags: [clojure]
-minutes: 21
-pagetype: posts
----
 Leiningen の template を書いてみた。[bouzuya/lein-template][lein-template] として公開した。
 
 `lein new` は Leiningen 2.x より template を指定できる。`lein new template-name project-name` といった形である。せっかくなので、この機能を使って自分なりの template を書いてみた。

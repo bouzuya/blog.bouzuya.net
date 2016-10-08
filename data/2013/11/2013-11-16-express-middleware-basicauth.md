@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-11-16T16:06:04+09:00"
-title: expressのbasicAuthミドルウェアを試す。
-tags: [javascript]
-minutes: 45
-pagetype: posts
----
 expressのbasicAuthミドルウェアを試す。読む。しばらくexpress/connectのミドルウェアを読んで、試していく予定。
 
 その前に簡単に前提知識を整理するために概要を書いておく。

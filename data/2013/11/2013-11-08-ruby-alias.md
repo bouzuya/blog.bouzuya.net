@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-11-08T23:59:59+09:00"
-title: Ruby の alias の落とし穴
-tags: [ruby]
-minutes: 15
-pagetype: posts
----
 Ruby の alias の落とし穴。落とし穴なんてのは普通落ちないもので、他人が落ちているのを見て笑うためにあると思っているし、事実そうである。
 
 前置きはともかく、[icalendar/icalendar][icalendar/icalendar] にプルリクエスト [#44][icalendar/icalendar/pull/44]をした。もうマージされているようなので、そのうち RubyGems にもリリースされるだろう。くだらないバグだったのだけれど、どうなっているの一瞬分からなかったのでメモ。

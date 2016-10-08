@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-06-26T22:40:36+09:00"
-title: Ubuntu on Macbook Air
-tags: [misc]
-minutes: 12
-pagetype: posts
----
 このあいだの日曜日に 11 インチの Macbook Air 2013 年のを買った。買ったのでさっそく OS を入れ替えようと色々試したのだけれど、無線 LAN のドライバーがおかしいのか、どうしても動作せず諦めた。
 
 でも、やっぱり Mac OS X になじめなくて、VirtualBox 上で Ubuntu を動かしてごまかすことにした。Ubuntu on VirtualBox on Macbook Air.

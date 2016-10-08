@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-11-30T23:59:59+09:00"
-title: HUBOTとSkypeとを連携させる
-tags: [javascript ]
-minutes: 12
-pagetype: posts
----
 [HUBOT][github/hubot]とSkypeとを連携させる。連携以前にHUBOTを導入してさえないのだけれど。
 
 HUBOTについての正確な説明は公式にゆずるとして、ぼくの理解ではHUBOTは汎用BOT。任意のクライアントから仕事を指示し、その結果をクライアントに返す。そういうBOT。

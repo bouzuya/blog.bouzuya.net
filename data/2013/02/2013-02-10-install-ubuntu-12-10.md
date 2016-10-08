@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-02-10T22:26:54+09:00"
-title: Ubuntu 12.10 のインストール
-tags: [misc]
-minutes: 25
-pagetype: posts
----
 Ubuntu を PC にインストールしたくなった。いままでは VirtualBox でゲスト OS として使ってきたが、気が変わったので、インストールすることにした。
 
 Ubuntu Desktop 12.10 32 bit を Lenovo G570 にインストールする。

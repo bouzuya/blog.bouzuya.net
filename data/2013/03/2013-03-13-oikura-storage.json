@@ -1,0 +1,8 @@
+{
+  "minutes": 3,
+  "pubdate": "2013-03-13T23:59:59+09:00",
+  "tags": [
+    "clojure"
+  ],
+  "title": "oikura で DB を読み書きする準備"
+}

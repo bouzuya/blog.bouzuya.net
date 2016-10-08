@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-01-05T10:24:21+09:00"
-title: "Clojure 向けのはてなグラフ API ラッパー『Hatena::Graph API for Clojure』を書いた"
-tags: [clojure]
-minutes: 60
-pagetype: posts
----
 [Clojure][clojure] 向けのはてなグラフ API ラッパー『[Hatena::Graph API for Clojure][hatena-graph-api-for-clojure]』を書いた。
 
 [はてなグラフ][hatena-graph]とは、[はてな][hatena]のサービスのひとつで、グラフを作ってくれるサービスである。1日1個の数を入れるだけで、あとはよしなにグラフを作ってくれるという気のきいたサービスだ。ライブラリーひとつで対応しました感はあるが、はてなのインフラにのっかれるのでお手軽である。しかし、はてなでもおそらく人気のないサービスで、トップページからのリンクがないのはその証拠である。

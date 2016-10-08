@@ -1,0 +1,9 @@
+{
+  "minutes": 8,
+  "pubdate": "2013-01-15T23:47:17+09:00",
+  "tags": [
+    "clojure",
+    "kuromoji"
+  ],
+  "title": "Kuromoji で読みを使う"
+}

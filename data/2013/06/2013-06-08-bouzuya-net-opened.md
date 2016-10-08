@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-06-08T22:48:18+09:00"
-title: bouzuya.net をつくった
-tags: [misc]
-minutes: 14
-pagetype: posts
----
 『[bouzuya.net][bouzuya-net]』をつくった。
 
 bouzuya.net は、ぼく bouzuya のつくったサービスやコンテンツなどを出すときのドメインとして使うつもりだ。

@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-06-23T22:01:42+09:00"
-title: WEB+DB Press Vol.75 を読む
-tags: [book]
-minutes: 15
-pagetype: posts
----
 『WEB+DB Press Vol.75 』を読む。
 
 特集 1 は継続的 Web サービス改善ガイド。ぼくが気になったのはインフラの構成管理の箇所や開発環境を Puppet や Chef で手順書ではなくマニフェストファイルにしてバージョン管理できるようにといったあたり。VMware や Hyper-V やら VirtualBox やら仮想化が進んで、物理的なものから切り離せる部分がより増えているから、それを活かしてこういう取り組みをしていくのは良いことだろうなと感じた。

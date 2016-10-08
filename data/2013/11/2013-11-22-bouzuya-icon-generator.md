@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-11-22T23:27:14+09:00"
-title: bouzuya icon generatorを作った
-tags: [javascript]
-minutes: 10
-pagetype: posts
----
 bouzuya icon generatorを作った。
 
 アイコンを変えたくなった。前々から[@emanon001](https://twitter.com/emanon001)のアイコンと色使いが似ていて分かりにくいと言われていて。「全然違うじゃねえか」とか内心思いながらも、ゴレンジャイを思い出して、分かりやすくするのも良いかなと思ったからだ。

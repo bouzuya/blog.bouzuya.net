@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-03-21T23:10:27+09:00"
-title: Vimperator をそろそろ使う
-tags: [vimperator]
-minutes: 17
-pagetype: posts
----
 Firefox を Vim ライクな動きにするアドオン Vimperator 。Firefox に戻ってきて、そろそろ日も経つので環境を整えていこうかと思う。その基盤になるのが、この Vimperator である。もうすこし真剣にこいつと向き合いたい。
 
 Vimperator は JavaScript による機能拡張が可能でやろうと思えば大体のことができる、とぼくは思っている。すごい力を秘めている、と信じている。

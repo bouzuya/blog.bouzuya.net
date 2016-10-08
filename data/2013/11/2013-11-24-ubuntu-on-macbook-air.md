@@ -1,11 +1,3 @@
----
-layout: post
-pubdate: "2013-11-24T23:19:39+09:00"
-title: Ubuntu on Macbook Airにした
-tags: [misc]
-minutes: 11
-pagetype: posts
----
 Ubuntu on Macbook Airにした。いままではUbuntu on VirtualBox on Macbook Airだった。
 
 Macbook Airを買ったときにUbuntuにOSを変えようと思ったのだけれど、実際に入れてみると、無線LANのドライバがうまく動かなくてハマってしまい、対策を考えるのも面倒だったので、それはそのままにVirtualBoxをインストールして、その上にUbuntuを入れて使っていた。
