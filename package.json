@@ -57,7 +57,7 @@
   "scripts": {
     "build": "npm-run-all -s 'build:json' 'build:gulp'",
     "build:gulp": "gulp build",
-    "build:json": "gulp build-json",
+    "build:json": "kraken compile data dist",
     "clean": "rimraf '.tmp' 'dist'",
     "deploy": "npm-run-all -s 'build' 'deploy:gulp'",
     "deploy:gulp": "gulp deploy",
