@@ -1,6 +1,6 @@
-# blog.bouzuya.net
+![blog.bouzuya.net](https://cloud.githubusercontent.com/assets/1221346/19212638/8f282874-8d90-11e6-89eb-713c257c1b1b.png)
 
-bouzuya's blog.
+blog.bouzuya.net: bouzuya's blog.
 
 ## Writing
 
