@@ -149,8 +149,6 @@ gulp.task 'clean', (done) ->
   ], done
   null
 
-gulp.task 'default', ['clean', 'build']
-
 gulp.task 'deploy', ['build'], ->
   borage './dist/**/*',
     root: './dist'
