@@ -67,13 +67,6 @@ gulp.task 'build', (done) ->
     done
   ]
 
-gulp.task 'build-dev', [
-  'build-html-dev'
-  'build-resource'
-  'build-script-dev'
-  'build-style-dev'
-]
-
 gulp.task 'build-font', ->
   gulp.src [
     './node_modules/font-awesome/fonts/*-webfont*'
@@ -83,12 +76,6 @@ gulp.task 'build-font', ->
 gulp.task 'build-html', ->
   baseDir = './dist/'
   loadEntriesV3('./data/**/*.md').forEach (entry) ->
-    prerenderEntry(baseDir, entry)
-  prerender(baseDir + 'index.html', null)
-
-gulp.task 'build-html-dev', ->
-  baseDir = './dist/'
-  loadEntriesV3('./data/nofile.md').forEach (entry) ->
     prerenderEntry(baseDir, entry)
   prerender(baseDir + 'index.html', null)
 
@@ -121,14 +108,6 @@ gulp.task 'build-script', (done) ->
   ]
   null
 
-gulp.task 'build-script-dev', (done) ->
-  run.apply run, [
-    'build-script-coffee-dev'
-    'build-script-browserify-dev'
-    done
-  ]
-  null
-
 gulp.task 'build-script-browserify', ->
   bundled = browserify
     debug: false
@@ -140,26 +119,9 @@ gulp.task 'build-script-browserify', ->
   .pipe uglify()
   .pipe gulp.dest './dist/scripts/'
 
-gulp.task 'build-script-browserify-dev', ->
-  bundled = browserify
-    debug: true
-  .add './.tmp/src/scripts/index.js'
-  .bundle()
-  ignoreError bundled
-  .pipe source 'main.js'
-  .pipe buffer()
-  .pipe gulp.dest './dist/scripts/'
-
 gulp.task 'build-script-coffee', ->
   gulp.src './src/scripts/**/*.coffee'
   .pipe coffee()
-  .pipe gulp.dest './.tmp/src/scripts/'
-
-gulp.task 'build-script-coffee-dev', ->
-  gulp.src './src/scripts/**/*.coffee'
-  .pipe sourcemaps.init()
-  .pipe ignoreError coffee()
-  .pipe sourcemaps.write()
   .pipe gulp.dest './.tmp/src/scripts/'
 
 gulp.task 'build-style', ->
@@ -172,29 +134,11 @@ gulp.task 'build-style', ->
   .pipe minifyCss()
   .pipe gulp.dest './dist/styles/'
 
-gulp.task 'build-style-dev', ->
-  gulp.src [
-    './src/styles/**/*.less'
-    './node_modules/font-awesome/css/font-awesome.min.css'
-  ]
-  .pipe ignoreError less()
-  .pipe concat 'main.css'
-  .pipe minifyCss()
-  .pipe gulp.dest './dist/styles/'
-
 gulp.task 'build-test', ->
   gulp.src './test/**/*.coffee'
   .pipe sourcemaps.init()
   .pipe coffee()
   .pipe espower()
-  .pipe sourcemaps.write()
-  .pipe gulp.dest './.tmp/test/'
-
-gulp.task 'build-test-dev', ->
-  gulp.src './test/**/*.coffee'
-  .pipe sourcemaps.init()
-  .pipe ignoreError coffee()
-  .pipe ignoreError espower()
   .pipe sourcemaps.write()
   .pipe gulp.dest './.tmp/test/'
 
@@ -216,7 +160,3 @@ gulp.task 'deploy', ['build'], ->
 gulp.task 'test', ['build-test'], ->
   gulp.src './.tmp/test/**/*.js'
   .pipe mocha()
-
-gulp.task 'test-dev', ['build-test-dev'], ->
-  gulp.src './.tmp/test/**/*.js'
-  .pipe ignoreError mocha()
