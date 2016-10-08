@@ -98,7 +98,7 @@ buildHtmlAsString = (props) ->
   html = React.renderToStaticMarkup buildHtml(props)
   doctype + html
 
-prerender = (file, entry) ->
+prerenderBase = (file, entry) ->
   props =
     entries: [entry].filter (i) -> i
     entry: entry
@@ -106,5 +106,22 @@ prerender = (file, entry) ->
     searchText: null # entry?.date ? null
     searchVisible: false # entry?
   fse.outputFileSync file, buildHtmlAsString(props)
+
+prerenderEntry = (entry) ->
+  dir = moment(entry.pubdate).format 'YYYY/MM/DD'
+  titleKey = entry.titleKey
+  paths = [
+    dir + '/' + titleKey + '/index.html'
+    if titleKey is 'diary' then null else dir + '/diary/index.html'
+    dir + '/index.html'
+  ].filter (i) -> i
+  paths.forEach (path) ->
+    prerenderBase(baseDir + path, entry)
+
+prerender = (entries) ->
+  baseDir = './dist/'
+  entries.forEach (entry) ->
+    prerenderEntry(baseDir, entry)
+  prerenderBase(baseDir + 'index.html', null)
 
 module.exports = prerender

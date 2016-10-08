@@ -38,17 +38,6 @@ loadEntriesV3 = (src) ->
       titleKey: titleKey
     entry
 
-prerenderEntry = (entry) ->
-  dir = moment(entry.pubdate).format 'YYYY/MM/DD'
-  titleKey = entry.titleKey
-  paths = [
-    dir + '/' + titleKey + '/index.html'
-    if titleKey is 'diary' then null else dir + '/diary/index.html'
-    dir + '/index.html'
-  ].filter (i) -> i
-  paths.forEach (path) ->
-    prerender(baseDir + path, entry)
-
 ignoreError = (stream) ->
   stream.on 'error', (e) ->
     gutil.log e
@@ -73,10 +62,8 @@ gulp.task 'build-font', ->
   .pipe gulp.dest './dist/fonts/'
 
 gulp.task 'build-html', ->
-  baseDir = './dist/'
-  loadEntriesV3('./data/**/*.md').forEach (entry) ->
-    prerenderEntry(baseDir, entry)
-  prerender(baseDir + 'index.html', null)
+  entries = loadEntriesV3('./data/**/*.md')
+  prerender(entries)
 
 gulp.task 'build-images', ->
   gulp.src './src/images/*'
