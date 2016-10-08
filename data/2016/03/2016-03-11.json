@@ -1,0 +1,9 @@
+{
+  "minutes": 60,
+  "pubdate": "2016-03-11T23:59:59+09:00",
+  "tags": [
+    "programming",
+    "b-o-a"
+  ],
+  "title": "b-o-a を mocha から AVA にのりかえた"
+}

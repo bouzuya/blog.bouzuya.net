@@ -1,0 +1,8 @@
+{
+  "minutes": 15,
+  "pubdate": "2016-03-26T23:59:59+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "ReactiveX/rxjs に Symbol.observable 関連の Pull Request が merge された"
+}

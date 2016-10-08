@@ -1,0 +1,8 @@
+{
+  "minutes": 60,
+  "pubdate": "2016-02-18T23:59:59+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "vdom-rxjs-ssr の server-side をつくった"
+}

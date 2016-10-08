@@ -1,0 +1,9 @@
+{
+  "minutes": 30,
+  "pubdate": "2016-03-18T23:59:59+09:00",
+  "tags": [
+    "programming",
+    "b-o-a"
+  ],
+  "title": "b-o-a 向けの virtual-dom library \"boajs-vdom\" をつくった"
+}

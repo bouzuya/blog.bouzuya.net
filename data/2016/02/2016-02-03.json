@@ -1,0 +1,8 @@
+{
+  "minutes": 60,
+  "pubdate": "2016-02-03T23:59:59+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "Cycle.js で server-side rendering につまずいた"
+}

@@ -1,0 +1,8 @@
+{
+  "minutes": 15,
+  "pubdate": "2016-01-16T21:47:38+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "RxJS 5 で pairwise / distinct をつくってみた"
+}

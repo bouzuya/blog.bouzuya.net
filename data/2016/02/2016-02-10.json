@@ -1,0 +1,8 @@
+{
+  "minutes": 25,
+  "pubdate": "2016-02-10T23:59:59+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "virtual-dom-ssr に cycle-dom の intent selector っぽいものをつくった"
+}

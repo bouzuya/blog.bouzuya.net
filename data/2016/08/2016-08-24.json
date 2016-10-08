@@ -1,0 +1,8 @@
+{
+  "minutes": 25,
+  "pubdate": "2016-08-24T23:59:59+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "TypeScript で truthy / falsy をさける"
+}

@@ -1,0 +1,8 @@
+{
+  "minutes": 30,
+  "pubdate": "2016-02-06T23:59:59+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "bouzuya/virtual-dom-ssr で promise chain を維持する state container をつくった"
+}

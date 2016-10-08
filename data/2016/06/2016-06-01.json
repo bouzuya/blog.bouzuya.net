@@ -1,0 +1,8 @@
+{
+  "minutes": 45,
+  "pubdate": "2016-06-01T23:59:59+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "bouzuya/rfc6570-expand を RFC 6570 URI Template level 4 に仮対応させた"
+}

@@ -1,0 +1,8 @@
+{
+  "minutes": 15,
+  "pubdate": "2016-02-05T23:59:59+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "virtual-dom-ssr に path-to-regexp をつかってみた"
+}
