@@ -44,8 +44,8 @@
   },
   "homepage": "https://blog.bouzuya.net",
   "keywords": [
-    "bouzuya",
     "bbn",
+    "bouzuya",
     "react"
   ],
   "license": "MIT",
