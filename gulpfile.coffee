@@ -26,12 +26,10 @@ loadEntriesV3 = (src) ->
   marked = require 'marked'
   site = myjekyll src, {}
   site.entries().map (entry) ->
-    date = moment entry.pubdate
-    dir = date.format 'YYYY/MM/DD'
     titleKey = entry.file.match(/^\d+-\d+-\d+-(.+)$/, '$1')[1]
-    entry:
+    entry =
       content: marked entry.content
-      date: date.format 'YYYY-MM-DD'
+      date: moment(entry.pubdate).format 'YYYY-MM-DD'
       description: entry.content.substring(0, 100)
       file: entry.file
       minutes: entry.minutes
@@ -39,11 +37,18 @@ loadEntriesV3 = (src) ->
       tags: entry.tags
       title: entry.title
       titleKey: titleKey
-    paths: [
-      dir + '/' + titleKey + '/index.html'
-      if titleKey is 'diary' then null else dir + '/diary/index.html'
-      dir + '/index.html'
-    ].filter (i) -> i
+    entry
+
+prerenderEntry = (entry) ->
+  dir = moment(entry.pubdate).format 'YYYY/MM/DD'
+  titleKey = entry.titleKey
+  paths = [
+    dir + '/' + titleKey + '/index.html'
+    if titleKey is 'diary' then null else dir + '/diary/index.html'
+    dir + '/index.html'
+  ].filter (i) -> i
+  paths.forEach (path) ->
+    prerender(baseDir + path, entry)
 
 ignoreError = (stream) ->
   stream.on 'error', (e) ->
@@ -77,16 +82,14 @@ gulp.task 'build-font', ->
 
 gulp.task 'build-html', ->
   baseDir = './dist/'
-  loadEntriesV3('./data/**/*.md').forEach ({ paths, entry }) ->
-    paths.forEach (path) ->
-      prerender(baseDir + path, entry)
+  loadEntriesV3('./data/**/*.md').forEach (entry) ->
+    prerenderEntry(baseDir, entry)
   prerender(baseDir + 'index.html', null)
 
 gulp.task 'build-html-dev', ->
   baseDir = './dist/'
-  loadEntriesV3('./data/nofile.md').forEach ({ paths, entry }) ->
-    paths.forEach (path) ->
-      prerender(baseDir + path, entry)
+  loadEntriesV3('./data/nofile.md').forEach (entry) ->
+    prerenderEntry(baseDir, entry)
   prerender(baseDir + 'index.html', null)
 
 gulp.task 'build-images', ->
