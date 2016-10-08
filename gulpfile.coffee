@@ -220,35 +220,3 @@ gulp.task 'test', ['build-test'], ->
 gulp.task 'test-dev', ['build-test-dev'], ->
   gulp.src './.tmp/test/**/*.js'
   .pipe ignoreError mocha()
-
-gulp.task 'watch', ['build-dev'], ->
-  browserSync
-    server:
-      baseDir: './dist/'
-
-  watch './src/index.html', ->
-    run.apply run, [
-      'build-resource'
-      ->
-        browserSync.reload()
-    ]
-
-  watch [
-    './src/**/*.coffee'
-    './test/**/*.coffee'
-  ], ->
-    run.apply run, [
-      'build-dev'
-      'test-dev'
-      ->
-        browserSync.reload()
-    ]
-
-  watch [
-    './src/styles/**/*.less'
-  ], ->
-    run.apply run, [
-      'build-style-dev'
-      ->
-        browserSync.reload()
-    ]
