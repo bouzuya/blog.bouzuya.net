@@ -54,6 +54,7 @@
     "url": "https://github.com/bouzuya/blog.bouzuya.net.git"
   },
   "scripts": {
+    "new": "bbn new",
     "build": "gulp build",
     "clean": "gulp clean",
     "deploy": "gulp deploy",
