@@ -107,7 +107,7 @@ prerenderBase = (file, entry) ->
     searchVisible: false # entry?
   fse.outputFileSync file, buildHtmlAsString(props)
 
-prerenderEntry = (entry) ->
+prerenderEntry = (baseDir, entry) ->
   dir = moment(entry.pubdate).format 'YYYY/MM/DD'
   titleKey = entry.titleKey
   paths = [
