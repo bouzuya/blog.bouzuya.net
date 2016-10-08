@@ -1,0 +1,11 @@
+{
+  "minutes": 5,
+  "pubdate": "2014-12-14T23:59:59+09:00",
+  "tags": [
+    "book",
+    "hubot",
+    "hubot-scripts",
+    "hubot-script-per-day"
+  ],
+  "title": "『Web API: The Good Parts』をよんだ & hubot-reverse をつくった"
+}

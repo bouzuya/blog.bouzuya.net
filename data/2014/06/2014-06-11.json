@@ -1,0 +1,9 @@
+{
+  "minutes": 12,
+  "pubdate": "2014-06-11T23:40:48+09:00",
+  "tags": [
+    "javascript",
+    "grunt"
+  ],
+  "title": "Amazon S3 にファイルをアップロードする Grunt プラグイン grunt-tentacles をつくった"
+}

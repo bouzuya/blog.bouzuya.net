@@ -1,0 +1,8 @@
+{
+  "minutes": 20,
+  "pubdate": "2014-05-20T19:33:28+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "GitHub + Travis CI + Amazon S3 で git push で更新されるサイトをつくった"
+}

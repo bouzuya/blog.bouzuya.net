@@ -1,0 +1,10 @@
+{
+  "minutes": 15,
+  "pubdate": "2014-01-28T23:59:59+09:00",
+  "tags": [
+    "grunt",
+    "javascript",
+    "phonegap"
+  ],
+  "title": "grunt-phonegapのbuildで:platformをとる機能をつくった"
+}

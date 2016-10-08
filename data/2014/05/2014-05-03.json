@@ -1,0 +1,8 @@
+{
+  "minutes": 25,
+  "pubdate": "2014-05-03T23:59:59+09:00",
+  "tags": [
+    "javascript"
+  ],
+  "title": "Promise で async ライクな機能をつくった"
+}

@@ -1,0 +1,10 @@
+{
+  "minutes": 15,
+  "pubdate": "2014-11-26T23:59:59+09:00",
+  "tags": [
+    "hubot",
+    "hubot-scripts",
+    "hubot-script-per-day"
+  ],
+  "title": "CoreOS + Vulcand をためした & hubot-atsumeigen をつくった"
+}

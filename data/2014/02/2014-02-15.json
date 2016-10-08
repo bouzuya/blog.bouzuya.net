@@ -1,0 +1,8 @@
+{
+  "minutes": 20,
+  "pubdate": "2014-02-15T23:59:59+09:00",
+  "tags": [
+    "javascript"
+  ],
+  "title": "mochaで重複コードの排除をためした"
+}
