@@ -20,7 +20,7 @@ uglify = require 'gulp-uglify'
 watch = require 'gulp-watch'
 prerender = require './prerender'
 
-loadEntries = (src) ->
+loadEntriesV3 = (src) ->
   myjekyll = require 'myjekyll'
   moment = require 'moment'
   marked = require 'marked'
@@ -44,10 +44,6 @@ loadEntries = (src) ->
       if titleKey is 'diary' then null else dir + '/diary/index.html'
       dir + '/index.html'
     ].filter (i) -> i
-  .concat [
-    paths: ['index.html']
-    entry: null
-  ]
 
 ignoreError = (stream) ->
   stream.on 'error', (e) ->
@@ -81,15 +77,17 @@ gulp.task 'build-font', ->
 
 gulp.task 'build-html', ->
   baseDir = './dist/'
-  loadEntries('./data/**/*.md').forEach ({ paths, entry }) ->
+  loadEntriesV3('./data/**/*.md').forEach ({ paths, entry }) ->
     paths.forEach (path) ->
       prerender(baseDir + path, entry)
+  prerender(baseDir + 'index.html', null)
 
 gulp.task 'build-html-dev', ->
   baseDir = './dist/'
-  loadEntries('./data/nofile.md').forEach ({ paths, entry }) ->
+  loadEntriesV3('./data/nofile.md').forEach ({ paths, entry }) ->
     paths.forEach (path) ->
       prerender(baseDir + path, entry)
+  prerender(baseDir + 'index.html', null)
 
 gulp.task 'build-images', ->
   gulp.src './src/images/*'
