@@ -1,0 +1,11 @@
+{
+  "minutes": 20,
+  "pubdate": "2015-11-18T23:59:59+09:00",
+  "tags": [
+    "rxjs",
+    "movie",
+    "game",
+    "splatoon"
+  ],
+  "title": "RxJS の Rx.ConnectableObservable をしらべた"
+}

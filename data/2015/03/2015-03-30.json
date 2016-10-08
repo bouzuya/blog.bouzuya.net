@@ -1,0 +1,9 @@
+{
+  "minutes": 15,
+  "pubdate": "2015-03-30T23:59:59+09:00",
+  "tags": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "title": "mockmock.dev 向けの Hubot と hubot-redirect をつくった"
+}

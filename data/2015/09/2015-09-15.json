@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2015-09-15T23:59:59+09:00",
+  "tags": [
+    "hubot"
+  ],
+  "title": "Meowbot (Hubot) に forever をつかって自動で再起動するようにした"
+}
