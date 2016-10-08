@@ -6,7 +6,6 @@ browserSync = require 'browser-sync'
 buffer = require 'vinyl-buffer'
 coffee = require 'gulp-coffee'
 concat = require 'gulp-concat'
-del = require 'del'
 espower = require 'gulp-espower'
 gulp = require 'gulp'
 gutil = require 'gulp-util'
@@ -141,13 +140,6 @@ gulp.task 'build-test', ->
   .pipe espower()
   .pipe sourcemaps.write()
   .pipe gulp.dest './.tmp/test/'
-
-gulp.task 'clean', (done) ->
-  del [
-    './.tmp/'
-    './dist/'
-  ], done
-  null
 
 gulp.task 'deploy', ['build'], ->
   borage './dist/**/*',
