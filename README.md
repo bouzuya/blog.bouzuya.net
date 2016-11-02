@@ -16,11 +16,15 @@ See [docs/history.md](docs/history.md).
 
 ## Related Projects
 
-- [bouzuya/bbn][] ... A command-line tool for blog.bouzuya.net
+- [bouzuya/black-sam][] ... A command-line tool for blog.bouzuya.net
 - [bouzuya/borage][] ... A deployer for blog.bouzuya.net
 - [bouzuya/bouzuya.github.com][] ... Old version
 - [bouzuya/grunt-tentacles][] ... A deployer for blog.bouzuya.net using Grunt.
 - [bouzuya/kraken][] ... A blog data generator for blog.bouzuya.net
+
+Old:
+
+- [bouzuya/bbn][] ... A command-line tool for blog.bouzuya.net
 
 ## License
 
@@ -38,6 +42,7 @@ See [docs/history.md](docs/history.md).
 [email]: mailto:m@bouzuya.net
 [url]: http://bouzuya.net
 [bouzuya/bbn]: https://github.com/bouzuya/bbn
+[bouzuya/black-sam]: https://github.com/bouzuya/black-sam
 [bouzuya/borage]: https://github.com/bouzuya/borage
 [bouzuya/bouzuya.github.com]: https://github.com/bouzuya/bouzuya.github.com
 [bouzuya/grunt-tentacles]: https://github.com/bouzuya/grunt-tentacles
