@@ -1,0 +1,54 @@
+{
+  "rules": {
+    "general-novel-style-ja": {
+       "chars_leading_paragraph": false,
+       "no_punctuation_at_closing_quote": true,
+       "space_after_marks": true,
+       "even_number_ellipsises": true,
+       "even_number_dashes": true,
+       "appropriate_use_of_punctuation": true,
+       "appropriate_use_of_interpunct": true,
+       "appropriate_use_of_choonpu": true,
+       "appropriate_use_of_minus_sign": true,
+       "max_arabic_numeral_digits": false
+    },
+    "ja-nakaguro-or-halfwidth-space-between-katakana": true,
+    "ja-no-abusage": true,
+    "ja-no-mixed-period": {
+      "periodMark": "。"
+    },
+    "ja-no-redundant-expression": true,
+    "ja-no-successive-word": true,
+    "ja-no-weak-phrase": true,
+    "ja-space-after-exclamation": true,
+    "ja-space-after-question": true,
+    "ja-space-around-code": {
+      "before": true,
+      "after": true
+    },
+    "ja-space-between-half-and-full-width": {
+      "space": "always"
+    },
+    "max-appearence-count-of-words": true,
+    "max-comma": true,
+    "max-kanji-continuous-len": true,
+    "max-length-of-title": true,
+    "max-ten": true,
+    "no-double-negative-ja": true,
+    "no-doubled-conjunction": true,
+    "no-doubled-conjunctive-particle-ga": true,
+    "no-doubled-joshi": {
+      "min_interval": 1
+    },
+    "no-dropping-the-ra": true,
+    "no-hankaku-kana": true,
+    "no-mix-dearu-desumasu": {
+      "preferInHeader": "",
+      "preferInBody": "である",
+      "preferInList": "",
+      "strict": true
+    },
+    "no-nfd": true,
+    "sentence-length": true
+  }
+}
