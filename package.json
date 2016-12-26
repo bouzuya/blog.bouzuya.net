@@ -1,7 +1,7 @@
 {
   "name": "blog.bouzuya.net",
   "description": "bouzuya's weblog",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "author": "bouzuya",
   "black-sam": {
     "directory": "/Users/bouzuya/.ghq/github.com/bouzuya/blog.bouzuya.net/data"
