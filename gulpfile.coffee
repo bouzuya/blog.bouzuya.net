@@ -30,7 +30,7 @@ loadEntriesV3 = ->
     titleKey = entry.file.match(/^\d+-\d+-\d+-(.+)$/, '$1')[1]
     entry =
       content: marked entry.content
-      date: moment(entry.pubdate).format 'YYYY-MM-DD'
+      date: moment(entry.pubdate).utcOffset(540).format 'YYYY-MM-DD'
       description: entry.content.substring(0, 100)
       minutes: entry.minutes
       pubdate: entry.pubdate
