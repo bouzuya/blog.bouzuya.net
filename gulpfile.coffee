@@ -36,7 +36,7 @@ loadEntriesV3 = ->
       pubdate: entry.pubdate
       tags: entry.tags
       title: entry.title
-      titleKey: titleKey
+      titleKey: titleKey ? 'diary'
     entry
 
 # for kraken@3.1.1
@@ -50,7 +50,7 @@ loadEntriesV4 = ->
     pubdate: entry.pubdate
     tags: entry.tags
     title: entry.title
-    titleKey: entry.id.title
+    titleKey: entry.id.title ? 'diary'
 
 ignoreError = (stream) ->
   stream.on 'error', (e) ->
