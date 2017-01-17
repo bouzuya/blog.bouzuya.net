@@ -20,26 +20,6 @@ uglify = require 'gulp-uglify'
 watch = require 'gulp-watch'
 prerender = require './prerender'
 
-# for kraken@2.1.3
-loadEntriesV3 = ->
-  myjekyll = require 'myjekyll'
-  moment = require 'moment'
-  marked = require 'marked'
-  site = myjekyll './data/**/*.md', {}
-  site.entries().map (entry) ->
-    titleKey = entry.file.match(/^\d+-\d+-\d+-(.+)$/, '$1')[1]
-    entry =
-      content: marked entry.content
-      date: moment(entry.pubdate).utcOffset(540).format 'YYYY-MM-DD'
-      description: entry.content.substring(0, 100)
-      minutes: entry.minutes
-      pubdate: entry.pubdate
-      tags: entry.tags
-      title: entry.title
-      titleKey: titleKey ? 'diary'
-    entry
-
-# for kraken@3.1.1
 loadEntriesV4 = ->
   inDir = './data'
   kraken.load(inDir).map (entry) ->
