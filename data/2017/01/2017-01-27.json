@@ -1,0 +1,8 @@
+{
+  "pubdate": "2017-01-27T21:57:09+09:00",
+  "title": "bind :: forall a b. m a -> (a -> m b) -> m b",
+  "tags": [
+    "misc"
+  ],
+  "minutes": 10
+}
