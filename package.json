@@ -2,7 +2,11 @@
   "name": "blog.bouzuya.net",
   "description": "bouzuya's weblog",
   "version": "3.3.3",
-  "author": "bouzuya",
+  "author": {
+    "email": "m@bouzuya.net",
+    "name": "bouzuya",
+    "url": "http://bouzuya.net/"
+  },
   "black-sam": {
     "directory": "/Users/bouzuya/.ghq/github.com/bouzuya/blog.bouzuya.net/data"
   },
