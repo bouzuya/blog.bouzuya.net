@@ -19,7 +19,6 @@
     },
     "ja-no-redundant-expression": true,
     "ja-no-successive-word": true,
-    "ja-no-weak-phrase": true,
     "ja-space-after-exclamation": true,
     "ja-space-after-question": true,
     "ja-space-around-code": {
