@@ -1,6 +1,6 @@
 {exec} = require 'child_process'
 {Promise} = require 'es6-promise'
-borage = require 'borage'
+borage = require '@bouzuya/borage'
 browserSync = require 'browser-sync'
 browserify = require 'browserify'
 buffer = require 'vinyl-buffer'
