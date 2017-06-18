@@ -1,0 +1,8 @@
+{
+  "pubdate": "2017-06-17T23:59:59+09:00",
+  "title": "java.util.TimeZone#getTimeZone(java.lang.String) が存在しない ID に GMT を返す",
+  "tags": [
+    "programming"
+  ],
+  "minutes": 15
+}
