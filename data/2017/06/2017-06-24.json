@@ -1,0 +1,8 @@
+{
+  "pubdate": "2017-06-24T23:59:59+09:00",
+  "title": "Dagger 2 でも javax.inject の Provider<T> が使える",
+  "tags": [
+    "programming"
+  ],
+  "minutes": 45
+}
