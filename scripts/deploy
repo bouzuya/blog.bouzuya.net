@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const borage = require('@bouzuya/borage');
+
+borage('./dist/**/*', {
+  root: './dist',
+  bucketName: 'blog.bouzuya.net',
+  verbose: true
+});
