@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const { build } = require('@bouzuya/mr-jums');
+
+// process.env.IMAGE_BASE_URL='https://blog.bouzuya.net/images'
+// process.env.JSON_BASE_URL='file://./dist'
+// process.env.NODE_ENV='production'
+
+build('dist');
