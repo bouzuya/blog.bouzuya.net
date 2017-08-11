@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'User-agent: *' > dist/robots.txt
+echo 'Allow: /' >> dist/robots.txt
+echo 'Sitemap: http://blog.bouzuya.net/sitemap.xml' >> dist/robots.txt

@@ -58,9 +58,10 @@
     "url": "https://github.com/bouzuya/blog.bouzuya.net.git"
   },
   "scripts": {
-    "build": "npm-run-all -s 'build:json' 'build:html'",
+    "build": "npm-run-all -s \"build:json\" \"build:html\" \"build:robotstxt\"",
     "build:html": "./scripts/build-html",
     "build:json": "kraken build --no-tokens-json data dist",
+    "build:robotstxt": "./scripts/build-robotstxt",
     "clean": "rimraf dist",
     "deploy": "./scripts/deploy",
     "new": "black-sam new",
