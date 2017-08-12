@@ -6,5 +6,5 @@ build({
   dstDir: 'dist',
   imageBaseUrl: 'https://blog.bouzuya.net/images',
   incremental: true,
-  jsonBaseUrl: 'file://./dist'
+  jsonBaseUrl: 'file:./dist'
 });
