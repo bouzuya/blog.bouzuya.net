@@ -2,6 +2,11 @@ sudo: false
 language: node_js
 node_js:
   - '6'
+cache:
+  directories:
+    - dist
+    - node_modules
 script:
   - npm run build
+after_success:
   - npm run deploy
