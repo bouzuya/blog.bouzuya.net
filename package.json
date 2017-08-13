@@ -16,7 +16,7 @@
   "devDependencies": {
     "@bouzuya/black-sam": "4.2.0",
     "@bouzuya/borage": "3.1.2",
-    "@bouzuya/kraken": "^3.4.0",
+    "@bouzuya/kraken": "^3.5.2",
     "@bouzuya/mr-jums": "^0.4.0",
     "npm-run-all": "3.1.0",
     "rimraf": "2.5.4",
@@ -60,7 +60,7 @@
   "scripts": {
     "build": "npm-run-all -s \"build:json\" \"build:html\" \"build:robotstxt\"",
     "build:html": "./scripts/build-html",
-    "build:json": "kraken build --no-tokens-json data dist",
+    "build:json": "./scripts/build-json",
     "build:robotstxt": "./scripts/build-robotstxt",
     "clean": "rimraf dist",
     "deploy": "./scripts/deploy",

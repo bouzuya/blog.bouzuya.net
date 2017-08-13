@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+// TODO: https://github.com/bouzuya/kraken/issues/5
+const { build } = require('@bouzuya/kraken');
+
+build('data', 'dist', {
+  noIds: true,
+  noTokensJson: true
+});
