@@ -32,7 +32,7 @@ Old:
 [npm:@bouzuya/black-sam]: https://www.npmjs.com/package/@bouzuya/black-sam
 [npm:@bouzuya/borage]: https://www.npmjs.com/package/@bouzuya/borage
 [npm:@bouzuya/kraken]: https://www.npmjs.com/package/@bouzuya/kraken
-[npm:@bouzuya/mr-jums] https://www.npmjs.com/package/@bouzuya/mr-jums
+[npm:@bouzuya/mr-jums]: https://www.npmjs.com/package/@bouzuya/mr-jums
 
 ## License
 
