@@ -1,0 +1,8 @@
+{
+  "pubdate": "2017-12-15T23:59:59+09:00",
+  "title": "CircleCI から毎回 Amazon ECR および Amazon S3 にデプロイする",
+  "tags": [
+    "misc"
+  ],
+  "minutes": 20
+}
