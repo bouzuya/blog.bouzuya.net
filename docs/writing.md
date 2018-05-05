@@ -6,15 +6,6 @@
 - [2016](./goals/2016.md)
 - [2015](./goals/2015.md)
 
-## YAML Front-matter
-
-- layout: post で固定。未使用。
-- pubdate: 記事を公開する日時。ISO8601 形式の文字列。
-- title: タイトル。文字列。
-- tags: タグ。文字列の配列。
-- minutes: 書くのにかけた時間。数値。
-- pagetype: posts で固定。未使用。
-
 ## Entry Titles
 
 - XXXをつくった             ... プログラミング
