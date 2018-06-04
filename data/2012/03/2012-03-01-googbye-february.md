@@ -21,8 +21,8 @@
 
 36 min.
 
-[vim-ibus]: http://bouzuya.hatenablog.com/entry/2012/02/05/214052
-[vim-lupin]: http://bouzuya.hatenablog.com/entry/2012/02/15/234257
+[vim-ibus]: https://bouzuya.hatenablog.com/entry/2012/02/05/214052
+[vim-lupin]: https://bouzuya.hatenablog.com/entry/2012/02/15/234257
 [vim-vimemo]: http://bouzuya.github.com/2012/02/21/vim-vimemo.html
 [hatenablogger.py]: http://bouzuya.github.com/2012/02/19/post-hatenablog.html
 [hatenagraph.py]: http://bouzuya.github.com/2012/02/26/hatena-graph-vimrc.html
