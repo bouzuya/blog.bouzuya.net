@@ -20,13 +20,13 @@
     "@bouzuya/mr-jums": "^0.9.1",
     "npm-run-all": "^4.1.5",
     "rimraf": "^2.6.2",
-    "textlint": "^7.1.4",
+    "textlint": "^11.0.1",
     "textlint-rule-general-novel-style-ja": "^1.3.0",
-    "textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana": "^1.0.2",
-    "textlint-rule-ja-no-abusage": "^1.2.0",
-    "textlint-rule-ja-no-mixed-period": "^1.0.2",
-    "textlint-rule-ja-no-redundant-expression": "^1.0.1",
-    "textlint-rule-ja-no-successive-word": "^1.0.1",
+    "textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana": "^2.0.1",
+    "textlint-rule-ja-no-abusage": "^1.2.2",
+    "textlint-rule-ja-no-mixed-period": "^2.1.1",
+    "textlint-rule-ja-no-redundant-expression": "^2.0.0",
+    "textlint-rule-ja-no-successive-word": "^1.1.0",
     "textlint-rule-ja-space-after-exclamation": "^2.0.0",
     "textlint-rule-ja-space-after-question": "^2.0.0",
     "textlint-rule-ja-space-around-code": "^2.0.0",
@@ -44,7 +44,7 @@
     "textlint-rule-no-hankaku-kana": "^1.0.1",
     "textlint-rule-no-mix-dearu-desumasu": "^3.0.2",
     "textlint-rule-no-nfd": "^1.0.1",
-    "textlint-rule-sentence-length": "^1.0.7"
+    "textlint-rule-sentence-length": "^2.1.1"
   },
   "homepage": "https://blog.bouzuya.net",
   "keywords": [
