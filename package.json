@@ -14,7 +14,7 @@
     "url": "https://github.com/bouzuya/blog.bouzuya.net/issues"
   },
   "devDependencies": {
-    "@bouzuya/black-sam": "^4.2.1",
+    "@bouzuya/black-sam": "^4.2.2",
     "@bouzuya/borage": "3.1.2",
     "@bouzuya/kraken": "^3.7.6",
     "@bouzuya/mr-jums": "^0.9.3",
