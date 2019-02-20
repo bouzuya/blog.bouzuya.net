@@ -1,0 +1,6 @@
+{
+  "minutes": 0,
+  "pubdate": "{{date_time}}",
+  "tags": ["weekly report"],
+  "title": "{{year_week}} ふりかえり"
+}
