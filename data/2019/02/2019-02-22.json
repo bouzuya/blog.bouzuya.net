@@ -1,6 +1,8 @@
 {
   "minutes": 20,
   "pubdate": "2019-02-22T23:40:45+09:00",
-  "tags": ["programming"],
+  "tags": [
+    "programming"
+  ],
   "title": "bouzuya/purescript-bouzuya-datetime をつくっている"
 }
