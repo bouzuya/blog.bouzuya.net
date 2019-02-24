@@ -60,6 +60,8 @@
     "build:robotstxt": "./scripts/build-robotstxt",
     "clean": "rimraf dist",
     "deploy": "./scripts/deploy",
+    "new:weekday": "npm init @bouzuya/b --directory data --content-template ./templates/weekday.md --meta-template ./templates/weekday.json",
+    "new:weekend": "npm init @bouzuya/b --directory data --content-template ./templates/weekend.md --meta-template ./templates/weekend.json",
     "test": "exit 0"
   }
 }
