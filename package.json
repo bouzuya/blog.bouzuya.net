@@ -30,7 +30,7 @@
     "textlint-rule-max-appearence-count-of-words": "^1.0.1",
     "textlint-rule-max-comma": "^1.0.4",
     "textlint-rule-max-kanji-continuous-len": "^1.1.0",
-    "textlint-rule-max-length-of-title": "^1.0.1",
+    "textlint-rule-max-length-of-title": "github:KeitaMoromizato/textlint-rule-max-length-of-title#af9105f35fa6d8d857cbd340d31c9c2c62de6718",
     "textlint-rule-max-ten": "^2.0.1",
     "textlint-rule-no-double-negative-ja": "^1.0.4",
     "textlint-rule-no-doubled-conjunction": "^1.0.2",
