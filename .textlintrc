@@ -31,7 +31,6 @@
     "max-appearence-count-of-words": true,
     "max-comma": true,
     "max-kanji-continuous-len": true,
-    "max-length-of-title": true,
     "max-ten": true,
     "no-double-negative-ja": true,
     "no-doubled-conjunction": true,
