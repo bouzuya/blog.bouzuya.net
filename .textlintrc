@@ -28,7 +28,6 @@
     "ja-space-between-half-and-full-width": {
       "space": "always"
     },
-    "max-appearence-count-of-words": true,
     "max-comma": true,
     "max-kanji-continuous-len": true,
     "max-ten": true,
