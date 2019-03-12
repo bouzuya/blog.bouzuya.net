@@ -60,6 +60,7 @@
     "deploy": "./scripts/deploy",
     "new:weekday": "npm init @bouzuya/b --directory data --content-template ./templates/weekday.md --meta-template ./templates/weekday.json",
     "new:weekend": "npm init @bouzuya/b --directory data --content-template ./templates/weekend.md --meta-template ./templates/weekend.json",
+    "new:monthly": "npm init @bouzuya/b --directory data --content-template ./templates/monthly.md --meta-template ./templates/monthly.json",
     "test": "exit 0"
   }
 }
