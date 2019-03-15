@@ -32,15 +32,15 @@ See [docs/history.md](docs/history.md).
 
 - [bouzuya/create-b][] ... [`@bouzuya/create-b`][npm:@bouzuya/create-b]. npm initializer for [bouzuya/bs][].
 - [bouzuya/bbna][] ... blog.bouzuya.net for Android.
-- [bouzuya/bbni][] ... blog.bouzuya.net for iOS.
-- [bouzuya/borage][] ... [`@bouzuya/borage`][npm:@bouzuya/borage]. A deployer for blog.bouzuya.net.
 - [bouzuya/kraken][] ... [`@bouzuya/kraken`][npm:@bouzuya/kraken]. A blog data generator for blog.bouzuya.net.
 - [bouzuya/mr-jums][] ... [`@bouzuya/mr-jums`][npm:@bouzuya/mr-jums]. A html generator for blog.bouzuya.net.
 
 Old:
 
 - [bouzuya/bbn][] ... A command-line tool for blog.bouzuya.net
+- [bouzuya/bbni][] ... blog.bouzuya.net for iOS.
 - [bouzuya/black-sam][] ... [`@bouzuya/black-sam`][npm:@bouzuya/black-sam]. A command-line tool for blog.bouzuya.net.
+- [bouzuya/borage][] ... [`@bouzuya/borage`][npm:@bouzuya/borage]. A deployer for blog.bouzuya.net.
 - [bouzuya/bouzuya.github.com][] ... Old version
 - [bouzuya/grunt-tentacles][] ... A deployer for blog.bouzuya.net using Grunt.
 
