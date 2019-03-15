@@ -3,17 +3,9 @@
 blog.bouzuya.net: bouzuya's blog.
 
 ```bash
-# weekday
-npm init @bouzuya/b@0.2.1 \
-  --directory data \
-  --content-template ./templates/weekday.md \
-  --meta-template ./templates/weekday.json
-
-# weekend
-npm init @bouzuya/b@0.2.1 \
-  --directory data \
-  --content-template ./templates/weekend.md \
-  --meta-template ./templates/weekend.json
+npm run new:daily
+npm run new:weekly
+npm run new:monthly
 ```
 
 ## Writing
