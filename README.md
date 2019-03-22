@@ -38,6 +38,7 @@ Old:
 
 [npm:@bouzuya/black-sam]: https://www.npmjs.com/package/@bouzuya/black-sam
 [npm:@bouzuya/borage]: https://www.npmjs.com/package/@bouzuya/borage
+[npm:@bouzuya/create-b]: https://www.npmjs.com/package/@bouzuya/create-b
 [npm:@bouzuya/kraken]: https://www.npmjs.com/package/@bouzuya/kraken
 [npm:@bouzuya/mr-jums]: https://www.npmjs.com/package/@bouzuya/mr-jums
 
