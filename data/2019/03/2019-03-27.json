@@ -1,0 +1,9 @@
+{
+  "minutes": 20,
+  "pubdate": "2019-03-27T22:53:42+09:00",
+  "tags": [
+    "programming",
+    "misc"
+  ],
+  "title": "Array.prototype.concat に注意する"
+}
