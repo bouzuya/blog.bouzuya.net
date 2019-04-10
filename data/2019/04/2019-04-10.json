@@ -1,0 +1,10 @@
+{
+  "minutes": 10,
+  "pubdate": "2019-04-10T23:43:16+09:00",
+  "tags": [
+    "programming",
+    "book",
+    "misc"
+  ],
+  "title": "Data.Array.ST の foreach は速い等"
+}
