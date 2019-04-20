@@ -10,6 +10,7 @@
   "bugs": {
     "url": "https://github.com/bouzuya/blog.bouzuya.net/issues"
   },
+  "dependencies": {},
   "devDependencies": {
     "@bouzuya/kraken": "^3.7.7",
     "@bouzuya/mr-jums": "^0.9.3",
@@ -58,8 +59,8 @@
     "clean": "rimraf dist",
     "deploy": "./scripts/deploy",
     "new:daily": "npm init @bouzuya/b --directory data ./templates/daily",
-    "new:weekly": "npm init @bouzuya/b --directory data ./templates/weekly",
     "new:monthly": "npm init @bouzuya/b --directory data ./templates/monthly",
+    "new:weekly": "npm init @bouzuya/b --directory data ./templates/weekly",
     "test": "exit 0"
   }
 }
