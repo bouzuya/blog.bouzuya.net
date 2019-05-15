@@ -12,6 +12,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@bouzuya/create-b": "^0.6.0",
     "@bouzuya/kraken": "^3.7.7",
     "@bouzuya/mr-jums": "^0.9.3",
     "npm-run-all": "^4.1.5",
