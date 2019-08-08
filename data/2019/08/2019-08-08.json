@@ -1,0 +1,9 @@
+{
+  "minutes": 5,
+  "pubdate": "2019-08-08T22:08:42+09:00",
+  "tags": [
+    "misc",
+    "programming"
+  ],
+  "title": "Method getMainLooper in android.os.Looper not mocked"
+}
