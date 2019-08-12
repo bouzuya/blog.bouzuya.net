@@ -1,0 +1,9 @@
+{
+  "minutes": 15,
+  "pubdate": "2019-08-12T23:21:02+09:00",
+  "tags": [
+    "misc",
+    "programming"
+  ],
+  "title": "dexmaker-mockito-inline で final クラスを mock する"
+}
