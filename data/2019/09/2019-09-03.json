@@ -1,0 +1,8 @@
+{
+  "minutes": 10,
+  "pubdate": "2019-09-03T22:45:25+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "BindingAdapter に (i: Int) -> Unit を渡せない"
+}
