@@ -3,7 +3,7 @@
 if [ "${TRAVIS_BRANCH}" != 'master' ]; then exit 0; fi
 if [ "${TRAVIS_REPO_SLUG}" != 'bouzuya/blog.bouzuya.net' ]; then exit 0; fi
 echo 'deploy'
-pyenv global 3.6
+pyenv global 3.7
 pip3 install --quiet --upgrade --user awscli
 echo 'aws --version'
 aws --version
