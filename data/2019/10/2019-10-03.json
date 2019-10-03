@@ -1,0 +1,8 @@
+{
+  "minutes": 10,
+  "pubdate": "2019-10-03T23:16:51+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "Android の NavController.navigate で IllegalArgumentException"
+}
