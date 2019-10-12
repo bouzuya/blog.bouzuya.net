@@ -1,0 +1,9 @@
+{
+  "minutes": 10,
+  "pubdate": "2019-10-12T22:36:20+09:00",
+  "tags": [
+    "programming",
+    "misc"
+  ],
+  "title": "java.math.BigDecimal の equals の挙動"
+}
