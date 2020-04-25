@@ -4,7 +4,8 @@
 
 今日はお手軽にファイルを読み書きする関数。`spit`と`slurp`。
 
-<div><script src="https://gist.github.com/3714826.js?file=spit-and-slurp.clj"></script><noscript><pre><code>; ファイルの書き込み
+<div><script src="https://gist.github.com/3714826.js?file=spit-and-slurp.clj"></script><noscript>
+<pre><code>; ファイルの書き込み
 (spit &quot;test.txt&quot; &quot;foobarbaz&quot;) ; =&gt; nil
 
 ; ファイルの読み込み

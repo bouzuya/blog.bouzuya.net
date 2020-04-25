@@ -12,7 +12,8 @@ SWbemLocatorで特定のサーバーに接続して、SWbemServicesを取得す�
 
 スクリプト全体は[wsh-wmi-study](https://github.com/bouzuya/wsh-wmi-study)という名前でGitHubに公開した。以下にコアな部分のみを抜き出したものを示す。
 
-<div><script src="https://gist.github.com/3339759.js?file=wmi-properties.vbs"></script><noscript><pre><code>Option Explicit
+<div><script src="https://gist.github.com/3339759.js?file=wmi-properties.vbs"></script><noscript>
+<pre><code>Option Explicit
 
 Private Function GetNamedArguments(ByVal strName, ByVal strDefault)
     If WScript.Arguments.Named.Exists(strName) Then

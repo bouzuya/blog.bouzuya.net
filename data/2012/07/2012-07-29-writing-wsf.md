@@ -10,7 +10,8 @@ WSFはWindows Script Fileの略である。XML形式で書かれており、WSH�
 
 仕様が定まったので、さっそく実装する。WSFを作成する。
 
-<div><script src="https://gist.github.com/3199211.js?file=rotate-backup.wsf"></script><noscript><pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;
+<div><script src="https://gist.github.com/3199211.js?file=rotate-backup.wsf"></script><noscript>
+<pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;
 &lt;package&gt;
     &lt;job id=&quot;RotateBackup&quot;&gt;
         &lt;?job error=&quot;false&quot; debug=&quot;true&quot;?&gt;

@@ -2,7 +2,8 @@ WSHの5回目。ここまで4回をかけてスクリプトを書いてきたの
 
 ExecuteGlobalステートメントは引数として渡された式をグローバルなスコープで評価してくれる。つまり文字列で持っているプロシージャを追加で定義できる。実際に活用するプロシージャが次のものだ。
 
-<div><script src="https://gist.github.com/3221136.js?file=import.vbs"></script><noscript><pre><code>Public Sub Import(ByVal strFileName)
+<div><script src="https://gist.github.com/3221136.js?file=import.vbs"></script><noscript>
+<pre><code>Public Sub Import(ByVal strFileName)
     Const ForReading = 1
     Dim objFso, objFile
     Set objFso = WScript.CreateObject(&quot;Scripting.FileSystemObject&quot;)
@@ -17,7 +18,8 @@ Call Import(&quot;string.vbs&quot;)</code></pre></noscript></div>
 
 Importプロシージャを使ってrotate-backup.vbsを簡素化してみた。
 
-<div><script src="https://gist.github.com/3221168.js?file=rotate-backup.vbs"></script><noscript><pre><code>Option Explicit
+<div><script src="https://gist.github.com/3221168.js?file=rotate-backup.vbs"></script><noscript>
+<pre><code>Option Explicit
 
 Public Sub Import(ByVal strFileName)
     Const ForReading = 1

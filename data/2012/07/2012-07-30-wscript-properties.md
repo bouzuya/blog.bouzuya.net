@@ -10,7 +10,8 @@ WSH(Windows Script Host)の第3回。今日は引数の扱いについて記録�
 
 説明が遅れたが、WScriptオブジェクトはWSHにおけるルートオブジェクトだ。インスタンス化なしに使える。出力や、オブジェクトの生成や、終了や、スクリプト自体の情報など、さまざまな用途で使う。引数処理のついでにWScriptオブジェクトのプロパティを一部出力してみた。
 
-<div><script src="https://gist.github.com/3206580.js?file=rotate-backup.vbs"></script><noscript><pre><code>Option Explicit
+<div><script src="https://gist.github.com/3206580.js?file=rotate-backup.vbs"></script><noscript>
+<pre><code>Option Explicit
 
 Sub Main()
     Dim srcfile, dstdir
@@ -56,10 +57,10 @@ Call Main()</code></pre></noscript></div>
 
     C:\Users\user\Dropbox>cscript //Nologo //Job:RotateBackup rotate-backup.wsf /srcfile:target.zip /dstdir:C:\Users\user\backup
     Hello, WSH!
-    
+
     srcfile:target.zip
     dstdir :C:\Users\user\backup
-    
+
     WScript properties
     WScript.Name          :Windows Script Host
     WScript.Version       :5.8

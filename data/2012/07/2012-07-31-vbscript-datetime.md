@@ -6,7 +6,8 @@ WSHの4回目。今日は日付の扱いと、命名規則をガイドライン�
 
 諦めて自作する。ハイフン区切りで先頭をゼロ埋めして桁数を合わせてほしい。printfみたいのがあれば一発で片付くのに……と不満をこぼしつつ、汎用で使えそうなPadLeft関数を作り、それを使って今回の目的に合わせたFormatDate関数を作る。できたものは次のような感じ。
 
-<div><script src="https://gist.github.com/3216635.js?file=rotate-backup.vbs"></script><noscript><pre><code>Option Explicit
+<div><script src="https://gist.github.com/3216635.js?file=rotate-backup.vbs"></script><noscript>
+<pre><code>Option Explicit
 
 Private Function ValidateArguments()
     If Not WScript.Arguments.Named.Exists(&quot;srcfile&quot;) Then
@@ -115,7 +116,7 @@ WScript.Quit(Main())</code></pre></noscript></div>
     Second(now) :4
     strDate: 2012-07-31
     Hello, WSH!
-    
+
     srcfile:target.zip
     dstdir :C:\Users\user\backup
 

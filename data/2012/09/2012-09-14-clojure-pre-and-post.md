@@ -2,7 +2,8 @@ Clojureでenliveを使った静的サイトジェネレーターを作ってい�
 
 さて、今日は表明(assertion)機能について。Clojureの関数は事前条件/事後条件を設定しておくことができる。方法としてはそれぞれ:preおよび:postをメタデータに付与しておく。下記コードを参照してほしい。
 
-<div><script src="https://gist.github.com/3722379.js?file=assert.clj"></script><noscript><pre><code>(defn str-to-int
+<div><script src="https://gist.github.com/3722379.js?file=assert.clj"></script><noscript>
+<pre><code>(defn str-to-int
   [s]
   {:pre [(string? s)]
    :post [(number? %)]}

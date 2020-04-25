@@ -6,7 +6,8 @@ Jekyllのpostの構造はふたつの部分からなる。ひとつはファイ�
 
 今回は純粋なMarkdownであると仮定して、Jekyllのpostを解釈してみた。コード全体は[昨日と同様にclj-ex-mkdとしてGitHubに公開](https://github.com/bouzuya/clj-ex-mkd)している。
 
-<div><script src="https://gist.github.com/3416052.js?file=core.clj"></script><noscript><pre><code>(defn load-jekyll-post-file
+<div><script src="https://gist.github.com/3416052.js?file=core.clj"></script><noscript>
+<pre><code>(defn load-jekyll-post-file
   [post-file]
   (let [text (slurp post-file)
         [_ yaml content] (re-find #&quot;(?m)(?s)^---\s*(.*?)^---\s*^(.*)&quot; text)]

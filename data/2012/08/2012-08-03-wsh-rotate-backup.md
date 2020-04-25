@@ -2,7 +2,8 @@
 
 ファイルコピーと古いファイルを削除する機能を付けた。Copy/DeleteOldFiles関数がそれ。これで機能上はほぼ完成である。
 
-<div><script src="https://gist.github.com/3249349.js?file=rotate-backup.vbs"></script><noscript><pre><code>Option Explicit
+<div><script src="https://gist.github.com/3249349.js?file=rotate-backup.vbs"></script><noscript>
+<pre><code>Option Explicit
 
 Private Function Main()
     If Not ValidateArguments() Then
@@ -42,7 +43,8 @@ WScript.Quit(Main())</code></pre></noscript></div>
 
 今回のやっつけFileSystemObjectライブラリーは次の通り。
 
-<div><script src="https://gist.github.com/3249393.js?file=rotate-backup-fso.vbs"></script><noscript><pre><code>Option Explicit
+<div><script src="https://gist.github.com/3249393.js?file=rotate-backup-fso.vbs"></script><noscript>
+<pre><code>Option Explicit
 
 Public Function PathCombine(ByVal strPath1, ByVal strPath2)
     Dim objFso

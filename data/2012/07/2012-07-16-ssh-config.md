@@ -4,7 +4,8 @@
 
 `man 5 ssh_config`を見るのが良いが、`~/.ssh/config`に設定を記述しておくことができる。例えば次のような設定を記述できる。
 
-<div><script src="https://gist.github.com/3120203.js?file=config"></script><noscript><pre><code>Host 560
+<div><script src="https://gist.github.com/3120203.js?file=config"></script><noscript>
+<pre><code>Host 560
   HostName very.long.host.name
   User user560
   Port 560

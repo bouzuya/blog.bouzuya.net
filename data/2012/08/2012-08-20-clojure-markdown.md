@@ -1,6 +1,7 @@
 ClojureでMarkdownを使う。きっとClojure製のMarkdownパーサーはあるのだろうけど、今回はJavaのライブラリ[MarkdownJ](http://code.google.com/p/markdownj/)を使うことにした。簡単にしか使ってないけれど、これでぼくの目的は十分果たせそうなので良しとする。コード全体は[GitHubにclj-ex-mkdとして公開](https://github.com/bouzuya/clj-ex-mkd)している。
 
-<div><script src="https://gist.github.com/3404829.js?file=core.clj"></script><noscript><pre><code>(ns clj-ex-mkd.core
+<div><script src="https://gist.github.com/3404829.js?file=core.clj"></script><noscript>
+<pre><code>(ns clj-ex-mkd.core
   (:import (com.petebevin.markdown MarkdownProcessor)))
 
 (defn markdown-to-html

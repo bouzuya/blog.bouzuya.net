@@ -20,7 +20,8 @@
 
 さて、今日のコードはこんな感じ。全体は[bouzuya/clj-ex-mkd](https://github.com/bouzuya/clj-ex-mkd/tree/e0c22ade7fa934e0ab1483f1af88e9a43999c0da)としてGitHubに公開している。enliveを普通に使っているくらいで、特に面白いところはない。Jekyllのpostが扱いやすい状態になっているおかげであとは好き勝手はめこむだけ。実際にはもうすこし凝ったことをやらないと実用的ではないが、これでも見れる形には変換される。
 
-<div><script src="https://gist.github.com/3425273.js?file=core.clj"></script><noscript><pre><code>(ns clj-ex-mkd.core
+<div><script src="https://gist.github.com/3425273.js?file=core.clj"></script><noscript>
+<pre><code>(ns clj-ex-mkd.core
   (:require [clojure.java.io :as io]
             [net.cgrand.enlive-html :as eh])
   (:import (com.petebevin.markdown MarkdownProcessor)))

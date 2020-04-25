@@ -4,7 +4,8 @@ VBScriptだけで実現しようとするとExecuteGlobalステートメント�
 
 WSFを使っていれば、単純にscript要素を並べるだけで良いことが分かった。外部のスクリプトからプロシージャや関数を使う場合にはPublicをつけておく。使わない場合はPrivateをつけておく。
 
-<div><script src="https://gist.github.com/3237513.js?file=scripts.wsf"></script><noscript><pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;
+<div><script src="https://gist.github.com/3237513.js?file=scripts.wsf"></script><noscript>
+<pre><code>&lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;
 &lt;package&gt;
     &lt;job id=&quot;RotateBackup&quot;&gt;
         &lt;?job error=&quot;false&quot; debug=&quot;true&quot;?&gt;
@@ -63,7 +64,8 @@ WSFを使っていれば、単純にscript要素を並べるだけで良いこ�
 
 全然進んでいないけれど、ファイルコピーだけできるようにしてみた。次回はもうすこし進めるよ。そろそろ飽きてきたしね。
 
-<div><script src="https://gist.github.com/3237589.js?file=rotate-backup.vbs"></script><noscript><pre><code>Option Explicit
+<div><script src="https://gist.github.com/3237589.js?file=rotate-backup.vbs"></script><noscript>
+<pre><code>Option Explicit
 
 Private Sub Copy(ByVal strSrc, ByVal strDst)
     Dim objFso

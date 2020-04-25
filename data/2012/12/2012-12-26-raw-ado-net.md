@@ -2,7 +2,8 @@
 
 生の ADO.NET での INSERT 文のサンプル。元ページのコメントも参照。
 
-<div><script src="https://gist.github.com/4374051.js?file=gistfile1.cs"></script><noscript><pre><code>var providerName = &quot;Npgsql&quot;;
+<div><script src="https://gist.github.com/4374051.js?file=gistfile1.cs"></script><noscript>
+<pre><code>var providerName = &quot;Npgsql&quot;;
 var connectionString = &quot;Server=db.bouzuya.jp;Port=5432;User Id=postgres;Password=postgres;Database=mydb&quot;;
 var sql = &quot;INSERT INTO users(username,password) VALUES(:username, :password)&quot;;
 var parameters = new Dictionary&lt;string, object&gt;() { {&quot;username&quot;, &quot;bouzuya&quot;}, {&quot;password&quot;, &quot;password&quot;} };
