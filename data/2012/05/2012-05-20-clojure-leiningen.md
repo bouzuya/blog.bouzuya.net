@@ -21,7 +21,7 @@ LeiningenはClojureのプロジェクトまわりの雑務をこなすツール�
 
     $ lein help
     Leiningen is a tool for working with Clojure projects.
-    
+
     Several tasks are available:
     classpath   Print the classpath of the current project.
     clean       Remove compiled class files from project.
@@ -46,7 +46,7 @@ LeiningenはClojureのプロジェクトまわりの雑務をこなすツール�
     uberjar     Package up the project files and deps into a jar file.
     upgrade     Upgrade Leiningen to specified version or latest stable.
     version     Print version for Leiningen and the current JVM.
-    
+
     Run lein help $TASK for details.
     See also: readme, tutorial, copying, sample, deploying and news.
 
@@ -65,13 +65,13 @@ LeiningenはClojureのプロジェクトまわりの雑務をこなすツール�
     ├── project.clj
     ├── README
     ├── src
-    │   └── hello
-    │       └── core.clj
+    │   └── hello
+    │       └── core.clj
     └── test
         └── hello
             └── test
                 └── core.clj
-    
+
     5 directories, 4 files
 
 `project.clj`はプロジェクト名や依存関係にあるライブラリなどを記載する。今回はエントリポイント(`:main`)だけを追加設定する。依存関係にあるライブラリの設定も非常に簡単に設定できるようになっている。
@@ -92,32 +92,32 @@ LeiningenはClojureのプロジェクトまわりの雑務をこなすツール�
 
     $ less src/hello/core.clj
     (ns hello.core)
-    
+
     $ vi src/hello/core.clj
     $ less src/hello/core.clj
     (ns hello.core
       (:gen-class))
-    
+
     (defn msg [target]
       (format "Hello, %s!" target))
-    
+
     (defn -main [& args]
       (println (msg (first args))))
-    
+
     $ less test/hello/test/core.clj
     (ns hello.test.core
       (:use [hello.core])
       (:use [clojure.test]))
-    
+
     (deftest replace-me ;; FIXME: write
       (is false "No tests have been written."))
-    
+
     $ vi test/hello/test/core.clj
     $ less test/hello/test/core.clj
     (ns hello.test.core
       (:use [hello.core])
       (:use [clojure.test]))
-    
+
     (deftest test-msg
       (is "Hello, Clojure!" (msg "Clojure")))
 
@@ -137,9 +137,9 @@ LeiningenはClojureのプロジェクトまわりの雑務をこなすツール�
 `lein test`はテストを実行する。`test/hello/test/core.clj`に記述したものである。
 
     $ lein test
-    
+
     lein test hello.test.core
-    
+
     Ran 1 tests containing 1 assertions.
     0 failures, 0 erros.
 
