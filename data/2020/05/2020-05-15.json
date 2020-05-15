@@ -1,0 +1,8 @@
+{
+  "minutes": 45,
+  "pubdate": "2020-05-15T22:54:31+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "TypeScript 3.8 -> 3.9 でテストが失敗した"
+}
