@@ -1,6 +1,6 @@
-.envrc
-.tmp
-*.log
-coverage
-dist
-node_modules
+/*.log
+/.env*
+/.tmp
+/coverage/
+/dist/
+/node_modules/
