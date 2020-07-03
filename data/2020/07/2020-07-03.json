@@ -1,0 +1,9 @@
+{
+  "minutes": 5,
+  "pubdate": "2020-07-03T23:09:17+09:00",
+  "tags": [
+    "programming",
+    "misc"
+  ],
+  "title": "blog.bouzuya.net を Travis CI -> GitHub Actions に移行した"
+}
