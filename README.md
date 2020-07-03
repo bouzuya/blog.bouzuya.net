@@ -48,7 +48,7 @@ Old:
 
 # Badges
 
-[![Build Status](https://travis-ci.org/bouzuya/blog.bouzuya.net.svg)](https://travis-ci.org/bouzuya/blog.bouzuya.net)
+[![Build Status](https://img.shields.io/github/workflow/status/bouzuya/blog.bouzuya.net/CI)](https://github.com/bouzuya/blog.bouzuya.net/actions)
 
 ## Author
 
