@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2020-07-16T23:35:35+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "typeless で props を $mount で使いたい (けど分からない)"
+}
