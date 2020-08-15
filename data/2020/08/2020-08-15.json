@@ -1,6 +1,9 @@
 {
-  "minutes": 0,
+  "minutes": 20,
   "pubdate": "2020-08-15T23:31:24+09:00",
-  "tags": [],
-  "title": ""
+  "tags": [
+    "atcoder",
+    "book"
+  ],
+  "title": "Tenka1 Programmer Beginner Contest / 『融けるデザイン』"
 }
