@@ -1,0 +1,9 @@
+{
+  "minutes": 15,
+  "pubdate": "2020-10-08T22:35:51+09:00",
+  "tags": [
+    "programming",
+    "misc"
+  ],
+  "title": "Kotlin の to は Pair をつくる infix fun"
+}
