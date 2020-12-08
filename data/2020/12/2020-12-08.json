@@ -1,0 +1,9 @@
+{
+  "minutes": 25,
+  "pubdate": "2020-12-08T22:29:55+09:00",
+  "tags": [
+    "programming",
+    "misc"
+  ],
+  "title": "Spring Boot の @MockBean をやめた"
+}
