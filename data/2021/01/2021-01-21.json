@@ -2,7 +2,8 @@
   "minutes": 20,
   "pubdate": "2021-01-21T22:48:34+09:00",
   "tags": [
-    "misc"
+    "misc",
+    "movie"
   ],
   "title": "GitHub Actions で artifact を使った"
 }
