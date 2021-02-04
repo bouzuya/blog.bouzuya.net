@@ -1,0 +1,9 @@
+{
+  "minutes": 25,
+  "pubdate": "2021-02-04T22:00:24+09:00",
+  "tags": [
+    "programming",
+    "misc"
+  ],
+  "title": "Kotlin の lateinit は primitive type には使えない"
+}
