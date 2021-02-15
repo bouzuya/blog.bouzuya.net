@@ -1,0 +1,8 @@
+{
+  "minutes": 10,
+  "pubdate": "2021-02-15T23:01:11+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "PostgreSQL のデフォルトのトランザクション分離レベルは READ COMMITTED"
+}
