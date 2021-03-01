@@ -1,0 +1,8 @@
+{
+  "minutes": 20,
+  "pubdate": "2021-03-01T22:58:47+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "Rust の char の to_uppercase は char を返さない"
+}
