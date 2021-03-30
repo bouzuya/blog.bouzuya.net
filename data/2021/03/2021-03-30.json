@@ -1,0 +1,8 @@
+{
+  "minutes": 15,
+  "pubdate": "2021-03-30T21:33:36+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "Kotlin で Spring Boot の @ConfigurationProperties を試している"
+}
