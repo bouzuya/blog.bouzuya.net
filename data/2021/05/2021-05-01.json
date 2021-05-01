@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2021-05-01T22:36:45+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "current を Rust で書き直した"
+}
