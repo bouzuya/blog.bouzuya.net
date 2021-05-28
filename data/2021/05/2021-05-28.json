@@ -1,0 +1,10 @@
+{
+  "minutes": 15,
+  "pubdate": "2021-05-28T23:37:07+09:00",
+  "tags": [
+    "programming",
+    "book",
+    "misc"
+  ],
+  "title": "rust365 で bejson 0.2.0 をつくった"
+}
