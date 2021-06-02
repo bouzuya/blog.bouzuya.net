@@ -1,8 +1,0 @@
-{
-  "minutes": 0,
-  "pubdate": "{{date_time}}",
-  "tags": [
-    "monthly report"
-  ],
-  "title": "{{year_month}} ふりかえり"
-}
