@@ -1,6 +1,8 @@
 {
-  "minutes": 0,
+  "minutes": 5,
   "pubdate": "2021-06-05T23:53:39+09:00",
-  "tags": [],
-  "title": ""
+  "tags": [
+    "programming"
+  ],
+  "title": "weight 0.3.0 をつくった"
 }
