@@ -1,0 +1,36 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: textlint-rule-max-ten
+    versions:
+    - 2.0.4
+    - 3.0.0
+  - dependency-name: textlint
+    versions:
+    - 11.8.1
+    - 11.8.2
+    - 11.8.3
+  - dependency-name: textlint-rule-no-dropping-the-ra
+    versions:
+    - 2.0.0
+  - dependency-name: textlint-rule-ja-no-successive-word
+    versions:
+    - 1.2.0
+  - dependency-name: textlint-rule-no-doubled-conjunctive-particle-ga
+    versions:
+    - 1.1.1
+  - dependency-name: textlint-rule-ja-no-redundant-expression
+    versions:
+    - 3.0.2
+  - dependency-name: textlint-rule-no-doubled-conjunction
+    versions:
+    - 1.0.3
+  - dependency-name: textlint-rule-no-double-negative-ja
+    versions:
+    - 1.0.6
