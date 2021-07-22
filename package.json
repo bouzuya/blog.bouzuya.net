@@ -24,7 +24,7 @@
     "textlint-rule-ja-no-redundant-expression": "^3.0.1",
     "textlint-rule-ja-no-successive-word": "^1.1.0",
     "textlint-rule-ja-space-after-exclamation": "^2.0.0",
-    "textlint-rule-ja-space-after-question": "^2.0.0",
+    "textlint-rule-ja-space-after-question": "^2.2.0",
     "textlint-rule-ja-space-around-code": "^2.0.0",
     "textlint-rule-ja-space-between-half-and-full-width": "^2.0.0",
     "textlint-rule-max-comma": "^1.0.4",
