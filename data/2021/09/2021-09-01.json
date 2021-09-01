@@ -1,0 +1,8 @@
+{
+  "minutes": 20,
+  "pubdate": "2021-09-01T23:30:23+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "Clean Architecture での Port による依存の方向のごまかし"
+}
