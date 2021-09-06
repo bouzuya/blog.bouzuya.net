@@ -1,0 +1,8 @@
+{
+  "minutes": 30,
+  "pubdate": "2021-09-06T23:03:45+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "Event Sourcing を永続化層の実装の詳細として扱えるか"
+}
