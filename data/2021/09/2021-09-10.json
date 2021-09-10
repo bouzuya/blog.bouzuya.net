@@ -1,0 +1,8 @@
+{
+  "minutes": 10,
+  "pubdate": "2021-09-10T23:43:40+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "golang で err がネストしたとき"
+}
