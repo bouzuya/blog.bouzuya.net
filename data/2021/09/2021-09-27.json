@@ -1,0 +1,9 @@
+{
+  "minutes": 20,
+  "pubdate": "2021-09-27T23:42:06+09:00",
+  "tags": [
+    "programming",
+    "movie"
+  ],
+  "title": "golang で net/url の Query にパラメーターを追加する"
+}
