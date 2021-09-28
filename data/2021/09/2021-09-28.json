@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2021-09-28T23:45:01+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "golang で string を `\"foo\"` のような形式で出力する"
+}
