@@ -1,0 +1,8 @@
+{
+  "minutes": 20,
+  "pubdate": "2021-10-06T22:48:10+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "UNIQUE 制約は NULL の列を複数含んでも良い"
+}
