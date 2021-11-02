@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2021-11-02T23:54:18+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "limited-date-time の chrono 依存をなくした"
+}
