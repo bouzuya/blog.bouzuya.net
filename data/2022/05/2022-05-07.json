@@ -1,6 +1,9 @@
 {
-  "minutes": 0,
+  "minutes": 5,
   "pubdate": "2022-05-07T22:26:12+09:00",
-  "tags": [],
-  "title": ""
+  "tags": [
+    "atcoder",
+    "book"
+  ],
+  "title": "EDPC DP Contest の Q を解いた"
 }
