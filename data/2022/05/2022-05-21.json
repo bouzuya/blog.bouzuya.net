@@ -1,0 +1,9 @@
+{
+  "minutes": 5,
+  "pubdate": "2022-05-21T22:55:00+09:00",
+  "tags": [
+    "programming",
+    "misc"
+  ],
+  "title": "serde で 0 を false として読み込む方法 / ABC252 に参加した"
+}
