@@ -1,0 +1,9 @@
+{
+  "minutes": 10,
+  "pubdate": "2022-08-20T22:20:42+09:00",
+  "tags": [
+    "programming",
+    "misc"
+  ],
+  "title": "serde の Serialize Deserialize を実装した"
+}
