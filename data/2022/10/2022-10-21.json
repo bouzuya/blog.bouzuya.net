@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2022-10-21T21:37:00+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "tonic-build で googleapis の proto から client を生成した"
+}
