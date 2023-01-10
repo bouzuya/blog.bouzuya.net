@@ -1,0 +1,9 @@
+{
+  "minutes": 15,
+  "pubdate": "2023-01-10T23:21:22+09:00",
+  "tags": [
+    "programming",
+    "atcoder"
+  ],
+  "title": "Rust での Docker イメージのサイズの削減 / ABC049 A, B, C, D を解いた"
+}
