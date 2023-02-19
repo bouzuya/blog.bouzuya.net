@@ -1,0 +1,24 @@
+#!/bin/sh -x
+
+script_dir=$(cd "$(dirname "${0}")" >/dev/null 2>&1 && pwd)
+root_dir=$(cd "$(dirname "${script_dir}")" >/dev/null 2>&1 && pwd)
+data_dir="${root_dir}/data"
+dist_dir="${root_dir}/dist"
+
+mkdir -p "${dist_dir}"
+
+# install bbn
+version='0.36.0'
+file_name='bbn-x86_64-unknown-linux-gnu'
+# file_name='bbn-x86_64-apple-darwin'
+curl --location --remote-name --silent "https://github.com/bouzuya/rust-sandbox/releases/download/bbn%2F${version}/${file_name}"
+bbn="${root_dir}/bbn"
+mv "${file_name}" "${bbn}"
+chmod +x "${bbn}"
+
+"${bbn}" --version
+"${bbn}" config --data-dir "${data_dir}" --hatena-blog-data-file "${root_dir}/unused.db"
+"${bbn}" sitemap-xml dist
+
+# uninstall bbn
+rm "${bbn}"

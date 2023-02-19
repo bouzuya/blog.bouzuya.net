@@ -29,10 +29,11 @@
     "url": "https://github.com/bouzuya/blog.bouzuya.net.git"
   },
   "scripts": {
-    "build": "npm-run-all -s \"build:json\" \"build:html\" \"build:robotstxt\"",
+    "build": "npm-run-all -s \"build:json\" \"build:sitemapxml\" \"build:html\" \"build:robotstxt\"",
     "build:html": "./scripts/build-html",
     "build:json": "./scripts/build-json",
     "build:robotstxt": "./scripts/build-robotstxt",
+    "build:sitemapxml": "./scripts/build-sitemapxml",
     "clean": "rimraf dist",
     "test": "exit 0"
   }
