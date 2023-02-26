@@ -1,8 +1,9 @@
 {
-  "minutes": 20,
+  "minutes": 80,
   "pubdate": "2023-01-29T21:43:43+09:00",
   "tags": [
-    "weekly report"
+    "weekly report",
+    "monthly report"
   ],
-  "title": "2023-W04 ふりかえり"
+  "title": "2023-W04 & 2023-01 ふりかえり"
 }
