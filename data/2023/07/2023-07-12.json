@@ -1,0 +1,9 @@
+{
+  "minutes": 15,
+  "pubdate": "2023-07-12T21:52:21+09:00",
+  "tags": [
+    "misc",
+    "atcoder"
+  ],
+  "title": "bouzuya/rust-atcoder で cargo workspace を適用してみた / M-SOLUTIONS プロコンオープン A, B, C を解いた"
+}
