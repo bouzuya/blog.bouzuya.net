@@ -1,0 +1,9 @@
+{
+  "minutes": 10,
+  "pubdate": "2023-09-23T23:40:47+09:00",
+  "tags": [
+    "misc",
+    "movie"
+  ],
+  "title": "bouzuya/serde-firestore-value で serde data model にない型を扱った"
+}
