@@ -1,0 +1,9 @@
+{
+  "minutes": 10,
+  "pubdate": "2023-09-25T23:48:48+09:00",
+  "tags": [
+    "programming",
+    "atcoder"
+  ],
+  "title": "bouzuya/serde-firestore-value の chrono, time feature を追加"
+}
