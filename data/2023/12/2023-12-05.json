@@ -1,0 +1,10 @@
+{
+  "minutes": 15,
+  "pubdate": "2023-12-05T21:51:57+09:00",
+  "tags": [
+    "programming",
+    "misc",
+    "atcoder"
+  ],
+  "title": "GitHub Container Registry でコンテナイメージをリポジトリに LABEL で関連付ける"
+}
