@@ -1,0 +1,10 @@
+{
+  "minutes": 20,
+  "pubdate": "2024-01-09T22:45:39+09:00",
+  "tags": [
+    "programming",
+    "book",
+    "atcoder"
+  ],
+  "title": "impl From<Infallible> for Error / 『詳解 Rust アトミック操作とロック』 / PAST #16 G"
+}
