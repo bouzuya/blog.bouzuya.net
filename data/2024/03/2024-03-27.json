@@ -1,0 +1,9 @@
+{
+  "minutes": 5,
+  "pubdate": "2024-03-27T23:50:50+09:00",
+  "tags": [
+    "programming",
+    "misc"
+  ],
+  "title": "Firestore API への find_nearest 追加に伴う破壊的変更 / とんかつはおいしい"
+}
