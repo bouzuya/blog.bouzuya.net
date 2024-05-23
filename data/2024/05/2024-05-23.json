@@ -1,0 +1,8 @@
+{
+  "minutes": 30,
+  "pubdate": "2024-05-23T22:41:39+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "DDD の Repository に create / delete / update を追加すべきでない理由"
+}
