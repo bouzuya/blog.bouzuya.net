@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2024-06-05T23:31:47+09:00",
+  "tags": [
+    "programming"
+  ],
+  "title": "Box<dyn Error + Send + Sync> を wrap している"
+}
