@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2024-08-05T23:41:47+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "bouzuya/googleapis-tonic の生成 crate を 500+ 個に分割しようとしている"
+}
