@@ -1,0 +1,6 @@
+{
+  "minutes": 5,
+  "pubdate": "2024-12-12T21:53:26+09:00",
+  "tags": ["misc"],
+  "title": "寒いので impl std::fmt::Debug for T してる"
+}
