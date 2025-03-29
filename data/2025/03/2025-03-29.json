@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2025-03-29T21:53:37+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "Rust で debuginfo を無効化する"
+}
