@@ -1,0 +1,8 @@
+{
+  "minutes": 10,
+  "pubdate": "2025-09-15T20:08:35+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "async-graphql の extension で認証を一箇所に集約する検証をした"
+}
