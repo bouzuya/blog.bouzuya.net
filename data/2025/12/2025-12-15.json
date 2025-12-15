@@ -1,0 +1,8 @@
+{
+  "minutes": 30,
+  "pubdate": "2025-12-15T21:45:30+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "Dev Container の Rust の pre-built image をすこし調べてみた"
+}
