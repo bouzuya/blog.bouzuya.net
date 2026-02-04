@@ -1,0 +1,8 @@
+{
+  "minutes": 10,
+  "pubdate": "2026-02-04T22:52:21+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "serde-firestore-value に FieldReference を追加している"
+}
