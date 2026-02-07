@@ -1,0 +1,8 @@
+{
+  "minutes": 20,
+  "pubdate": "2026-02-07T23:08:25+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "bouzuya/serde-firestore-value の Function の Deserializer を追加"
+}
