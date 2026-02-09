@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2026-02-09T23:31:14+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "bouzuya/serde-firestore-value を PipelineValue に対応させた"
+}
