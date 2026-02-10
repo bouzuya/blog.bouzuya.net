@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2026-02-10T21:31:29+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "serde-firestore-value の新しい ValueType への対応の進捗"
+}
