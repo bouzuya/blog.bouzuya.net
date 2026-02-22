@@ -2,6 +2,8 @@
 
 blog.bouzuya.net: bouzuya's blog.
 
+v5.0.0
+
 ## Writing
 
 See [docs/writing.md](docs/writing.md).
