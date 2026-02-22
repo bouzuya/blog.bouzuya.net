@@ -2,12 +2,6 @@
 
 blog.bouzuya.net: bouzuya's blog.
 
-```bash
-npm run new:daily
-npm run new:weekly
-npm run new:monthly
-```
-
 ## Writing
 
 See [docs/writing.md](docs/writing.md).
@@ -22,19 +16,20 @@ See [docs/history.md](docs/history.md).
 
 ## Related Projects
 
-- [bouzuya/create-b][] ... [`@bouzuya/create-b`][npm:@bouzuya/create-b]. npm initializer for [bouzuya/bs][].
-- [bouzuya/bbna][] ... blog.bouzuya.net for Android.
-- [bouzuya/kraken][] ... [`@bouzuya/kraken`][npm:@bouzuya/kraken]. A blog data generator for blog.bouzuya.net.
-- [bouzuya/mr-jums][] ... [`@bouzuya/mr-jums`][npm:@bouzuya/mr-jums]. A html generator for blog.bouzuya.net.
+- [bouzuya/bbn2] ... A command-line tool for blog.bouzuya.net
 
 Old:
 
 - [bouzuya/bbn][] ... A command-line tool for blog.bouzuya.net
+- [bouzuya/bbna][] ... blog.bouzuya.net for Android.
 - [bouzuya/bbni][] ... blog.bouzuya.net for iOS.
 - [bouzuya/black-sam][] ... [`@bouzuya/black-sam`][npm:@bouzuya/black-sam]. A command-line tool for blog.bouzuya.net.
 - [bouzuya/borage][] ... [`@bouzuya/borage`][npm:@bouzuya/borage]. A deployer for blog.bouzuya.net.
 - [bouzuya/bouzuya.github.com][] ... Old version
+- [bouzuya/create-b][] ... [`@bouzuya/create-b`][npm:@bouzuya/create-b]. npm initializer for [bouzuya/bs][].
 - [bouzuya/grunt-tentacles][] ... A deployer for blog.bouzuya.net using Grunt.
+- [bouzuya/kraken][] ... [`@bouzuya/kraken`][npm:@bouzuya/kraken]. A blog data generator for blog.bouzuya.net.
+- [bouzuya/mr-jums][] ... [`@bouzuya/mr-jums`][npm:@bouzuya/mr-jums]. A html generator for blog.bouzuya.net.
 
 [npm:@bouzuya/black-sam]: https://www.npmjs.com/package/@bouzuya/black-sam
 [npm:@bouzuya/borage]: https://www.npmjs.com/package/@bouzuya/borage
@@ -57,6 +52,7 @@ Old:
 [user]: https://github.com/bouzuya
 [email]: mailto:m@bouzuya.net
 [url]: http://bouzuya.net
+[bouzuya/bbn2]: https://github.com/bouzuya/bbn2
 [bouzuya/bbn]: https://github.com/bouzuya/bbn
 [bouzuya/bbna]: https://github.com/bouzuya/bbna
 [bouzuya/bbni]: https://github.com/bouzuya/bbni

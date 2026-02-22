@@ -6,13 +6,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm ci
-      - run: npm run build
-      - run: npm test
+      - uses: actions/checkout@v6
+      - run: ./scripts/install-bbn && ./scripts/build && ./scripts/build-robotstxt && ./scripts/build-sitemapxml
       - uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --size-only

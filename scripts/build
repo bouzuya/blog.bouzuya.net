@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/sh
 
 which ./bbn >/dev/null 2>&1 || { echo >&2 "bbn is required but it's not installed. Aborting."; exit 1; }
 
@@ -7,7 +7,4 @@ root_dir=$(cd "$(dirname "${script_dir}")" >/dev/null 2>&1 && pwd)
 data_dir="${root_dir}/data"
 dist_dir="${root_dir}/dist"
 
-mkdir -p "${dist_dir}"
-
-./bbn config init --data-dir "${data_dir}" --hatena-blog-data-file "${root_dir}/unused.db"
-./bbn sitemap-xml "${dist_dir}"
+./bbn build --data-dir "${data_dir}" --out-dir "${dist_dir}"

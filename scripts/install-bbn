@@ -1,0 +1,17 @@
+#!/bin/sh -x
+
+set -e
+
+if [ -x "./bbn" ]; then
+  echo "bbn is already installed as ./bbn"
+  exit 0
+fi
+
+REPO="bouzuya/bbn2"
+VERSION="0.41.1"
+URL="https://github.com/${REPO}/releases/download/${VERSION}/bbn"
+
+echo "Downloading ${URL}..."
+curl -L -o bbn "${URL}"
+chmod +x bbn
+echo "bbn installed as ./bbn"
