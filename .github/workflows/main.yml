@@ -24,4 +24,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "ap-northeast-1"
         run: |
-          aws s3 cp dist/index.html s3://${{ secrets.AWS_S3_BUCKET }}/index.html --region $AWS_REGION --exact-timestamps
+          aws s3 cp dist/index.html s3://${{ secrets.AWS_S3_BUCKET }}/index.html --region $AWS_REGION
