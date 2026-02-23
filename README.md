@@ -2,7 +2,7 @@
 
 blog.bouzuya.net: bouzuya's blog.
 
-v5.0.1
+v5.0.2
 
 ## Writing
 
