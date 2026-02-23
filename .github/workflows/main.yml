@@ -8,21 +8,18 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - run: ./scripts/install-bbn && ./scripts/build
-      - uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --size-only
-        env:
+      - run: |
+          sudo apt-get update
+          sudo apt-get install -y awscli
+      - env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_REGION: "ap-northeast-1"
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          SOURCE_DIR: "dist"
-      - uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: '--exact-timestamps --exclude "*" --include "index.html"'
-        env:
+          AWS_REGION: "ap-northeast-1"
+        run: |
+          aws s3 sync dist s3://${{ secrets.AWS_S3_BUCKET }} --region $AWS_REGION --size-only
+      - env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_REGION: "ap-northeast-1"
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          SOURCE_DIR: "dist"
+          AWS_REGION: "ap-northeast-1"
+        run: |
+          aws s3 cp dist/index.html s3://${{ secrets.AWS_S3_BUCKET }}/index.html --region $AWS_REGION --exact-timestamps
