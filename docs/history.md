@@ -1,5 +1,13 @@
 # History
 
+## 5.x
+
+Rust / Amazon S3 (+Cloud Front)
+
+- [bouzuya/blog.bouzuya.net@5.0.2](https://github.com/bouzuya/blog.bouzuya.net/releases/tag/5.0.2)
+- [bouzuya/blog.bouzuya.net@5.0.1](https://github.com/bouzuya/blog.bouzuya.net/releases/tag/5.0.1)
+- [bouzuya/blog.bouzuya.net@5.0.0](https://github.com/bouzuya/blog.bouzuya.net/releases/tag/5.0.0)
+
 ## 4.x
 
 TypeScript / Cycle.js / npm script / Amazon S3
