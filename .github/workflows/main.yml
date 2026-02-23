@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - run: ./scripts/install-bbn && ./scripts/build && ./scripts/build-robotstxt && ./scripts/build-sitemapxml
+      - run: ./scripts/install-bbn && ./scripts/build
       - uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --size-only
