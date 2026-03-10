@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2026-03-10T23:22:51+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "bouzuya/bouzuya-firestore-client に Firestore::run_transaction を追加"
+}
