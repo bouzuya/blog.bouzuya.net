@@ -1,0 +1,8 @@
+{
+  "minutes": 10,
+  "pubdate": "2026-03-19T22:21:20+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "Env struct に環境変数をまとめる"
+}
