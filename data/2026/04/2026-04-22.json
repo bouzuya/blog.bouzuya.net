@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2026-04-22T23:13:57+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "bouzuya-firestore-client の Query::limit を追加"
+}
