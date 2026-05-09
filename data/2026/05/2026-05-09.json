@@ -1,0 +1,8 @@
+{
+  "minutes": 10,
+  "pubdate": "2026-05-09T20:55:54+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "bouzuya-firestore-client に sealed trait を追加"
+}
