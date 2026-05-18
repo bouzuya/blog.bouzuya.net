@@ -1,0 +1,8 @@
+{
+  "minutes": 5,
+  "pubdate": "2026-05-18T21:35:57+09:00",
+  "tags": [
+    "misc"
+  ],
+  "title": "bouzuya-firestore-client の DocumentReference::update の誤りに気づいた"
+}
